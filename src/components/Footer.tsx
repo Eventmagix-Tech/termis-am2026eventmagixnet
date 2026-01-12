@@ -156,7 +156,9 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-6 text-sm">
               <a
-                href="#privacy"
+                href="https://web.kenes.com/klead/PRIVACY/KI.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
               >
                 Privacy Policy
