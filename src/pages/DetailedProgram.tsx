@@ -117,9 +117,9 @@ const DetailedProgram = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 pt-20 md:pt-24">
+      <main className="flex-1 pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-16 md:py-20">
+        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-12 md:py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
               Detailed Program
