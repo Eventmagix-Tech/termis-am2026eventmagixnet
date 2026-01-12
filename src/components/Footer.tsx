@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Linkedin, Youtube, Mail } from "lucide-react";
+import termisLogo from "@/assets/termis-logo.png";
 
 const Footer = () => {
   const socialLinks = [
@@ -63,18 +64,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
-                <span className="text-primary font-serif font-bold text-xl">T</span>
-              </div>
-              <div>
-                <span className="text-primary-foreground font-serif font-semibold text-lg block">
-                  TERMIS
-                </span>
-                <span className="text-accent font-serif text-sm">
-                  AMERICAS 2026
-                </span>
-              </div>
+            <div className="mb-6">
+              <img 
+                src={termisLogo} 
+                alt="TERMIS Americas" 
+                className="h-14 w-auto bg-white rounded-lg p-2"
+              />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Tissue Engineering and Regenerative Medicine International Society - 
