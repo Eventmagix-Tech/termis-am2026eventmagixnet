@@ -164,6 +164,14 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <a
+                href="https://kenes-group.com/cookie-policy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+              >
+                Cookie Policy
+              </a>
+              <a
                 href="#terms"
                 className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
               >
