@@ -6,6 +6,7 @@ import TimelineSection from "@/components/TimelineSection";
 import SpeakersSection from "@/components/SpeakersSection";
 import VenueSection from "@/components/VenueSection";
 import CTASection from "@/components/CTASection";
+import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <SpeakersSection />
         <VenueSection />
         <CTASection />
+        <NewsletterSection />
       </main>
       <Footer />
     </div>
