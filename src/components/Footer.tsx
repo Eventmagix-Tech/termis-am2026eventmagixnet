@@ -16,19 +16,6 @@ const Footer = () => {
     { icon: Linkedin, href: "https://www.linkedin.com/groups/4646229/", label: "LinkedIn" },
   ];
 
-  const quickLinks = [
-    { label: "About TERMIS", href: "#about" },
-    { label: "Conference Program", href: "#program" },
-    { label: "Submit Abstract", href: "#abstracts" },
-    { label: "Registration", href: "#registration" },
-  ];
-
-  const resourceLinks = [
-    { label: "Sponsorship Packages", href: "#sponsors" },
-    { label: "Venue Information", href: "#venue" },
-    { label: "Travel & Hotels", href: "#travel" },
-    { label: "Contact Us", href: "#contact" },
-  ];
 
   return (
     <footer className="relative bg-primary overflow-hidden">
@@ -67,9 +54,9 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Conference Organizing Secretariat - Left */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="font-serif font-semibold text-primary-foreground mb-4">
               Conference Organizing Secretariat
             </h4>
@@ -77,62 +64,24 @@ const Footer = () => {
               <img 
                 src={kenesLogo} 
                 alt="Kenes Group" 
-                className="h-12 w-auto bg-white rounded-lg p-2"
+                className="h-24 w-auto bg-white rounded-lg p-3"
               />
             </div>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Kenes Group is the professional conference organizer for TERMIS-AM 2026.
+            <p className="text-primary-foreground/70 text-sm leading-relaxed text-center md:text-left">
+              Kenes Group, Office: Kenes M+
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-serif font-semibold text-primary-foreground mb-4">
-              Quick Links
-            </h4>
-            <ul className="space-y-3">
-              {quickLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-primary-foreground/70 hover:text-accent transition-colors duration-200 text-sm"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h4 className="font-serif font-semibold text-primary-foreground mb-4">
-              Resources
-            </h4>
-            <ul className="space-y-3">
-              {resourceLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-primary-foreground/70 hover:text-accent transition-colors duration-200 text-sm"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* TERMIS Brand Column - Right */}
-          <div>
+          <div className="flex flex-col items-center md:items-end">
             <div className="mb-4">
               <img 
                 src={termisLogo} 
                 alt="TERMIS Americas" 
-                className="h-14 w-auto bg-white rounded-lg p-2"
+                className="h-24 w-auto bg-white rounded-lg p-3"
               />
             </div>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
+            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4 text-center md:text-right">
               Tissue Engineering and Regenerative Medicine International Society - 
               Americas Chapter Annual Conference
             </p>
