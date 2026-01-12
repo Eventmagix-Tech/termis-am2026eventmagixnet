@@ -125,7 +125,7 @@ const Header = () => {
           {/* Social Icons & Hashtag */}
           <div className="flex items-center gap-3">
             <a 
-              href="https://x.com" 
+              href="https://x.com/TERMISAM"
               target="_blank" 
               rel="noopener noreferrer"
               className="hidden sm:block text-primary hover:text-accent transition-colors"
@@ -208,7 +208,7 @@ const Header = () => {
             {/* Mobile Social Icons */}
             <div className="flex items-center gap-4 px-4 pt-4 border-t border-accent/20 mt-4">
               <a 
-                href="https://x.com" 
+                href="https://x.com/TERMISAM"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-accent transition-colors"
