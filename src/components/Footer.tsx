@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-12">
           {/* Conference Organizing Secretariat - Left */}
           <div className="flex flex-col items-center md:items-start">
             <h4 className="font-serif font-semibold text-primary-foreground mb-4">
