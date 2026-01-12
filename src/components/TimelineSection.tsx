@@ -35,7 +35,7 @@ const milestones = [
 
 const TimelineSection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-primary via-primary/95 to-secondary overflow-hidden">
+    <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5 overflow-hidden">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,10 +47,10 @@ const TimelineSection = () => {
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
             ⚜ Our Journey ⚜
           </span>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary-foreground mt-2">
+          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mt-2">
             20 Years of Clinical Translation
           </h2>
-          <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
+          <p className="text-foreground/70 mt-4 max-w-2xl mx-auto">
             The River of Science - flowing from fundamental research to transformative patient care
           </p>
         </motion.div>
@@ -83,10 +83,10 @@ const TimelineSection = () => {
                   {/* Content - appears above node for top items, below for bottom items */}
                   {isTop && (
                     <div className="hidden lg:block lg:mb-6 lg:text-center lg:order-first">
-                      <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
+                      <h3 className="text-lg font-serif font-semibold text-primary mb-1">
                         {milestone.title}
                       </h3>
-                      <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                      <p className="text-foreground/60 text-sm leading-relaxed max-w-xs">
                         {milestone.description}
                       </p>
                     </div>
@@ -94,7 +94,7 @@ const TimelineSection = () => {
 
                   {/* Node */}
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="w-16 h-16 rounded-full bg-primary border-4 border-accent shadow-gold flex items-center justify-center">
+                    <div className="w-16 h-16 rounded-full bg-white border-4 border-accent shadow-gold flex items-center justify-center">
                       <span className="text-2xl">{milestone.icon}</span>
                     </div>
                     {/* Year badge */}
@@ -105,10 +105,10 @@ const TimelineSection = () => {
 
                   {/* Content - Mobile (always after node) and Desktop bottom items */}
                   <div className={`ml-6 lg:ml-0 lg:mt-6 lg:text-center ${isTop ? "lg:hidden" : ""}`}>
-                    <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
+                    <h3 className="text-lg font-serif font-semibold text-primary mb-1">
                       {milestone.title}
                     </h3>
-                    <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                    <p className="text-foreground/60 text-sm leading-relaxed max-w-xs">
                       {milestone.description}
                     </p>
                   </div>
