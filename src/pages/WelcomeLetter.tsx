@@ -30,43 +30,32 @@ const coChairs = [
 
 const WelcomeLetter = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="pt-8 pb-20">
-        {/* Back Link */}
-        <div className="container mx-auto px-4 mb-8">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Home
-          </Link>
-        </div>
+      
+      <main className="flex-1 pt-20 md:pt-24">
+        {/* Hero Section - Consistent with Contact Us */}
+        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-16 md:py-20">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+              Welcome Letter
+            </h1>
+            <p className="text-white/80 text-lg max-w-2xl mx-auto">
+              A message from the TERMIS-AM 2026 Conference Co-Chairs
+            </p>
+          </div>
+        </section>
 
-        {/* Page Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="container mx-auto px-4 text-center mb-12"
-        >
-          <span className="text-accent font-medium text-sm tracking-wider uppercase">
-            ⚜ Welcome Message ⚜
-          </span>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-foreground mt-2">
-            Welcome Letter
-          </h1>
-        </motion.div>
-
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-3 gap-8">
+        {/* Content Section */}
+        <section className="py-16 md:py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-3 gap-8">
             {/* Welcome Letter - Main Content */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="lg:col-span-2 bg-white rounded-lg shadow-card p-8 md:p-10 border border-accent/20"
+              className="lg:col-span-2 bg-muted/50 rounded-lg shadow-card p-8 md:p-10 border border-accent/20"
             >
               <div className="prose prose-lg max-w-none text-foreground/90 space-y-6">
                 <p className="text-xl leading-relaxed font-medium text-primary">
@@ -126,7 +115,7 @@ const WelcomeLetter = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="lg:col-span-1"
             >
-              <div className="bg-white rounded-lg shadow-card p-6 md:p-8 border border-accent/20 sticky top-24">
+              <div className="bg-muted/50 rounded-lg shadow-card p-6 md:p-8 border border-accent/20 sticky top-24">
                 <h3 className="text-xl font-serif font-bold text-primary text-center mb-6">
                   Conference Co-Chairs
                 </h3>
@@ -168,7 +157,8 @@ const WelcomeLetter = () => {
               </div>
             </motion.div>
           </div>
-        </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
