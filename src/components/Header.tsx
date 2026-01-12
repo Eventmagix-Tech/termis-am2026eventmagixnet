@@ -12,7 +12,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Welcome Letter", href: "#welcome" },
+  { label: "Welcome Letter", href: "/welcome-letter" },
   {
     label: "Attendee Planning",
     children: [
