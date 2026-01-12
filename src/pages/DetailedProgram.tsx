@@ -112,7 +112,23 @@ const programData: DaySchedule[] = [
 
 const DetailedProgram = () => {
   const [activeDay, setActiveDay] = useState("sunday");
-  const [selectedHall, setSelectedHall] = useState<string | null>(null);
+  const [selectedHall, setSelectedHall] = useState("HALL A (COLUMBUS)");
+
+  const handleDayChange = (day: string) => {
+    setActiveDay(day);
+    setSelectedHall("HALL A (COLUMBUS)"); // Reset to Hall A when day changes
+  };
+
+  const currentDay = programData.find((d) => d.date === activeDay);
+  
+  // Only show content for Sunday + Hall A, otherwise show placeholder
+  const showContent = activeDay === "sunday" && selectedHall === "HALL A (COLUMBUS)";
+  
+  // Filter items for Hall A on Sunday
+  const filteredItems = currentDay?.items.filter(
+    (item) => !item.hall || item.hall === "HALL A (COLUMBUS)"
+  ) || [];
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -149,7 +165,7 @@ const DetailedProgram = () => {
         {/* Program Content */}
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
-            <Tabs value={activeDay} onValueChange={setActiveDay} className="w-full">
+            <Tabs value={activeDay} onValueChange={handleDayChange} className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-transparent h-auto mb-8">
                 {programData.map((day) => (
                   <TabsTrigger
@@ -173,7 +189,7 @@ const DetailedProgram = () => {
                     {day.halls.map((hall) => (
                       <button
                         key={hall}
-                        onClick={() => setSelectedHall(selectedHall === hall ? null : hall)}
+                        onClick={() => setSelectedHall(hall)}
                         className={cn(
                           "px-4 py-2 rounded-lg text-sm font-medium border transition-all cursor-pointer",
                           selectedHall === hall
@@ -186,47 +202,44 @@ const DetailedProgram = () => {
                     ))}
                   </div>
 
-                  {/* Hall Content Modal */}
-                  {selectedHall && (
-                    <div className="mb-8 p-6 bg-muted/30 rounded-xl border border-accent/20 text-center">
-                      <h3 className="font-semibold text-primary text-lg mb-2">{selectedHall}</h3>
-                      <p className="text-muted-foreground italic">To be announced soon</p>
-                      <button
-                        onClick={() => setSelectedHall(null)}
-                        className="mt-4 text-sm text-accent hover:text-accent/80 underline"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  )}
-
-                  {/* Schedule Items */}
-                  <div className="space-y-4 max-w-4xl mx-auto">
-                    {day.items.map((item, index) => (
-                      <div
-                        key={index}
-                        className={cn(
-                          "rounded-xl p-5 shadow-md border border-accent/10 transition-all hover:shadow-lg",
-                          sessionColors[item.type]
-                        )}
-                      >
-                        <div className="flex flex-col md:flex-row md:items-start gap-3">
-                          <div className="font-semibold whitespace-nowrap min-w-[160px]">
-                            {item.time}
-                          </div>
-                          <div className="flex-1">
-                            <h3 className="font-bold text-lg">{item.title}</h3>
-                            {item.description && (
-                              <p className="mt-1 opacity-90 text-sm">{item.description}</p>
-                            )}
-                            {item.hall && (
-                              <p className="mt-2 text-xs opacity-75">📍 {item.hall}</p>
-                            )}
+                  {/* Program Content or Placeholder */}
+                  {showContent ? (
+                    <div className="space-y-4 max-w-4xl mx-auto">
+                      {filteredItems.map((item, index) => (
+                        <div
+                          key={index}
+                          className={cn(
+                            "rounded-xl p-5 shadow-md border border-accent/10 transition-all hover:shadow-lg",
+                            sessionColors[item.type]
+                          )}
+                        >
+                          <div className="flex flex-col md:flex-row md:items-start gap-3">
+                            <div className="font-semibold whitespace-nowrap min-w-[160px]">
+                              {item.time}
+                            </div>
+                            <div className="flex-1">
+                              <h3 className="font-bold text-lg">{item.title}</h3>
+                              {item.description && (
+                                <p className="mt-1 opacity-90 text-sm">{item.description}</p>
+                              )}
+                              {item.hall && (
+                                <p className="mt-2 text-xs opacity-75">📍 {item.hall}</p>
+                              )}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    ))}
-                  </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="max-w-4xl mx-auto p-12 bg-muted/30 rounded-xl border border-accent/20 text-center">
+                      <h3 className="font-semibold text-primary text-xl mb-2">
+                        {currentDay?.dateLabel} - {selectedHall}
+                      </h3>
+                      <p className="text-muted-foreground italic text-lg">
+                        To be announced soon...
+                      </p>
+                    </div>
+                  )}
                 </TabsContent>
               ))}
             </Tabs>
