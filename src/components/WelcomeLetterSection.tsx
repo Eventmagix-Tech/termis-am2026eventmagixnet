@@ -64,6 +64,10 @@ const WelcomeLetterSection = () => {
               <p className="leading-relaxed text-sm md:text-base">
                 This year holds special significance. As we mark two decades of leadership in tissue engineering and regenerative medicine since the founding of TERMIS in 2006, we celebrate our collective achievements and look boldly to the future under the conference slogan: <span className="font-serif italic text-accent">"Bench. Chip. Clinic. Where y'at in regeneration?"</span>
               </p>
+
+              <p className="leading-relaxed text-sm md:text-base">
+                Our scientific program will spotlight three cross-cutting themes that are reshaping tissue engineering and regenerative medicine while accelerating clinical translation: <strong className="text-secondary">CRISPR and Lipid Nanoparticles</strong>, <strong className="text-secondary">Organ-on-Chip Models</strong>, and <strong className="text-secondary">Artificial Intelligence</strong>.
+              </p>
             </div>
 
             {/* Read More Button */}
