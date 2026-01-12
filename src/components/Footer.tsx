@@ -72,26 +72,28 @@ const Footer = () => {
             </p>
           </div>
 
+          {/* Social Links - Center */}
+          <div className="flex items-center gap-3">
+            {socialLinks.map((social) => (
+              <a
+                key={social.label}
+                href={social.href}
+                aria-label={social.label}
+                className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-primary-foreground/70 hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+              >
+                <social.icon size={18} />
+              </a>
+            ))}
+          </div>
+
           {/* TERMIS Brand Column - Right */}
           <div className="flex flex-col items-center md:items-end">
-            <div className="mb-4">
+            <div>
               <img 
                 src={termisLogo} 
                 alt="TERMIS Americas" 
                 className="h-24 w-auto bg-white rounded-lg p-3"
               />
-            </div>
-            <div className="flex items-center gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-primary-foreground/70 hover:bg-accent hover:text-accent-foreground transition-all duration-300"
-                >
-                  <social.icon size={18} />
-                </a>
-              ))}
             </div>
           </div>
         </div>
