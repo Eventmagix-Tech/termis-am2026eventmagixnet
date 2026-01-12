@@ -180,12 +180,6 @@ const Footer = () => {
                 Code of Conduct
               </a>
               <a
-                href="#terms"
-                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
-              >
-                Terms of Service
-              </a>
-              <a
                 href="#contact"
                 className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
               >
