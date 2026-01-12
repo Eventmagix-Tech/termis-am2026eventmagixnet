@@ -71,42 +71,55 @@ const Header = () => {
           {/* Desktop Navigation */}
           <NavigationMenu className="hidden lg:flex">
             <NavigationMenuList className="gap-0">
-              {navItems.map((item) => (
-                <NavigationMenuItem key={item.label}>
-                  {item.children ? (
-                    <>
-                      <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-2">
-                        {item.label}
-                      </NavigationMenuTrigger>
-                      <NavigationMenuContent>
-                        <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
-                          {item.children.map((child) => (
-                            <li key={child.label}>
-                              <NavigationMenuLink asChild>
-                                <a
-                                  href={child.href}
-                                  className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
-                                >
-                                  {child.label}
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                          ))}
-                        </ul>
-                      </NavigationMenuContent>
-                    </>
-                  ) : (
-                    <NavigationMenuLink asChild>
-                      <a
-                        href={item.href}
-                        className="px-3 py-2 text-sm text-primary hover:text-accent transition-colors duration-200 font-medium"
-                      >
-                        {item.label}
-                      </a>
-                    </NavigationMenuLink>
-                  )}
-                </NavigationMenuItem>
-              ))}
+              {navItems.map((item) => {
+                const words = item.label.split(" ");
+                const hasMultipleWords = words.length > 1;
+                const formattedLabel = hasMultipleWords ? (
+                  <span className="flex flex-col items-center leading-tight text-center">
+                    <span>{words.slice(0, Math.ceil(words.length / 2)).join(" ")}</span>
+                    <span>{words.slice(Math.ceil(words.length / 2)).join(" ")}</span>
+                  </span>
+                ) : (
+                  item.label
+                );
+
+                return (
+                  <NavigationMenuItem key={item.label}>
+                    {item.children ? (
+                      <>
+                        <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-xs font-medium px-2 py-1 h-auto">
+                          {formattedLabel}
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent>
+                          <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
+                            {item.children.map((child) => (
+                              <li key={child.label}>
+                                <NavigationMenuLink asChild>
+                                  <a
+                                    href={child.href}
+                                    className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
+                                  >
+                                    {child.label}
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                            ))}
+                          </ul>
+                        </NavigationMenuContent>
+                      </>
+                    ) : (
+                      <NavigationMenuLink asChild>
+                        <a
+                          href={item.href}
+                          className="px-2 py-1 text-xs text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
+                        >
+                          {formattedLabel}
+                        </a>
+                      </NavigationMenuLink>
+                    )}
+                  </NavigationMenuItem>
+                );
+              })}
             </NavigationMenuList>
           </NavigationMenu>
 
