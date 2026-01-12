@@ -1,115 +1,96 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import keyVisual from "@/assets/termis-key-visual.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient pt-20">
-      {/* Decorative Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        {/* DNA-like patterns */}
-        <div className="absolute top-20 left-10 w-64 h-64 opacity-10">
-          <svg viewBox="0 0 100 100" className="w-full h-full">
-            <path
-              d="M20,10 Q50,30 20,50 Q-10,70 20,90"
-              stroke="currentColor"
-              strokeWidth="2"
-              fill="none"
-              className="text-accent"
-            />
-            <path
-              d="M80,10 Q50,30 80,50 Q110,70 80,90"
-              stroke="currentColor"
-              strokeWidth="2"
-              fill="none"
-              className="text-accent"
-            />
-          </svg>
-        </div>
-        
-        {/* Floating particles */}
-        <div className="absolute top-1/4 right-1/4 w-4 h-4 rounded-full bg-accent/30 animate-float" />
-        <div className="absolute top-1/3 right-1/3 w-2 h-2 rounded-full bg-accent/40 animate-float stagger-2" />
-        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 rounded-full bg-accent/20 animate-float stagger-3" />
-        
-        {/* Gradient overlay for depth */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-primary/30" />
-      </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      {/* Key Visual Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${keyVisual})` }}
+      />
+      
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent" />
+      
+      {/* Additional overlay for depth */}
+      <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-primary/30" />
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div className="text-center lg:text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium text-accent border border-accent/40 rounded-full backdrop-blur-sm">
-                ⚜ Annual Conference & Exhibition ⚜
-              </span>
-            </motion.div>
-
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-primary-foreground mb-4"
-            >
-              TERMIS-AM
-              <span className="block text-accent">2026</span>
-            </motion.h1>
-
+        <div className="max-w-xl">
+          {/* Left Content - Conference Info Card */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="bg-primary/90 backdrop-blur-md border-4 border-accent rounded-lg p-8 shadow-2xl"
+          >
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-6 text-primary-foreground/90"
             >
-              <div className="flex items-center gap-2">
-                <Calendar className="w-5 h-5 text-accent" />
-                <span className="font-medium">November 15-18, 2026</span>
-              </div>
-              <div className="w-1 h-1 rounded-full bg-accent hidden sm:block" />
-              <div className="flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-accent" />
-                <span className="font-medium">New Orleans, LA</span>
-              </div>
+              <h1 className="text-5xl md:text-6xl font-serif font-bold text-primary-foreground mb-2">
+                TERMIS-AM
+              </h1>
+              <span className="text-5xl md:text-6xl font-serif font-bold text-accent">2026</span>
             </motion.div>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-xl md:text-2xl font-serif italic text-accent mb-8"
+              className="text-primary-foreground/90 uppercase tracking-wide text-sm font-medium mt-4 mb-2"
             >
-              "Bench. Chip. Clinic. Where Y'at in regeneration?"
+              Annual Conference & Exhibition
             </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+              className="flex flex-col gap-2 mb-6 text-primary-foreground/90"
             >
-              <Button variant="hero" size="xl">
+              <div className="flex items-center gap-2">
+                <Calendar className="w-5 h-5 text-accent" />
+                <span className="font-medium">November 15-18, 2026</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-accent" />
+                <span className="font-medium">New Orleans, LA</span>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="border-t border-accent/40 pt-4"
+            >
+              <p className="text-lg md:text-xl font-serif italic text-accent">
+                "Bench. Chip. Clinic.
+              </p>
+              <p className="text-lg md:text-xl font-serif italic text-accent">
+                Where Y'at in regeneration?"
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="flex flex-col sm:flex-row gap-3 mt-6"
+            >
+              <Button variant="hero" size="lg">
                 Register Now
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-4 h-4" />
               </Button>
-              <Button variant="gold-outline" size="xl">
+              <Button variant="gold-outline" size="lg">
                 Submit Abstract
               </Button>
             </motion.div>
-          </div>
-
-          {/* Right Content - Flow Visualization */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="relative w-full lg:max-w-lg mx-auto"
-          >
-            <FlowVisualization />
           </motion.div>
         </div>
       </div>
@@ -121,67 +102,6 @@ const HeroSection = () => {
         </svg>
       </div>
     </section>
-  );
-};
-
-const FlowVisualization = () => {
-  const stages = [
-    { 
-      title: "Bench", 
-      subtitle: "Lab Research",
-      icon: "🔬"
-    },
-    { 
-      title: "Chip", 
-      subtitle: "Microfluidics",
-      icon: "🧬"
-    },
-    { 
-      title: "Clinic", 
-      subtitle: "Patient Care",
-      icon: "🏥"
-    },
-  ];
-
-  return (
-    <div className="relative py-8 px-4">
-      {/* Connection line */}
-      <div className="absolute top-1/2 left-12 right-12 h-1 bg-gradient-to-r from-accent/30 via-accent to-accent/30 transform -translate-y-1/2 hidden md:block rounded-full" />
-      
-      {/* Flow particles animation */}
-      <div className="absolute top-1/2 left-12 right-12 transform -translate-y-1/2 hidden md:block overflow-hidden">
-        <div className="w-3 h-3 rounded-full bg-accent animate-flow-particle absolute left-0" />
-        <div className="w-2 h-2 rounded-full bg-accent/70 animate-flow-particle absolute left-0 [animation-delay:1s]" />
-        <div className="w-2 h-2 rounded-full bg-accent/50 animate-flow-particle absolute left-0 [animation-delay:2s]" />
-      </div>
-
-      <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-16 relative z-10">
-        {stages.map((stage, index) => (
-          <motion.div
-            key={stage.title}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.6 + index * 0.2 }}
-            className="flex flex-col items-center relative"
-          >
-            <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/80 backdrop-blur-sm border-4 border-accent shadow-[0_8px_30px_-4px_rgba(212,175,55,0.5)] flex items-center justify-center mb-3 hover:scale-110 transition-transform duration-300">
-              <span className="text-3xl md:text-4xl">{stage.icon}</span>
-            </div>
-            <h3 className="text-lg md:text-xl font-serif font-bold text-primary-foreground">
-              {stage.title}
-            </h3>
-            <p className="text-xs md:text-sm text-primary-foreground/70">{stage.subtitle}</p>
-            
-            {/* Arrow between stages */}
-            {index < stages.length - 1 && (
-              <div className="hidden md:flex absolute top-1/2 -right-10 transform -translate-y-1/2">
-                <ArrowRight className="w-5 h-5 text-accent" />
-              </div>
-            )}
-          </motion.div>
-        ))}
-      </div>
-    </div>
   );
 };
 
