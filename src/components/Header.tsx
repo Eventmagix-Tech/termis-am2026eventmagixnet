@@ -74,7 +74,7 @@ const Header = () => {
                 const words = item.label.split(" ");
                 const hasMultipleWords = words.length > 1;
                 const formattedLabel = hasMultipleWords ? (
-                  <span className="flex flex-col items-center leading-tight text-center">
+                  <span className="flex flex-col items-start leading-tight text-left">
                     <span>{words.slice(0, Math.ceil(words.length / 2)).join(" ")}</span>
                     <span>{words.slice(Math.ceil(words.length / 2)).join(" ")}</span>
                   </span>
@@ -110,7 +110,7 @@ const Header = () => {
                       <NavigationMenuLink asChild>
                         <a
                           href={item.href}
-                          className="inline-flex h-auto items-center justify-center px-3 py-1 text-sm text-primary hover:text-accent hover:bg-accent/10 transition-colors duration-200 font-medium text-center rounded-md"
+                          className="inline-flex h-auto items-center justify-start px-3 py-1 text-sm text-primary hover:text-accent hover:bg-accent/10 transition-colors duration-200 font-medium text-left rounded-md"
                         >
                           {formattedLabel}
                         </a>
