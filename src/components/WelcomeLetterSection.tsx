@@ -64,26 +64,17 @@ const WelcomeLetterSection = () => {
               <p className="leading-relaxed text-sm md:text-base">
                 This year holds special significance. As we mark two decades of leadership in tissue engineering and regenerative medicine since the founding of TERMIS in 2006, we celebrate our collective achievements and look boldly to the future under the conference slogan: <span className="font-serif italic text-accent">"Bench. Chip. Clinic. Where y'at in regeneration?"</span>
               </p>
+            </div>
 
-              <p className="leading-relaxed text-sm md:text-base">
-                Our scientific program will spotlight three cross-cutting themes that are reshaping tissue engineering and regenerative medicine while accelerating clinical translation: <strong className="text-secondary">CRISPR and Lipid Nanoparticles</strong>, <strong className="text-secondary">Organ-on-Chip Models</strong>, and <strong className="text-secondary">Artificial Intelligence</strong>.
-              </p>
-
-              <p className="leading-relaxed text-sm md:text-base">
-                The 20th anniversary of TERMIS will also offer a great opportunity to take stock of the successes in bringing tissue engineering and regenerative medicine from bench to bedside and of the opportunities for the next 20 years.
-              </p>
-
-              <p className="leading-relaxed text-sm md:text-base">
-                We invite you to join us for an unforgettable blend of innovation, anniversary festivities, and Southern hospitality. In the spirit of New Orleans, we will make sure the conference delivers a little <span className="font-serif italic">"lagniappe"</span>.
-              </p>
-
-              <p className="leading-relaxed text-sm md:text-base">
-                We look forward to welcoming you in 2026!
-              </p>
-
-              <p className="text-base mt-6">
-                Warm regards,
-              </p>
+            {/* Read More Button */}
+            <div className="mt-6">
+              <a
+                href="/welcome-letter"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-colors duration-200"
+              >
+                Read More
+                <span>→</span>
+              </a>
             </div>
 
             {/* Decorative fleur-de-lis divider */}
