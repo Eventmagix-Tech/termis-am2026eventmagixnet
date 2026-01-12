@@ -39,70 +39,66 @@ const NewsletterSection = () => {
   };
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-primary via-primary/95 to-secondary">
-      <div className="container mx-auto max-w-2xl">
+    <section className="py-8 px-4 bg-gradient-to-r from-primary via-primary/95 to-secondary">
+      <div className="container mx-auto max-w-4xl">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center"
+          transition={{ duration: 0.4 }}
+          className="flex flex-col md:flex-row items-center justify-between gap-6"
         >
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/20 mb-6">
-            <Mail className="w-8 h-8 text-accent" />
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/20">
+              <Mail className="w-5 h-5 text-accent" />
+            </div>
+            <div className="text-left">
+              <h2 className="text-lg md:text-xl font-serif font-bold text-primary-foreground">
+                Subscribe to Stay Informed
+              </h2>
+              <p className="text-primary-foreground/70 text-sm">
+                Receive the latest news about TERMIS-AM
+              </p>
+            </div>
           </div>
-          
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-foreground mb-4">
-            Subscribe to Stay Informed
-          </h2>
-          
-          <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
-            Subscribe to our mailing list to receive the latest news about TERMIS-AM
-          </p>
 
           {isSubmitted ? (
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="flex items-center justify-center gap-3 text-accent"
+              className="flex items-center gap-2 text-accent"
             >
-              <CheckCircle className="w-6 h-6" />
-              <span className="text-lg font-medium">Thank you for subscribing!</span>
+              <CheckCircle className="w-5 h-5" />
+              <span className="text-sm font-medium">Thank you for subscribing!</span>
             </motion.div>
           ) : (
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <form onSubmit={handleSubmit} className="flex gap-2 w-full md:w-auto">
               <Input
                 type="email"
-                placeholder="Enter your email address"
+                placeholder="Enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 focus:border-accent focus:ring-accent"
+                className="w-full md:w-64 bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 focus:border-accent focus:ring-accent h-9 text-sm"
                 required
               />
               <Button
                 type="submit"
                 variant="gold"
+                size="sm"
                 disabled={isSubmitting}
                 className="whitespace-nowrap"
               >
                 {isSubmitting ? (
-                  "Subscribing..."
+                  "..."
                 ) : (
                   <>
                     Subscribe
-                    <ArrowRight className="w-4 h-4 ml-2" />
+                    <ArrowRight className="w-3 h-3 ml-1" />
                   </>
                 )}
               </Button>
             </form>
           )}
-
-          {/* Decorative fleur-de-lis */}
-          <div className="flex items-center justify-center mt-10 gap-4">
-            <div className="h-px w-16 bg-accent/40" />
-            <span className="text-accent text-2xl">⚜</span>
-            <div className="h-px w-16 bg-accent/40" />
-          </div>
         </motion.div>
       </div>
     </section>
