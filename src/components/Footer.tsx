@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Linkedin, Youtube, Mail } from "lucide-react";
 import termisLogo from "@/assets/termis-logo.png";
+import kenesLogo from "@/assets/kenes-logo.png";
 
 const Footer = () => {
   const socialLinks = [
@@ -62,24 +63,21 @@ const Footer = () => {
 
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Brand Column */}
+          {/* Conference Organizing Secretariat - Left */}
           <div>
-            <div className="mb-6">
+            <h4 className="font-serif font-semibold text-primary-foreground mb-4">
+              Conference Organizing Secretariat
+            </h4>
+            <div className="mb-4">
               <img 
-                src={termisLogo} 
-                alt="TERMIS Americas" 
-                className="h-14 w-auto bg-white rounded-lg p-2"
+                src={kenesLogo} 
+                alt="Kenes Group" 
+                className="h-12 w-auto bg-white rounded-lg p-2"
               />
             </div>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
-              Tissue Engineering and Regenerative Medicine International Society - 
-              Americas Chapter Annual Conference
+            <p className="text-primary-foreground/70 text-sm leading-relaxed">
+              Kenes Group is the professional conference organizer for TERMIS-AM 2026.
             </p>
-            <div className="flex items-center gap-4 text-primary-foreground/60 text-sm">
-              <span>November 15-18, 2026</span>
-              <span className="text-accent">⚜</span>
-              <span>New Orleans, LA</span>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -120,14 +118,24 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter & Social */}
+          {/* TERMIS Brand Column - Right */}
           <div>
-            <h4 className="font-serif font-semibold text-primary-foreground mb-4">
-              Stay Connected
-            </h4>
-            <p className="text-primary-foreground/70 text-sm mb-4">
-              Follow us for the latest updates and announcements
+            <div className="mb-4">
+              <img 
+                src={termisLogo} 
+                alt="TERMIS Americas" 
+                className="h-14 w-auto bg-white rounded-lg p-2"
+              />
+            </div>
+            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
+              Tissue Engineering and Regenerative Medicine International Society - 
+              Americas Chapter Annual Conference
             </p>
+            <div className="flex items-center gap-4 text-primary-foreground/60 text-sm mb-4">
+              <span>November 15-18, 2026</span>
+              <span className="text-accent">⚜</span>
+              <span>New Orleans, LA</span>
+            </div>
             <div className="flex items-center gap-3">
               {socialLinks.map((social) => (
                 <a
