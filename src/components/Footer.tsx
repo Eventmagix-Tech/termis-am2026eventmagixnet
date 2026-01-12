@@ -172,6 +172,14 @@ const Footer = () => {
                 Cookie Policy
               </a>
               <a
+                href="https://am2025.termis.org/wp-content/uploads/2025/07/TERMIS-AM-Code-of-Conduct-Policy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+              >
+                Code of Conduct
+              </a>
+              <a
                 href="#terms"
                 className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
               >
