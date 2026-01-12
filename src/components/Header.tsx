@@ -69,7 +69,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <NavigationMenu className="hidden lg:flex">
-            <NavigationMenuList className="gap-0">
+            <NavigationMenuList className="gap-1">
               {navItems.map((item) => {
                 const words = item.label.split(" ");
                 const hasMultipleWords = words.length > 1;
