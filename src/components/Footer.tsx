@@ -2,6 +2,7 @@ import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import termisLogo from "@/assets/termis-logo.png";
 import kenesLogo from "@/assets/kenes-logo.png";
+import eventmagixLogo from "@/assets/eventmagix-logo.png";
 
 const Footer = () => {
   // Custom X (Twitter) icon component
@@ -136,6 +137,23 @@ const Footer = () => {
                 Contact
               </Link>
             </div>
+          </div>
+          
+          {/* Powered by Eventmagix */}
+          <div className="mt-6 flex items-center justify-center gap-2">
+            <span className="text-primary-foreground/50 text-sm">Powered by</span>
+            <a
+              href="https://eventmagix.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src={eventmagixLogo} 
+                alt="Eventmagix" 
+                className="h-6 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>
