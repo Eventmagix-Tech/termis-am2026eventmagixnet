@@ -57,9 +57,6 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-start justify-between gap-12">
           {/* Conference Organizing Secretariat - Left */}
           <div className="flex flex-col items-center md:items-start">
-            <h4 className="font-serif font-semibold text-primary-foreground mb-4">
-              Conference Organizing Secretariat
-            </h4>
             <div className="mb-4">
               <img 
                 src={kenesLogo} 
@@ -67,6 +64,9 @@ const Footer = () => {
                 className="h-24 w-auto bg-white rounded-lg p-3"
               />
             </div>
+            <h4 className="font-serif font-semibold text-primary-foreground mb-2">
+              Conference Organizing Secretariat
+            </h4>
             <p className="text-primary-foreground/70 text-sm leading-relaxed text-center md:text-left">
               Kenes Group, Office: Kenes M+
             </p>
