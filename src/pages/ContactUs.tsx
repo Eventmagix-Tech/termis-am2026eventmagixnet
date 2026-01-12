@@ -55,9 +55,6 @@ const ContactUs = () => {
             <div className="max-w-4xl mx-auto">
               {/* Kenes Logo and Title */}
               <div className="text-center mb-12">
-                <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-                  2026 TERMIS-AM Conference Organizing Secretariat
-                </h2>
                 <img 
                   src={kenesLogo} 
                   alt="Kenes Group" 
