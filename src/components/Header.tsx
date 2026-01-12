@@ -110,7 +110,7 @@ const Header = () => {
                       <NavigationMenuLink asChild>
                         <a
                           href={item.href}
-                          className="px-3 py-1 text-sm text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
+                          className="inline-flex h-auto items-center justify-center px-3 py-1 text-sm text-primary hover:text-accent hover:bg-accent/10 transition-colors duration-200 font-medium text-center rounded-md"
                         >
                           {formattedLabel}
                         </a>
