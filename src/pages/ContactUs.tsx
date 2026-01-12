@@ -61,7 +61,7 @@ const ContactUs = () => {
                 <img 
                   src={kenesLogo} 
                   alt="Kenes Group" 
-                  className="h-16 md:h-20 mx-auto"
+                  className="h-20 md:h-[100px] mx-auto"
                 />
               </div>
 
