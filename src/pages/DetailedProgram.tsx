@@ -112,7 +112,7 @@ const programData: DaySchedule[] = [
 
 const DetailedProgram = () => {
   const [activeDay, setActiveDay] = useState("sunday");
-
+  const [selectedHall, setSelectedHall] = useState<string | null>(null);
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -171,14 +171,34 @@ const DetailedProgram = () => {
                   {/* Halls */}
                   <div className="flex flex-wrap justify-center gap-2 mb-8">
                     {day.halls.map((hall) => (
-                      <span
+                      <button
                         key={hall}
-                        className="px-4 py-2 bg-muted/50 rounded-lg text-sm font-medium text-primary border border-accent/20"
+                        onClick={() => setSelectedHall(selectedHall === hall ? null : hall)}
+                        className={cn(
+                          "px-4 py-2 rounded-lg text-sm font-medium border transition-all cursor-pointer",
+                          selectedHall === hall
+                            ? "bg-primary text-white border-primary"
+                            : "bg-muted/50 text-primary border-accent/20 hover:bg-accent/20"
+                        )}
                       >
                         {hall}
-                      </span>
+                      </button>
                     ))}
                   </div>
+
+                  {/* Hall Content Modal */}
+                  {selectedHall && (
+                    <div className="mb-8 p-6 bg-muted/30 rounded-xl border border-accent/20 text-center">
+                      <h3 className="font-semibold text-primary text-lg mb-2">{selectedHall}</h3>
+                      <p className="text-muted-foreground italic">To be announced soon</p>
+                      <button
+                        onClick={() => setSelectedHall(null)}
+                        className="mt-4 text-sm text-accent hover:text-accent/80 underline"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  )}
 
                   {/* Schedule Items */}
                   <div className="space-y-4 max-w-4xl mx-auto">
