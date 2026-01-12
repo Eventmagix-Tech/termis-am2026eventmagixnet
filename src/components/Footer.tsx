@@ -136,24 +136,23 @@ const Footer = () => {
               >
                 Contact
               </Link>
+              {/* Powered by Eventmagix */}
+              <div className="flex items-center gap-2">
+                <span className="text-primary-foreground/50">Powered by</span>
+                <a
+                  href="https://eventmagix.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src={eventmagixLogo} 
+                    alt="Eventmagix" 
+                    className="h-5 w-auto"
+                  />
+                </a>
+              </div>
             </div>
-          </div>
-          
-          {/* Powered by Eventmagix */}
-          <div className="mt-6 flex items-center justify-center gap-2">
-            <span className="text-primary-foreground/50 text-sm">Powered by</span>
-            <a
-              href="https://eventmagix.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img 
-                src={eventmagixLogo} 
-                alt="Eventmagix" 
-                className="h-5 w-auto"
-              />
-            </a>
           </div>
         </div>
       </div>
