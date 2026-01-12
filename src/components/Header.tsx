@@ -17,36 +17,36 @@ const navItems = [
     label: "Attendee Planning",
     children: [
       { label: "General Information", href: "/general-information" },
-      { label: "Visa Information", href: "#visa-info" },
-      { label: "Explore New Orleans", href: "#explore" },
-      { label: "Key Dates", href: "#key-dates" },
-      { label: "Committees", href: "#committees" },
+      { label: "Visa Information", href: "/visa-information" },
+      { label: "Explore New Orleans", href: "/explore-new-orleans" },
+      { label: "Key Dates", href: "/key-dates" },
+      { label: "Committees", href: "/committees" },
     ],
   },
   {
     label: "Scientific Program",
     children: [
-      { label: "Program at-a-glance", href: "#program-glance" },
+      { label: "Program at-a-glance", href: "/program-at-a-glance" },
       { label: "Detailed Program", href: "/detailed-program" },
-      { label: "Pre-Conference Workshops", href: "#workshops" },
-      { label: "Plenary & Keynote Speakers", href: "#speakers" },
+      { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
+      { label: "Plenary & Keynote Speakers", href: "/plenary-keynote-speakers" },
     ],
   },
   {
     label: "Registration & Hotel Info",
     children: [
-      { label: "Registration Information", href: "#registration" },
-      { label: "Hotel Accommodation", href: "#hotel" },
+      { label: "Registration Information", href: "/registration-information" },
+      { label: "Hotel Accommodation", href: "/hotel-accommodation" },
     ],
   },
   {
     label: "Sponsors & Exhibitors",
     children: [
-      { label: "Support Opportunities", href: "#support" },
-      { label: "Confirmed Sponsors", href: "#sponsors" },
+      { label: "Support Opportunities", href: "/support-opportunities" },
+      { label: "Confirmed Sponsors", href: "/confirmed-sponsors" },
     ],
   },
-  { label: "Promotional Toolkit", href: "#toolkit" },
+  { label: "Promotional Toolkit", href: "/promotional-toolkit" },
   { label: "Contact Us", href: "/contact-us" },
 ];
 
