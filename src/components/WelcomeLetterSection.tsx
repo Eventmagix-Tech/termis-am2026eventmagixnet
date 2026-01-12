@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const WelcomeLetterSection = () => {
   return (
-    <section id="welcome" className="py-20 px-4 bg-background">
+    <section id="welcome" className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
