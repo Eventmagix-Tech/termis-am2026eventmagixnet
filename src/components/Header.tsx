@@ -83,29 +83,27 @@ const Header = () => {
                 );
 
                 return (
-                  <NavigationMenuItem key={item.label}>
+                  <NavigationMenuItem key={item.label} className="relative">
                     {item.children ? (
-                      <>
+                      <div className="relative group">
                         <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-1 h-auto">
                           {formattedLabel}
                         </NavigationMenuTrigger>
-                        <NavigationMenuContent>
+                        <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 z-50">
                           <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
                             {item.children.map((child) => (
                               <li key={child.label}>
-                                <NavigationMenuLink asChild>
-                                  <a
-                                    href={child.href}
-                                    className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
-                                  >
-                                    {child.label}
-                                  </a>
-                                </NavigationMenuLink>
+                                <a
+                                  href={child.href}
+                                  className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
+                                >
+                                  {child.label}
+                                </a>
                               </li>
                             ))}
                           </ul>
-                        </NavigationMenuContent>
-                      </>
+                        </div>
+                      </div>
                     ) : (
                       <NavigationMenuLink asChild>
                         <a
