@@ -63,40 +63,58 @@ const TimelineSection = () => {
           {/* Vertical line - Mobile */}
           <div className="lg:hidden absolute top-0 bottom-0 left-8 w-1 bg-gradient-to-b from-accent/20 via-accent to-accent/20" />
 
-          <div className="grid lg:grid-cols-5 gap-8 lg:gap-4">
-            {milestones.map((milestone, index) => (
-              <motion.div
-                key={milestone.year}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.15 }}
-                className={`relative flex lg:flex-col items-start lg:items-center ${
-                  index % 2 === 0 ? "lg:pt-0" : "lg:pt-8"
-                }`}
-              >
-                {/* Node */}
-                <div className="relative z-10 flex-shrink-0">
-                  <div className="w-16 h-16 rounded-full bg-primary border-4 border-accent shadow-gold flex items-center justify-center">
-                    <span className="text-2xl">{milestone.icon}</span>
-                  </div>
-                  {/* Year badge */}
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-2 py-0.5 rounded-full">
-                    {milestone.year}
-                  </div>
-                </div>
+          <div className="grid lg:grid-cols-5 gap-8 lg:gap-4 lg:min-h-[320px]">
+            {milestones.map((milestone, index) => {
+              const isTop = index % 2 === 0;
+              
+              return (
+                <motion.div
+                  key={milestone.year}
+                  initial={{ opacity: 0, y: isTop ? -30 : 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.15 }}
+                  className={`relative flex lg:flex-col items-start lg:items-center ${
+                    isTop 
+                      ? "lg:self-start lg:pb-20" 
+                      : "lg:self-end lg:pt-20"
+                  }`}
+                >
+                  {/* Content - appears above node for top items, below for bottom items */}
+                  {isTop && (
+                    <div className="hidden lg:block lg:mb-6 lg:text-center lg:order-first">
+                      <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
+                        {milestone.title}
+                      </h3>
+                      <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                        {milestone.description}
+                      </p>
+                    </div>
+                  )}
 
-                {/* Content */}
-                <div className="ml-6 lg:ml-0 lg:mt-8 lg:text-center">
-                  <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
-                    {milestone.title}
-                  </h3>
-                  <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
-                    {milestone.description}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
+                  {/* Node */}
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 rounded-full bg-primary border-4 border-accent shadow-gold flex items-center justify-center">
+                      <span className="text-2xl">{milestone.icon}</span>
+                    </div>
+                    {/* Year badge */}
+                    <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-2 py-0.5 rounded-full">
+                      {milestone.year}
+                    </div>
+                  </div>
+
+                  {/* Content - Mobile (always after node) and Desktop bottom items */}
+                  <div className={`ml-6 lg:ml-0 lg:mt-6 lg:text-center ${isTop ? "lg:hidden" : ""}`}>
+                    <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
+                      {milestone.title}
+                    </h3>
+                    <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                      {milestone.description}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
 
