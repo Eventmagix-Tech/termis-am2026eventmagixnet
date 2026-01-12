@@ -140,7 +140,7 @@ const Header = () => {
               </svg>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/groups/4646229/"
               target="_blank" 
               rel="noopener noreferrer"
               className="hidden sm:block text-primary hover:text-accent transition-colors"
@@ -218,7 +218,7 @@ const Header = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/groups/4646229/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-accent transition-colors"
