@@ -1,14 +1,11 @@
-import { Facebook, Twitter, Linkedin, Youtube, Mail } from "lucide-react";
+import { Twitter, Linkedin } from "lucide-react";
 import termisLogo from "@/assets/termis-logo.png";
 import kenesLogo from "@/assets/kenes-logo.png";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "https://x.com/TERMISAM", label: "X (Twitter)" },
     { icon: Linkedin, href: "https://www.linkedin.com/groups/4646229/", label: "LinkedIn" },
-    { icon: Youtube, href: "#", label: "YouTube" },
-    { icon: Mail, href: "mailto:info@termis.org", label: "Email" },
   ];
 
   const quickLinks = [
