@@ -16,7 +16,7 @@ const navItems = [
   {
     label: "Attendee Planning",
     children: [
-      { label: "General Information", href: "#general-info" },
+      { label: "General Information", href: "/general-information" },
       { label: "Visa Information", href: "#visa-info" },
       { label: "Explore New Orleans", href: "#explore" },
       { label: "Key Dates", href: "#key-dates" },
