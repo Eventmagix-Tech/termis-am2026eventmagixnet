@@ -1,22 +1,23 @@
 import { motion } from "framer-motion";
-import { User } from "lucide-react";
+import cochairGottardi from "@/assets/cochair-gottardi.jpg";
+import cochairMurfee from "@/assets/cochair-murfee.jpg";
+import cochairLiJessen from "@/assets/cochair-3.jpg";
 
-// Placeholder data - photos and details will be added later
 const coChairs = [
   {
-    name: "Co-Chair Name 1",
-    title: "Title / Affiliation",
-    photo: null,
+    name: "Riccardo Gottardi",
+    title: "Conference Co-Chair",
+    photo: cochairGottardi,
   },
   {
-    name: "Co-Chair Name 2",
-    title: "Title / Affiliation",
-    photo: null,
+    name: "Nicole Li-Jessen",
+    title: "Conference Co-Chair",
+    photo: cochairLiJessen,
   },
   {
-    name: "Co-Chair Name 3",
-    title: "Title / Affiliation",
-    photo: null,
+    name: "Walter Lee III Murfee",
+    title: "Conference Co-Chair",
+    photo: cochairMurfee,
   },
 ];
 
@@ -114,15 +115,11 @@ const WelcomeLetterSection = () => {
                 >
                   {/* Photo placeholder */}
                   <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary/10 border-2 border-accent/30 flex items-center justify-center flex-shrink-0 overflow-hidden">
-                    {chair.photo ? (
-                      <img 
-                        src={chair.photo} 
-                        alt={chair.name}
-                        className="w-full h-full object-cover"
-                      />
-                    ) : (
-                      <User className="w-10 h-10 text-primary/40" />
-                    )}
+                    <img 
+                      src={chair.photo} 
+                      alt={chair.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
                   {/* Info */}
