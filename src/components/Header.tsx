@@ -87,8 +87,8 @@ const Header = () => {
                   <NavigationMenuItem key={item.label}>
                     {item.children ? (
                       <>
-                        <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-xs font-medium px-2 py-1 h-auto">
-                          {formattedLabel}
+                      <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-2 py-1 h-auto">
+                        {formattedLabel}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
                           <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
@@ -109,10 +109,10 @@ const Header = () => {
                       </>
                     ) : (
                       <NavigationMenuLink asChild>
-                        <a
-                          href={item.href}
-                          className="px-2 py-1 text-xs text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
-                        >
+                      <a
+                        href={item.href}
+                        className="px-2 py-1 text-sm text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
+                      >
                           {formattedLabel}
                         </a>
                       </NavigationMenuLink>
