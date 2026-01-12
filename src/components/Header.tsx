@@ -53,6 +53,7 @@ const navItems = [
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
+  const [openDesktopMenu, setOpenDesktopMenu] = useState<string | null>(null);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-accent/20 shadow-sm">
@@ -85,24 +86,36 @@ const Header = () => {
                 return (
                   <NavigationMenuItem key={item.label} className="relative">
                     {item.children ? (
-                      <div className="relative group">
-                        <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-1 h-auto">
+                      <div 
+                        className="relative"
+                        onMouseEnter={() => setOpenDesktopMenu(item.label)}
+                        onMouseLeave={() => setOpenDesktopMenu(null)}
+                      >
+                        <button className="inline-flex items-center justify-center bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-1 h-auto rounded-md transition-colors">
                           {formattedLabel}
-                        </NavigationMenuTrigger>
-                        <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 z-50">
-                          <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
-                            {item.children.map((child) => (
-                              <li key={child.label}>
-                                <a
-                                  href={child.href}
-                                  className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
-                                >
-                                  {child.label}
-                                </a>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
+                          <ChevronDown
+                            className={cn(
+                              "ml-1 h-3 w-3 transition-transform duration-200",
+                              openDesktopMenu === item.label && "rotate-180"
+                            )}
+                          />
+                        </button>
+                        {openDesktopMenu === item.label && (
+                          <div className="absolute left-0 top-full pt-1 z-50">
+                            <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
+                              {item.children.map((child) => (
+                                <li key={child.label}>
+                                  <a
+                                    href={child.href}
+                                    className="block select-none rounded-md p-3 text-sm leading-none no-underline outline-none transition-colors hover:bg-accent/10 hover:text-accent text-primary"
+                                  >
+                                    {child.label}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                       </div>
                     ) : (
                       <NavigationMenuLink asChild>
