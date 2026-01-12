@@ -8,16 +8,19 @@ const coChairs = [
     name: "Riccardo Gottardi",
     title: "Conference Co-Chair",
     photo: cochairGottardi,
+    photoPosition: "object-center",
   },
   {
     name: "Nicole Li-Jessen",
     title: "Conference Co-Chair",
     photo: cochairLiJessen,
+    photoPosition: "object-[30%_20%]",
   },
   {
     name: "Walter Lee III Murfee",
     title: "Conference Co-Chair",
     photo: cochairMurfee,
+    photoPosition: "object-top",
   },
 ];
 
@@ -118,7 +121,7 @@ const WelcomeLetterSection = () => {
                     <img 
                       src={chair.photo} 
                       alt={chair.name}
-                      className="w-full h-full object-cover"
+                      className={`w-full h-full object-cover ${chair.photoPosition}`}
                     />
                   </div>
                   
