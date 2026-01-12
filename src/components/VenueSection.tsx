@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin, Calendar, Music, Utensils } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import newOrleansVenue from "@/assets/new-orleans-venue.jpg";
 
 const VenueSection = () => {
   const highlights = [
@@ -91,7 +92,7 @@ const VenueSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-card">
               <img
-                src="https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=800&h=600&fit=crop"
+                src={newOrleansVenue}
                 alt="New Orleans French Quarter"
                 className="w-full h-80 object-cover"
               />
