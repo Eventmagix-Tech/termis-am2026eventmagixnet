@@ -3,7 +3,7 @@ import keyVisual from "@/assets/termis-key-visual.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full pt-16 md:pt-20 overflow-hidden bg-[#e8e0d0]">
+    <section className="relative w-full pt-14 md:pt-16 overflow-hidden bg-[#e8e0d0]">
       {/* Key Visual - Full image visible */}
       <motion.div 
         initial={{ opacity: 0 }}
