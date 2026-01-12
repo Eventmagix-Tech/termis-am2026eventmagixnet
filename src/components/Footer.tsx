@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "https://x.com/TERMISAM", label: "X (Twitter)" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/groups/4646229/", label: "LinkedIn" },
     { icon: Youtube, href: "#", label: "YouTube" },
     { icon: Mail, href: "mailto:info@termis.org", label: "Email" },
   ];
