@@ -22,12 +22,12 @@ interface DaySchedule {
 }
 
 const sessionColors: Record<SessionType, string> = {
-  plenary: "bg-orange-500 text-white",
-  syis: "bg-green-500 text-white",
-  society: "bg-purple-500 text-white",
-  scientific: "bg-sky-500 text-white",
-  workshop: "bg-amber-400 text-black",
-  social: "bg-pink-400 text-white",
+  plenary: "bg-primary text-primary-foreground",
+  syis: "bg-secondary text-secondary-foreground",
+  society: "bg-primary/80 text-primary-foreground",
+  scientific: "bg-accent text-accent-foreground",
+  workshop: "bg-secondary/80 text-secondary-foreground",
+  social: "bg-gradient-to-r from-primary/60 to-secondary/60 text-white",
 };
 
 const sessionLabels: Record<SessionType, string> = {
