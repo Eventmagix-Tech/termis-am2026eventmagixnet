@@ -50,7 +50,7 @@ const ContactUs = () => {
         </section>
 
         {/* Contact Content */}
-        <section className="py-16 md:py-20 bg-muted/30">
+        <section className="py-16 md:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               {/* Kenes Logo and Title */}
@@ -70,7 +70,7 @@ const ContactUs = () => {
                 {contacts.map((contact) => (
                   <div 
                     key={contact.email}
-                    className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-accent/10"
+                    className="bg-muted/50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-accent/10"
                   >
                     <h3 className="text-lg font-semibold text-primary mb-3">
                       {contact.department}
