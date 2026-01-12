@@ -34,7 +34,7 @@ const cards = [
 
 const InfoCards = () => {
   return (
-    <section className="py-20 px-4 bg-background">
+    <section className="pt-10 pb-20 px-4 bg-background">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
