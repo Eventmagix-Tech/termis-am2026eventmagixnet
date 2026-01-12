@@ -27,7 +27,7 @@ const navItems = [
     label: "Scientific Program",
     children: [
       { label: "Program at-a-glance", href: "#program-glance" },
-      { label: "Detailed Program", href: "#detailed-program" },
+      { label: "Detailed Program", href: "/detailed-program" },
       { label: "Pre-Conference Workshops", href: "#workshops" },
       { label: "Plenary & Keynote Speakers", href: "#speakers" },
     ],
