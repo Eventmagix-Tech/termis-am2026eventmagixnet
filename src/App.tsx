@@ -8,6 +8,18 @@ import WelcomeLetter from "./pages/WelcomeLetter";
 import ContactUs from "./pages/ContactUs";
 import DetailedProgram from "./pages/DetailedProgram";
 import GeneralInformation from "./pages/GeneralInformation";
+import VisaInformation from "./pages/VisaInformation";
+import ExploreNewOrleans from "./pages/ExploreNewOrleans";
+import KeyDates from "./pages/KeyDates";
+import Committees from "./pages/Committees";
+import ProgramAtAGlance from "./pages/ProgramAtAGlance";
+import PreConferenceWorkshops from "./pages/PreConferenceWorkshops";
+import PlenaryKeynoteSpeakers from "./pages/PlenaryKeynoteSpeakers";
+import RegistrationInformation from "./pages/RegistrationInformation";
+import HotelAccommodation from "./pages/HotelAccommodation";
+import SupportOpportunities from "./pages/SupportOpportunities";
+import ConfirmedSponsors from "./pages/ConfirmedSponsors";
+import PromotionalToolkit from "./pages/PromotionalToolkit";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +36,18 @@ const App = () => (
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/detailed-program" element={<DetailedProgram />} />
           <Route path="/general-information" element={<GeneralInformation />} />
+          <Route path="/visa-information" element={<VisaInformation />} />
+          <Route path="/explore-new-orleans" element={<ExploreNewOrleans />} />
+          <Route path="/key-dates" element={<KeyDates />} />
+          <Route path="/committees" element={<Committees />} />
+          <Route path="/program-at-a-glance" element={<ProgramAtAGlance />} />
+          <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
+          <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
+          <Route path="/registration-information" element={<RegistrationInformation />} />
+          <Route path="/hotel-accommodation" element={<HotelAccommodation />} />
+          <Route path="/support-opportunities" element={<SupportOpportunities />} />
+          <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
+          <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
