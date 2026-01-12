@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Linkedin } from "lucide-react";
 import termisLogo from "@/assets/termis-logo.png";
 import {
   NavigationMenu,
@@ -87,8 +86,8 @@ const Header = () => {
                   <NavigationMenuItem key={item.label}>
                     {item.children ? (
                       <>
-                      <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-1 h-auto">
-                        {formattedLabel}
+                        <NavigationMenuTrigger className="bg-transparent text-primary hover:text-accent hover:bg-accent/10 text-sm font-medium px-3 py-1 h-auto">
+                          {formattedLabel}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
                           <ul className="grid w-[220px] gap-1 p-2 bg-white shadow-lg rounded-md border border-accent/20">
@@ -109,10 +108,10 @@ const Header = () => {
                       </>
                     ) : (
                       <NavigationMenuLink asChild>
-                      <a
-                        href={item.href}
-                        className="px-3 py-1 text-sm text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
-                      >
+                        <a
+                          href={item.href}
+                          className="px-3 py-1 text-sm text-primary hover:text-accent transition-colors duration-200 font-medium text-center"
+                        >
                           {formattedLabel}
                         </a>
                       </NavigationMenuLink>
@@ -123,15 +122,33 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
 
-          {/* CTA Button */}
-          <div className="flex items-center gap-4">
-            <Button
-              variant="gold"
-              size="sm"
-              className="hidden sm:flex"
+          {/* Social Icons & Hashtag */}
+          <div className="flex items-center gap-3">
+            <a 
+              href="https://x.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hidden sm:block text-primary hover:text-accent transition-colors"
+              aria-label="X (Twitter)"
             >
-              Register Now
-            </Button>
+              <svg 
+                viewBox="0 0 24 24" 
+                className="h-5 w-5 fill-current"
+                aria-hidden="true"
+              >
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hidden sm:block text-primary hover:text-accent transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
+            <span className="hidden sm:block text-accent font-semibold text-sm">#TERMISAM2026</span>
             
             {/* Mobile Menu Toggle */}
             <button
@@ -188,10 +205,27 @@ const Header = () => {
                 )}
               </div>
             ))}
-            <div className="px-4 pt-4">
-              <Button variant="gold" className="w-full">
-                Register Now
-              </Button>
+            {/* Mobile Social Icons */}
+            <div className="flex items-center gap-4 px-4 pt-4 border-t border-accent/20 mt-4">
+              <a 
+                href="https://x.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent transition-colors"
+              >
+                <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <span className="text-accent font-semibold text-sm">#TERMISAM2026</span>
             </div>
           </nav>
         )}
