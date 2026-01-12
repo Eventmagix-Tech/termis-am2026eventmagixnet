@@ -81,15 +81,6 @@ const Footer = () => {
                 className="h-24 w-auto bg-white rounded-lg p-3"
               />
             </div>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4 text-center md:text-right">
-              Tissue Engineering and Regenerative Medicine International Society - 
-              Americas Chapter Annual Conference
-            </p>
-            <div className="flex items-center gap-4 text-primary-foreground/60 text-sm mb-4">
-              <span>November 15-18, 2026</span>
-              <span className="text-accent">⚜</span>
-              <span>New Orleans, LA</span>
-            </div>
             <div className="flex items-center gap-3">
               {socialLinks.map((social) => (
                 <a
