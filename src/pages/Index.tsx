@@ -7,12 +7,10 @@ import VenueSection from "@/components/VenueSection";
 import CTASection from "@/components/CTASection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
-import RegistrationPopup from "@/components/RegistrationPopup";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <RegistrationPopup />
       <Header />
       <main>
         <HeroSection />
