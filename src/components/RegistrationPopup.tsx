@@ -57,14 +57,9 @@ const RegistrationPopup = () => {
 
               {/* Content */}
               <div className="space-y-6">
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold text-primary">
-                    Registration Open
-                  </h2>
-                  <p className="text-muted-foreground">
-                    Join us at TERMIS 2026 World Congress in New Orleans
-                  </p>
-                </div>
+                <h2 className="text-3xl font-bold text-primary">
+                  Registration Open
+                </h2>
 
                 <Link to="/registration-information">
                   <Button 
