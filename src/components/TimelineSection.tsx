@@ -35,7 +35,7 @@ const milestones = [
 
 const TimelineSection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5 overflow-hidden">
+    <section className="py-20 px-4 bg-hero-gradient overflow-hidden">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,10 +47,10 @@ const TimelineSection = () => {
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
             ⚜ Our Journey ⚜
           </span>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mt-2">
+          <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary-foreground mt-2">
             20 Years of Clinical Translation
           </h2>
-          <p className="text-foreground/70 mt-4 max-w-2xl mx-auto">
+          <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
             The River of Science - flowing from fundamental research to transformative patient care
           </p>
         </motion.div>
@@ -58,10 +58,10 @@ const TimelineSection = () => {
         {/* Timeline Container */}
         <div className="relative">
           {/* Horizontal line - Desktop */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-accent/20 via-accent to-accent/20 transform -translate-y-1/2" />
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-accent/30 via-accent to-accent/30 transform -translate-y-1/2" />
           
           {/* Vertical line - Mobile */}
-          <div className="lg:hidden absolute top-0 bottom-0 left-8 w-1 bg-gradient-to-b from-accent/20 via-accent to-accent/20" />
+          <div className="lg:hidden absolute top-0 bottom-0 left-8 w-1 bg-gradient-to-b from-accent/30 via-accent to-accent/30" />
 
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-4 lg:min-h-[320px]">
             {milestones.map((milestone, index) => {
@@ -83,10 +83,10 @@ const TimelineSection = () => {
                   {/* Content - appears above node for top items, below for bottom items */}
                   {isTop && (
                     <div className="hidden lg:block lg:mb-6 lg:text-center lg:order-first">
-                      <h3 className="text-lg font-serif font-semibold text-primary mb-1">
+                      <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
                         {milestone.title}
                       </h3>
-                      <p className="text-foreground/60 text-sm leading-relaxed max-w-xs">
+                      <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
                         {milestone.description}
                       </p>
                     </div>
@@ -94,7 +94,7 @@ const TimelineSection = () => {
 
                   {/* Node */}
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="w-16 h-16 rounded-full bg-white border-4 border-accent shadow-gold flex items-center justify-center">
+                    <div className="w-16 h-16 rounded-full bg-white/10 border-4 border-accent shadow-gold flex items-center justify-center">
                       <span className="text-2xl">{milestone.icon}</span>
                     </div>
                     {/* Year badge */}
@@ -105,10 +105,10 @@ const TimelineSection = () => {
 
                   {/* Content - Mobile (always after node) and Desktop bottom items */}
                   <div className={`ml-6 lg:ml-0 lg:mt-6 lg:text-center ${isTop ? "lg:hidden" : ""}`}>
-                    <h3 className="text-lg font-serif font-semibold text-primary mb-1">
+                    <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
                       {milestone.title}
                     </h3>
-                    <p className="text-foreground/60 text-sm leading-relaxed max-w-xs">
+                    <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
                       {milestone.description}
                     </p>
                   </div>
