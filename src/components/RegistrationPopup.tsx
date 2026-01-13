@@ -44,7 +44,7 @@ const RegistrationPopup = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="fixed left-1/2 top-1/2 z-50 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-md"
+            className="fixed left-1/2 top-[35%] z-50 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-md"
           >
             <div className="relative bg-background border border-border rounded-2xl shadow-2xl p-8 text-center">
               {/* Close button */}
