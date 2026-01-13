@@ -11,91 +11,76 @@ const CTASection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5 relative overflow-hidden">
+    <section className="py-12 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-10 left-10 w-32 h-32 rounded-full bg-accent/10 blur-3xl" />
-        <div className="absolute bottom-10 right-10 w-48 h-48 rounded-full bg-accent/15 blur-3xl" />
+        <div className="absolute top-5 left-10 w-24 h-24 rounded-full bg-accent/10 blur-3xl" />
+        <div className="absolute bottom-5 right-10 w-32 h-32 rounded-full bg-accent/15 blur-3xl" />
       </div>
 
       <div className="container mx-auto relative z-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium text-accent border border-accent/40 rounded-full">
-              Early Bird Registration Open
-            </span>
-          </motion.div>
-
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-3xl md:text-5xl font-serif font-bold text-primary mb-6"
-          >
-            Join the Future of
-            <span className="block text-accent">Regenerative Medicine</span>
-          </motion.h2>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-foreground/70 text-lg mb-8 max-w-xl mx-auto"
-          >
-            Be part of the most comprehensive tissue engineering conference in the Americas. 
-            Connect, collaborate, and shape the future of medicine.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-wrap justify-center gap-4 mb-10"
-          >
-            {benefits.map((benefit, index) => (
-              <div
-                key={benefit}
-                className="flex items-center gap-2 text-foreground/80 text-sm"
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+            {/* Left side - Text content */}
+            <div className="text-center lg:text-left">
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="flex items-center justify-center lg:justify-start gap-3 mb-3"
               >
-                <CheckCircle2 className="w-4 h-4 text-accent" />
-                <span>{benefit}</span>
-              </div>
-            ))}
-          </motion.div>
+                <span className="inline-block px-3 py-1 text-xs font-medium text-accent border border-accent/40 rounded-full">
+                  Early Bird Open
+                </span>
+                <span className="text-foreground/50 text-xs hidden sm:inline">
+                  Deadline: July 31, 2026
+                </span>
+              </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
-            <Button variant="hero" size="xl">
-              Register Now
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-            <Button variant="gold-outline" size="xl">
-              Download Brochure
-            </Button>
-          </motion.div>
+              <motion.h2
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="text-2xl md:text-3xl font-serif font-bold text-primary mb-2"
+              >
+                Join the Future of <span className="text-accent">Regenerative Medicine</span>
+              </motion.h2>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="text-foreground/50 text-sm mt-6"
-          >
-            Early bird deadline: July 31, 2026 · Abstract submission deadline: August 15, 2026
-          </motion.p>
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-1 text-xs text-foreground/70"
+              >
+                {benefits.map((benefit) => (
+                  <div key={benefit} className="flex items-center gap-1.5">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-accent" />
+                    <span>{benefit}</span>
+                  </div>
+                ))}
+              </motion.div>
+            </div>
+
+            {/* Right side - CTA buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-end shrink-0"
+            >
+              <Button variant="hero" size="lg">
+                Register Now
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+              <Button variant="gold-outline" size="lg">
+                Download Brochure
+              </Button>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
