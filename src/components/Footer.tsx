@@ -19,7 +19,7 @@ const Footer = () => {
 
 
   return (
-    <footer className="relative bg-primary overflow-hidden">
+    <footer className="relative bg-white/95 backdrop-blur-md border-t border-accent/20 shadow-sm overflow-hidden">
       {/* Jazz band silhouette decoration */}
       <div className="absolute bottom-0 right-0 opacity-10 pointer-events-none">
         <svg
@@ -62,13 +62,13 @@ const Footer = () => {
               <img 
                 src={kenesLogo} 
                 alt="Kenes Group" 
-                className="h-24 w-auto bg-white rounded-lg p-3"
+                className="h-24 w-auto"
               />
             </div>
-            <h4 className="font-serif font-semibold text-primary-foreground mb-2">
+            <h4 className="font-serif font-semibold text-primary mb-2">
               Conference Organizing Secretariat
             </h4>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed text-center md:text-left">
+            <p className="text-muted-foreground text-sm leading-relaxed text-center md:text-left">
               Kenes Group, Office: Kenes M+
             </p>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
-                className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-primary-foreground/70 hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-primary hover:bg-accent hover:text-accent-foreground transition-all duration-300"
               >
                 <social.icon size={18} />
               </a>
@@ -93,7 +93,7 @@ const Footer = () => {
               <img 
                 src={termisLogo} 
                 alt="TERMIS Americas" 
-                className="h-24 w-auto bg-white rounded-lg p-3"
+                className="h-24 w-auto"
               />
             </div>
           </div>
@@ -102,7 +102,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="mt-12 pt-8 border-t border-accent/20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-primary-foreground/50 text-sm">
+            <p className="text-muted-foreground text-sm">
               © 2026 TERMIS Americas. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
@@ -110,7 +110,7 @@ const Footer = () => {
                 href="https://web.kenes.com/klead/PRIVACY/KI.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200"
               >
                 Privacy Policy
               </a>
@@ -118,7 +118,7 @@ const Footer = () => {
                 href="https://kenes-group.com/cookie-policy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200"
               >
                 Cookie Policy
               </a>
@@ -126,19 +126,19 @@ const Footer = () => {
                 href="https://am2025.termis.org/wp-content/uploads/2025/07/TERMIS-AM-Code-of-Conduct-Policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200"
               >
                 Code of Conduct
               </a>
               <Link
                 to="/contact-us"
-                className="text-primary-foreground/50 hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200"
               >
                 Contact
               </Link>
               {/* Powered by Eventmagix */}
               <div className="flex items-center gap-2">
-                <span className="text-primary-foreground/50">Powered by</span>
+                <span className="text-muted-foreground">Powered by</span>
                 <a
                   href="https://eventmagix.com/"
                   target="_blank"
