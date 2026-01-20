@@ -93,7 +93,7 @@ const Footer = () => {
               <img 
                 src={termisLogo} 
                 alt="TERMIS Americas" 
-                className="h-24 w-auto"
+                className="h-20 w-auto"
               />
             </div>
           </div>
