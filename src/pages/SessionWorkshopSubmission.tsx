@@ -111,24 +111,19 @@ const SessionWorkshopSubmission = () => {
               </Card>
             </div>
 
-            {/* Submission Buttons */}
+            {/* Submission Button */}
             <div className="bg-muted/50 rounded-2xl p-8 shadow-lg mb-8">
               <h3 className="text-xl font-bold text-primary mb-6 text-center">
                 Submit Your Proposal
               </h3>
-              <div className="grid md:grid-cols-2 gap-4">
-                <Button size="lg" disabled className="w-full gap-2">
-                  <ExternalLink className="w-4 h-4" />
-                  Session Proposal Submission
-                </Button>
-                <Button size="lg" variant="secondary" disabled className="w-full gap-2">
-                  <ExternalLink className="w-4 h-4" />
-                  Workshop Proposal Submission
+              <div className="flex justify-center">
+                <Button size="lg" asChild className="gap-2">
+                  <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="w-4 h-4" />
+                    Session & Workshop Proposal Submission
+                  </a>
                 </Button>
               </div>
-              <p className="text-sm text-muted-foreground text-center mt-4">
-                Submission forms will be available soon.
-              </p>
             </div>
 
             {/* Contact Information */}
