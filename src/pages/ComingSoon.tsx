@@ -27,10 +27,10 @@ const ComingSoon = ({ title }: ComingSoonProps) => {
             <div className="bg-muted/50 rounded-2xl p-12 shadow-lg">
               <Clock className="w-16 h-16 text-accent mx-auto mb-6" />
               <h2 className="text-2xl font-bold text-primary mb-4">
-                Will be available soon...
+                Coming soon, please check back shortly.
               </h2>
               <p className="text-muted-foreground">
-                We are working hard to bring you this content. Please check back later for updates.
+                We are working hard to bring you this content. Thank you for your patience.
               </p>
             </div>
           </div>
