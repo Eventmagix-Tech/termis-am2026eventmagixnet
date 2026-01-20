@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import keyVisual from "@/assets/termis-key-visual.jpg";
+import keyVisual from "@/assets/termis-hero-banner.jpg";
 
 const HeroSection = () => {
   return (
