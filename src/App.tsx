@@ -20,6 +20,7 @@ import HotelAccommodation from "./pages/HotelAccommodation";
 import SupportOpportunities from "./pages/SupportOpportunities";
 import ConfirmedSponsors from "./pages/ConfirmedSponsors";
 import PromotionalToolkit from "./pages/PromotionalToolkit";
+import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/support-opportunities" element={<SupportOpportunities />} />
           <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
+          <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
