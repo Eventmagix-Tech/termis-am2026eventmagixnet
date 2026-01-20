@@ -142,11 +142,11 @@ const SessionWorkshopSubmission = () => {
                 If you have any questions regarding session or workshop organization, please contact us:
               </p>
               <a 
-                href="mailto:termis-am2026@kenes.com" 
+                href="mailto:mrodic@kenes.com" 
                 className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-medium transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                termis-am2026@kenes.com
+                mrodic@kenes.com
               </a>
               <p className="text-muted-foreground mt-6">
                 We thank you for your interest in proposing a session and we are looking forward to welcoming you to New Orleans in November 2026.
