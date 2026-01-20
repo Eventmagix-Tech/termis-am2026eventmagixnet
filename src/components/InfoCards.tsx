@@ -6,7 +6,7 @@ const cards = [
     title: "Session & Workshop Submission",
     description: "Submit your session and workshop proposals for TERMIS-AM 2026",
     icon: FileText,
-    href: "/coming-soon",
+    href: "/session-workshop-submission",
     color: "from-purple-deep to-purple-light",
   },
   {
