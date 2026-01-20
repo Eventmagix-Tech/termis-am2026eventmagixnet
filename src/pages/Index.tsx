@@ -5,7 +5,6 @@ import WelcomeLetterSection from "@/components/WelcomeLetterSection";
 import KeyDatesSection from "@/components/KeyDatesSection";
 import TimelineSection from "@/components/TimelineSection";
 import VenueSection from "@/components/VenueSection";
-import CTASection from "@/components/CTASection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
 
@@ -18,7 +17,6 @@ const Index = () => {
         <InfoCards />
         <WelcomeLetterSection />
         <KeyDatesSection />
-        <CTASection />
         <TimelineSection />
         <VenueSection />
         <NewsletterSection />
