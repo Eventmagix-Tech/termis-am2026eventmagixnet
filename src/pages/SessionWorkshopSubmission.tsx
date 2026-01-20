@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, Users, Wrench, Mail, Calendar, ExternalLink } from "lucide-react";
+import { FileText, Users, Wrench, Mail, Calendar, ExternalLink, Download } from "lucide-react";
 
 const SessionWorkshopSubmission = () => {
   return (
@@ -39,7 +39,7 @@ const SessionWorkshopSubmission = () => {
                 <Calendar className="w-6 h-6 text-accent flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-primary">Session Submission Deadline</p>
-                  <p className="text-muted-foreground">To be announced</p>
+                  <p className="text-muted-foreground">February 9, 2026</p>
                 </div>
               </div>
             </div>
@@ -61,9 +61,11 @@ const SessionWorkshopSubmission = () => {
                   <p className="text-muted-foreground mb-4">
                     TWIG (Thematic Interest Working Group) sponsored session proposals should follow the TWIG session proposal guidelines. If your session proposal is TWIG-sponsored, please use the TWIG session proposal form.
                   </p>
-                  <Button variant="outline" disabled className="gap-2">
-                    <FileText className="w-4 h-4" />
-                    Proposal Guidelines (Coming Soon)
+                  <Button variant="outline" asChild className="gap-2">
+                    <a href="/documents/TERMIS-AM-2026-TWIG-Session-Proposal-Instructions.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="w-4 h-4" />
+                      TWIG Proposal Guidelines
+                    </a>
                   </Button>
                 </CardContent>
               </Card>
