@@ -3,29 +3,27 @@ import keyVisual from "@/assets/termis-hero-banner.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full pt-14 md:pt-16 overflow-hidden bg-gradient-to-b from-[#2a3d2a] via-[#3d2a4a] to-background">
-      {/* Gradient overlay on sides for smooth blending */}
-      <div className="absolute inset-0 z-10 pointer-events-none">
-        <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-[#2a3d2a] to-transparent" />
-        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-[#3d2a4a] to-transparent" />
-      </div>
-
-      {/* Key Visual - Larger with padding adjustment */}
+    <section className="relative w-full pt-14 md:pt-16 overflow-hidden bg-[#e8e0d0]">
+      {/* Key Visual - Full image visible */}
       <motion.div 
-        initial={{ opacity: 0, scale: 1.02 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.2 }}
-        className="relative w-full px-0"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="relative w-full"
       >
         <img 
           src={keyVisual} 
           alt="TERMIS-AM 2026 - Bench. Chip. Clinic. Where Y'at in regeneration?"
-          className="w-full h-auto object-contain scale-105 md:scale-110"
+          className="w-full h-auto object-contain"
         />
       </motion.div>
 
-      {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-background to-transparent z-10" />
+      {/* Bottom decorative wave */}
+      <div className="absolute bottom-0 left-0 right-0">
+        <svg viewBox="0 0 1440 60" className="w-full h-auto fill-background">
+          <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" />
+        </svg>
+      </div>
     </section>
   );
 };
