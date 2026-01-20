@@ -26,6 +26,7 @@ const navItems = [
   {
     label: "Scientific Program",
     children: [
+      { label: "Session & Workshop Submission", href: "/coming-soon" },
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
       { label: "Detailed Program", href: "/detailed-program" },
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
