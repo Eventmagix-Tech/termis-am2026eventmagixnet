@@ -84,9 +84,11 @@ const SessionWorkshopSubmission = () => {
                   <p className="text-muted-foreground mb-4">
                     If your proposal is not TWIG-sponsored, please use the general session proposal form. General session proposals are open to all individuals and groups aligned with TERMIS society aims.
                   </p>
-                  <Button variant="outline" disabled className="gap-2">
-                    <FileText className="w-4 h-4" />
-                    Proposal Guidelines (Coming Soon)
+                  <Button variant="outline" asChild className="gap-2">
+                    <a href="/documents/TERMIS-AM-2026-General-Session-Proposal-Instructions.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="w-4 h-4" />
+                      General Session Proposal Guidelines
+                    </a>
                   </Button>
                 </CardContent>
               </Card>
