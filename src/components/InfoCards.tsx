@@ -1,33 +1,33 @@
 import { motion } from "framer-motion";
-import { FileText, Ticket, Calendar, Handshake } from "lucide-react";
+import { FileText, Info, Calendar, Handshake } from "lucide-react";
 
 const cards = [
   {
-    title: "Call for Abstracts",
-    description: "Submit your research and join leading scientists in regenerative medicine",
+    title: "Session & Workshop Submission",
+    description: "Submit your session and workshop proposals for TERMIS-AM 2026",
     icon: FileText,
-    href: "#abstracts",
+    href: "/coming-soon",
     color: "from-purple-deep to-purple-light",
   },
   {
-    title: "Registration Info",
-    description: "Early bird rates available - secure your spot today",
-    icon: Ticket,
-    href: "#registration",
+    title: "General Information",
+    description: "Essential details about the conference, venue, and attendance",
+    icon: Info,
+    href: "/general-information",
     color: "from-emerald-deep to-emerald-light",
   },
   {
-    title: "Program Schedule",
-    description: "Four days of cutting-edge science, workshops, and networking",
+    title: "Key Dates",
+    description: "Important deadlines and milestones for TERMIS-AM 2026",
     icon: Calendar,
-    href: "#program",
+    href: "/key-dates",
     color: "from-purple-deep to-emerald-deep",
   },
   {
     title: "Sponsorship",
     description: "Partner with TERMIS-AM and showcase your innovations",
     icon: Handshake,
-    href: "#sponsors",
+    href: "/support-opportunities",
     color: "from-gold-dark to-gold",
   },
 ];
