@@ -28,7 +28,7 @@ const navItems = [
     children: [
       { label: "Session & Workshop Submission", href: "/session-workshop-submission" },
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
-      { label: "Detailed Program", href: "/detailed-program" },
+      // { label: "Detailed Program", href: "/detailed-program" }, // Hidden temporarily
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
       { label: "Plenary & Keynote Speakers", href: "/plenary-keynote-speakers" },
     ],
