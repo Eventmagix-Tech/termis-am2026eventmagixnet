@@ -12,10 +12,10 @@ import {
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Welcome Letter", href: "/welcome-letter" },
   {
     label: "Attendee Planning",
     children: [
+      { label: "Welcome Letter", href: "/welcome-letter" },
       { label: "General Information", href: "/general-information" },
       { label: "Visa Information", href: "/visa-information" },
       { label: "Explore New Orleans", href: "/explore-new-orleans" },
