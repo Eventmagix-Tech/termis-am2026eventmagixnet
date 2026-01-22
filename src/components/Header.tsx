@@ -47,6 +47,10 @@ const navItems = [
       // { label: "Confirmed Sponsors", href: "/confirmed-sponsors" }, // Hidden temporarily
     ],
   },
+  {
+    label: "Students & Young Investigators",
+    href: "/students-young-investigators",
+  },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
   { label: "Contact Us", href: "/contact-us" },
 ];
