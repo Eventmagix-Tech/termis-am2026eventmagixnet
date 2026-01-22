@@ -138,18 +138,44 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
 
-          {/* Hashtag */}
-          <div className="flex items-center gap-3">
-            <span className="hidden sm:block text-accent font-semibold text-sm">#TERMISAM2026</span>
-            
-            {/* Mobile Menu Toggle */}
-            <button
-              className="lg:hidden p-2 text-primary hover:text-accent transition-colors"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+          {/* Hashtag & Social Icons */}
+          <div className="hidden sm:flex flex-col items-center gap-1">
+            <span className="text-accent font-semibold text-sm">#TERMISAM2026</span>
+            <div className="flex items-center gap-2">
+              <a 
+                href="https://x.com/TERMISAM"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent transition-colors"
+                aria-label="X (Twitter)"
+              >
+                <svg 
+                  viewBox="0 0 24 24" 
+                  className="h-4 w-4 fill-current"
+                  aria-hidden="true"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+              <a 
+                href="https://www.linkedin.com/groups/17455001/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-accent transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-4 w-4" />
+              </a>
+            </div>
           </div>
+          
+          {/* Mobile Menu Toggle */}
+          <button
+            className="lg:hidden p-2 text-primary hover:text-accent transition-colors"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
 
         {/* Mobile Navigation */}
