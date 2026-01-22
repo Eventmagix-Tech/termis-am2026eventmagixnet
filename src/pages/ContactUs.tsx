@@ -21,8 +21,8 @@ const contacts = [
   },
   {
     department: "Sponsorship & Exhibition",
-    name: "Mr. Daghan Sivaci",
-    email: "dsivaci@kenes.com",
+    name: "Mr. Jason Alexander",
+    email: "jalexander@kenes.com",
   },
   {
     department: "Scientific Information",
