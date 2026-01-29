@@ -27,37 +27,11 @@ const HeroSection = () => {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="relative w-full px-4 md:px-8 lg:px-12 py-6 md:py-10"
       >
-        <div className="relative">
-          <img 
-            src={keyVisual} 
-            alt="TERMIS-AM 2026 - Bench. Chip. Clinic. Where Y'at in regeneration?"
-            className="w-full h-auto object-contain rounded-lg shadow-2xl"
-          />
-          
-          {/* Water ripple overlay - targeting the blue channel */}
-          <div 
-            className="absolute inset-0 rounded-lg overflow-hidden pointer-events-none"
-            style={{
-              maskImage: 'linear-gradient(to bottom, transparent 0%, transparent 35%, black 45%, black 65%, transparent 75%, transparent 100%)',
-              WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, transparent 35%, black 45%, black 65%, transparent 75%, transparent 100%)',
-            }}
-          >
-            <div 
-              className="absolute inset-0 water-ripple-effect"
-              style={{
-                background: 'linear-gradient(90deg, transparent 0%, rgba(100, 180, 220, 0.08) 25%, rgba(120, 200, 240, 0.12) 50%, rgba(100, 180, 220, 0.08) 75%, transparent 100%)',
-                backgroundSize: '200% 100%',
-              }}
-            />
-            <div 
-              className="absolute inset-0 water-shimmer-effect"
-              style={{
-                background: 'repeating-linear-gradient(90deg, transparent 0px, rgba(255, 255, 255, 0.03) 2px, transparent 4px, rgba(200, 230, 255, 0.05) 8px, transparent 12px)',
-                backgroundSize: '100px 100%',
-              }}
-            />
-          </div>
-        </div>
+        <img 
+          src={keyVisual} 
+          alt="TERMIS-AM 2026 - Bench. Chip. Clinic. Where Y'at in regeneration?"
+          className="w-full h-auto object-contain rounded-lg shadow-2xl"
+        />
       </motion.div>
 
       {/* Bottom decorative wave */}
