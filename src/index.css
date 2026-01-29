@@ -165,6 +165,33 @@
   100% { background-position: 200% 0; }
 }
 
+@keyframes water-ripple {
+  0% { background-position: 0% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes water-shimmer {
+  0% { 
+    background-position: 0px 0; 
+    opacity: 0.4;
+  }
+  50% { 
+    opacity: 0.7;
+  }
+  100% { 
+    background-position: 100px 0; 
+    opacity: 0.4;
+  }
+}
+
+.water-ripple-effect {
+  animation: water-ripple 8s linear infinite;
+}
+
+.water-shimmer-effect {
+  animation: water-shimmer 4s ease-in-out infinite;
+}
+
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
