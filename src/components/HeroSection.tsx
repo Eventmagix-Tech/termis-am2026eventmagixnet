@@ -83,9 +83,97 @@ const HeroSection = () => {
             transition={{ duration: 1.5, delay: 0.5 }}
           />
 
+          {/* River floating/flowing effect overlay */}
+          <div className="absolute inset-0 z-20 rounded-lg overflow-hidden pointer-events-none">
+            {/* Main river flow - diagonal shimmer */}
+            <motion.div
+              className="absolute"
+              style={{
+                top: '35%',
+                left: '-20%',
+                width: '140%',
+                height: '30%',
+                background: 'linear-gradient(105deg, transparent 0%, transparent 40%, rgba(100, 200, 255, 0.08) 45%, rgba(150, 220, 255, 0.12) 50%, rgba(100, 200, 255, 0.08) 55%, transparent 60%, transparent 100%)',
+                transform: 'rotate(-5deg)',
+              }}
+              animate={{
+                x: ['-30%', '30%'],
+              }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+            />
+            
+            {/* Secondary river shimmer - slower */}
+            <motion.div
+              className="absolute"
+              style={{
+                top: '38%',
+                left: '-20%',
+                width: '140%',
+                height: '25%',
+                background: 'linear-gradient(105deg, transparent 0%, transparent 35%, rgba(80, 180, 220, 0.06) 42%, rgba(120, 200, 240, 0.1) 50%, rgba(80, 180, 220, 0.06) 58%, transparent 65%, transparent 100%)',
+                transform: 'rotate(-5deg)',
+              }}
+              animate={{
+                x: ['20%', '-40%'],
+              }}
+              transition={{
+                duration: 6,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+            />
+
+            {/* Subtle floating particles effect */}
+            <motion.div
+              className="absolute"
+              style={{
+                top: '30%',
+                left: '0%',
+                width: '100%',
+                height: '35%',
+                background: 'radial-gradient(ellipse 100px 30px at 20% 50%, rgba(150, 220, 255, 0.15) 0%, transparent 70%)',
+              }}
+              animate={{
+                x: ['-10%', '110%'],
+                opacity: [0, 0.8, 0.8, 0],
+              }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+            />
+
+            {/* Second floating particle */}
+            <motion.div
+              className="absolute"
+              style={{
+                top: '40%',
+                left: '0%',
+                width: '100%',
+                height: '25%',
+                background: 'radial-gradient(ellipse 60px 20px at 30% 50%, rgba(100, 200, 255, 0.12) 0%, transparent 70%)',
+              }}
+              animate={{
+                x: ['-15%', '115%'],
+                opacity: [0, 0.6, 0.6, 0],
+              }}
+              transition={{
+                duration: 6,
+                repeat: Infinity,
+                ease: "linear",
+                delay: 2,
+              }}
+            />
+          </div>
+
           {/* Subtle border glow animation */}
           <motion.div
-            className="absolute inset-0 rounded-lg pointer-events-none z-20"
+            className="absolute inset-0 rounded-lg pointer-events-none z-30"
             initial={{ boxShadow: "inset 0 0 0 0 rgba(212, 175, 55, 0)" }}
             animate={{ 
               boxShadow: [
