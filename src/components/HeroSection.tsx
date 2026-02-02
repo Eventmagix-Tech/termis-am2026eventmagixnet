@@ -106,9 +106,9 @@ const HeroSection = () => {
           className="w-full h-auto block"
           preserveAspectRatio="none"
         >
-          {/* Background wave layer - subtle accent color */}
+          {/* Background wave layer - gold */}
           <motion.path
-            className="fill-accent/10"
+            className="fill-accent/20"
             initial={{ d: "M0,120 L0,120 L1440,120 L1440,120 Z" }}
             animate={{ 
               d: [
@@ -125,9 +125,9 @@ const HeroSection = () => {
             }}
           />
           
-          {/* Middle wave layer - secondary color */}
+          {/* Middle wave layer - gold */}
           <motion.path
-            className="fill-secondary/20"
+            className="fill-accent/40"
             initial={{ d: "M0,120 L0,120 L1440,120 L1440,120 Z" }}
             animate={{ 
               d: [
