@@ -47,7 +47,7 @@ const InfoCards = () => {
             ⚜ Get Involved ⚜
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2">
-            Conference Highlights
+            Highlights
           </h2>
         </motion.div>
 
