@@ -83,6 +83,101 @@ const HeroSection = () => {
             transition={{ duration: 1.5, delay: 0.5 }}
           />
 
+          {/* Glowing gold line tracing Bench → Chip → Clinic */}
+          <svg 
+            className="absolute inset-0 w-full h-full z-20 pointer-events-none"
+            viewBox="0 0 1000 400"
+            preserveAspectRatio="xMidYMid slice"
+          >
+            <defs>
+              {/* Glow filter for the line */}
+              <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="3" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+              
+              {/* Gradient for the animated line */}
+              <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="hsl(var(--accent))" stopOpacity="0" />
+                <stop offset="40%" stopColor="hsl(var(--accent))" stopOpacity="1" />
+                <stop offset="60%" stopColor="hsl(var(--accent))" stopOpacity="1" />
+                <stop offset="100%" stopColor="hsl(var(--accent))" stopOpacity="0" />
+              </linearGradient>
+            </defs>
+            
+            {/* Static faint path outline */}
+            <motion.path
+              d="M 50,280 
+                 C 100,260 150,240 200,220 
+                 Q 280,180 360,200 
+                 C 420,215 480,190 540,200 
+                 Q 620,215 700,195 
+                 C 780,175 860,210 950,180"
+              fill="none"
+              stroke="hsl(var(--accent))"
+              strokeWidth="1"
+              strokeOpacity="0.15"
+              strokeLinecap="round"
+            />
+            
+            {/* Animated glowing line */}
+            <motion.path
+              d="M 50,280 
+                 C 100,260 150,240 200,220 
+                 Q 280,180 360,200 
+                 C 420,215 480,190 540,200 
+                 Q 620,215 700,195 
+                 C 780,175 860,210 950,180"
+              fill="none"
+              stroke="url(#lineGradient)"
+              strokeWidth="2"
+              strokeLinecap="round"
+              filter="url(#goldGlow)"
+              initial={{ pathLength: 0, pathOffset: 0 }}
+              animate={{ 
+                pathLength: [0, 0.3, 0.3, 0],
+                pathOffset: [0, 0, 0.7, 1]
+              }}
+              transition={{ 
+                duration: 8,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatDelay: 2
+              }}
+            />
+
+            {/* Secondary trailing glow */}
+            <motion.path
+              d="M 50,280 
+                 C 100,260 150,240 200,220 
+                 Q 280,180 360,200 
+                 C 420,215 480,190 540,200 
+                 Q 620,215 700,195 
+                 C 780,175 860,210 950,180"
+              fill="none"
+              stroke="hsl(var(--accent))"
+              strokeWidth="4"
+              strokeOpacity="0.3"
+              strokeLinecap="round"
+              filter="url(#goldGlow)"
+              initial={{ pathLength: 0, pathOffset: 0 }}
+              animate={{ 
+                pathLength: [0, 0.15, 0.15, 0],
+                pathOffset: [0, 0.05, 0.75, 1]
+              }}
+              transition={{ 
+                duration: 8,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatDelay: 2
+              }}
+            />
+          </svg>
+
           {/* Subtle border glow animation */}
           <motion.div
             className="absolute inset-0 rounded-lg pointer-events-none z-20"
