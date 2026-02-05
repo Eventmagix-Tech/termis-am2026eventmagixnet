@@ -11,7 +11,7 @@ const contacts = [
   },
   {
     department: "General Information",
-    name: "Mr. Veysel Guzel",
+    name: "Mr. Veysel Güzel",
     email: "vguzel@kenes.com",
   },
   {
