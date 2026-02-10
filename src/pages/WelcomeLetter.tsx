@@ -17,6 +17,8 @@ const coChairs = [
   {
     name: "Nicole Li-Jessen, PhD",
     title: "Conference Co-Chair",
+    subtitle: "Associate Professor, Departments of Biomedical Engineering, Otolaryngology, Communication Sciences and Disorders",
+    institution: "Canada Research Chair in Personalized Medicine of Upper Airway Health and Diseases\nMcGill University, Canada",
     photo: cochairLiJessen,
     photoPosition: "object-[30%_20%]",
   },
@@ -143,6 +145,16 @@ const WelcomeLetter = () => {
                         <p className="text-xs text-foreground/70">
                           {chair.title}
                         </p>
+                        {chair.subtitle && (
+                          <p className="text-xs text-foreground/60 mt-1 leading-snug">
+                            {chair.subtitle}
+                          </p>
+                        )}
+                        {chair.institution && (
+                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                            {chair.institution}
+                          </p>
+                        )}
                       </div>
                     </motion.div>
                   ))}
