@@ -77,8 +77,8 @@ const VenueSection = () => {
               ))}
             </div>
 
-            <Button variant="gold" size="lg">
-              View Venue Details
+            <Button variant="gold" size="lg" asChild>
+              <a href="/explore-new-orleans">Explore New Orleans</a>
             </Button>
           </motion.div>
 
