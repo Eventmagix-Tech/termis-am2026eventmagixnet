@@ -21,7 +21,7 @@ const coChairs = [
     photoPosition: "object-[30%_20%]",
   },
   {
-    name: "Walter Lee III Murfee",
+    name: "Walter Lee Murfee III, PhD",
     title: "Conference Co-Chair",
     photo: cochairMurfee,
     photoPosition: "object-top",
@@ -95,7 +95,7 @@ const WelcomeLetter = () => {
                 </p>
 
                 <div className="mt-4 space-y-1">
-                  <p className="font-semibold text-foreground">Riccardo Gottardi, Nicole Li-Jessen & Walter Lee III Murfee</p>
+                  <p className="font-semibold text-foreground">Riccardo Gottardi, Nicole Li-Jessen & Walter Lee Murfee III, PhD</p>
                   <p className="text-sm text-muted-foreground">TERMIS-AM 2026 Conference Co-Chairs</p>
                 </div>
               </div>
