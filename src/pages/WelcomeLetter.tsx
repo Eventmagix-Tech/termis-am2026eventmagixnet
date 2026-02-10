@@ -142,7 +142,7 @@ const WelcomeLetter = () => {
                           className={`w-full h-full object-cover ${chair.photoPosition}`}
                         />
                       </div>
-                      <div>
+                      <div className="flex-1 min-w-0">
                         <h4 className="text-base font-serif font-semibold text-primary">
                           {chair.name}
                         </h4>
@@ -152,7 +152,7 @@ const WelcomeLetter = () => {
                           </p>
                         )}
                         {chair.institution && (
-                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug">
                             {chair.institution}
                           </p>
                         )}

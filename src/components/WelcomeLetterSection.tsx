@@ -127,7 +127,7 @@ const WelcomeLetterSection = () => {
                   </div>
                   
                   {/* Info */}
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <h4 className="text-lg font-serif font-semibold text-primary">
                       {chair.name}
                     </h4>
@@ -137,7 +137,7 @@ const WelcomeLetterSection = () => {
                       </p>
                     )}
                     {chair.institution && (
-                      <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                      <p className="text-xs text-foreground/60 mt-0.5 leading-snug">
                         {chair.institution}
                       </p>
                     )}
