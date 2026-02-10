@@ -25,6 +25,8 @@ const coChairs = [
   {
     name: "Walter Lee Murfee III, PhD",
     title: "Conference Co-Chair",
+    subtitle: "Professor & Senior Associate Chair for Undergraduate Studies\nJ. Crayton Pruitt Family Department of Biomedical Engineering",
+    institution: "University of Florida",
     photo: cochairMurfee,
     photoPosition: "object-top",
   },
