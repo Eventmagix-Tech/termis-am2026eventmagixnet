@@ -11,6 +11,8 @@ const coChairs = [
   {
     name: "Riccardo Gottardi, PhD",
     title: "Conference Co-Chair",
+    subtitle: "Assistant Professor, Department of Pediatrics, Division of Pulmonary Medicine\nDepartment of Bioengineering",
+    institution: "University of Pennsylvania\nChildren's Hospital of Philadelphia",
     photo: cochairGottardi,
     photoPosition: "object-center",
   },
