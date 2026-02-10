@@ -50,12 +50,12 @@ const KeyDatesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
-              className="relative bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 hover:-translate-y-2 overflow-hidden group"
+              className="relative bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 hover:-translate-y-2 overflow-hidden group h-full flex flex-col"
             >
               {/* Top accent bar */}
               <div className="h-1.5 bg-gradient-to-r from-accent to-gold" />
               
-              <div className="p-6 text-center">
+              <div className="p-6 text-center flex flex-col flex-1">
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors duration-300">
                   <item.icon className="w-7 h-7 text-accent" />
                 </div>
@@ -64,11 +64,11 @@ const KeyDatesSection = () => {
                   {item.title}
                 </h3>
                 
-                <p className="text-muted-foreground text-sm mb-3">
+                <p className="text-muted-foreground text-sm mb-3 flex-1">
                   {item.description}
                 </p>
                 
-                <div className="text-xl font-bold text-secondary">
+                <div className="text-xl font-bold text-secondary mt-auto">
                   {item.date}
                 </div>
 
