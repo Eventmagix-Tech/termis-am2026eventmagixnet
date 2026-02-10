@@ -146,9 +146,6 @@ const WelcomeLetter = () => {
                         <h4 className="text-base font-serif font-semibold text-primary">
                           {chair.name}
                         </h4>
-                        <p className="text-xs text-foreground/70">
-                          {chair.title}
-                        </p>
                         {chair.subtitle && (
                           <p className="text-xs text-foreground/60 mt-1 leading-snug">
                             {chair.subtitle}

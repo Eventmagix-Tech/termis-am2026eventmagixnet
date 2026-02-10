@@ -131,9 +131,6 @@ const WelcomeLetterSection = () => {
                     <h4 className="text-lg font-serif font-semibold text-primary">
                       {chair.name}
                     </h4>
-                    <p className="text-sm text-foreground/70">
-                      {chair.title}
-                    </p>
                     {chair.subtitle && (
                       <p className="text-xs text-foreground/60 mt-1 leading-snug">
                         {chair.subtitle}
