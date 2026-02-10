@@ -17,7 +17,7 @@ const coChairs = [
     photoPosition: "object-[30%_20%]",
   },
   {
-    name: "Walter Lee III Murfee",
+    name: "Walter Lee Murfee III, PhD",
     title: "Conference Co-Chair",
     photo: cochairMurfee,
     photoPosition: "object-top",
