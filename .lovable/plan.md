@@ -1,15 +1,13 @@
 
 
-## Update Co-Chair Name
+## Change Key Dates Section Date Color to Green
 
-Update "Walter Lee III Murfee" to "Walter Lee Murfee III, PhD" in all 3 occurrences across 2 files:
+Update the date text color in the Key Dates homepage section to use the emerald green from the hero banner instead of the current primary (purple) color.
 
-### Files to Edit
+### Technical Details
 
-**1. `src/components/WelcomeLetterSection.tsx`** (line 20)
-- Change `"Walter Lee III Murfee"` to `"Walter Lee Murfee III, PhD"`
+**File: `src/components/KeyDatesSection.tsx`**
+- Change the date `<div>` class from `text-primary` to `text-secondary` (which maps to the emerald green #004d2b used in the hero banner gradient)
 
-**2. `src/pages/WelcomeLetter.tsx`** (2 occurrences)
-- Line 24: Change `"Walter Lee III Murfee"` to `"Walter Lee Murfee III, PhD"` in the co-chairs array
-- Line 98: Change `"Walter Lee III Murfee"` to `"Walter Lee Murfee III, PhD"` in the signature line
+This is a single-line CSS class change.
 
