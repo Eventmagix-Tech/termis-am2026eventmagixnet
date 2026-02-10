@@ -68,7 +68,7 @@ const KeyDatesSection = () => {
                   {item.description}
                 </p>
                 
-                <div className="text-xl font-bold text-primary">
+                <div className="text-xl font-bold text-secondary">
                   {item.date}
                 </div>
 
