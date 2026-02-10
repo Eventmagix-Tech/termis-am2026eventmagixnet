@@ -5,13 +5,13 @@ import cochairLiJessen from "@/assets/cochair-3.jpg";
 
 const coChairs = [
   {
-    name: "Riccardo Gottardi",
+    name: "Riccardo Gottardi, PhD",
     title: "Conference Co-Chair",
     photo: cochairGottardi,
     photoPosition: "object-center",
   },
   {
-    name: "Nicole Li-Jessen",
+    name: "Nicole Li-Jessen, PhD",
     title: "Conference Co-Chair",
     photo: cochairLiJessen,
     photoPosition: "object-[30%_20%]",

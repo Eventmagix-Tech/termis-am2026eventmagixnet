@@ -9,13 +9,13 @@ import cochairLiJessen from "@/assets/cochair-3.jpg";
 
 const coChairs = [
   {
-    name: "Riccardo Gottardi",
+    name: "Riccardo Gottardi, PhD",
     title: "Conference Co-Chair",
     photo: cochairGottardi,
     photoPosition: "object-center",
   },
   {
-    name: "Nicole Li-Jessen",
+    name: "Nicole Li-Jessen, PhD",
     title: "Conference Co-Chair",
     photo: cochairLiJessen,
     photoPosition: "object-[30%_20%]",
@@ -95,7 +95,7 @@ const WelcomeLetter = () => {
                 </p>
 
                 <div className="mt-4 space-y-1">
-                  <p className="font-semibold text-foreground">Riccardo Gottardi, Nicole Li-Jessen & Walter Lee Murfee III, PhD</p>
+                  <p className="font-semibold text-foreground">Riccardo Gottardi, PhD, Nicole Li-Jessen, PhD & Walter Lee Murfee III, PhD</p>
                   <p className="text-sm text-muted-foreground">TERMIS-AM 2026 Conference Co-Chairs</p>
                 </div>
               </div>
