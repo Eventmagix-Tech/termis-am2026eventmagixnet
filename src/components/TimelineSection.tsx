@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import bgImage from "@/assets/new-orleans-venue.jpg";
 
 const milestones = [
   {
@@ -36,19 +35,8 @@ const milestones = [
 
 const TimelineSection = () => {
   return (
-    <section
-      className="relative min-h-[70vh] flex items-center py-20 px-4 overflow-hidden"
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
-      }}
-    >
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/75 to-primary/90" />
-
-      <div className="relative z-10 container mx-auto">
+    <section className="py-20 px-4 bg-hero-gradient overflow-hidden">
+      <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -92,6 +80,7 @@ const TimelineSection = () => {
                       : "lg:self-end lg:pt-20"
                   }`}
                 >
+                  {/* Content - appears above node for top items, below for bottom items */}
                   {isTop && (
                     <div className="hidden lg:block lg:mb-6 lg:text-center lg:order-first">
                       <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
@@ -103,15 +92,18 @@ const TimelineSection = () => {
                     </div>
                   )}
 
+                  {/* Node */}
                   <div className="relative z-10 flex-shrink-0">
                     <div className="w-16 h-16 rounded-full bg-white/10 border-4 border-accent shadow-gold flex items-center justify-center">
                       <span className="text-2xl">{milestone.icon}</span>
                     </div>
+                    {/* Year badge */}
                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-2 py-0.5 rounded-full">
                       {milestone.year}
                     </div>
                   </div>
 
+                  {/* Content - Mobile (always after node) and Desktop bottom items */}
                   <div className={`ml-6 lg:ml-0 lg:mt-6 lg:text-center ${isTop ? "lg:hidden" : ""}`}>
                     <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
                       {milestone.title}
@@ -136,18 +128,23 @@ const TimelineSection = () => {
         >
           <div className="relative w-full max-w-3xl h-16 overflow-hidden">
             <svg viewBox="0 0 400 60" className="w-full h-full" preserveAspectRatio="none">
+              {/* Bridge cables */}
               <path
                 d="M0,50 Q100,10 200,50 Q300,10 400,50"
-                stroke="url(#goldGradientTimeline)"
+                stroke="url(#goldGradient)"
                 strokeWidth="3"
                 fill="none"
+                className="animate-shimmer"
               />
-              <rect x="0" y="48" width="400" height="4" fill="url(#goldGradientTimeline)" rx="2" />
+              {/* Bridge deck */}
+              <rect x="0" y="48" width="400" height="4" fill="url(#goldGradient)" rx="2" />
+              {/* Pillars */}
               <rect x="95" y="30" width="10" height="22" fill="hsl(43, 64%, 52%)" rx="2" />
               <rect x="195" y="30" width="10" height="22" fill="hsl(43, 64%, 52%)" rx="2" />
               <rect x="295" y="30" width="10" height="22" fill="hsl(43, 64%, 52%)" rx="2" />
+              {/* Gradient definition */}
               <defs>
-                <linearGradient id="goldGradientTimeline" x1="0%" y1="0%" x2="100%" y2="0%">
+                <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                   <stop offset="0%" stopColor="hsl(43, 64%, 52%)" stopOpacity="0.5" />
                   <stop offset="50%" stopColor="hsl(43, 80%, 65%)" stopOpacity="1" />
                   <stop offset="100%" stopColor="hsl(43, 64%, 52%)" stopOpacity="0.5" />
@@ -156,24 +153,6 @@ const TimelineSection = () => {
             </svg>
           </div>
         </motion.div>
-      </div>
-
-      {/* Animated bottom wave divider */}
-      <div className="absolute -bottom-1 left-0 right-0 z-10">
-        <svg viewBox="0 0 1440 120" className="w-full h-auto block" preserveAspectRatio="none">
-          <motion.path
-            className="fill-background"
-            initial={{ d: "M0,120 L0,120 L1440,120 L1440,120 Z" }}
-            animate={{
-              d: [
-                "M0,100 C320,80 640,110 960,95 C1280,80 1400,100 1440,90 L1440,120 L0,120 Z",
-                "M0,95 C320,110 640,85 960,100 C1280,115 1400,90 1440,100 L1440,120 L0,120 Z",
-                "M0,100 C320,80 640,110 960,95 C1280,80 1400,100 1440,90 L1440,120 L0,120 Z",
-              ],
-            }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </svg>
       </div>
     </section>
   );
