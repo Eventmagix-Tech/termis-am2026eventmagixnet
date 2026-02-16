@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { Download, Image } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import posterVertical from "@/assets/poster-vertical-thumb.jpg";
@@ -27,17 +28,10 @@ const PromotionalToolkit = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      {/* Hero Banner */}
-      <section className="pt-20 md:pt-24 bg-gradient-to-r from-primary to-secondary">
-        <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-            Promotional Toolkit
-          </h1>
-          <p className="text-primary-foreground/80 text-center mt-3 max-w-2xl mx-auto">
-            Download official TERMIS-AM 2026 materials to help promote the conference.
-          </p>
-        </div>
-      </section>
+      <PageHeader
+        title="Promotional Toolkit"
+        subtitle="Download official TERMIS-AM 2026 materials to help promote the conference."
+      />
 
       {/* Toolkit Content */}
       <section className="py-16 md:py-24">

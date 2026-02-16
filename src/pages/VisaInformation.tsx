@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { AlertTriangle, FileText, Plane, ExternalLink, Mail } from "lucide-react";
 
@@ -39,21 +40,12 @@ const VisaInformation = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 pt-20 md:pt-24">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-16 md:py-20">
-          <div className="container mx-auto px-4 text-center">
-            <span className="text-gold font-medium text-sm tracking-wider uppercase">
-              ⚜ Travel Requirements ⚜
-            </span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-2 mb-4">
-              Visa Information
-            </h1>
-            <p className="text-white/80 text-lg max-w-3xl mx-auto">
-              Be sure to read through our visa guidance to ensure that your visit to New Orleans is easy, organized, and stress-free.
-            </p>
-          </div>
-        </section>
+      <main className="flex-1">
+        <PageHeader
+          title="Visa Information"
+          subtitle="Be sure to read through our visa guidance to ensure that your visit to New Orleans is easy, organized, and stress-free."
+          tag="⚜ Travel Requirements ⚜"
+        />
 
         {/* Important Notice */}
         <section className="py-8 bg-gold/10 border-b border-gold/30">

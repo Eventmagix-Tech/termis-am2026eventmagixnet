@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { Mail } from "lucide-react";
 
 const SupportOpportunities = () => {
@@ -7,18 +8,11 @@ const SupportOpportunities = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 pt-20 md:pt-24">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-16 md:py-20">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              Support Opportunities
-            </h1>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto">
-              Partner with TERMIS-AM 2026 and showcase your organization
-            </p>
-          </div>
-        </section>
+      <main className="flex-1">
+        <PageHeader
+          title="Support Opportunities"
+          subtitle="Partner with TERMIS-AM 2026 and showcase your organization"
+        />
 
         {/* Contact Content */}
         <section className="py-16 md:py-20 bg-white">
