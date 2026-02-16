@@ -10,11 +10,11 @@ const PageHeader = ({ title, subtitle, tag }: PageHeaderProps) => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Top Section - Banner Image */}
-      <div className="w-full h-[200px] md:h-[250px] overflow-hidden">
+      <div className="w-full leading-[0]">
         <img
           src={innerPageBanner}
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-auto block"
           aria-hidden="true"
         />
       </div>
