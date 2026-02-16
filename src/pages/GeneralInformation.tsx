@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { Globe, Shirt, Mail, Shield, ShieldAlert, Calendar, MapPin, Building, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 import hiltonImg from "@/assets/hilton-new-orleans.jpg";
@@ -9,18 +10,11 @@ const GeneralInformation = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-12 md:py-16">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              General Information
-            </h1>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto">
-              Essential information for TERMIS-AM 2026 attendees
-            </p>
-          </div>
-        </section>
+      <main className="flex-1">
+        <PageHeader
+          title="General Information"
+          subtitle="Essential information for TERMIS-AM 2026 attendees"
+        />
 
         {/* Quick Info Cards */}
         <section className="py-12 md:py-16 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5">

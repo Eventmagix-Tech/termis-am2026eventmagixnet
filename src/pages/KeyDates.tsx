@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { Calendar, FileText, UserPlus, Clock, CalendarDays } from "lucide-react";
 
@@ -47,21 +48,12 @@ const KeyDates = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1 pt-20 md:pt-24">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-16 md:py-20">
-          <div className="container mx-auto px-4 text-center">
-            <span className="text-gold font-medium text-sm tracking-wider uppercase">
-              ⚜ Mark Your Calendar ⚜
-            </span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-2 mb-4">
-              Key Dates
-            </h1>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto">
-              Important deadlines and milestones for TERMIS-AM 2026
-            </p>
-          </div>
-        </section>
+      <main className="flex-1">
+        <PageHeader
+          title="Key Dates"
+          subtitle="Important deadlines and milestones for TERMIS-AM 2026"
+          tag="⚜ Mark Your Calendar ⚜"
+        />
 
         {/* Dates Timeline */}
         <section className="py-16 md:py-20 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5">

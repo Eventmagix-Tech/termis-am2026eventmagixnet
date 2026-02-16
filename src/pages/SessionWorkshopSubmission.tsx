@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileText, Users, Wrench, Mail, Calendar, ExternalLink, Download } from "lucide-react";
@@ -9,17 +10,10 @@ const SessionWorkshopSubmission = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Banner */}
-      <section className="pt-20 md:pt-24 bg-gradient-to-r from-primary to-secondary">
-        <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-            Call for Sessions & Workshops
-          </h1>
-          <p className="text-white/80 text-center mt-4 max-w-2xl mx-auto">
-            TERMIS-AM 2026 Annual Conference & Exhibition
-          </p>
-        </div>
-      </section>
+      <PageHeader
+        title="Call for Sessions & Workshops"
+        subtitle="TERMIS-AM 2026 Annual Conference & Exhibition"
+      />
 
       {/* Content */}
       <section className="py-16 md:py-24">

@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
 import { Calendar, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -8,14 +9,7 @@ const RegistrationInformation = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Banner */}
-      <section className="pt-20 md:pt-24 bg-gradient-to-r from-primary to-secondary">
-        <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-            Registration Information
-          </h1>
-        </div>
-      </section>
+      <PageHeader title="Registration Information" />
 
       {/* Content */}
       <section className="py-16 md:py-24">
