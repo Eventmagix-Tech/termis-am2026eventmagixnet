@@ -7,7 +7,7 @@ const keyDates = [
     icon: FileText,
     title: "Submission Deadline",
     description: "General Sessions, TWIG Sessions, Workshops",
-    date: "February 9, 2026",
+    date: "February 23, 2026",
   },
   {
     icon: Calendar,

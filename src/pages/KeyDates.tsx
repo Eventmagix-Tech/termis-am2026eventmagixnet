@@ -13,7 +13,7 @@ const keyDates = [
   {
     icon: Clock,
     title: "General Sessions, TWIG Sessions & Workshops Submission Deadline",
-    date: "February 9, 2026",
+    date: "February 23, 2026",
   },
   {
     icon: FileText,

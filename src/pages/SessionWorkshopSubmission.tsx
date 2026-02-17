@@ -33,7 +33,7 @@ const SessionWorkshopSubmission = () => {
                 <Calendar className="w-6 h-6 text-accent flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-primary">Session Submission Deadline</p>
-                  <p className="text-muted-foreground">February 9, 2026</p>
+                  <p className="text-muted-foreground">February 23, 2026</p>
                 </div>
               </div>
             </div>
