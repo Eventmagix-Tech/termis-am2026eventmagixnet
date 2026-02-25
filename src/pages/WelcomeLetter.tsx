@@ -144,9 +144,9 @@ const WelcomeLetter = () => {
                           </p>
                         )}
                         {chair.institution && (
-                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug">
-                            {chair.institution}
-                          </p>
+                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                             {chair.institution}
+                           </p>
                         )}
                       </div>
                     </motion.div>

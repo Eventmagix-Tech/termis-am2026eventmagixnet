@@ -137,7 +137,7 @@ const WelcomeLetterSection = () => {
                       </p>
                     )}
                     {chair.institution && (
-                      <p className="text-xs text-foreground/60 mt-0.5 leading-snug">
+                      <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
                         {chair.institution}
                       </p>
                     )}
