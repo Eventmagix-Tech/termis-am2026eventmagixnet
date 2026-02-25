@@ -25,12 +25,12 @@ const attractions = [
     id: 3,
     title: "National WWII Museum",
     description: "Ranked among the top museums in the U.S., the National WWII Museum offers immersive exhibits and stories from World War II — a must-visit for history lovers. (Plan ahead for timed entry.)",
-    image: wwiiMuseumImg,
   },
   {
     id: 4,
     title: "Mississippi Riverboat Cruise",
     description: "Enjoy scenic views of the city from the mighty Mississippi River aboard a historic steamboat. Choose a jazz cruise or sunset dinner cruise for a memorable experience.",
+    image: wwiiMuseumImg,
   },
   {
     id: 5,
