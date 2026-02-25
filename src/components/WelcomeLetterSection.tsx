@@ -23,7 +23,7 @@ const coChairs = [
   {
     name: "Walter Lee Murfee III, PhD",
     title: "Conference Co-Chair",
-    subtitle: "Professor & Senior Associate Chair for Undergraduate Studies\nJ. Crayton Pruitt Family Department of Biomedical Engineering",
+    subtitle: "Professor & Senior Associate Chair\nJ. Crayton Pruitt Family Department of Biomedical Engineering",
     institution: "University of Florida",
     photo: cochairMurfee,
     photoPosition: "object-top",
@@ -132,7 +132,7 @@ const WelcomeLetterSection = () => {
                       {chair.name}
                     </h4>
                     {chair.subtitle && (
-                      <p className="text-xs text-foreground/60 mt-1 leading-snug">
+                      <p className="text-xs text-foreground/60 mt-1 leading-snug whitespace-pre-line">
                         {chair.subtitle}
                       </p>
                     )}
