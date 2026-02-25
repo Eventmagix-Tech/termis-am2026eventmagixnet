@@ -77,7 +77,7 @@ const GeneralInformation = () => {
                       <p className="font-medium">+1 504-561-0500</p>
                     </div>
                     <a 
-                      href="https://www.hilton.com/en/hotels/msyrhh-hilton-new-orleans-riverside/" 
+                      href="https://www.hilton.com/en/hotels/msynhhh-hilton-new-orleans-riverside/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="mt-6 inline-flex items-center gap-2 text-accent hover:text-accent/80 font-medium"
