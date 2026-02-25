@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Globe, Shirt, Mail, Shield, ShieldAlert, Calendar, MapPin, Building, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
-import hiltonImg from "@/assets/hilton-new-orleans.jpg";
+import hiltonImg from "@/assets/hilton-new-orleans-riverside.png";
 
 const GeneralInformation = () => {
   return (
