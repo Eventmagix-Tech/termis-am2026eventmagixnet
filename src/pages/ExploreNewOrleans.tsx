@@ -19,12 +19,13 @@ const attractions = [
     id: 2,
     title: "Live Jazz & Music Venues",
     description: "New Orleans is the birthplace of jazz — be sure to experience live music at venues around the city. Check out clubs and bars on Frenchmen Street, Preservation Hall, or local spots featuring brass bands and blues rhythms that make this city's music world-renowned.",
-    images: [jazz1Img, jazz2Img],
+    image: jazz1Img,
   },
   {
     id: 3,
     title: "National WWII Museum",
     description: "Ranked among the top museums in the U.S., the National WWII Museum offers immersive exhibits and stories from World War II — a must-visit for history lovers. (Plan ahead for timed entry.)",
+    image: jazz2Img,
   },
   {
     id: 4,
@@ -67,18 +68,7 @@ const ExploreNewOrleans = () => {
                 >
                   {/* Image(s) */}
                   <div className="w-full md:w-1/2">
-                    {attraction.images ? (
-                      <div className="grid grid-cols-2 gap-4">
-                        {attraction.images.map((img, i) => (
-                          <img
-                            key={i}
-                            src={img}
-                            alt={`${attraction.title} ${i + 1}`}
-                            className="rounded-xl shadow-lg w-full h-48 object-cover"
-                          />
-                        ))}
-                      </div>
-                    ) : attraction.image ? (
+                    {attraction.image ? (
                       <img
                         src={attraction.image}
                         alt={attraction.title}
