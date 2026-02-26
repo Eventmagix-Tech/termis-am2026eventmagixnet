@@ -4,12 +4,6 @@ import { Link } from "react-router-dom";
 
 const keyDates = [
   {
-    icon: FileText,
-    title: "Submission Deadline",
-    description: "General Sessions, TWIG Sessions, Workshops",
-    date: "February 23, 2026",
-  },
-  {
     icon: Calendar,
     title: "Call for Abstracts",
     description: "Abstract submission opens",
@@ -20,6 +14,12 @@ const keyDates = [
     title: "Registration Opens",
     description: "Secure your spot at TERMIS-AM 2026",
     date: "March 30, 2026",
+  },
+  {
+    icon: FileText,
+    title: "Abstract Submission Deadline",
+    description: "Submit your abstracts before the deadline",
+    date: "May 11, 2026",
   },
 ];
 
