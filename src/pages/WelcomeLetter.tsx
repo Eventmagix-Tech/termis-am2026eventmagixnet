@@ -47,13 +47,12 @@ const WelcomeLetter = () => {
         {/* Content Section */}
         <section className="py-16 md:py-20 bg-white">
           <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-3 gap-8">
-            {/* Welcome Letter - Main Content */}
+            {/* Welcome Letter - Full Width */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="lg:col-span-2 bg-muted/50 rounded-lg shadow-card p-8 md:p-10 border border-accent/20"
+              className="bg-muted/50 rounded-lg shadow-card p-8 md:p-10 border border-accent/20"
             >
               <div className="prose prose-lg max-w-none text-foreground/90 space-y-6">
                 <p className="text-xl leading-relaxed font-medium text-primary">
@@ -106,62 +105,57 @@ const WelcomeLetter = () => {
               </div>
             </motion.div>
 
-            {/* Conference Co-Chairs - Sidebar */}
+            {/* Conference Co-Chairs - Below */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="lg:col-span-1"
+              className="bg-muted/50 rounded-lg shadow-card p-8 md:p-10 border border-accent/20 mt-8"
             >
-              <div className="bg-muted/50 rounded-lg shadow-card p-6 md:p-8 border border-accent/20 sticky top-24">
-                <h3 className="text-xl font-serif font-bold text-primary text-center mb-6">
-                  Conference Co-Chairs
-                </h3>
+              <h3 className="text-2xl font-serif font-bold text-primary text-center mb-8">
+                Conference Co-Chairs
+              </h3>
 
-                <div className="space-y-4">
-                  {coChairs.map((chair, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, x: 20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
-                      className="flex items-center gap-4 p-3 rounded-lg bg-gradient-to-r from-primary/5 to-secondary/5 border border-accent/10"
-                    >
-                      <div className="w-16 h-16 rounded-full bg-primary/10 border-2 border-accent/30 flex-shrink-0 overflow-hidden">
-                        <img
-                          src={chair.photo}
-                          alt={chair.name}
-                          className={`w-full h-full object-cover ${chair.photoPosition}`}
-                        />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <h4 className="text-base font-serif font-semibold text-primary">
-                          {chair.name}
-                        </h4>
-                        {chair.subtitle && (
-                          <p className="text-xs text-foreground/60 mt-1 leading-snug whitespace-pre-line">
-                            {chair.subtitle}
-                          </p>
-                        )}
-                        {chair.institution && (
-                          <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
-                             {chair.institution}
-                           </p>
-                        )}
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {coChairs.map((chair, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
+                    className="flex flex-col items-center text-center p-4 rounded-lg bg-gradient-to-r from-primary/5 to-secondary/5 border border-accent/10"
+                  >
+                    <div className="w-32 h-32 md:w-36 md:h-36 rounded-full bg-primary/10 border-3 border-accent/30 flex-shrink-0 overflow-hidden mb-4">
+                      <img
+                        src={chair.photo}
+                        alt={chair.name}
+                        className={`w-full h-full object-cover ${chair.photoPosition}`}
+                      />
+                    </div>
+                    <h4 className="text-lg font-serif font-semibold text-primary">
+                      {chair.name}
+                    </h4>
+                    {chair.subtitle && (
+                      <p className="text-xs text-foreground/60 mt-1 leading-snug whitespace-pre-line">
+                        {chair.subtitle}
+                      </p>
+                    )}
+                    {chair.institution && (
+                      <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                        {chair.institution}
+                      </p>
+                    )}
+                  </motion.div>
+                ))}
+              </div>
 
-                {/* Decorative fleur-de-lis divider */}
-                <div className="flex items-center justify-center mt-6 gap-4">
-                  <div className="h-px w-12 bg-accent/40" />
-                  <span className="text-accent text-xl">⚜</span>
-                  <div className="h-px w-12 bg-accent/40" />
-                </div>
+              {/* Decorative fleur-de-lis divider */}
+              <div className="flex items-center justify-center mt-8 gap-4">
+                <div className="h-px w-16 bg-accent/40" />
+                <span className="text-accent text-2xl">⚜</span>
+                <div className="h-px w-16 bg-accent/40" />
               </div>
             </motion.div>
-          </div>
           </div>
         </section>
       </main>
