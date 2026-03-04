@@ -4,6 +4,7 @@ import { Mail, ArrowRight, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/lib/supabaseClient";
 
 const NewsletterSection = () => {
   const [email, setEmail] = useState("");
@@ -25,10 +26,29 @@ const NewsletterSection = () => {
 
     setIsSubmitting(true);
     
-    // Simulate submission - replace with actual API call later
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
+    const { error } = await supabase
+      .from('termis_newsletter_subscribers')
+      .insert([{ email }]);
+
     setIsSubmitting(false);
+
+    if (error) {
+      if (error.code === '23505') {
+        toast({
+          title: "Already subscribed",
+          description: "This email is already subscribed!",
+          variant: "destructive",
+        });
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong, please try again.",
+          variant: "destructive",
+        });
+      }
+      return;
+    }
+
     setIsSubmitted(true);
     setEmail("");
     
