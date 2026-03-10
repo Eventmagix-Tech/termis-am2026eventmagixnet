@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Button } from "@/components/ui/button";
@@ -8,6 +9,7 @@ import { FileText, Users, Wrench, Mail, Calendar, ExternalLink, Download } from 
 const SessionWorkshopSubmission = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Session & Workshop Submission" description="Submit your session or workshop proposal for TERMIS-AM 2026." />
       <Header />
       
       <PageHeader

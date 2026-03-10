@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import kenesLogo from "@/assets/kenes-logo.png";
@@ -35,6 +36,7 @@ const contacts = [
 const ContactUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Contact Us" description="Get in touch with the TERMIS-AM 2026 organizing team." />
       <Header />
       
       <main className="flex-1">

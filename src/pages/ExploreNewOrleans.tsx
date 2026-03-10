@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
@@ -44,6 +45,7 @@ const attractions = [
 const ExploreNewOrleans = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Explore New Orleans" description="Discover the best of New Orleans during TERMIS-AM 2026." />
       <Header />
       
       <main className="flex-1">

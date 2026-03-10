@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Globe, Shirt, Mail, Shield, ShieldAlert, Calendar, MapPin, Building, ExternalLink } from "lucide-react";
@@ -8,6 +9,7 @@ import hiltonImg from "@/assets/hilton-new-orleans-riverside.png";
 const GeneralInformation = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="General Information" description="Venue, travel, and practical information for TERMIS-AM 2026 attendees." />
       <Header />
       
       <main className="flex-1">

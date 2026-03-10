@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import SEOHead from "@/components/SEOHead";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
@@ -36,6 +37,7 @@ const coChairs = [
 const WelcomeLetter = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Welcome Letter" description="A welcome message from the TERMIS-AM 2026 conference co-chairs." />
       <Header />
       
       <main className="flex-1">

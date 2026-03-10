@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Download, Image } from "lucide-react";
@@ -26,6 +27,7 @@ const toolkitItems = [
 const PromotionalToolkit = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Promotional Toolkit" description="Download posters, banners, and promotional materials for TERMIS-AM 2026." />
       <Header />
 
       <PageHeader

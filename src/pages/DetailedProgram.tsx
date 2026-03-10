@@ -1,4 +1,5 @@
 import { useState } from "react";
+import SEOHead from "@/components/SEOHead";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
@@ -132,6 +133,7 @@ const DetailedProgram = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Detailed Program" description="Full detailed scientific program for TERMIS-AM 2026 in New Orleans." />
       <Header />
       
       <main className="flex-1">

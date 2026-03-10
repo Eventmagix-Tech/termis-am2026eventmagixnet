@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Home } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const NotFound = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-hero-gradient">
+      <SEOHead title="Page Not Found" description="The page you are looking for does not exist." noindex={true} />
       <div className="text-center">
         <div className="text-accent text-6xl mb-4">⚜</div>
         <h1 className="mb-4 text-6xl font-serif font-bold text-primary-foreground">404</h1>
