@@ -37,6 +37,7 @@ const coChairs = [
 const WelcomeLetter = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Welcome Letter" description="A welcome message from the TERMIS-AM 2026 conference co-chairs." />
       <Header />
       
       <main className="flex-1">
