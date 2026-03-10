@@ -9,6 +9,7 @@ import { FileText, Users, Wrench, Mail, Calendar, ExternalLink, Download } from 
 const SessionWorkshopSubmission = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Session & Workshop Submission" description="Submit your session or workshop proposal for TERMIS-AM 2026." />
       <Header />
       
       <PageHeader

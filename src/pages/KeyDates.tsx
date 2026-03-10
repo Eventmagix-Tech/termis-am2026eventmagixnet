@@ -47,6 +47,7 @@ const keyDates = [
 const KeyDates = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Key Dates" description="Important deadlines for abstract submission, registration, and more at TERMIS-AM 2026." />
       <Header />
       
       <main className="flex-1">

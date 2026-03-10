@@ -133,6 +133,7 @@ const DetailedProgram = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Detailed Program" description="Full detailed scientific program for TERMIS-AM 2026 in New Orleans." />
       <Header />
       
       <main className="flex-1">

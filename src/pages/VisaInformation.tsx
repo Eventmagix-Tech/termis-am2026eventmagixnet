@@ -39,6 +39,7 @@ const usefulLinks = [
 const VisaInformation = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Visa Information" description="Visa requirements and invitation letter details for TERMIS-AM 2026." />
       <Header />
       
       <main className="flex-1">

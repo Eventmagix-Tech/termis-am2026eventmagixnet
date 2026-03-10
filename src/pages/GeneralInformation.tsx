@@ -9,6 +9,7 @@ import hiltonImg from "@/assets/hilton-new-orleans-riverside.png";
 const GeneralInformation = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="General Information" description="Venue, travel, and practical information for TERMIS-AM 2026 attendees." />
       <Header />
       
       <main className="flex-1">

@@ -7,6 +7,7 @@ import { Mail } from "lucide-react";
 const SupportOpportunities = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Support Opportunities" description="Sponsorship and exhibition opportunities at TERMIS-AM 2026." />
       <Header />
       
       <main className="flex-1">

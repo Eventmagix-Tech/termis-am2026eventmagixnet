@@ -45,6 +45,7 @@ const attractions = [
 const ExploreNewOrleans = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Explore New Orleans" description="Discover the best of New Orleans during TERMIS-AM 2026." />
       <Header />
       
       <main className="flex-1">

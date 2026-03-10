@@ -36,6 +36,7 @@ const contacts = [
 const ContactUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead title="Contact Us" description="Get in touch with the TERMIS-AM 2026 organizing team." />
       <Header />
       
       <main className="flex-1">
