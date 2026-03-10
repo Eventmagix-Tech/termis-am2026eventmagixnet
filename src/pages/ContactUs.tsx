@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import kenesLogo from "@/assets/kenes-logo.png";
