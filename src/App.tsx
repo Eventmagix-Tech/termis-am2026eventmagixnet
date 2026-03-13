@@ -52,7 +52,7 @@ const App = () => (
           <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
-          <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
+          {/* <Route path="/call-for-abstracts" element={<CallForAbstracts />} /> */}{/* Hidden temporarily */}
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
