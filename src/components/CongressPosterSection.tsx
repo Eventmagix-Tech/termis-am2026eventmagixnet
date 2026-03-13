@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import congressPoster from "@/assets/congress-poster-banner.jpg";
+import congressPoster from "@/assets/congress-poster-banner.webp";
 
 const CongressPosterSection = () => {
   return (
@@ -13,7 +13,10 @@ const CongressPosterSection = () => {
         >
           <img
             src={congressPoster}
-            alt="TERMIS-AM 2026 Congress Poster – Bench. Chip. Clinic. Where Y'at in regeneration?"
+            alt="TERMIS-AM 2026 Conference Poster – Bench. Chip. Clinic. Where Y'at in regeneration? November 15-18, New Orleans"
+            width={1920}
+            height={1080}
+            loading="lazy"
             className="w-full h-auto rounded-xl shadow-lg"
           />
         </motion.div>
