@@ -21,7 +21,6 @@ import SupportOpportunities from "./pages/SupportOpportunities";
 import ConfirmedSponsors from "./pages/ConfirmedSponsors";
 import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
-import CallForAbstracts from "./pages/CallForAbstracts";
 import ComingSoon from "./pages/ComingSoon";
 import NotFound from "./pages/NotFound";
 
@@ -52,7 +51,6 @@ const App = () => (
           <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
-          <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
