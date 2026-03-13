@@ -4,12 +4,6 @@ import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { AlertCircle, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
