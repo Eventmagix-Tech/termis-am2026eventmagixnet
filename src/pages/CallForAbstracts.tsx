@@ -104,7 +104,7 @@ const CallForAbstracts = () => {
 
               <div>
                 <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Presentation Preference</h3>
-                <p className="text-sm text-foreground/80">Please choose your preferred method of presentation (Oral, Poster, or Oral or Poster). Your preference will be noted by the reviewers. The final determination will be made by the Scientific Advisory Committee.</p>
+                <p className="text-sm text-foreground/80">Please choose your preferred method of presentation <strong>(Oral, Poster, or Oral or Poster)</strong>. Your preference will be noted by the reviewers. The final determination will be made by the Scientific Advisory Committee.</p>
               </div>
 
               <div>
