@@ -155,7 +155,7 @@ const CallForAbstracts = () => {
 
               <div>
                 <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Preview & Submit</h3>
-                <p className="text-sm text-foreground/80">If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until May 11, 2026, 11:59 PM Central Time. After the deadline, no further edits can be made.</p>
+                <p className="text-sm text-foreground/80">If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until <strong>May 11, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
               </div>
             </CardContent>
           </Card>
