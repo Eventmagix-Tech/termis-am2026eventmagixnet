@@ -4,12 +4,6 @@ import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { AlertCircle, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -77,106 +71,94 @@ const CallForAbstracts = () => {
           </Card>
         </section>
 
-        {/* Submission Instructions Accordion */}
+        {/* Submission Instructions */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-primary mb-4">Submission Instructions</h2>
-          <h3 className="text-lg font-semibold text-foreground mb-3">Abstract Preparation</h3>
-          <Accordion type="multiple" className="w-full">
-            <AccordionItem value="title">
-              <AccordionTrigger className="text-primary font-semibold">Title</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                The title should be brief, clearly indicating the nature of the presentation of max 25 words. Do not place a period at the end of the title.
-              </AccordionContent>
-            </AccordionItem>
+          <Card>
+            <CardHeader className="pb-3">
+              <CardTitle className="text-xl text-primary">Abstract Preparation</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-8">
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Title</h3>
+                <p className="text-sm text-foreground/80">The title should be brief, clearly indicating the nature of the presentation of max 25 words. Do not place a period at the end of the title.</p>
+              </div>
 
-            <AccordionItem value="topic">
-              <AccordionTrigger className="text-primary font-semibold">Topic</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Please select the main topic of your abstract. Click{" "}
-                <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer" className="text-accent underline font-medium">
-                  HERE
-                </a>{" "}
-                to see a full list of the abstract categories.
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Topic</h3>
+                <p className="text-sm text-foreground/80">
+                  Please select the main topic of your abstract. Click{" "}
+                  <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer" className="text-accent underline font-medium">HERE</a>{" "}
+                  to see a full list of the abstract categories.
+                </p>
                 <div className="mt-3 bg-muted/50 border border-border rounded-md p-3">
                   <p className="font-semibold text-foreground mb-1">Important</p>
-                  <p>The primary topic is not guaranteed. The Scientific Advisory Committee reserves the right to change the abstract category during the abstract assessment process without notifying the author(s). Sessions are slotted based on the number and quality of abstracts submitted, not all proposed sessions may appear in the final program.</p>
+                  <p className="text-sm text-foreground/80">The primary topic is not guaranteed. The Scientific Advisory Committee reserves the right to change the abstract category during the abstract assessment process without notifying the author(s). Sessions are slotted based on the number and quality of abstracts submitted, not all proposed sessions may appear in the final program.</p>
                 </div>
-              </AccordionContent>
-            </AccordionItem>
+              </div>
 
-            <AccordionItem value="optional-topics">
-              <AccordionTrigger className="text-primary font-semibold">Optional Topics</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Please select a 2ⁿᵈ and 3ʳᵈ topic that best align with your submission.
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Optional Topics</h3>
+                <p className="text-sm text-foreground/80">Please select a 2ⁿᵈ and 3ʳᵈ topic that best align with your submission.</p>
+              </div>
 
-            <AccordionItem value="presentation-preference">
-              <AccordionTrigger className="text-primary font-semibold">Presentation Preference</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Please choose your preferred method of presentation (Oral, Poster, or Oral or Poster). Your preference will be noted by the reviewers. The final determination will be made by the Scientific Advisory Committee.
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Presentation Preference</h3>
+                <p className="text-sm text-foreground/80">Please choose your preferred method of presentation (Oral, Poster, or Oral or Poster). Your preference will be noted by the reviewers. The final determination will be made by the Scientific Advisory Committee.</p>
+              </div>
 
-            <AccordionItem value="authors">
-              <AccordionTrigger className="text-primary font-semibold">Authors</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Provide full contact information (name, affiliation and e-mail) for each author listed. Please enter the information in the designated fields. This information will be separate from the abstract body.
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Authors</h3>
+                <p className="text-sm text-foreground/80">Provide full contact information (name, affiliation and e-mail) for each author listed. Please enter the information in the designated fields. This information will be separate from the abstract body.</p>
+              </div>
 
-            <AccordionItem value="abstract-body">
-              <AccordionTrigger className="text-primary font-semibold">Abstract Body</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                <p className="mb-2">The abstract should clearly describe the nature of the research and the problem it addresses, using language accessible to the multidisciplinary tissue engineering community. The abstract should summarize the:</p>
-                <ul className="list-disc pl-5 space-y-1 mb-2">
-                  <li>Purpose/Objectives</li>
-                  <li>Methodology</li>
-                  <li>Results</li>
-                  <li>Conclusion/Significance</li>
-                </ul>
-                <p>These four sections together may not exceed 350 words, excluding authors, disclosures, and references. References and acknowledgements are not required. Graphs and images are not allowed.</p>
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Body</h3>
+                <div className="text-sm text-foreground/80">
+                  <p className="mb-2">The abstract should clearly describe the nature of the research and the problem it addresses, using language accessible to the multidisciplinary tissue engineering community. The abstract should summarize the:</p>
+                  <ul className="list-disc pl-5 space-y-1 mb-2">
+                    <li>Purpose/Objectives</li>
+                    <li>Methodology</li>
+                    <li>Results</li>
+                    <li>Conclusion/Significance</li>
+                  </ul>
+                  <p>These four sections together may not exceed 350 words, excluding authors, disclosures, and references. References and acknowledgements are not required. Graphs and images are not allowed.</p>
+                </div>
+              </div>
 
-            <AccordionItem value="publication">
-              <AccordionTrigger className="text-primary font-semibold">Publication</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Abstracts will be published in the Tissue Engineering Journal. You may choose to opt out of publication.
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Publication</h3>
+                <p className="text-sm text-foreground/80">Abstracts will be published in the Tissue Engineering Journal. You may choose to opt out of publication.</p>
+              </div>
 
-            <AccordionItem value="demographics">
-              <AccordionTrigger className="text-primary font-semibold">Demographics</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                Please complete the demographic information if you feel comfortable. This questions help us promote diversity among presenters. You may also select if you are a Student or Young Investigator here.
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Demographics</h3>
+                <p className="text-sm text-foreground/80">Please complete the demographic information if you feel comfortable. This questions help us promote diversity among presenters. You may also select if you are a Student or Young Investigator here.</p>
+              </div>
 
-            <AccordionItem value="disclosure">
-              <AccordionTrigger className="text-primary font-semibold">Disclosure Information</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                <p className="mb-2">To allow colleagues to properly evaluate the information and opinions presented, authors must disclose any potential conflicts of interest. This includes personal or professional relationships or circumstances that might reasonably influence the author's views. Examples include, but are not limited to:</p>
-                <ul className="list-disc pl-5 space-y-1 mb-2">
-                  <li>Stock options or bond holdings in a for-profit corporation or self-directed pension plan</li>
-                  <li>Employment (full or part-time)</li>
-                  <li>Ownership or partnership</li>
-                  <li>Consulting fees or other remuneration (payment)</li>
-                  <li>Non-remunerative positions of influence such as officer, board member, trustee, or public spokesperson</li>
-                  <li>Receipt of royalties</li>
-                  <li>Speakers bureau</li>
-                </ul>
-                <p>If you do not have anything to disclose, you must indicate this on the online abstract submission form. Disclosure information does not affect the review process.</p>
-              </AccordionContent>
-            </AccordionItem>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Disclosure Information</h3>
+                <div className="text-sm text-foreground/80">
+                  <p className="mb-2">To allow colleagues to properly evaluate the information and opinions presented, authors must disclose any potential conflicts of interest. This includes personal or professional relationships or circumstances that might reasonably influence the author's views. Examples include, but are not limited to:</p>
+                  <ul className="list-disc pl-5 space-y-1 mb-2">
+                    <li>Stock options or bond holdings in a for-profit corporation or self-directed pension plan</li>
+                    <li>Employment (full or part-time)</li>
+                    <li>Ownership or partnership</li>
+                    <li>Consulting fees or other remuneration (payment)</li>
+                    <li>Non-remunerative positions of influence such as officer, board member, trustee, or public spokesperson</li>
+                    <li>Receipt of royalties</li>
+                    <li>Speakers bureau</li>
+                  </ul>
+                  <p>If you do not have anything to disclose, you must indicate this on the online abstract submission form. Disclosure information does not affect the review process.</p>
+                </div>
+              </div>
 
-            <AccordionItem value="preview-submit">
-              <AccordionTrigger className="text-primary font-semibold">Preview & Submit</AccordionTrigger>
-              <AccordionContent className="text-foreground/80 text-sm">
-                If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until May 11, 2026, 11:59 PM Central Time. After the deadline, no further edits can be made.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Preview & Submit</h3>
+                <p className="text-sm text-foreground/80">If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until May 11, 2026, 11:59 PM Central Time. After the deadline, no further edits can be made.</p>
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Bottom 3-Column Grid */}
