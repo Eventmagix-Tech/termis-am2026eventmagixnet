@@ -21,6 +21,7 @@ import SupportOpportunities from "./pages/SupportOpportunities";
 import ConfirmedSponsors from "./pages/ConfirmedSponsors";
 import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
+import CallForAbstracts from "./pages/CallForAbstracts";
 import ComingSoon from "./pages/ComingSoon";
 import NotFound from "./pages/NotFound";
 
