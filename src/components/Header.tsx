@@ -26,7 +26,7 @@ const navItems = [
   {
     label: "Scientific Program",
     children: [
-      { label: "Call for Abstracts", href: "/call-for-abstracts" },
+      // { label: "Call for Abstracts", href: "/call-for-abstracts" }, // Hidden temporarily
       { label: "Session & Workshop Submission", href: "/session-workshop-submission" },
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
       // { label: "Detailed Program", href: "/detailed-program" }, // Hidden temporarily
