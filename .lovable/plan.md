@@ -1,25 +1,24 @@
 
 
-## "Our Journey" Bolumunu Hero Gorsel Formatina Donusturme
+## Problem
 
-Mevcut timeline bolumunu, arka planda buyuk bir gorsel ile uzerinde icerik gorunen bir hero-tarzinda bolume donusturecegiz. Timeline icerigi korunacak, ancak arka planda New Orleans temasina uygun bir gorsel ve uzerinde yari saydam katman olacak.
+The download button text "Sponsorship & Exhibition Prospectus" is visually overflowing and not sitting properly within its button container, as visible in the screenshot. The `asChild` pattern with `<a>` tag and the flex layout from `inline-flex items-center` in the button base styles is preventing proper text wrapping — the icon and text are on a single flex row that doesn't wrap.
 
-### Yapilacak Degisiklikler
+## Fix
 
-**Dosya: `src/components/TimelineSection.tsx`**
+In `src/pages/SupportOpportunities.tsx` (line 36), update the Button to use `flex-wrap` or switch the icon/text layout so wrapping works correctly. Also ensure the `<a>` tag inherits the wrapping styles:
 
-1. Mevcut `bg-hero-gradient` arka planini kaldirilacak
-2. Yerine arka plan gorseli eklenecek (mevcut projede bulunan `new-orleans-venue.jpg` veya `termis-hero-banner.jpg` kullanilabilir)
-3. Gorsel uzerine koyu gradient overlay eklenecek (icerik okunurlugunun korunmasi icin)
-4. Section yuksekligi arttirilacak, tam ekran hissi vermesi icin `min-h-[70vh]` gibi bir deger uygulanacak
-5. Arka plan gorseli `background-size: cover`, `background-position: center`, `background-attachment: fixed` ile parallax efekti verilecek
-6. Dekoratif kopru SVG illustrasyonu korunacak
+- Add `[&>a]:flex [&>a]:flex-wrap [&>a]:justify-center [&>a]:items-center` or simpler: make the icon use `shrink-0` and ensure the anchor itself allows wrapping.
+- The root cause is likely that the `<a>` tag (via `asChild` / `Slot`) gets `inline-flex items-center gap-2 whitespace-nowrap` from `buttonVariants` base — the `whitespace-nowrap` in the base CVA clashes with the `whitespace-normal` override because of specificity or the text node inside `<a>`.
 
-### Teknik Detaylar
+**Solution**: Override with `!whitespace-normal` and add `flex-wrap` to allow the content to wrap. Also ensure the Download icon has `shrink-0` (already set via `[&_svg]:shrink-0` in base).
 
-- Arka plan gorseli import edilecek ve `style` prop ile uygulanacak
-- Overlay icin `absolute inset-0` pozisyonlu bir `div` ile `bg-gradient-to-b from-primary/85 via-primary/70 to-primary/85` uygulanacak
-- Icerik `relative z-10` ile overlay ustunde gorunecek
-- Timeline kartlari ve node'larin renkleri beyaz/gold tonlarinda kalacak (mevcut `text-primary-foreground` siniflari zaten uygun)
-- Alt kisimda HeroSection'daki gibi animasyonlu dalga ayirici (wave divider) eklenecek
+### File Change
+
+**`src/pages/SupportOpportunities.tsx`** line 36:
+```tsx
+<Button variant="gold" className="w-full h-auto py-3 !whitespace-normal text-center [&>*]:justify-center" asChild>
+```
+
+This single change forces `whitespace-normal` with `!important` to override the base `whitespace-nowrap` from the button CVA, allowing the text to wrap properly within the button.
 
