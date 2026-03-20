@@ -33,7 +33,7 @@ const SupportOpportunities = () => {
                     />
                   </div>
                   <div className="p-5">
-                    <Button variant="gold" className="w-full text-sm" asChild>
+                    <Button variant="gold" className="w-full whitespace-normal h-auto py-3 text-sm leading-tight" asChild>
                       <a
                         href="/downloads/TERMIS-AM-2026-Sponsorship-Exhibition-Prospectus.pdf"
                         target="_blank"
