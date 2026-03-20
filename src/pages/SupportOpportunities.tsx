@@ -2,7 +2,9 @@ import Header from "@/components/Header";
 import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
-import { Mail } from "lucide-react";
+import { Mail, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import prospectusImage from "@/assets/sponsorship-prospectus-cover.jpg";
 
 const SupportOpportunities = () => {
   return (
@@ -15,6 +17,38 @@ const SupportOpportunities = () => {
           title="Support Opportunities"
           subtitle="Partner with TERMIS-AM 2026 and showcase your organization"
         />
+
+        {/* Downloadable Resources */}
+        <section className="py-16 md:py-20 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold text-primary mb-8">Resources</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
+                  <div className="aspect-video overflow-hidden">
+                    <img
+                      src={prospectusImage}
+                      alt="Conference exhibition hall with networking attendees"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <Button variant="gold" className="w-full" asChild>
+                      <a
+                        href="/downloads/TERMIS-AM-2026-Sponsorship-Exhibition-Prospectus.pdf"
+                        target="_blank"
+                        download
+                      >
+                        <Download className="w-4 h-4 mr-2" />
+                        Sponsorship & Exhibition Prospectus
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Contact Content */}
         <section className="py-16 md:py-20 bg-white">
