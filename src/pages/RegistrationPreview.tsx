@@ -235,9 +235,6 @@ const RegistrationPreview = () => {
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-6 text-foreground/80">
-                      <p>
-                        Registration is dependent on the country in which you currently reside, not your nationality. Countries listed within Groups A and B for residence (and work) are eligible for the emerging/developing country fee.
-                      </p>
 
                       <div>
                         <h4 className="text-lg font-bold text-primary mb-3">TERMIS Developing/Emerging Countries – Groups A and B</h4>
