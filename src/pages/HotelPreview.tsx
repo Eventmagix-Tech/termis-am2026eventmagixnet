@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import hiltonImg from "@/assets/hilton-new-orleans-riverside.png";
