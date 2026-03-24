@@ -43,7 +43,7 @@ const RegistrationPreview = () => {
 
               <div className="mb-8">
                 <Button variant="gold" size="xl" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://kenes.eventsair.com/termis-am-2026/mainform" target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="w-5 h-5 mr-2" />
                     Register Here
                   </a>
