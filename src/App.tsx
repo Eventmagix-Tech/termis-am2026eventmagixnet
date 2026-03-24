@@ -24,6 +24,7 @@ import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
+import HotelPreview from "./pages/HotelPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
