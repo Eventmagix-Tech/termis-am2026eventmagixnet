@@ -225,7 +225,7 @@ const RegistrationPreview = () => {
 
                 <AccordionItem value="emerging-countries" className="border rounded-xl px-6 shadow-sm">
                   <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
-                    TERMIS Developing/Emerging Countries – Groups A and B
+                    Developing/Emerging Countries
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-6 text-foreground/80">
