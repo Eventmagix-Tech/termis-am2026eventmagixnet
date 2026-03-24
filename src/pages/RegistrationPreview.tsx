@@ -72,134 +72,136 @@ const RegistrationPreview = () => {
                 </a>
               </div>
 
-              {/* Accordion Sections */}
-              <Accordion type="multiple" className="space-y-4">
-                {/* Registration Categories & Fees */}
-                <AccordionItem value="fees" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    Registration Categories & Fees
+              {/* SECTION 1: Registration Categories & Fees */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Registration Categories & Fees</h2>
+              <Accordion type="multiple" className="space-y-3 mb-12">
+                <AccordionItem value="member" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    Member Registration
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="space-y-10">
-                      {/* Member Registration */}
-                      <div>
-                        <h4 className="text-xl font-bold text-primary mb-4">Member Registration</h4>
-                        <div className="overflow-x-auto">
-                          <Table>
-                            <TableHeader>
-                              <TableRow className="bg-primary">
-                                <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
-                              </TableRow>
-                            </TableHeader>
-                            <TableBody>
-                              <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                            </TableBody>
-                          </Table>
-                        </div>
-                      </div>
-
-                      {/* Registration + */}
-                      <div>
-                        <h4 className="text-xl font-bold text-primary mb-2">Registration +</h4>
-                        <p className="text-foreground/70 mb-4 text-sm">(Registration + 1 year membership for TERMIS)</p>
-                        <div className="overflow-x-auto">
-                          <Table>
-                            <TableHeader>
-                              <TableRow className="bg-primary">
-                                <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
-                              </TableRow>
-                            </TableHeader>
-                            <TableBody>
-                              <TableRow><TableCell className="font-medium">Registration Plus Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Registration Plus Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Registration Plus Emerging Countries Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Registration Plus Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                            </TableBody>
-                          </Table>
-                        </div>
-                      </div>
-
-                      {/* Non-Member Registration */}
-                      <div>
-                        <h4 className="text-xl font-bold text-primary mb-4">Non-Member Registration</h4>
-                        <div className="overflow-x-auto">
-                          <Table>
-                            <TableHeader>
-                              <TableRow className="bg-primary">
-                                <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
-                              </TableRow>
-                            </TableHeader>
-                            <TableBody>
-                              <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Non-Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                            </TableBody>
-                          </Table>
-                        </div>
-                      </div>
-
-                      {/* Other Registration & Ticketed Events */}
-                      <div>
-                        <h4 className="text-xl font-bold text-primary mb-4">Other Registration & Ticketed Events Pricing</h4>
-                        <div className="overflow-x-auto">
-                          <Table>
-                            <TableHeader>
-                              <TableRow className="bg-primary">
-                                <TableHead className="text-white font-semibold min-w-[300px]">Registration Categories</TableHead>
-                                <TableHead className="text-white font-semibold text-center">Fee</TableHead>
-                              </TableRow>
-                            </TableHeader>
-                            <TableBody>
-                              <TableRow><TableCell className="font-medium">Guest Pass for Sunday and Tuesday Receptions****</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Student Volunteer (promo code needed)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Preconference Workshops (per workshop, can select more than one)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Women in TERM Luncheon</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">SYIS Peer Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">SYIS Networking Event (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">SYIS Student Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                              <TableRow><TableCell className="font-medium">Conference Reception</TableCell><TableCell></TableCell></TableRow>
-                            </TableBody>
-                          </Table>
-                        </div>
-                      </div>
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-primary">
+                            <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                        </TableBody>
+                      </Table>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
 
-                {/* Definitions */}
-                <AccordionItem value="definitions" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    Definitions
+                <AccordionItem value="registration-plus" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    Registration + (Registration + 1 year membership for TERMIS)
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="space-y-6 text-foreground/80">
-                      <div>
-                        <h4 className="text-lg font-bold text-primary mb-3">Registration Types</h4>
-                        <ul className="list-disc pl-6 space-y-3">
-                          <li><strong>Full Investigator</strong> registration is for individuals within academia or industry that do not qualify as a student or young investigator.</li>
-                          <li><strong>Young Investigator/ Trainee</strong> – Young Investigators are defined as persons who are employed in the field of TERM, who are within 5 years of their terminal degree (BS, MS, PhD, MD etc.). Young Investigators should not hold an appointment as faculty, academic staff or group leader in a university/research institute or in industry. Young investigators are required to have their advisor/supervisor send a letter as proof of the bona fide status of the young investigator.</li>
-                          <li>If you've been away from research (e.g. for a career break, maternity leave, or long-term sick leave), TERMIS will take this into consideration with your application. If you've taken formal maternity, paternity, or adoption leave as the primary career, or long-term sick leave, TERMIS will provide an extra six months for each period of leave when we consider your postdoctoral experience.</li>
-                          <li><strong>Student:</strong> A student is any individual who is engaged as a graduate or undergraduate in a university or college program or as an MD resident and is actively interested in research in the field of TERM. Students are required to provide their university ID for verification of their undergraduate/graduate status.</li>
-                          <li><strong>Guest</strong> – The guest pass is meant for spouses or family members of a registrant who are not in the industry and don't plan on being involved in sessions. Guests are only able to attend the Welcome Reception on Sunday, November 9, and the Conference Reception on Tuesday, November 11.</li>
-                        </ul>
-                      </div>
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-primary">
+                            <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow><TableCell className="font-medium">Registration Plus Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Emerging Countries Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
 
-                      <div>
+                <AccordionItem value="non-member" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    Non-Member Registration
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-primary">
+                            <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="other" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    Other Registration & Ticketed Events Pricing
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-primary">
+                            <TableHead className="text-white font-semibold min-w-[300px]">Registration Categories</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Fee</TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          <TableRow><TableCell className="font-medium">Guest Pass for Sunday and Tuesday Receptions****</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Student Volunteer (promo code needed)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Preconference Workshops (per workshop, can select more than one)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Women in TERM Luncheon</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Peer Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Networking Event (SYIS only)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Student Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Conference Reception</TableCell><TableCell></TableCell></TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+
+              {/* SECTION 2: Definitions */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Definitions</h2>
+              <Accordion type="multiple" className="space-y-3 mb-12">
+                <AccordionItem value="reg-types" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    Registration Types
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="space-y-4 text-foreground/80">
+                      <ul className="list-disc pl-6 space-y-3">
+                        <li><strong>Full Investigator</strong> registration is for individuals within academia or industry that do not qualify as a student or young investigator.</li>
+                        <li><strong>Young Investigator/ Trainee</strong> – Young Investigators are defined as persons who are employed in the field of TERM, who are within 5 years of their terminal degree (BS, MS, PhD, MD etc.). Young Investigators should not hold an appointment as faculty, academic staff or group leader in a university/research institute or in industry. Young investigators are required to have their advisor/supervisor send a letter as proof of the bona fide status of the young investigator.</li>
+                        <li>If you've been away from research (e.g. for a career break, maternity leave, or long-term sick leave), TERMIS will take this into consideration with your application. If you've taken formal maternity, paternity, or adoption leave as the primary career, or long-term sick leave, TERMIS will provide an extra six months for each period of leave when we consider your postdoctoral experience.</li>
+                        <li><strong>Student:</strong> A student is any individual who is engaged as a graduate or undergraduate in a university or college program or as an MD resident and is actively interested in research in the field of TERM. Students are required to provide their university ID for verification of their undergraduate/graduate status.</li>
+                        <li><strong>Guest</strong> – The guest pass is meant for spouses or family members of a registrant who are not in the industry and don't plan on being involved in sessions. Guests are only able to attend the Welcome Reception on Sunday, November 9, and the Conference Reception on Tuesday, November 11.</li>
+                      </ul>
+
+                      <div className="mt-6">
                         <h4 className="text-lg font-bold text-primary mb-3">Press Passes</h4>
                         <h5 className="font-semibold mb-2">Eligibility</h5>
                         <p className="mb-3">
@@ -221,10 +223,9 @@ const RegistrationPreview = () => {
                   </AccordionContent>
                 </AccordionItem>
 
-                {/* Developing/Emerging Countries */}
-                <AccordionItem value="emerging" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    Developing/Emerging Countries
+                <AccordionItem value="emerging-countries" className="border rounded-xl px-6 shadow-sm">
+                  <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
+                    TERMIS Developing/Emerging Countries – Groups A and B
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-6 text-foreground/80">
@@ -263,118 +264,99 @@ const RegistrationPreview = () => {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-
-                {/* What is included */}
-                <AccordionItem value="included" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    What is Included in the Registration Fee
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <div className="space-y-4 text-foreground/80">
-                      <p>The registration fee for all the registration categories of the Conference includes:</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>Access to all scientific sessions</li>
-                        <li>Access to the posters' area</li>
-                        <li>Access to the exhibition area</li>
-                        <li>Meeting materials (Name badge, final program book, etc...)</li>
-                        <li>Certificate of attendance</li>
-                        <li>Coffee breaks as per the Meeting program</li>
-                        <li>Welcome Reception (November 9th)</li>
-                        <li>Conference Reception (November 11th)</li>
-                      </ul>
-
-                      <div className="mt-6">
-                        <h4 className="font-semibold text-primary mb-2">Letter of Confirmation</h4>
-                        <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
-                      </div>
-                    </div>
-                  </AccordionContent>
-                </AccordionItem>
-
-                {/* Cancellation Policy */}
-                <AccordionItem value="cancellation" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    Cancellation Policy
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <div className="space-y-4 text-foreground/80">
-                      <h4 className="font-semibold text-primary mb-2">Refund Policy</h4>
-                      <p>For cancellations received by September 18, 2026, up to which date the registration fee will be refunded with a $100.00 USD deduction for administrative expenses.</p>
-                      <p>For cancellations received on and after September 19, 2026, the registration fee will be non-refundable.</p>
-                      <p>Refunds will be processed four to six weeks after the conference. Pre-paid no shows or early departures will not be refunded. Substitutions are permitted. Substitution requests must be made in writing (see info below).</p>
-                      <p>Canceling your hotel reservation does NOT cancel your conference registration and vice versa. If you dispute any charges to your credit card, there will be a dispute fee of $25.00 USD charged to your credit card account.</p>
-                      <p>A $25.00 USD process fee will be charged to any attendee who requests the original credit card charge be refunded and a new credit card processed for payment.</p>
-
-                      <h4 className="font-semibold text-primary mt-6 mb-2">Workshops</h4>
-                      <p>No refund will be granted, and full cancellation fees apply after September 18, 2026.</p>
-
-                      <h4 className="font-semibold text-primary mt-6 mb-2">Attendee Substitutions</h4>
-                      <p>
-                        Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-accent hover:text-accent/80 underline">nutugen@kenes.com</a>).
-                      </p>
-                    </div>
-                  </AccordionContent>
-                </AccordionItem>
-
-                {/* Payment Terms */}
-                <AccordionItem value="payment" className="border rounded-xl px-6 shadow-sm">
-                  <AccordionTrigger className="text-lg font-bold text-primary hover:no-underline">
-                    Payment Terms
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <div className="space-y-4 text-foreground/80">
-                      <p>The official currency of the Conference is USD. Payments should be made in advance via bank transfer or via credit card. We regret that we are unable to accept any personal, company and/or bank cheques.</p>
-
-                      <h4 className="font-semibold text-primary mt-6 mb-2">Notice for INVOICE Revision Requests</h4>
-                      <p>Any modification of VAT number, address or financial documentation, requested after the issuing of the invoice or receipt, will result in an administrative fee of $25.00 USD.</p>
-
-                      <h4 className="font-semibold text-primary mt-6 mb-2">Credit Card Payment</h4>
-                      <p>Holders of Visa, Eurocard / Mastercard or Amex may use their credit cards for the charge of all fees. Please indicate card number, expiry date and security code on the registration form. Please note that daily exchange rates will be applied and slight differences on the total charged amount may arise due to fluctuations in the daily exchange rates.</p>
-
-                      <h4 className="font-semibold text-primary mt-6 mb-2">Bank Transfer Payment</h4>
-                      <p className="mb-4">Bank account details for TERMIS-AM 2026 Annual Conference are indicated below. Participants who prefer bank transfer payment are required to send the proof of payment to the Annual Conference Organizing Secretariat.</p>
-
-                      <div className="overflow-x-auto">
-                        <Table>
-                          <TableBody>
-                            <TableRow className="bg-primary/5">
-                              <TableCell className="font-bold text-primary w-[200px]">ACCOUNT HOLDER:</TableCell>
-                              <TableCell>KENES INTERNATIONAL ORGANIZERS OF CONGRESSES LTD</TableCell>
-                            </TableRow>
-                            <TableRow>
-                              <TableCell className="font-bold text-primary">ACCOUNT NO (USD):</TableCell>
-                              <TableCell>0206 00700319.45L</TableCell>
-                            </TableRow>
-                            <TableRow className="bg-primary/5">
-                              <TableCell className="font-bold text-primary">IBAN (USD):</TableCell>
-                              <TableCell>CH76 0020 6206 7003 1945 L</TableCell>
-                            </TableRow>
-                            <TableRow>
-                              <TableCell className="font-bold text-primary">BANK NAME:</TableCell>
-                              <TableCell>UBS Switzerland AG</TableCell>
-                            </TableRow>
-                            <TableRow className="bg-primary/5">
-                              <TableCell className="font-bold text-primary">BIC:</TableCell>
-                              <TableCell>UBSWCHZH80A</TableCell>
-                            </TableRow>
-                            <TableRow>
-                              <TableCell className="font-bold text-primary">CATEGORY:</TableCell>
-                              <TableCell>TERMISAM 2026 New Orleans, USA</TableCell>
-                            </TableRow>
-                          </TableBody>
-                        </Table>
-                      </div>
-
-                      <p className="text-sm mt-4 italic">
-                        *Please make your bank transfer for your registration fee, including the bank transfer charges. If the payment received by the organizing secretariat is less than the registration fee, the participants will be charged for the missing amount.
-                      </p>
-                      <p className="text-sm italic">
-                        **Please indicate the name & surname of the participants and/or invoice number and/or reference number on the statement.
-                      </p>
-                    </div>
-                  </AccordionContent>
-                </AccordionItem>
               </Accordion>
+
+              {/* SECTION 3: What is included - Static */}
+              <h2 className="text-2xl font-bold text-primary mb-4">What is Included in the Registration Fee</h2>
+              <div className="space-y-4 text-foreground/80 mb-12">
+                <p>The registration fee for all the registration categories of the Conference includes:</p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Access to all scientific sessions</li>
+                  <li>Access to the posters' area</li>
+                  <li>Access to the exhibition area</li>
+                  <li>Meeting materials (Name badge, final program book, etc...)</li>
+                  <li>Certificate of attendance</li>
+                  <li>Coffee breaks as per the Meeting program</li>
+                  <li>Welcome Reception (November 9th)</li>
+                  <li>Conference Reception (November 11th)</li>
+                </ul>
+                <div className="mt-6">
+                  <h4 className="font-semibold text-primary mb-2">Letter of Confirmation</h4>
+                  <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
+                </div>
+              </div>
+
+              {/* SECTION 4: Cancellation Policy - Static */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Cancellation Policy</h2>
+              <div className="space-y-4 text-foreground/80 mb-12">
+                <h4 className="font-semibold text-primary mb-2">Refund Policy</h4>
+                <p>For cancellations received by September 18, 2026, up to which date the registration fee will be refunded with a $100.00 USD deduction for administrative expenses.</p>
+                <p>For cancellations received on and after September 19, 2026, the registration fee will be non-refundable.</p>
+                <p>Refunds will be processed four to six weeks after the conference. Pre-paid no shows or early departures will not be refunded. Substitutions are permitted. Substitution requests must be made in writing (see info below).</p>
+                <p>Canceling your hotel reservation does NOT cancel your conference registration and vice versa. If you dispute any charges to your credit card, there will be a dispute fee of $25.00 USD charged to your credit card account.</p>
+                <p>A $25.00 USD process fee will be charged to any attendee who requests the original credit card charge be refunded and a new credit card processed for payment.</p>
+
+                <h4 className="font-semibold text-primary mt-6 mb-2">Workshops</h4>
+                <p>No refund will be granted, and full cancellation fees apply after September 18, 2026.</p>
+
+                <h4 className="font-semibold text-primary mt-6 mb-2">Attendee Substitutions</h4>
+                <p>
+                  Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-accent hover:text-accent/80 underline">nutugen@kenes.com</a>).
+                </p>
+              </div>
+
+              {/* SECTION 5: Payment Terms - Static */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Payment Terms</h2>
+              <div className="space-y-4 text-foreground/80">
+                <p>The official currency of the Conference is USD. Payments should be made in advance via bank transfer or via credit card. We regret that we are unable to accept any personal, company and/or bank cheques.</p>
+
+                <h4 className="font-semibold text-primary mt-6 mb-2">Notice for INVOICE Revision Requests</h4>
+                <p>Any modification of VAT number, address or financial documentation, requested after the issuing of the invoice or receipt, will result in an administrative fee of $25.00 USD.</p>
+
+                <h4 className="font-semibold text-primary mt-6 mb-2">Credit Card Payment</h4>
+                <p>Holders of Visa, Eurocard / Mastercard or Amex may use their credit cards for the charge of all fees. Please indicate card number, expiry date and security code on the registration form. Please note that daily exchange rates will be applied and slight differences on the total charged amount may arise due to fluctuations in the daily exchange rates.</p>
+
+                <h4 className="font-semibold text-primary mt-6 mb-2">Bank Transfer Payment</h4>
+                <p className="mb-4">Bank account details for TERMIS-AM 2026 Annual Conference are indicated below. Participants who prefer bank transfer payment are required to send the proof of payment to the Annual Conference Organizing Secretariat.</p>
+
+                <div className="overflow-x-auto">
+                  <Table>
+                    <TableBody>
+                      <TableRow className="bg-primary/5">
+                        <TableCell className="font-bold text-primary w-[200px]">ACCOUNT HOLDER:</TableCell>
+                        <TableCell>KENES INTERNATIONAL ORGANIZERS OF CONGRESSES LTD</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-bold text-primary">ACCOUNT NO (USD):</TableCell>
+                        <TableCell>0206 00700319.45L</TableCell>
+                      </TableRow>
+                      <TableRow className="bg-primary/5">
+                        <TableCell className="font-bold text-primary">IBAN (USD):</TableCell>
+                        <TableCell>CH76 0020 6206 7003 1945 L</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-bold text-primary">BANK NAME:</TableCell>
+                        <TableCell>UBS Switzerland AG</TableCell>
+                      </TableRow>
+                      <TableRow className="bg-primary/5">
+                        <TableCell className="font-bold text-primary">BIC:</TableCell>
+                        <TableCell>UBSWCHZH80A</TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell className="font-bold text-primary">CATEGORY:</TableCell>
+                        <TableCell>TERMISAM 2026 New Orleans, USA</TableCell>
+                      </TableRow>
+                    </TableBody>
+                  </Table>
+                </div>
+
+                <p className="text-sm mt-4 italic">
+                  *Please make your bank transfer for your registration fee, including the bank transfer charges. If the payment received by the organizing secretariat is less than the registration fee, the participants will be charged for the missing amount.
+                </p>
+                <p className="text-sm italic">
+                  **Please indicate the name & surname of the participants and/or invoice number and/or reference number on the statement.
+                </p>
+              </div>
             </div>
           </div>
         </section>
