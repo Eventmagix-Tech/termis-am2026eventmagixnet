@@ -24,6 +24,7 @@ import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
+import HotelPreview from "./pages/HotelPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -55,6 +56,7 @@ const App = () => (
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           <Route path="/preview-abstracts-review-2026" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
+          <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
