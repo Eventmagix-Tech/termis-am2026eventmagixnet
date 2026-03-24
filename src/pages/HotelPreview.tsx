@@ -123,21 +123,16 @@ const HotelPreview = () => {
                   </li>
                 </ul>
               </div>
+              {/* Concluding Note */}
+              <div className="border-t border-border mt-8 pt-8 text-center space-y-3">
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  We kindly encourage you to review the booking and cancellation policies carefully during the reservation process.
+                </p>
+                <p className="text-sm text-muted-foreground italic leading-relaxed">
+                  ✨ Make the most of your conference experience by staying at the heart of the action — comfort, convenience, and connection all in one place.
+                </p>
+              </div>
 
-            </div>
-          </div>
-        </section>
-
-        {/* Footer Note */}
-        <section className="py-12 md:py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center space-y-4">
-              <p className="text-foreground/80 leading-relaxed">
-                We kindly encourage you to review the booking and cancellation policies carefully during the reservation process.
-              </p>
-              <p className="text-lg font-medium text-primary">
-                ✨ Make the most of your conference experience by staying at the heart of the action — comfort, convenience, and connection all in one place.
-              </p>
             </div>
           </div>
         </section>
