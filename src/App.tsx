@@ -54,6 +54,7 @@ const App = () => (
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           <Route path="/preview-abstracts-review-2026" element={<CallForAbstracts />} />
+          <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
