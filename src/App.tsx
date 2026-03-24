@@ -23,6 +23,7 @@ import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import ComingSoon from "./pages/ComingSoon";
+import RegistrationPreview from "./pages/RegistrationPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
