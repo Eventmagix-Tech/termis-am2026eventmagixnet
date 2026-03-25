@@ -34,7 +34,7 @@ const NewsletterSection = () => {
     
     const { error } = await supabase
       .from('termis_newsletter_subscribers')
-      .insert([{ email }]);
+      .insert([{ email: validatedEmail }]);
 
     setIsSubmitting(false);
 
