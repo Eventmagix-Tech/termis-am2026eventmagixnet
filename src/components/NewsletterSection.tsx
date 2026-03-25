@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/lib/supabaseClient";
+import { z } from "zod";
+
+const emailSchema = z.string().trim().email().max(255);
 
 const NewsletterSection = () => {
   const [email, setEmail] = useState("");
@@ -15,7 +18,8 @@ const NewsletterSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (!email || !email.includes("@")) {
+    const result = emailSchema.safeParse(email);
+    if (!result.success) {
       toast({
         title: "Invalid email",
         description: "Please enter a valid email address.",
@@ -24,11 +28,13 @@ const NewsletterSection = () => {
       return;
     }
 
+    const validatedEmail = result.data;
+
     setIsSubmitting(true);
     
     const { error } = await supabase
       .from('termis_newsletter_subscribers')
-      .insert([{ email }]);
+      .insert([{ email: validatedEmail }]);
 
     setIsSubmitting(false);
 
