@@ -55,6 +55,7 @@ const App = () => (
           <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
+          <Route path="/business-pitch-competition" element={<BusinessPitchCompetition />} />
           <Route path="/preview-abstracts-review-2026" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
