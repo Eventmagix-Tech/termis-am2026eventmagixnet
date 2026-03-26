@@ -19,12 +19,12 @@ const keyDates = [
   {
     icon: FileText,
     title: "Call for Abstracts Opens",
-    date: "March 16, 2026",
+    date: "March 31, 2026",
   },
   {
     icon: UserPlus,
     title: "Registration Opens",
-    date: "March 30, 2026",
+    date: "April 2026",
   },
   {
     icon: Clock,

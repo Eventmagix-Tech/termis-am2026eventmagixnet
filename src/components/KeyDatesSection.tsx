@@ -7,13 +7,13 @@ const keyDates = [
     icon: Calendar,
     title: "Call for Abstracts",
     description: "Abstract submission opens",
-    date: "March 16, 2026",
+    date: "March 31, 2026",
   },
   {
     icon: UserPlus,
     title: "Registration Opens",
     description: "Secure your spot at TERMIS-AM 2026",
-    date: "March 30, 2026",
+    date: "April 2026",
   },
   {
     icon: FileText,
