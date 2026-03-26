@@ -32,7 +32,7 @@ const RegistrationInformation = () => {
               </h2>
               
               <p className="text-lg text-foreground/80 mb-8">
-                Registration for the 2026 TERMIS-AM Conference & Exhibition will open on March 30, 2026. We look forward to welcoming you to New Orleans in November 2026.
+                Registration for the 2026 TERMIS-AM Conference & Exhibition will open in April, 2026. We look forward to welcoming you to New Orleans in November 2026.
               </p>
 
               <div className="flex items-center justify-center gap-2 text-accent font-medium">
