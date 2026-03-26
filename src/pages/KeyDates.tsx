@@ -24,7 +24,7 @@ const keyDates = [
   {
     icon: UserPlus,
     title: "Registration Opens",
-    date: "March 30, 2026",
+    date: "April 2026",
   },
   {
     icon: Clock,

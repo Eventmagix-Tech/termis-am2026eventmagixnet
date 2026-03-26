@@ -13,7 +13,7 @@ const keyDates = [
     icon: UserPlus,
     title: "Registration Opens",
     description: "Secure your spot at TERMIS-AM 2026",
-    date: "March 30, 2026",
+    date: "April 2026",
   },
   {
     icon: FileText,
