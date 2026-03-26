@@ -64,6 +64,23 @@ const PromotionalToolkit = () => {
         subtitle="Download official TERMIS-AM 2026 materials to help promote the conference."
       />
 
+      {/* Intro Text */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <p className="text-foreground text-lg leading-relaxed mb-4">
+              We invite you to use the official branding materials below to promote TERMIS-AM 2026 within your own professional network. Here's the promotional toolkit, which includes the official logo, banners, presentation slides, and flyer.
+            </p>
+            <p className="text-muted-foreground">
+              For materials with different dimensions and specifications, please contact Gizem Unsalan at{" "}
+              <a href="mailto:gunsalan@kenes.com" className="text-accent hover:underline font-medium">
+                gunsalan@kenes.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Congress Posters */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
