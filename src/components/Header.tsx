@@ -28,8 +28,8 @@ const navItems = [
     children: [
       // { label: "Call for Abstracts", href: "/call-for-abstracts" }, // Hidden temporarily
       { label: "Session & Workshop Submission", href: "/session-workshop-submission" },
-      { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
+      { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       // { label: "Detailed Program", href: "/detailed-program" }, // Hidden temporarily
       // { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" }, // Hidden temporarily
       // { label: "Plenary & Keynote Speakers", href: "/plenary-keynote-speakers" }, // Hidden temporarily
