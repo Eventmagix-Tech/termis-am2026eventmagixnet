@@ -28,7 +28,7 @@ const RegistrationInformation = () => {
               </div>
               
               <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">
-                Registration Opens March 30, 2026
+                Registration Opens April, 2026
               </h2>
               
               <p className="text-lg text-foreground/80 mb-8">
