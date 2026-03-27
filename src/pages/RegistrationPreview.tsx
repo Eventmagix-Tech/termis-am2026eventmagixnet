@@ -303,8 +303,8 @@ const RegistrationPreview = () => {
                   <li>Meeting materials (Name badge, final program book, etc...)</li>
                   <li>Certificate of attendance</li>
                   <li>Coffee breaks as per the Meeting program</li>
-                  <li>Welcome Reception (November 9th)</li>
-                  <li>Conference Reception (November 11th)</li>
+                  <li>Welcome Reception (November 15th)</li>
+                  <li>Conference Reception (November 17th)</li>
                 </ul>
                 <div className="mt-6">
                   <h4 className="font-semibold text-primary mb-2">Letter of Confirmation</h4>
