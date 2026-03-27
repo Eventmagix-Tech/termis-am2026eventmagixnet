@@ -30,7 +30,7 @@ const toolkitItems = [
     dimensions: "Portrait / A3",
   },
   {
-    title: "Congress Poster – Horizontal",
+    title: "Conference Poster – Horizontal",
     description: "Landscape format poster perfect for presentations, email signatures and social media.",
     thumbnail: posterHorizontal,
     downloadUrl: "/downloads/TERMIS-AM-2026-Poster-Horizontal.jpg",
