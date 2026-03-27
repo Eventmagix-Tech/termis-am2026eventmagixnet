@@ -134,6 +134,18 @@ const RegistrationPreview = () => {
                         </TableBody>
                       </Table>
                     </div>
+
+                    <div className="mt-8 space-y-4">
+                      <h3 className="text-xl font-bold text-primary">Registration +</h3>
+                      <h4 className="text-lg font-semibold text-foreground">Not a TERMIS member yet?</h4>
+                      <p className="text-muted-foreground leading-relaxed">
+                        If you would like to become a member of TERMIS, please complete the membership application form. If you are unable to login to the portal or have questions regarding membership please reach out to{' '}
+                        <a href="mailto:swilburn@termis.org" className="text-blue-600 hover:underline font-medium">Sarah Wilburn</a>. Individuals that become new members of TERMIS will be uploaded to the 2026 TERMIS-AM Annual Conference registration database weekly. You will be able to register as a member for the conference the week after you become a member.
+                      </p>
+                      <p className="text-muted-foreground leading-relaxed">
+                        Save time and select the Registration + option when registering for the 2026 TERMIS-AM Annual Conference, this option combines 1 year of TERMIS membership and 2026 TERMIS-AM Annual Conference registration into 1 payment. Registering with the Registration + option gives you the member discount on registration.
+                      </p>
+                    </div>
                   </AccordionContent>
                 </AccordionItem>
 
