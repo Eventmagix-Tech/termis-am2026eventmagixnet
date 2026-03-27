@@ -245,6 +245,13 @@ const RegistrationPreview = () => {
                           Credentialed media have access to all general sessions, including plenary, poster discussion, and concurrent sessions. Access to ticketed events with limited enrollment, such as early morning workshops, is restricted to ticket holders only. TERMIS-AM reserves the right to restrict attendance at any session. Press attendees are required to check in at the onsite press room upon arrival.
                         </p>
                       </div>
+
+                      <div className="mt-6">
+                        <h4 className="text-lg font-bold text-primary mb-3">Developing/Emerging Countries</h4>
+                        <p>
+                          Registration is dependent on the country in which you currently reside, not your nationality. Countries listed within Groups A and B for residence (and work) are eligible for the emerging/developing country fee.
+                        </p>
+                      </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
