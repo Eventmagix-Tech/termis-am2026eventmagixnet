@@ -95,6 +95,8 @@ const RegistrationPreview = () => {
                           <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - Student</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - YI</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
