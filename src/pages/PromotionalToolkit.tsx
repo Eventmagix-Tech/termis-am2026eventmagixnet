@@ -23,14 +23,14 @@ import banner2000x445 from "@/assets/banner-2000x445.jpg";
 
 const toolkitItems = [
   {
-    title: "Congress Poster – Vertical",
+    title: "Conference Poster – Vertical",
     description: "Portrait format poster ideal for printing and display boards.",
     thumbnail: posterVertical,
     downloadUrl: "/downloads/TERMIS-AM-2026-Poster-Vertical.jpg",
     dimensions: "Portrait / A3",
   },
   {
-    title: "Congress Poster – Horizontal",
+    title: "Conference Poster – Horizontal",
     description: "Landscape format poster perfect for presentations, email signatures and social media.",
     thumbnail: posterHorizontal,
     downloadUrl: "/downloads/TERMIS-AM-2026-Poster-Horizontal.jpg",
@@ -81,13 +81,13 @@ const PromotionalToolkit = () => {
         </div>
       </section>
 
-      {/* Congress Posters */}
+      {/* Conference Posters */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <Image className="w-6 h-6 text-accent" />
-              <h2 className="text-2xl font-bold text-primary">Congress Posters</h2>
+              <h2 className="text-2xl font-bold text-primary">Conference Posters</h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
