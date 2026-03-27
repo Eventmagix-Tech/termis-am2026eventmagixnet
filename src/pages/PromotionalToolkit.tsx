@@ -81,7 +81,7 @@ const PromotionalToolkit = () => {
         </div>
       </section>
 
-      {/* Congress Posters */}
+      {/* Conference Posters */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
