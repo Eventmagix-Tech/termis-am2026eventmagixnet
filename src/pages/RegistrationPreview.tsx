@@ -258,17 +258,11 @@ const RegistrationPreview = () => {
 
                 <AccordionItem value="emerging-countries" className="border rounded-xl px-6 shadow-sm">
                   <AccordionTrigger className="text-lg font-semibold text-primary hover:no-underline">
-                    Developing/Emerging Countries
+                    TERMIS Developing/Emerging Countries – Groups A and B
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-6 text-foreground/80">
-                      <p>
-                        Registration is dependent on the country in which you currently reside, not your nationality. Countries listed within Groups A and B for residence (and work) are eligible for the emerging/developing country fee.
-                      </p>
-
-                      <div>
-                        <h4 className="text-lg font-bold text-primary mb-3">TERMIS Developing/Emerging Countries – Groups A and B</h4>
-                        <p className="mb-4">
+                      <p className="mb-4">
                           TERMIS has announced changes to the category of developing/emerging countries. Three categories have been identified within the TERMIS membership based on geographical location. Membership is for those who are located in an established country within the remit of a continental chapter that has a developed scientific infrastructure. There is no change to the membership conditions within these countries which are, for the record:
                         </p>
                         <ul className="list-disc pl-6 space-y-2 mb-6">
@@ -276,7 +270,6 @@ const RegistrationPreview = () => {
                           <li><strong>(In the Americas)</strong> Argentina, Canada, Puerto Rico, USA.</li>
                           <li><strong>(In Asia-Pacific)</strong> Australia, Bahrain, China, Chinese Taipei, Hong Kong, Japan, Korea, Kuwait, New Zealand, Qatar, Saudi Arabia, Singapore and United Arab Emirates.</li>
                         </ul>
-                      </div>
 
                       <div>
                         <h4 className="text-lg font-bold text-primary mb-3">Waivers/Exemptions and Emerging Countries</h4>
