@@ -119,10 +119,18 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Registration Plus Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Registration Plus Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Registration Plus Emerging Countries Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Registration Plus Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Regular - Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Student - Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Young Investigator/Trainee - Group A</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Emerging Countries</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Registration Plus Emerging Countries - Group B</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Emerging Countries - Group A- Student</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Emerging Countries - Group A - Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Emerging Countries - Group B - Student</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Emerging Countries - Group B - Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
