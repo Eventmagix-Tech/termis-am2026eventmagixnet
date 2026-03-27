@@ -247,7 +247,7 @@ const RegistrationPreview = () => {
                       </div>
 
                       <div className="mt-6">
-                        <h4 className="text-lg font-bold text-primary mb-3">Developing/Emerging Countries</h4>
+                        <h5 className="font-semibold mb-2">Developing/Emerging Countries</h5>
                         <p>
                           Registration is dependent on the country in which you currently reside, not your nationality. Countries listed within Groups A and B for residence (and work) are eligible for the emerging/developing country fee.
                         </p>
