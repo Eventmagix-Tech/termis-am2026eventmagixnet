@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 const SITE_URL = "https://am2026.termis.org";
 const SITE_NAME = "TERMIS-AM 2026 Annual Conference & Exhibition";
-const OG_IMAGE = `${SITE_URL}/og-image.jpg`;
+const OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 interface SEOHeadProps {
   title: string;
