@@ -23,7 +23,7 @@ import banner2000x445 from "@/assets/banner-2000x445.jpg";
 
 const toolkitItems = [
   {
-    title: "Congress Poster – Vertical",
+    title: "Conference Poster – Vertical",
     description: "Portrait format poster ideal for printing and display boards.",
     thumbnail: posterVertical,
     downloadUrl: "/downloads/TERMIS-AM-2026-Poster-Vertical.jpg",
