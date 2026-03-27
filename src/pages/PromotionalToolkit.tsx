@@ -87,7 +87,7 @@ const PromotionalToolkit = () => {
           <div className="max-w-5xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <Image className="w-6 h-6 text-accent" />
-              <h2 className="text-2xl font-bold text-primary">Congress Posters</h2>
+              <h2 className="text-2xl font-bold text-primary">Conference Posters</h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
