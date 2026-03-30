@@ -3,9 +3,9 @@ import SEOHead from "@/components/SEOHead";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
-import cochairGottardi from "@/assets/cochair-gottardi.jpg";
-import cochairMurfee from "@/assets/cochair-murfee.jpg";
-import cochairLiJessen from "@/assets/cochair-3.jpg";
+import cochairGottardi from "@/assets/cochair-gottardi.webp";
+import cochairMurfee from "@/assets/cochair-murfee.webp";
+import cochairLiJessen from "@/assets/cochair-li-jessen.webp";
 
 const coChairs = [
   {
