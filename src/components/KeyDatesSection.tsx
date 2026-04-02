@@ -7,7 +7,7 @@ const keyDates = [
     icon: Calendar,
     title: "Call for Abstracts",
     description: "Abstract submission opens",
-    date: "March 31, 2026",
+    date: "April 10, 2026",
   },
   {
     icon: UserPlus,
