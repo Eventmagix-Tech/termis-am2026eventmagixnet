@@ -24,9 +24,9 @@ const PreviewAbstractTopics = () => {
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed mb-10">
-            There are 18 main abstract topics, each of which includes several subtopics to which
-            abstracts may be submitted. These subtopics also represent potentially planned sessions
-            within the scientific program of TERMIS AM 2026. Click on an abstract subtopic to view
+            There are 18 main abstract topics, each of which includes several <strong>sub-topics</strong> to which
+            abstracts may be submitted. These <strong>sub-topics</strong> also represent <strong>potentially planned sessions</strong>{" "}
+            within the scientific program of TERMIS AM 2026. Click on an abstract sub-topic to view
             the description of the corresponding planned session.
           </p>
 
