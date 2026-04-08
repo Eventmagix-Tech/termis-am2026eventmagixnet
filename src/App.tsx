@@ -24,6 +24,7 @@ import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
 import AbstractTopics from "./pages/AbstractTopics";
+import PreviewAbstractTopics from "./pages/PreviewAbstractTopics";
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
