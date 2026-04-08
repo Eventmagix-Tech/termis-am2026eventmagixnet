@@ -36,6 +36,12 @@ const navItems = [
     ],
   },
   {
+    label: "Abstract Submission",
+    children: [
+      { label: "Abstract Topics", href: "/abstract-topics" },
+    ],
+  },
+  {
     label: "Registration & Hotel Info",
     children: [
       { label: "Registration Information", href: "/registration-information" },

@@ -23,6 +23,7 @@ import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
+import AbstractTopics from "./pages/AbstractTopics";
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
