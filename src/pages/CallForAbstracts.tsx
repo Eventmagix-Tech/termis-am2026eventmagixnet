@@ -206,7 +206,7 @@ const CallForAbstracts = () => {
               <CardTitle className="text-base text-primary">For More Information</CardTitle>
             </CardHeader>
             <CardContent className="text-sm text-foreground/80 flex-1">
-              For additional information on abstract content, format, or submission procedure, contact: 2026 TERMIS-AM Conference Secretariat at:{" "}
+              For additional information on abstract content, format, or submission procedure, contact: <strong>2026 TERMIS-AM Conference Secretariat</strong> at:{" "}
               <a href="mailto:mrodic@kenes.com" className="text-accent underline inline-flex items-center gap-1">
                 <Mail className="h-3 w-3" />mrodic@kenes.com
               </a>
