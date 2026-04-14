@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import { Button } from "@/components/ui/button";
 import {
   Accordion,
   AccordionContent,
