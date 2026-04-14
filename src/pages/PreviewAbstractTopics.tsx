@@ -31,11 +31,6 @@ const PreviewAbstractTopics = () => {
             the description of the corresponding planned session.
           </p>
 
-          <div className="flex justify-center mb-8">
-            <Button variant="gold" size="lg">
-              Click Here for "Call for Abstracts"
-            </Button>
-          </div>
 
           <Accordion type="multiple" className="space-y-3">
             {abstractTopicsData.map((topic, topicIndex) => (
