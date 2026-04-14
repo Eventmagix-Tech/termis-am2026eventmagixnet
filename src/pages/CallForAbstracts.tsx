@@ -103,41 +103,53 @@ const CallForAbstracts = () => {
 
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Presentation Preference</h3>
-                <p className="text-sm text-foreground/80">Please choose your preferred method of presentation <strong>(Oral, Poster, or Oral or Poster)</strong>. Your preference will be noted by the reviewers. The final determination will be made by the Scientific Advisory Committee.</p>
-              </div>
-
-              <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Authors</h3>
-                <p className="text-sm text-foreground/80">Provide full contact information (name, affiliation and e-mail) for each author listed. Please enter the information in the designated fields. This information will be separate from the abstract body.</p>
-              </div>
-
-              <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Body</h3>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Presentation Preference:</h3>
                 <div className="text-sm text-foreground/80">
-                  <p className="mb-2">The abstract should clearly describe the nature of the research and the problem it addresses, using language accessible to the multidisciplinary tissue engineering community. The abstract should summarize the:</p>
-                  <ul className="list-disc pl-5 space-y-1 mb-2">
-                    <li>Purpose/Objectives</li>
-                    <li>Methodology</li>
-                    <li>Results</li>
-                    <li>Conclusion/Significance</li>
-                  </ul>
-                  <p>These four sections together may not exceed 350 words, excluding authors, disclosures, and references. References and acknowledgements are not required. Graphs and images are not allowed.</p>
+                  <p className="mb-2">Choose your preferred method of presentation (<strong>Oral</strong>, <strong>Poster</strong>, or <strong>Oral or Poster</strong>).</p>
+                  <p>After the abstract assessment process, the Scientific Advisory Committee will determine whether the abstract will be accepted into the scientific program and for which presentation type. Consideration will be given to the author's preference.</p>
                 </div>
               </div>
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Publication</h3>
-                <p className="text-sm text-foreground/80">Abstracts will be published in the Tissue Engineering Journal. You may choose to opt out of publication.</p>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Authors:</h3>
+                <p className="text-sm text-foreground/80">Provide full contact information (name, affiliation and e-mail) for each listed author. Please enter the information in the designated fields. This information will be separate from the abstract body.</p>
               </div>
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Demographics</h3>
-                <p className="text-sm text-foreground/80">Please complete the demographic information if you feel comfortable. This questions help us promote diversity among presenters. You may also select if you are a Student or Young Investigator here.</p>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Body:</h3>
+                <div className="text-sm text-foreground/80">
+                  <p className="mb-2">The abstract should clearly describe the nature of the research and the <strong>problem</strong> it addresses, using language accessible to the multidisciplinary tissue engineering community. The abstract should summarize the:</p>
+                  <ul className="list-disc pl-5 space-y-1 mb-2">
+                    <li>Purpose/Objectives</li>
+                    <li>Methodology</li>
+                    <li>Results <em>(figure upload is available in this section)</em></li>
+                    <li>Conclusion/Significance</li>
+                  </ul>
+                  <p className="mb-2">These four sections together should not exceed <strong>350 words</strong>, excluding authors, disclosures.</p>
+                  <p>References and acknowledgements are not required.</p>
+                </div>
               </div>
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Disclosure Information</h3>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Figure:</h3>
+                <div className="text-sm text-foreground/80">
+                  <p className="mb-2">A maximum of <strong>one figure</strong> may be uploaded per abstract, and <strong>only in the Results section</strong>. The file size must not exceed 500 KB, and the maximum dimensions are 600 (width) × 800 (height) pixels. Accepted formats are JPG, JPEG, JPN, and PNG.</p>
+                  <p>The figure legend must be included in the Results section of the abstract and will count toward the 350-word limit.</p>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Publication:</h3>
+                <p className="text-sm text-foreground/80">Abstracts will be published in <em>Tissue Engineering Part A, the official journal of TERMIS Journal</em>. You may choose to opt out of publication.</p>
+              </div>
+
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Demographics:</h3>
+                <p className="text-sm text-foreground/80">Please complete the demographic information if you feel comfortable. These questions help us promote diversity among presenters. You may also indicate if you are a Student or Young Investigator.</p>
+              </div>
+
+              <div>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Disclosure Information:</h3>
                 <div className="text-sm text-foreground/80">
                   <p className="mb-2">To allow colleagues to properly evaluate the information and opinions presented, authors must disclose any potential conflicts of interest. This includes personal or professional relationships or circumstances that might reasonably influence the author's views. Examples include, but are not limited to:</p>
                   <ul className="list-disc pl-5 space-y-1 mb-2">
@@ -154,8 +166,12 @@ const CallForAbstracts = () => {
               </div>
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Preview & Submit</h3>
-                <p className="text-sm text-foreground/80">If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until <strong>May 11, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Preview & Submit:</h3>
+                <div className="text-sm text-foreground/80">
+                  <p className="mb-2">If any required fields are missing, a message will appear in red. Please go back and make corrections.</p>
+                  <p className="mb-2">When ready, click Finish Submission to submit your abstract.</p>
+                  <p>You may edit your abstract until <strong>May 18, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
+                </div>
               </div>
             </CardContent>
           </Card>
