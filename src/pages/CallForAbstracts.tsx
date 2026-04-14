@@ -184,7 +184,7 @@ const CallForAbstracts = () => {
               <CardTitle className="text-base text-primary">Abstract Withdrawals</CardTitle>
             </CardHeader>
             <CardContent className="text-sm text-foreground/80 flex-1">
-              If you must withdraw your abstract, the 2026 TERMIS-AM Conference Secretariat must be notified in writing at least two months prior to the conference at:{" "}
+              If you must withdraw your abstract, the 2026 TERMIS-AM Conference Secretariat must be notified <strong>in writing at least two months prior to the conference</strong> at:{" "}
               <a href="mailto:mrodic@kenes.com" className="text-accent underline inline-flex items-center gap-1">
                 <Mail className="h-3 w-3" />mrodic@kenes.com
               </a>
