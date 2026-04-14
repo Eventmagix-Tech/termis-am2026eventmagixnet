@@ -36,7 +36,7 @@ const CallForAbstracts = () => {
             <p className="text-foreground/90 font-medium">
               Abstracts must be submitted online through the abstract submission portal until{" "}
               <Badge variant="default" className="ml-1 bg-accent text-white text-sm">
-                May 18, 2026 11:59 PM Central Time
+                May 11, 2026 11:59 PM Central Time
               </Badge>
             </p>
           </div>
