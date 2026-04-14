@@ -45,7 +45,7 @@ const CallForAbstracts = () => {
         {/* Abstract Submission Button */}
         <div className="text-center mb-10">
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer">
+            <a href="https://am2026.termis.org/abstract-topics" target="_blank" rel="noopener noreferrer">
               Click Here to ABSTRACT SUBMISSION
             </a>
           </Button>
