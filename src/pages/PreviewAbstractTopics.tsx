@@ -32,11 +32,9 @@ const PreviewAbstractTopics = () => {
           </p>
 
           <div className="flex justify-center mb-8">
-            <a href="#">
-              <Button variant="gold" size="lg">
-                Click Here for "Call for Abstracts"
-              </Button>
-            </a>
+            <Button variant="gold" size="lg">
+              Click Here for "Call for Abstracts"
+            </Button>
           </div>
 
           <Accordion type="multiple" className="space-y-3">
