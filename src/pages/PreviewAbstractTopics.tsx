@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import { Button } from "@/components/ui/button";
 import {
   Accordion,
   AccordionContent,
@@ -29,6 +30,14 @@ const PreviewAbstractTopics = () => {
             within the scientific program of <strong>TERMIS AM 2026</strong>. Click on an abstract sub-topic to view
             the description of the corresponding planned session.
           </p>
+
+          <div className="flex justify-center mb-8">
+            <a href="#">
+              <Button variant="gold" size="lg">
+                Click Here for "Call for Abstracts"
+              </Button>
+            </a>
+          </div>
 
           <Accordion type="multiple" className="space-y-3">
             {abstractTopicsData.map((topic, topicIndex) => (
@@ -65,6 +74,14 @@ const PreviewAbstractTopics = () => {
               </AccordionItem>
             ))}
           </Accordion>
+
+          <div className="flex justify-center mt-8">
+            <a href="#">
+              <Button variant="gold" size="lg">
+                Click Here for "Call for Abstracts"
+              </Button>
+            </a>
+          </div>
         </div>
       </section>
 
