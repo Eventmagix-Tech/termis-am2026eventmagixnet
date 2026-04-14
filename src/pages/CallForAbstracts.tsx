@@ -81,7 +81,7 @@ const CallForAbstracts = () => {
             </CardHeader>
             <CardContent className="space-y-8">
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Title</h3>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Title</h3>
                 <p className="text-sm text-foreground/80">The title should be brief, clearly indicating the nature of the presentation of max 25 words. Do not place a period at the end of the title.</p>
               </div>
 
