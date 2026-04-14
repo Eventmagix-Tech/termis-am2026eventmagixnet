@@ -86,15 +86,16 @@ const CallForAbstracts = () => {
               </div>
 
               <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Topic</h3>
+                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Topic & Optional Topics</h3>
                 <p className="text-sm text-foreground/80">
-                  Please select the main topic of your abstract. Click{" "}
+                  Please select the primary topic of your abstract. In addition, please select a second and third topic that best align with your submission. Click{" "}
                   <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer" className="text-accent underline font-medium">HERE</a>{" "}
-                  to see a full list of the abstract categories.
+                  to see a full list of abstract topics.
                 </p>
                 <div className="mt-3 bg-muted/50 border border-border rounded-md p-3">
-                  <p className="font-semibold text-foreground mb-1">Important</p>
-                  <p className="text-sm text-foreground/80">The primary topic is not guaranteed. The Scientific Advisory Committee reserves the right to change the abstract category during the abstract assessment process without notifying the author(s). Sessions are slotted based on the number and quality of abstracts submitted, not all proposed sessions may appear in the final program.</p>
+                  <p className="font-semibold text-foreground mb-1">Please note:</p>
+                  <p className="text-sm text-foreground/80">The primary topic is not guaranteed. If your primary choice is full, Topic 2 and then Topic 3 will be considered. The Scientific Advisory Committee reserves the right to change the abstract topic during the abstract assessment process without notifying the author(s).</p>
+                  <p className="text-sm text-foreground/80 mt-2">Sessions are slotted based on the number and quality of abstracts submitted for each topic. Not all proposed sessions may appear in the final program.</p>
                 </div>
               </div>
 
