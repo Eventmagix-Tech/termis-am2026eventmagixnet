@@ -99,10 +99,8 @@ const CallForAbstracts = () => {
                 </div>
               </div>
 
-              <div>
-                <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Optional Topics</h3>
-                <p className="text-sm text-foreground/80">Please select a 2ⁿᵈ and 3ʳᵈ topic that best align with your submission.</p>
-              </div>
+
+
 
               <div>
                 <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Presentation Preference</h3>
