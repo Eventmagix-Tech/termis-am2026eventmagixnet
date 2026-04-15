@@ -89,7 +89,7 @@ const CallForAbstracts = () => {
                 <h3 className="text-base font-semibold text-primary border-b border-border pb-2 mb-3">Abstract Topic & Optional Topics</h3>
                 <p className="text-sm text-foreground/80">
                   Please select the primary topic of your abstract. In addition, please select a second and third topic that best align with your submission. Click{" "}
-                  <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer" className="text-accent underline font-medium">HERE</a>{" "}
+                  <a href="https://am2026.termis.org/abstract-topics" target="_blank" rel="noopener noreferrer" className="text-accent underline font-medium">HERE</a>{" "}
                   to see a full list of abstract topics.
                 </p>
                 <div className="mt-3 bg-muted/50 border border-border rounded-md p-3">
