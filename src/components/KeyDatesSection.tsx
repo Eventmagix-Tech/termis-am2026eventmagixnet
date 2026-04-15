@@ -19,7 +19,7 @@ const keyDates = [
     icon: FileText,
     title: "Abstract Submission Deadline",
     description: "Submit your abstracts before the deadline",
-    date: "May 11, 2026",
+    date: "May 18, 2026",
   },
 ];
 
