@@ -27,7 +27,6 @@ import AbstractTopics from "./pages/AbstractTopics";
 
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
-import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
 import NotFound from "./pages/NotFound";
 
