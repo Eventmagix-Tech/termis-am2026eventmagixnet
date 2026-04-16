@@ -3,10 +3,10 @@ import { FileText, Info, Calendar, Handshake } from "lucide-react";
 
 const cards = [
   {
-    title: "Session & Workshop Submission",
-    description: "Submit your session and workshop proposals for TERMIS-AM 2026",
+    title: "Abstract Submission",
+    description: "Submit your abstract for the TERMIS-AM 2026 conference",
     icon: FileText,
-    href: "/session-workshop-submission",
+    href: "/call-for-abstracts",
     color: "from-purple-deep to-purple-light",
   },
   {
