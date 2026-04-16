@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
@@ -67,8 +68,10 @@ const AbstractTopics = () => {
           </Accordion>
 
           <div className="flex justify-center mt-8">
-            <Button variant="gold" size="lg">
-              Click Here for "Call for Abstracts"
+            <Button variant="gold" size="lg" asChild>
+              <Link to="/call-for-abstracts">
+                Click Here for "Call for Abstracts"
+              </Link>
             </Button>
           </div>
         </div>
