@@ -13,7 +13,7 @@ const CallForAbstracts = () => {
       <SEOHead
         title="Call for Abstracts"
         description="Submit your abstract for the TERMIS-AM 2026 conference in New Orleans. Review submission guidelines, scientific topics, and important deadlines."
-        noindex={true}
+        />
       />
       <Header />
       <PageHeader title="Call for Abstracts" />
