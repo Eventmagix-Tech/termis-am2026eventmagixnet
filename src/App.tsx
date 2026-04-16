@@ -24,7 +24,7 @@ import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
 import AbstractTopics from "./pages/AbstractTopics";
-import PreviewAbstractTopics from "./pages/PreviewAbstractTopics";
+
 import ComingSoon from "./pages/ComingSoon";
 import CallForAbstractsPlaceholder from "./pages/CallForAbstractsPlaceholder";
 import RegistrationPreview from "./pages/RegistrationPreview";
@@ -64,7 +64,7 @@ const App = () => (
           <Route path="/preview-abstracts-review-2026" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
-          <Route path="/preview-abstract-topics" element={<PreviewAbstractTopics />} />
+          
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
