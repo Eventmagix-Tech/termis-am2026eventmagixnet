@@ -67,10 +67,8 @@ const AbstractTopics = () => {
           </Accordion>
 
           <div className="flex justify-center mt-8">
-            <Button variant="gold" size="lg" asChild>
-              <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer">
-                Click Here to Submit Abstract
-              </a>
+            <Button variant="gold" size="lg">
+              Click Here for "Call for Abstracts"
             </Button>
           </div>
         </div>
