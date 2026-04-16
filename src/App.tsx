@@ -26,7 +26,6 @@ import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
 import AbstractTopics from "./pages/AbstractTopics";
 
 import ComingSoon from "./pages/ComingSoon";
-import CallForAbstractsPlaceholder from "./pages/CallForAbstractsPlaceholder";
 import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
 import NotFound from "./pages/NotFound";
@@ -60,8 +59,7 @@ const App = () => (
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           <Route path="/business-pitch-competition" element={<BusinessPitchCompetition />} />
           <Route path="/abstract-topics" element={<AbstractTopics />} />
-          <Route path="/call-for-abstracts" element={<CallForAbstractsPlaceholder />} />
-          <Route path="/preview-abstracts-review-2026" element={<CallForAbstracts />} />
+          <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
           
