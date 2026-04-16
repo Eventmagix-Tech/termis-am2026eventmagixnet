@@ -17,6 +17,7 @@ const PreviewAbstractTopics = () => {
       <SEOHead
         title="Abstract Topics"
         description="Explore the 18 main abstract topics and subtopics for the TERMIS-AM 2026 conference."
+        noindex
       />
       <Header />
       <PageHeader title="Abstract Topics" />
