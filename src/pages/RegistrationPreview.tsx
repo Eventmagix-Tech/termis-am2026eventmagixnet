@@ -91,12 +91,12 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries - Student</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries - YI</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell className="text-center">USD 750</TableCell><TableCell className="text-center">USD 850</TableCell><TableCell className="text-center">USD 950</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 525</TableCell><TableCell className="text-center">USD 600</TableCell><TableCell className="text-center">USD 700</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries (Group A)***</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - Student (Group A)</TableCell><TableCell className="text-center">USD 425</TableCell><TableCell className="text-center">USD 500</TableCell><TableCell className="text-center">USD 600</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - YI (Group A)</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
