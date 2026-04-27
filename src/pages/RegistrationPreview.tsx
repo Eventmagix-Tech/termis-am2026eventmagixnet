@@ -223,16 +223,16 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Guest Pass for Sunday and Tuesday Receptions****</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Student Volunteer (promo code needed)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Preconference Workshops (per workshop, can select more than one)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Women in TERM Luncheon</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">SYIS Peer Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">SYIS Networking Event (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">SYIS Student Meet Mentor Lunch (SYIS only)</TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Conference Reception</TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Student Volunteer</TableCell><TableCell className="text-center">USD 300,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Exhibitors - (Paid)</TableCell><TableCell className="text-center">USD 400,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell className="text-center">USD 450,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell className="text-center">USD 600,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Guest Pass Welcome Reception****</TableCell><TableCell className="text-center">USD 150,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Preconference Workshops (per workshop, can select more than one)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Women in TERM Luncheon</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Peer Meet Mentor Lunch (SYIS only)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Networking Event (SYIS only)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">SYIS Student Meet Mentor Lunch (SYIS only)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
