@@ -197,12 +197,12 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries***</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Young Investigator/ Trainee</TableCell><TableCell></TableCell><TableCell></TableCell><TableCell></TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell className="text-center">USD 1,050</TableCell><TableCell className="text-center">USD 1,150</TableCell><TableCell className="text-center">USD 1,250</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 825</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell><TableCell className="text-center">USD 875</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries (Group A)***</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student (Group A)</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Young Investigator/ Trainee (Group A)</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
