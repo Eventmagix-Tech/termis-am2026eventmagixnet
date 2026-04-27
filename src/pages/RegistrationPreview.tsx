@@ -203,6 +203,9 @@ const RegistrationPreview = () => {
                           <TableRow><TableCell className="font-medium">Non-Member Emerging Countries (Group A)***</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student (Group A)</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Young Investigator/ Trainee (Group A)</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 825</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell><TableCell className="text-center">USD 750</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - YI</TableCell><TableCell className="text-center">USD 600</TableCell><TableCell className="text-center">USD 700</TableCell><TableCell className="text-center">USD 800</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
