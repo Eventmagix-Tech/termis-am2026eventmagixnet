@@ -91,12 +91,12 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell className="text-center">USD 750</TableCell><TableCell className="text-center">USD 850</TableCell><TableCell className="text-center">USD 950</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 525</TableCell><TableCell className="text-center">USD 600</TableCell><TableCell className="text-center">USD 700</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries - Student</TableCell><TableCell className="text-center">USD 425</TableCell><TableCell className="text-center">USD 500</TableCell><TableCell className="text-center">USD 600</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Member Emerging Countries - YI</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Full Investigator</TableCell><TableCell className="text-center">USD 750,00</TableCell><TableCell className="text-center">USD 850,00</TableCell><TableCell className="text-center">USD 950,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 475,00</TableCell><TableCell className="text-center">USD 550,00</TableCell><TableCell className="text-center">USD 650,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 525,00</TableCell><TableCell className="text-center">USD 600,00</TableCell><TableCell className="text-center">USD 700,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries</TableCell><TableCell className="text-center">USD 625,00</TableCell><TableCell className="text-center">USD 625,00</TableCell><TableCell className="text-center">USD 725,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - Student</TableCell><TableCell className="text-center">USD 425,00</TableCell><TableCell className="text-center">USD 500,00</TableCell><TableCell className="text-center">USD 600,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Member Emerging Countries - YI</TableCell><TableCell className="text-center">USD 475,00</TableCell><TableCell className="text-center">USD 550,00</TableCell><TableCell className="text-center">USD 650,00</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
@@ -121,47 +121,47 @@ const RegistrationPreview = () => {
                         <TableBody>
                           <TableRow>
                             <TableCell className="font-medium"><div>Regular Membership</div><div className="text-xs text-muted-foreground">(annual dues: $130.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 880</TableCell><TableCell className="text-center">USD 980</TableCell><TableCell className="text-center">USD 1,080</TableCell>
+                            <TableCell className="text-center">USD 880,00</TableCell><TableCell className="text-center">USD 980,00</TableCell><TableCell className="text-center">USD 1.080,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">Regular Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 800</TableCell><TableCell className="text-center">USD 900</TableCell><TableCell className="text-center">USD 1,000</TableCell>
+                            <TableCell className="text-center">USD 800,00</TableCell><TableCell className="text-center">USD 900,00</TableCell><TableCell className="text-center">USD 1.000,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div>Student Membership / YI</div><div className="text-xs text-muted-foreground">(annual dues: $30.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 505</TableCell><TableCell className="text-center">USD 580</TableCell><TableCell className="text-center">USD 680</TableCell>
+                            <TableCell className="text-center">USD 505,00</TableCell><TableCell className="text-center">USD 580,00</TableCell><TableCell className="text-center">USD 680,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">Student Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 665</TableCell>
+                            <TableCell className="text-center">USD 490,00</TableCell><TableCell className="text-center">USD 565,00</TableCell><TableCell className="text-center">USD 665,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">YI Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 540</TableCell><TableCell className="text-center">USD 615</TableCell><TableCell className="text-center">USD 715</TableCell>
+                            <TableCell className="text-center">USD 540,00</TableCell><TableCell className="text-center">USD 615,00</TableCell><TableCell className="text-center">USD 715,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell>
+                            <TableCell className="text-center">USD 675,00</TableCell><TableCell className="text-center">USD 675,00</TableCell><TableCell className="text-center">USD 775,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries - Student <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 440</TableCell><TableCell className="text-center">USD 515</TableCell><TableCell className="text-center">USD 615</TableCell>
+                            <TableCell className="text-center">USD 440,00</TableCell><TableCell className="text-center">USD 515,00</TableCell><TableCell className="text-center">USD 615,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries - YI <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
-                            <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 656</TableCell>
+                            <TableCell className="text-center">USD 490,00</TableCell><TableCell className="text-center">USD 565,00</TableCell><TableCell className="text-center">USD 656,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium whitespace-nowrap">Emerging Countries <span className="whitespace-nowrap">(Group B)</span></TableCell>
-                            <TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell>
+                            <TableCell className="text-center">USD 625,00</TableCell><TableCell className="text-center">USD 625,00</TableCell><TableCell className="text-center">USD 725,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium whitespace-nowrap">Emerging Countries - Student <span className="whitespace-nowrap">(Group B)</span></TableCell>
-                            <TableCell className="text-center">USD 400</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 575</TableCell>
+                            <TableCell className="text-center">USD 400,00</TableCell><TableCell className="text-center">USD 475,00</TableCell><TableCell className="text-center">USD 575,00</TableCell>
                           </TableRow>
                           <TableRow>
                             <TableCell className="font-medium whitespace-nowrap">Emerging Countries - YI <span className="whitespace-nowrap">(Group B)</span></TableCell>
-                            <TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell>
+                            <TableCell className="text-center">USD 475,00</TableCell><TableCell className="text-center">USD 550,00</TableCell><TableCell className="text-center">USD 650,00</TableCell>
                           </TableRow>
                         </TableBody>
                       </Table>
@@ -197,12 +197,12 @@ const RegistrationPreview = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell className="text-center">USD 1,050</TableCell><TableCell className="text-center">USD 1,150</TableCell><TableCell className="text-center">USD 1,250</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 825</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell><TableCell className="text-center">USD 875</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 725</TableCell><TableCell className="text-center">USD 825</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell><TableCell className="text-center">USD 750</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 600</TableCell><TableCell className="text-center">USD 700</TableCell><TableCell className="text-center">USD 800</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Full Investigator</TableCell><TableCell className="text-center">USD 1.050,00</TableCell><TableCell className="text-center">USD 1.150,00</TableCell><TableCell className="text-center">USD 1.250,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Students (Pre-doctoral)</TableCell><TableCell className="text-center">USD 625,00</TableCell><TableCell className="text-center">USD 725,00</TableCell><TableCell className="text-center">USD 825,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 675,00</TableCell><TableCell className="text-center">USD 775,00</TableCell><TableCell className="text-center">USD 875,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries</TableCell><TableCell className="text-center">USD 725,00</TableCell><TableCell className="text-center">USD 725,00</TableCell><TableCell className="text-center">USD 825,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Student</TableCell><TableCell className="text-center">USD 550,00</TableCell><TableCell className="text-center">USD 650,00</TableCell><TableCell className="text-center">USD 750,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Non-Member Emerging Countries - Young Investigator/ Trainee</TableCell><TableCell className="text-center">USD 600,00</TableCell><TableCell className="text-center">USD 700,00</TableCell><TableCell className="text-center">USD 800,00</TableCell></TableRow>
                         </TableBody>
                       </Table>
                     </div>
