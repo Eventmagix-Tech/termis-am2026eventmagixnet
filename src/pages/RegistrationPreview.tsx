@@ -124,7 +124,7 @@ const RegistrationPreview = () => {
                             <TableCell className="text-center">USD 880</TableCell><TableCell className="text-center">USD 980</TableCell><TableCell className="text-center">USD 1,080</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Regular Membership</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Regular Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 800</TableCell><TableCell className="text-center">USD 900</TableCell><TableCell className="text-center">USD 1,000</TableCell>
                           </TableRow>
                           <TableRow>
@@ -132,23 +132,23 @@ const RegistrationPreview = () => {
                             <TableCell className="text-center">USD 505</TableCell><TableCell className="text-center">USD 580</TableCell><TableCell className="text-center">USD 680</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Student Membership</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Student Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 665</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>YI Membership</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>YI Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 540</TableCell><TableCell className="text-center">USD 615</TableCell><TableCell className="text-center">USD 715</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Emerging Countries (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - Student</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Emerging Countries - Student - (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 440</TableCell><TableCell className="text-center">USD 515</TableCell><TableCell className="text-center">USD 615</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - YI</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Emerging Countries - YI - (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 656</TableCell>
                           </TableRow>
                           <TableRow>
@@ -224,7 +224,7 @@ const RegistrationPreview = () => {
                         </TableHeader>
                         <TableBody>
                           <TableRow><TableCell className="font-medium">Student Volunteer</TableCell><TableCell className="text-center">USD 300,00</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Exhibitors - (Paid)</TableCell><TableCell className="text-center">USD 400,00</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Exhibitors Badge - (Paid)</TableCell><TableCell className="text-center">USD 400,00</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell className="text-center">USD 450,00</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell className="text-center">USD 600,00</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Guest Pass Welcome Reception****</TableCell><TableCell className="text-center">USD 150,00</TableCell></TableRow>
@@ -256,7 +256,7 @@ const RegistrationPreview = () => {
                       <p className="pl-6 text-foreground/80">If you've been away from research (e.g. for a career break, maternity leave, or long-term sick leave), TERMIS will take this into consideration with your application. If you've taken formal maternity, paternity, or adoption leave as the primary career, or long-term sick leave, TERMIS will provide an extra six months for each period of leave when we consider your postdoctoral experience.</p>
                       <ul className="list-disc pl-6 space-y-3">
                         <li><strong>Student:</strong> A student is any individual who is engaged as a graduate or undergraduate in a university or college program or as an MD resident and is actively interested in research in the field of TERM. Students are required to provide their university ID for verification of their undergraduate/graduate status.</li>
-                        <li><strong>Guest</strong> – The guest pass is meant for spouses or family members of a registrant who are not in the industry and don't plan on being involved in sessions. Guests are only able to attend the Welcome Reception on Sunday, November 15, and the Conference Reception on Tuesday, November 17.</li>
+                        <li><strong>Guest</strong> – The guest pass is meant for spouses or family members of a registrant who are not in the industry and don't plan on being involved in sessions. Guests are only able to attend the Welcome Reception on Sunday, November 15.</li>
                       </ul>
 
                       <div className="mt-6">
@@ -408,10 +408,10 @@ const RegistrationPreview = () => {
                   </Table>
                 </div>
 
-                <p className="text-sm mt-4 italic">
+                <p className="text-sm mt-4 font-bold text-primary">
                   *Please make your bank transfer for your registration fee, including the bank transfer charges. If the payment received by the organizing secretariat is less than the registration fee, the participants will be charged for the missing amount.
                 </p>
-                <p className="text-sm italic">
+                <p className="text-sm font-bold text-primary">
                   **Please indicate the name & surname of the participants and/or invoice number and/or reference number on the statement.
                 </p>
               </div>
