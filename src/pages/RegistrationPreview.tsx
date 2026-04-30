@@ -354,6 +354,9 @@ const RegistrationPreview = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">Cancellation Policy</h2>
               <div className="space-y-4 text-foreground/80 mb-12">
                 <h4 className="font-semibold text-primary mb-2">Refund Policy</h4>
+                <ul className="list-disc pl-6">
+                  <li>In case of visa refusal, refund requests must be submitted prior to the registration cancellation deadline of September 18, 2026.</li>
+                </ul>
                 <p>For cancellations received by September 18, 2026, up to which date the registration fee will be refunded with a 100.00 USD deduction for administrative expenses.</p>
                 <p>For cancellations received on and after September 19, 2026, the registration fee will be non-refundable.</p>
                 <p>Refunds will be processed four to six weeks after the conference. Pre-paid no shows or early departures will not be refunded. Substitutions are permitted. Substitution requests must be made in writing (see info below).</p>
