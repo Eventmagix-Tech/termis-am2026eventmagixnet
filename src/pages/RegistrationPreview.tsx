@@ -112,7 +112,7 @@ const RegistrationPreview = () => {
                       <Table>
                         <TableHeader>
                           <TableRow className="bg-primary">
-                            <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
+                            <TableHead className="text-white font-semibold min-w-[280px] w-[40%]">Registration Categories & Fees</TableHead>
                             <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
                             <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
                             <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
@@ -124,7 +124,7 @@ const RegistrationPreview = () => {
                             <TableCell className="text-center">USD 880</TableCell><TableCell className="text-center">USD 980</TableCell><TableCell className="text-center">USD 1,080</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Regular Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">Regular Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 800</TableCell><TableCell className="text-center">USD 900</TableCell><TableCell className="text-center">USD 1,000</TableCell>
                           </TableRow>
                           <TableRow>
@@ -132,35 +132,35 @@ const RegistrationPreview = () => {
                             <TableCell className="text-center">USD 505</TableCell><TableCell className="text-center">USD 580</TableCell><TableCell className="text-center">USD 680</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Student Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">Student Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 665</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>YI Membership (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">YI Membership <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 540</TableCell><TableCell className="text-center">USD 615</TableCell><TableCell className="text-center">USD 715</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $50.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - Student (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries - Student <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 440</TableCell><TableCell className="text-center">USD 515</TableCell><TableCell className="text-center">USD 615</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - YI (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div className="whitespace-nowrap">Emerging Countries - YI <span className="whitespace-nowrap">(Group A)</span></div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 656</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries (Group B)</TableCell>
+                            <TableCell className="font-medium whitespace-nowrap">Emerging Countries <span className="whitespace-nowrap">(Group B)</span></TableCell>
                             <TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries - Student (Group B)</TableCell>
+                            <TableCell className="font-medium whitespace-nowrap">Emerging Countries - Student <span className="whitespace-nowrap">(Group B)</span></TableCell>
                             <TableCell className="text-center">USD 400</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 575</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries - YI (Group B)</TableCell>
+                            <TableCell className="font-medium whitespace-nowrap">Emerging Countries - YI <span className="whitespace-nowrap">(Group B)</span></TableCell>
                             <TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell>
                           </TableRow>
                         </TableBody>
