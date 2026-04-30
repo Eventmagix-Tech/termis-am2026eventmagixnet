@@ -144,23 +144,23 @@ const RegistrationPreview = () => {
                             <TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 675</TableCell><TableCell className="text-center">USD 775</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - Student - (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Emerging Countries - Student (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 440</TableCell><TableCell className="text-center">USD 515</TableCell><TableCell className="text-center">USD 615</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium"><div>Emerging Countries - YI - (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
+                            <TableCell className="font-medium"><div>Emerging Countries - YI (Group A)</div><div className="text-xs text-muted-foreground">(annual dues: $15.00 USD)</div></TableCell>
                             <TableCell className="text-center">USD 490</TableCell><TableCell className="text-center">USD 565</TableCell><TableCell className="text-center">USD 656</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries - Group B</TableCell>
+                            <TableCell className="font-medium">Emerging Countries (Group B)</TableCell>
                             <TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 625</TableCell><TableCell className="text-center">USD 725</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries - Group B - Student</TableCell>
+                            <TableCell className="font-medium">Emerging Countries - Student (Group B)</TableCell>
                             <TableCell className="text-center">USD 400</TableCell><TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 575</TableCell>
                           </TableRow>
                           <TableRow>
-                            <TableCell className="font-medium">Emerging Countries - Group B - YI</TableCell>
+                            <TableCell className="font-medium">Emerging Countries - YI (Group B)</TableCell>
                             <TableCell className="text-center">USD 475</TableCell><TableCell className="text-center">USD 550</TableCell><TableCell className="text-center">USD 650</TableCell>
                           </TableRow>
                         </TableBody>
