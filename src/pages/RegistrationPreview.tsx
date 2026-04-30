@@ -408,10 +408,10 @@ const RegistrationPreview = () => {
                   </Table>
                 </div>
 
-                <p className="text-sm mt-4 font-bold text-primary">
+                <p className="text-sm mt-4 font-bold italic text-primary">
                   *Please make your bank transfer for your registration fee, including the bank transfer charges. If the payment received by the organizing secretariat is less than the registration fee, the participants will be charged for the missing amount.
                 </p>
-                <p className="text-sm font-bold text-primary">
+                <p className="text-sm font-bold italic text-primary">
                   **Please indicate the name & surname of the participants and/or invoice number and/or reference number on the statement.
                 </p>
               </div>
