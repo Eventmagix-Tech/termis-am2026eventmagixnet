@@ -32,6 +32,15 @@ const RegistrationPreview = () => {
       <main className="flex-1">
         <PageHeader title="Registration" />
 
+        {/* Top Announcement Banner */}
+        <section className="bg-primary/10 border-y border-primary/20 py-4">
+          <div className="container mx-auto px-4">
+            <p className="text-center text-primary font-bold text-base md:text-lg">
+              Registration for TERMIS-AM 2026 is planned to officially launch in June.
+            </p>
+          </div>
+        </section>
+
         {/* How to Register */}
         <section className="py-16 md:py-20">
           <div className="container mx-auto px-4">
@@ -42,11 +51,8 @@ const RegistrationPreview = () => {
               </p>
 
               <div className="mb-8">
-                <Button variant="gold" size="xl" asChild>
-                  <a href="https://kenes.eventsair.com/termis-am-2026/mainform" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-5 h-5 mr-2" />
-                    Register Here
-                  </a>
+                <Button variant="gold" size="xl" disabled aria-disabled="true">
+                  PENDING
                 </Button>
               </div>
 
