@@ -55,11 +55,8 @@ const Committees = () => {
               <h2 className="text-xl md:text-2xl font-semibold text-primary">
                 Scientific Advisory Committee
               </h2>
-            </div>
-            <p className="text-muted-foreground">
-              The leadership shaping the scientific program of TERMIS-AM 2026.
-            </p>
           </div>
+
 
           {/* Program Co-Chairs */}
           <div className="mb-16">
