@@ -55,6 +55,7 @@ const Committees = () => {
               <h2 className="text-xl md:text-2xl font-semibold text-primary">
                 Scientific Advisory Committee
               </h2>
+            </div>
           </div>
 
 
