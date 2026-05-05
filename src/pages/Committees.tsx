@@ -49,9 +49,6 @@ const Committees = () => {
           {/* Scientific Advisory Committee */}
           <div className="mb-16">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
-                <Users className="w-5 h-5 text-accent" />
-              </div>
               <h2 className="text-xl md:text-2xl font-semibold text-primary">
                 Scientific Advisory Committee
               </h2>
@@ -65,7 +62,7 @@ const Committees = () => {
               <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
                 <Users className="w-5 h-5 text-accent" />
               </div>
-              <h2 className="text-xl md:text-2xl font-semibold text-primary">
+              <h2 className="text-lg md:text-xl font-semibold text-primary">
                 Conference Program Co-Chairs
               </h2>
             </div>
@@ -87,7 +84,7 @@ const Committees = () => {
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                 <Users className="w-5 h-5 text-primary" />
               </div>
-              <h2 className="text-xl md:text-2xl font-semibold text-primary">
+              <h2 className="text-lg md:text-xl font-semibold text-primary">
                 TWIG Co-Chairs
               </h2>
             </div>
