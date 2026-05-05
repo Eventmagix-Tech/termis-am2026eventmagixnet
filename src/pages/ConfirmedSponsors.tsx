@@ -76,7 +76,7 @@ const ConfirmedSponsors = () => (
           <SponsorGrid
             sponsors={bronzeSponsors}
             logoHeightClass="h-40"
-            gridClass="grid-cols-1 md:grid-cols-2"
+            itemWidthClass="w-full sm:w-[360px]"
           />
         </div>
 
