@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
+import { Download, ExternalLink } from "lucide-react";
 
 const PDF_URL = "/downloads/TERMIS-AM-2026-Program-at-a-Glance.pdf";
 
@@ -32,12 +32,35 @@ const ProgramAtAGlance = () => (
 
         <div className="max-w-5xl mx-auto mt-12">
           <div className="rounded-2xl overflow-hidden border border-border shadow-card bg-white">
-            <iframe
-              src={PDF_URL}
-              title="TERMIS-AM 2026 Program at a Glance"
+            <object
+              data={PDF_URL}
+              type="application/pdf"
               className="w-full h-[800px] md:h-[1000px]"
-            />
+            >
+              <div className="flex flex-col items-center justify-center text-center gap-4 p-8 h-[800px] md:h-[1000px]">
+                <p className="text-foreground text-base max-w-md">
+                  Your browser or an extension is preventing the PDF from displaying inline.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button variant="purple" asChild>
+                    <a href={PDF_URL} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Open PDF in new tab
+                    </a>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <a href={PDF_URL} download>
+                      <Download className="w-4 h-4 mr-2" />
+                      Download PDF
+                    </a>
+                  </Button>
+                </div>
+              </div>
+            </object>
           </div>
+          <p className="text-sm text-muted-foreground text-center mt-4">
+            If the document does not load, please disable your ad blocker for this page or use the buttons above to open or download it.
+          </p>
         </div>
       </div>
     </section>
