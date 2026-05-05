@@ -40,20 +40,34 @@ const Committees = () => {
       <Header />
 
       <PageHeader
-        title="Scientific Advisory Committee"
-        subtitle="The leadership shaping the scientific program of TERMIS-AM 2026"
+        title="Committees"
         tag="Committees"
       />
 
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-5xl">
+          {/* Scientific Advisory Committee */}
+          <div className="mb-16">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
+                <Users className="w-5 h-5 text-accent" />
+              </div>
+              <h2 className="text-xl md:text-2xl font-semibold text-primary">
+                Scientific Advisory Committee
+              </h2>
+            </div>
+            <p className="text-muted-foreground">
+              The leadership shaping the scientific program of TERMIS-AM 2026.
+            </p>
+          </div>
+
           {/* Program Co-Chairs */}
           <div className="mb-16">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
                 <Users className="w-5 h-5 text-accent" />
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold text-primary">
+              <h2 className="text-xl md:text-2xl font-semibold text-primary">
                 Conference Program Co-Chairs
               </h2>
             </div>
