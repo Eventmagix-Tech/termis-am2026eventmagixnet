@@ -87,7 +87,7 @@ const Committees = () => {
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                 <Users className="w-5 h-5 text-primary" />
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold text-primary">
+              <h2 className="text-xl md:text-2xl font-semibold text-primary">
                 TWIG Co-Chairs
               </h2>
             </div>
