@@ -53,7 +53,7 @@ const navItems = [
     label: "Sponsors & Exhibitors",
     children: [
       { label: "Support Opportunities", href: "/support-opportunities" },
-      // { label: "Confirmed Sponsors", href: "/confirmed-sponsors" }, // Hidden temporarily
+      { label: "Confirmed Sponsors", href: "/confirmed-sponsors" },
     ],
   },
   {
