@@ -29,15 +29,15 @@ const syisAwardSupporters: Sponsor[] = [
 interface SponsorGridProps {
   sponsors: Sponsor[];
   logoHeightClass?: string;
-  gridClass?: string;
+  itemWidthClass?: string;
 }
 
 const SponsorGrid = ({
   sponsors,
   logoHeightClass = "h-24",
-  gridClass = "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4",
+  itemWidthClass = "w-full sm:w-[260px] md:w-[220px]",
 }: SponsorGridProps) => (
-  <div className={`grid ${gridClass} gap-8 place-items-center justify-items-center`}>
+  <div className="mx-auto max-w-4xl flex flex-wrap justify-center gap-8">
     {sponsors.map((s) => (
       <a
         key={s.name}
@@ -45,7 +45,7 @@ const SponsorGrid = ({
         target="_blank"
         rel="noopener noreferrer"
         aria-label={s.name}
-        className="bg-white border border-accent/20 rounded-xl shadow-sm p-6 flex items-center justify-center hover:scale-105 hover:shadow-md transition-transform duration-300 w-full max-w-sm"
+        className={`${itemWidthClass} bg-white border border-accent/20 rounded-xl shadow-sm p-6 flex items-center justify-center hover:scale-105 hover:shadow-md transition-transform duration-300`}
       >
         <img
           src={s.logo}
