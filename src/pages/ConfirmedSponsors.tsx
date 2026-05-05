@@ -19,12 +19,25 @@ const bronzeSponsors: Sponsor[] = [
 ];
 
 const sponsorsExhibitors: Sponsor[] = [
-  { name: "ACS Publications", href: "https://pubs.acs.org", logo: acsLogo },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
 ];
 
-const SponsorGrid = ({ sponsors }: { sponsors: Sponsor[] }) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+const syisAwardSupporters: Sponsor[] = [
+  { name: "ACS Publications", href: "https://pubs.acs.org", logo: acsLogo },
+];
+
+interface SponsorGridProps {
+  sponsors: Sponsor[];
+  logoHeightClass?: string;
+  gridClass?: string;
+}
+
+const SponsorGrid = ({
+  sponsors,
+  logoHeightClass = "h-24",
+  gridClass = "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4",
+}: SponsorGridProps) => (
+  <div className={`grid ${gridClass} gap-8 place-items-center justify-items-center`}>
     {sponsors.map((s) => (
       <a
         key={s.name}
@@ -32,12 +45,12 @@ const SponsorGrid = ({ sponsors }: { sponsors: Sponsor[] }) => (
         target="_blank"
         rel="noopener noreferrer"
         aria-label={s.name}
-        className="bg-white border border-accent/20 rounded-xl shadow-sm p-6 flex items-center justify-center hover:scale-105 hover:shadow-md transition-transform duration-300"
+        className="bg-white border border-accent/20 rounded-xl shadow-sm p-6 flex items-center justify-center hover:scale-105 hover:shadow-md transition-transform duration-300 w-full max-w-sm"
       >
         <img
           src={s.logo}
           alt={`${s.name} logo`}
-          className="h-24 w-auto object-contain"
+          className={`${logoHeightClass} w-auto object-contain mx-auto`}
           loading="lazy"
         />
       </a>
@@ -60,7 +73,11 @@ const ConfirmedSponsors = () => (
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
             Bronze Sponsors
           </h2>
-          <SponsorGrid sponsors={bronzeSponsors} />
+          <SponsorGrid
+            sponsors={bronzeSponsors}
+            logoHeightClass="h-40"
+            gridClass="grid-cols-1 md:grid-cols-2"
+          />
         </div>
 
         <div>
@@ -68,6 +85,13 @@ const ConfirmedSponsors = () => (
             Sponsors &amp; Exhibitors
           </h2>
           <SponsorGrid sponsors={sponsorsExhibitors} />
+        </div>
+
+        <div>
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
+            SYIS Award Supporters
+          </h2>
+          <SponsorGrid sponsors={syisAwardSupporters} />
         </div>
       </div>
     </section>
