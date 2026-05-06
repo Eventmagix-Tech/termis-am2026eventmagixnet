@@ -6,6 +6,7 @@ import cookMyositeLogo from "@/assets/sponsors/cook-myosite.png";
 import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
+import jpmLogo from "@/assets/sponsors/jpm.png";
 
 interface Sponsor {
   name: string;
@@ -24,6 +25,7 @@ const sponsorsExhibitors: Sponsor[] = [
 
 const syisAwardSupporters: Sponsor[] = [
   { name: "ACS Publications", href: "https://pubs.acs.org", logo: acsLogo },
+  { name: "Journal of Personalized Medicine", href: "https://www.mdpi.com/journal/jpm", logo: jpmLogo },
 ];
 
 interface SponsorGridProps {
