@@ -14,7 +14,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: XIcon, href: "https://x.com/TERMISAM", label: "X" },
-    { icon: Linkedin, href: "https://www.linkedin.com/groups/17455001/", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/termis-am/", label: "LinkedIn" },
   ];
 
 

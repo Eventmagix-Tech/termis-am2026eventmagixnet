@@ -166,7 +166,7 @@ const Header = () => {
                 </svg>
               </a>
               <a 
-                href="https://www.linkedin.com/groups/17455001/"
+                href="https://www.linkedin.com/company/termis-am/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-accent transition-colors"
@@ -244,7 +244,7 @@ const Header = () => {
                 </svg>
               </a>
               <a 
-                href="https://www.linkedin.com/groups/17455001/"
+                href="https://www.linkedin.com/company/termis-am/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-accent transition-colors"
