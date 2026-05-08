@@ -28,6 +28,10 @@ const ProgramAtAGlance = () => (
               TERMIS-AM 2026 Program at a Glance
             </a>
           </Button>
+
+          <p className="text-sm italic text-muted-foreground text-center my-4">
+            Please note the program is subject to changes.
+          </p>
         </div>
 
         <div className="max-w-5xl mx-auto mt-12">
