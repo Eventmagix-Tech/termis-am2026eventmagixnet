@@ -7,6 +7,7 @@ import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
 import jpmLogo from "@/assets/sponsors/jpm.png";
+import ssrLogo from "@/assets/sponsors/ssr.png";
 
 interface Sponsor {
   name: string;
@@ -17,6 +18,7 @@ interface Sponsor {
 const bronzeSponsors: Sponsor[] = [
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
+  { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
 ];
 
 const sponsorsExhibitors: Sponsor[] = [
