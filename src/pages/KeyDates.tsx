@@ -28,8 +28,8 @@ const keyDates = [
   },
   {
     icon: Clock,
-    title: "Abstract Submission Deadline",
-    date: "May 18, 2026",
+    title: "Extended Abstract Submission Deadline",
+    date: "June 1, 2026",
   },
   {
     icon: Calendar,
