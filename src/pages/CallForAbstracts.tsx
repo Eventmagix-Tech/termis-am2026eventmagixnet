@@ -34,9 +34,9 @@ const CallForAbstracts = () => {
           <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-center gap-3">
             <AlertCircle className="h-5 w-5 text-accent shrink-0" />
             <p className="text-foreground/90 font-medium">
-              Abstracts must be submitted online through the abstract submission portal until{" "}
+              Abstracts must be submitted online through the abstract submission portal until extended deadline{" "}
               <Badge variant="default" className="ml-1 bg-accent text-white text-sm">
-                May 18, 2026 11:59 PM Central Time
+                June 1, 2026 11:59 PM Central Time
               </Badge>
             </p>
           </div>
@@ -170,7 +170,7 @@ const CallForAbstracts = () => {
                 <div className="text-sm text-foreground/80">
                   <p className="mb-2">If any required fields are missing, a message will appear in red. Please go back and make corrections.</p>
                   <p className="mb-2">When ready, click Finish Submission to submit your abstract.</p>
-                  <p>You may edit your abstract until <strong>May 18, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
+                  <p>You may edit your abstract until <strong>June 1, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
                 </div>
               </div>
             </CardContent>
