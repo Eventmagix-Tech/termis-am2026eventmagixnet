@@ -134,12 +134,12 @@ const PlenarySpeakers = () => {
       </section>
 
       <Dialog open={!!selected} onOpenChange={(o) => !o && setSelected(null)}>
-        <DialogContent>
+        <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle>{selected?.name}</DialogTitle>
           </DialogHeader>
-          <p className="text-foreground">
-            Biography details for {selected?.name} will be updated soon.
+          <p className="text-foreground text-sm leading-relaxed whitespace-pre-line">
+            {selected?.bio ?? `Biography details for ${selected?.name} will be updated soon.`}
           </p>
         </DialogContent>
       </Dialog>
