@@ -16,6 +16,7 @@ import Committees from "./pages/Committees";
 import ProgramAtAGlance from "./pages/ProgramAtAGlance";
 import PreConferenceWorkshops from "./pages/PreConferenceWorkshops";
 import PlenaryKeynoteSpeakers from "./pages/PlenaryKeynoteSpeakers";
+import PlenarySpeakers from "./pages/PlenarySpeakers";
 import RegistrationInformation from "./pages/RegistrationInformation";
 import HotelAccommodation from "./pages/HotelAccommodation";
 import SupportOpportunities from "./pages/SupportOpportunities";
@@ -53,6 +54,7 @@ const App = () => (
           <Route path="/program-at-a-glance" element={<ProgramAtAGlance />} />
           <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
           <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
+          <Route path="/plenary-speakers" element={<PlenarySpeakers />} />
           <Route path="/registration-information" element={<RegistrationInformation />} />
           <Route path="/hotel-accommodation" element={<HotelAccommodation />} />
           <Route path="/support-opportunities" element={<SupportOpportunities />} />

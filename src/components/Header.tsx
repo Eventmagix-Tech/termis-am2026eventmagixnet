@@ -28,6 +28,7 @@ const navItems = [
     children: [
       // { label: "Call for Abstracts", href: "/call-for-abstracts" }, // Hidden temporarily
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
+      { label: "Plenary Speakers", href: "/plenary-speakers" },
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       // { label: "Detailed Program", href: "/detailed-program" }, // Hidden temporarily
