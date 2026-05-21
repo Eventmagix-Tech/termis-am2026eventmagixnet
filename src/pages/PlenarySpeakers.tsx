@@ -16,6 +16,7 @@ interface Speaker {
   image: string;
   affiliations: string;
   topic: string;
+  bio?: string;
 }
 
 const speakers: Speaker[] = [
