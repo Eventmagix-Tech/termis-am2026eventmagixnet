@@ -8,6 +8,8 @@ import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
 import jpmLogo from "@/assets/sponsors/jpm.png";
 import ssrLogo from "@/assets/sponsors/ssr.png";
+import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
+import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
 
 interface Sponsor {
   name: string;
@@ -23,11 +25,13 @@ const bronzeSponsors: Sponsor[] = [
 
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
+  { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
 ];
 
 const syisAwardSupporters: Sponsor[] = [
   { name: "ACS Publications", href: "https://pubs.acs.org", logo: acsLogo },
   { name: "Journal of Personalized Medicine", href: "https://www.mdpi.com/journal/jpm", logo: jpmLogo },
+  { name: "Science Translational Medicine", href: "https://bit.ly/4uSe1BM", logo: scienceTranslationalMedicineLogo },
 ];
 
 interface SponsorGridProps {
