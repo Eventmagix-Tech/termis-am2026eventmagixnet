@@ -10,6 +10,7 @@ import jpmLogo from "@/assets/sponsors/jpm.png";
 import ssrLogo from "@/assets/sponsors/ssr.png";
 import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
+import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
 
 interface Sponsor {
   name: string;
@@ -26,6 +27,7 @@ const bronzeSponsors: Sponsor[] = [
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
+  { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
 ];
 
 const syisAwardSupporters: Sponsor[] = [
