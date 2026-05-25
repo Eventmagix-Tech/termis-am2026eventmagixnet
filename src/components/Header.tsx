@@ -47,6 +47,7 @@ const navItems = [
     children: [
       { label: "Registration Information", href: "/registration-information" },
       { label: "Hotel Accommodation", href: "/hotel-accommodation" },
+      { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
     ],
   },
   {
