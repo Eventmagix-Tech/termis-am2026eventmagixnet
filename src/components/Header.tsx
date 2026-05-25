@@ -58,7 +58,9 @@ const navItems = [
   },
   {
     label: "Students & Young Investigators",
-    href: "/students-young-investigators",
+    children: [
+      { label: "2026 SYIS-AM Conference Activities", href: "/2026-syis-am-conference-activities" },
+    ],
   },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
   { label: "Contact Us", href: "/contact-us" },
