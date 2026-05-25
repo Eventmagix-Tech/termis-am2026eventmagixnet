@@ -103,7 +103,7 @@ const SyisPositionsAwardsPreview = () => {
                 abstract of their work and their CV.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
-                Eligible applicants may apply by <FormLink>filling out this form</FormLink> and
+                Eligible applicants may apply by <FormLink href="https://forms.gle/CfZZVMsjzJbVLgh6A">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
                 <span className="font-semibold">July 18, 2026</span>. Awards will be granted to 5
                 applicants, who will receive a certificate and $200 travel stipend.
