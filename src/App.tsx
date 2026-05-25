@@ -25,6 +25,7 @@ import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
+import AwardsNetworking from "./pages/AwardsNetworking";
 import AbstractTopics from "./pages/AbstractTopics";
 
 import ComingSoon from "./pages/ComingSoon";
@@ -65,6 +66,7 @@ const App = () => (
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           <Route path="/business-pitch-competition" element={<BusinessPitchCompetition />} />
+          <Route path="/awards-networking-career-development" element={<AwardsNetworking />} />
           <Route path="/abstract-topics" element={<AbstractTopics />} />
           <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />

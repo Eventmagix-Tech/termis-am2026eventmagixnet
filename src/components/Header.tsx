@@ -31,6 +31,7 @@ const navItems = [
       { label: "Plenary Speakers", href: "/plenary-speakers" },
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
+      { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
       // { label: "Detailed Program", href: "/detailed-program" }, // Hidden temporarily
       // { label: "Plenary & Keynote Speakers", href: "/plenary-keynote-speakers" }, // Hidden temporarily
     ],
