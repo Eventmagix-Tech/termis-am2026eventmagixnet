@@ -41,6 +41,7 @@ const navItems = [
     children: [
       { label: "Abstract Topics", href: "/abstract-topics" },
       { label: "Call for Abstract", href: "/call-for-abstracts" },
+      { label: "NIH R13 Travel Awards", href: "/nih-r13-travel-awards" },
     ],
   },
   {
