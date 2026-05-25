@@ -31,6 +31,7 @@ import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
 import SyisPreview from "./pages/SyisPreview";
+import SyisPositionsAwardsPreview from "./pages/SyisPositionsAwardsPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -68,9 +69,11 @@ const App = () => (
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
           <Route path="/preview-2026-syis-am-conference-activities" element={<SyisPreview />} />
+          <Route path="/preview-syis-positions-and-awards" element={<SyisPositionsAwardsPreview />} />
           
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           <Route path="/2026-syis-am-conference-activities" element={<ComingSoon title="2026 SYIS-AM Conference Activities" />} />
+          <Route path="/syis-positions-and-awards" element={<ComingSoon title="SYIS Positions & Awards" />} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
