@@ -9,8 +9,13 @@ const EmailLink = () => (
   </a>
 );
 
-const FormLink = ({ children }: { children: React.ReactNode }) => (
-  <a href="#" className="text-accent font-semibold underline hover:no-underline">
+const FormLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-accent font-semibold underline hover:no-underline"
+  >
     {children}
   </a>
 );
@@ -56,7 +61,7 @@ const SyisPositionsAwardsPreview = () => {
                 the TERMIS-AM conference.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
-                Eligible applicants may apply by <FormLink>filling out this form</FormLink> and
+                Eligible applicants may apply by <FormLink href="https://forms.gle/nWDqBe5PscLwzJaA7">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
                 <span className="font-semibold">July 18, 2026</span>.
               </p>
@@ -98,7 +103,7 @@ const SyisPositionsAwardsPreview = () => {
                 abstract of their work and their CV.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
-                Eligible applicants may apply by <FormLink>filling out this form</FormLink> and
+                Eligible applicants may apply by <FormLink href="https://forms.gle/CfZZVMsjzJbVLgh6A">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
                 <span className="font-semibold">July 18, 2026</span>. Awards will be granted to 5
                 applicants, who will receive a certificate and $200 travel stipend.
