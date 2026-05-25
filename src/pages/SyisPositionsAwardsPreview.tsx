@@ -61,7 +61,7 @@ const SyisPositionsAwardsPreview = () => {
                 the TERMIS-AM conference.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
-                Eligible applicants may apply by <FormLink>filling out this form</FormLink> and
+                Eligible applicants may apply by <FormLink href="https://forms.gle/nWDqBe5PscLwzJaA7">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
                 <span className="font-semibold">July 18, 2026</span>.
               </p>
