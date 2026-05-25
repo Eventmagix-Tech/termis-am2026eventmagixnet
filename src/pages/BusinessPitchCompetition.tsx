@@ -60,15 +60,13 @@ const BusinessPitchCompetition = () => {
         </ul>
 
         <div className="text-lg text-foreground space-y-4 mt-6">
-          <p>
-            Even if you feel your idea is still in its early stages, we strongly encourage you to apply. The TERMIS Industry Committee is committed to supporting innovation at all levels and will provide constructive feedback to help advance your concept.
-          </p>
-          <p>
-            Five finalists will be selected and invited to present their ideas live at the TERMIS-AM 2026 Meeting. Finalists will pitch to a distinguished panel of judges with expertise in entrepreneurship, investment, and technology commercialization.
-          </p>
-          <p>
-            We look forward to your innovative ideas and to supporting the next generation of leaders in regenerative medicine.
-          </p>
+          <p>Even if you feel your idea is still in its early stages, we strongly encourage you to apply.</p>
+          <p>The TERMIS Industry Committee is committed to supporting innovation at all levels and will provide constructive feedback to help advance your concept.</p>
+          <p>Five finalists will be selected and invited to present their ideas live at the TERMIS-AM 2026 Meeting.</p>
+          <p>Finalists will pitch to a distinguished panel of judges with expertise in entrepreneurship, investment, and technology commercialization.</p>
+          <p>The application website will be available in the near future.</p>
+          <p>Please keep an eye out for upcoming emails with additional details, including submission guidelines and key deadlines.</p>
+          <p>We look forward to your innovative ideas and to supporting the next generation of leaders in regenerative medicine.</p>
         </div>
 
         {/* CTA */}
