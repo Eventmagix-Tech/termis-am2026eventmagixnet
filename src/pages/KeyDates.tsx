@@ -32,6 +32,11 @@ const keyDates = [
     date: "June 1, 2026",
   },
   {
+    icon: FileText,
+    title: "WFIRM Young Investigator Awards Application Deadline",
+    date: "August 1, 2026",
+  },
+  {
     icon: Calendar,
     title: "Early Registration Deadline",
     date: "September 18, 2026",
