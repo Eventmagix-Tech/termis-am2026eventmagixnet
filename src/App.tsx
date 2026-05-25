@@ -27,6 +27,7 @@ import CallForAbstracts from "./pages/CallForAbstracts";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
 import AwardsNetworking from "./pages/AwardsNetworking";
 import AbstractTopics from "./pages/AbstractTopics";
+import NihR13TravelAwards from "./pages/NihR13TravelAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
@@ -69,6 +70,7 @@ const App = () => (
           <Route path="/awards-networking-career-development" element={<AwardsNetworking />} />
           <Route path="/abstract-topics" element={<AbstractTopics />} />
           <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
+          <Route path="/nih-r13-travel-awards" element={<NihR13TravelAwards />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
           <Route path="/preview-2026-syis-am-conference-activities" element={<SyisPreview />} />
