@@ -30,6 +30,7 @@ import AbstractTopics from "./pages/AbstractTopics";
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
 import HotelPreview from "./pages/HotelPreview";
+import SyisPreview from "./pages/SyisPreview";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -66,8 +67,11 @@ const App = () => (
           <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           <Route path="/preview-hotel-2026-v1" element={<HotelPreview />} />
+          <Route path="/preview-2026-syis-am-conference-activities" element={<SyisPreview />} />
           
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
+          <Route path="/2026-syis-am-conference-activities" element={<ComingSoon title="2026 SYIS-AM Conference Activities" />} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
