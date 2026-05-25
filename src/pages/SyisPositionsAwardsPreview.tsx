@@ -9,8 +9,13 @@ const EmailLink = () => (
   </a>
 );
 
-const FormLink = ({ children }: { children: React.ReactNode }) => (
-  <a href="#" className="text-accent font-semibold underline hover:no-underline">
+const FormLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-accent font-semibold underline hover:no-underline"
+  >
     {children}
   </a>
 );
