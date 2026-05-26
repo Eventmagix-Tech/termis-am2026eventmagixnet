@@ -23,7 +23,7 @@ const sections: { title: string; body: React.ReactNode }[] = [
     ),
   },
   {
-    title: "Meet the Future Postdoc – Poster Session",
+    title: "Meet the Future Postdoc Candidates – Poster Session",
     body: (
       <>
         <p>
@@ -41,7 +41,7 @@ const sections: { title: string; body: React.ReactNode }[] = [
     ),
   },
   {
-    title: "Meet the Future Faculty – Poster Session",
+    title: "Meet the Future Faculty Candidates – Poster Session",
     body: (
       <>
         <p>
