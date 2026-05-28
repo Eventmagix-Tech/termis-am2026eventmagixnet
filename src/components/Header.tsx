@@ -68,6 +68,12 @@ const navItems = [
       { label: "WFIRM Young Investigator Awards", href: "/wfirm-young-investigator-awards" },
     ],
   },
+  {
+    label: "Awards",
+    children: [
+      { label: "HCS Travel Awards", href: "/hcs-travel-awards" },
+    ],
+  },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
 ];
 

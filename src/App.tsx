@@ -29,6 +29,7 @@ import AwardsNetworking from "./pages/AwardsNetworking";
 import AbstractTopics from "./pages/AbstractTopics";
 import NihR13TravelAwards from "./pages/NihR13TravelAwards";
 import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
+import HcsTravelAwards from "./pages/HcsTravelAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
@@ -73,6 +74,7 @@ const App = () => (
           <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/nih-r13-travel-awards" element={<NihR13TravelAwards />} />
           <Route path="/wfirm-young-investigator-awards" element={<WfirmYoungInvestigatorAwards />} />
+          <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
           <Route path="/preview-registration-2026-v1" element={<RegistrationPreview />} />
           
           <Route path="/preview-2026-syis-am-conference-activities" element={<SyisPreview />} />
