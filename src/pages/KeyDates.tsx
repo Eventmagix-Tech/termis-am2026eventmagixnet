@@ -33,7 +33,27 @@ const keyDates = [
   },
   {
     icon: FileText,
-    title: "WFIRM Young Investigator Awards Application Deadline",
+    title: "NIH R13 Travel Awards Submission Deadline",
+    date: "July 1, 2026",
+  },
+  {
+    icon: FileText,
+    title: "HCS Travel Award Submission Deadline",
+    date: "July 1, 2026",
+  },
+  {
+    icon: FileText,
+    title: "SYIS Awards Submission Deadline",
+    date: "July 18, 2026",
+  },
+  {
+    icon: FileText,
+    title: "Business Pitch Competition Submission Deadline",
+    date: "July 31, 2026",
+  },
+  {
+    icon: FileText,
+    title: "WFIRM YI Awards Submission Deadline",
     date: "August 1, 2026",
   },
   {
