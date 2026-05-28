@@ -4,6 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, Download, Mail } from "lucide-react";
+import wfirmLogo from "@/assets/wfirm-logo.webp";
 
 const APPLICATION_FORM_URL = "/documents/WFIRM_YIA_Application_form_2026.docx";
 const CONTACT_EMAIL = "regenmed@advocatehealth.org";
@@ -21,8 +22,16 @@ const WfirmYoungInvestigatorAwards = () => {
         subtitle="Wake Forest Institute for Regenerative Medicine · TERMIS-AM 2026"
       />
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
-        <div className="text-base md:text-lg text-foreground space-y-5">
+      <main className="container mx-auto px-4 py-12 max-w-5xl">
+        <div className="grid md:grid-cols-[240px_1fr] gap-8 items-start">
+          <div className="flex justify-center md:justify-start md:sticky md:top-24">
+            <img
+              src={wfirmLogo}
+              alt="Wake Forest School of Medicine - Institute for Regenerative Medicine"
+              className="w-full max-w-[220px] h-auto"
+            />
+          </div>
+          <div className="text-base md:text-lg text-foreground space-y-5">
           <p>
             The Wake Forest Institute for Regenerative Medicine is committed to developing and
             disseminating novel therapies for the repair and replacement of diseased tissues and
@@ -68,6 +77,7 @@ const WfirmYoungInvestigatorAwards = () => {
             <li>Be in attendance at TERMIS-AM in New Orleans, Louisiana</li>
             <li>No affiliation with Wake Forest University or Wake Forest University Health Sciences</li>
           </ul>
+        </div>
         </div>
 
         <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-start gap-3 mt-8">
