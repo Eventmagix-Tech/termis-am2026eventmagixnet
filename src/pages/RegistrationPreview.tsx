@@ -333,7 +333,7 @@ const RegistrationPreview = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">What is Included in the Registration Fee</h2>
               <div className="space-y-4 text-foreground/80 mb-12">
                 <p>The registration fee for all the registration categories of the Conference includes:</p>
-                <ul className="list-disc pl-6 space-y-2">
+                <ul className="list-disc pl-6 space-y-3">
                   <li>Access to all scientific sessions</li>
                   <li>Access to the posters' area</li>
                   <li>Access to the exhibition area</li>
@@ -341,12 +341,13 @@ const RegistrationPreview = () => {
                   <li>Certificate of attendance</li>
                   <li>Coffee breaks as per the Meeting program</li>
                   <li>Welcome Reception (November 15th)</li>
-                  
                 </ul>
-                <div className="mt-6">
-                  <h4 className="font-semibold text-primary mb-2">Letter of Confirmation</h4>
-                  <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
-                </div>
+              </div>
+
+              {/* SECTION 3b: Letter of Confirmation - Static */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Letter of Confirmation</h2>
+              <div className="space-y-4 text-foreground/80 mb-12">
+                <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
               </div>
 
               {/* SECTION 4: Cancellation Policy - Static */}
