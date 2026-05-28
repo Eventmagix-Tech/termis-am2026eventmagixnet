@@ -25,7 +25,6 @@ const RegistrationInformation = () => {
       <SEOHead
         title="Registration Information"
         description="Registration details, fees, and deadlines for TERMIS-AM 2026."
-        noindex={true}
       />
       <Header />
 
