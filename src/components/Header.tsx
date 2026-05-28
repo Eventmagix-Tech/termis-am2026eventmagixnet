@@ -21,6 +21,7 @@ const navItems = [
       { label: "Explore New Orleans", href: "/explore-new-orleans" },
       { label: "Key Dates", href: "/key-dates" },
       { label: "Committees", href: "/committees" },
+      { label: "Contact Us", href: "/contact-us" },
     ],
   },
   {
