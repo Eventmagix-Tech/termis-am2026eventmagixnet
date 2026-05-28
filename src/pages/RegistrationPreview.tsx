@@ -333,7 +333,7 @@ const RegistrationPreview = () => {
               <h2 className="text-2xl font-bold text-primary mb-4">What is Included in the Registration Fee</h2>
               <div className="space-y-4 text-foreground/80 mb-12">
                 <p>The registration fee for all the registration categories of the Conference includes:</p>
-                <ul className="list-disc pl-6 space-y-2">
+                <ul className="list-disc pl-6 space-y-3">
                   <li>Access to all scientific sessions</li>
                   <li>Access to the posters' area</li>
                   <li>Access to the exhibition area</li>
@@ -341,20 +341,21 @@ const RegistrationPreview = () => {
                   <li>Certificate of attendance</li>
                   <li>Coffee breaks as per the Meeting program</li>
                   <li>Welcome Reception (November 15th)</li>
-                  
                 </ul>
-                <div className="mt-6">
-                  <h4 className="font-semibold text-primary mb-2">Letter of Confirmation</h4>
-                  <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
-                </div>
+              </div>
+
+              {/* SECTION 3b: Letter of Confirmation - Static */}
+              <h2 className="text-2xl font-bold text-primary mb-4">Letter of Confirmation</h2>
+              <div className="space-y-4 text-foreground/80 mb-12">
+                <p>A confirmation letter will be sent to the submitted e-mail within one week of receipt of the total registration fee.</p>
               </div>
 
               {/* SECTION 4: Cancellation Policy - Static */}
               <h2 className="text-2xl font-bold text-primary mb-4">Cancellation Policy</h2>
               <div className="space-y-4 text-foreground/80 mb-12">
                 <h4 className="font-semibold text-primary mb-2">Refund Policy</h4>
-                <p>In case of visa refusal, refund requests must be submitted prior to the registration cancellation deadline of September 18, 2026.</p>
-                <p>For cancellations received by September 18, 2026, up to which date the registration fee will be refunded with a 100.00 USD deduction for administrative expenses.</p>
+                <p>In case of visa refusal, refund requests must be submitted prior to the registration cancellation deadline of <strong className="text-foreground">September 18, 2026, 11:59 PM Central Time Zone (UTC-6)</strong>.</p>
+                <p>For cancellations received by <strong className="text-foreground">September 18, 2026, 11:59 PM Central Time Zone (UTC-6)</strong>, up to which date the registration fee will be refunded with a 100.00 USD deduction for administrative expenses.</p>
                 <p>For cancellations received on and after September 19, 2026, the registration fee will be non-refundable.</p>
                 <p>Refunds will be processed four to six weeks after the conference. Pre-paid no shows or early departures will not be refunded. Substitutions are permitted. Substitution requests must be made in writing (see info below).</p>
                 <p>Canceling your hotel reservation does NOT cancel your conference registration and vice versa. If you dispute any charges to your credit card, there will be a dispute fee of 25.00 USD charged to your credit card account.</p>
