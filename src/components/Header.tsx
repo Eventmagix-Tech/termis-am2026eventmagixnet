@@ -69,7 +69,6 @@ const navItems = [
     ],
   },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
-  { label: "Contact Us", href: "/contact-us" },
 ];
 
 const Header = () => {
