@@ -32,7 +32,7 @@ import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 import RegistrationPreview from "./pages/RegistrationPreview";
-import HotelPreview from "./pages/HotelPreview";
+
 import SyisPreview from "./pages/SyisPreview";
 import SyisPositionsAwardsPreview from "./pages/SyisPositionsAwardsPreview";
 import EmpoweringNextLeadersLuncheonPreview from "./pages/EmpoweringNextLeadersLuncheonPreview";
