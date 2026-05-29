@@ -52,7 +52,8 @@ const Index = () => {
         <script type="application/ld+json">{JSON.stringify(eventJsonLd)}</script>
       </Helmet>
       <Header />
-      <main>
+      <h1 className="sr-only">TERMIS-AM 2026 Annual Conference &amp; Exhibition — New Orleans, November 15–18</h1>
+      <main id="main">
         <HeroSection />
         <KeyDatesSection />
         <InfoCards />

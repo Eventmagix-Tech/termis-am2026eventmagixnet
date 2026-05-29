@@ -1,7 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import keyVisual from "@/assets/termis-hero-banner.jpg";
 
 const HeroSection = () => {
+  const prefersReducedMotion = useReducedMotion();
+  const loop = prefersReducedMotion ? 0 : Infinity;
   return (
     <section className="relative w-full pt-14 md:pt-16 overflow-hidden">
       {/* Animated background effect */}
@@ -37,7 +39,7 @@ const HeroSection = () => {
         className="absolute inset-0 pointer-events-none"
         initial={{ opacity: 0 }}
         animate={{ opacity: [0, 0.3, 0] }}
-        transition={{ duration: 3, delay: 1, repeat: Infinity, repeatDelay: 5 }}
+        transition={{ duration: 3, delay: 1, repeat: loop, repeatDelay: 5 }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12" />
       </motion.div>
@@ -69,7 +71,7 @@ const HeroSection = () => {
             }}
             transition={{
               duration: 4,
-              repeat: Infinity,
+              repeat: loop,
               ease: "easeInOut"
             }}
           />
@@ -145,7 +147,7 @@ const HeroSection = () => {
               transition={{ 
                 duration: 8,
                 ease: "easeInOut",
-                repeat: Infinity,
+                repeat: loop,
                 repeatDelay: 2
               }}
             />
@@ -172,7 +174,7 @@ const HeroSection = () => {
               transition={{ 
                 duration: 8,
                 ease: "easeInOut",
-                repeat: Infinity,
+                repeat: loop,
                 repeatDelay: 2
               }}
             />
@@ -189,7 +191,7 @@ const HeroSection = () => {
                 "inset 0 0 0 0 rgba(212, 175, 55, 0)"
               ]
             }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            transition={{ duration: 4, repeat: loop, ease: "easeInOut" }}
           />
         </motion.div>
       </motion.div>
@@ -214,7 +216,7 @@ const HeroSection = () => {
             }}
             transition={{ 
               duration: 8, 
-              repeat: Infinity, 
+              repeat: loop, 
               ease: "easeInOut",
               delay: 1
             }}
@@ -233,7 +235,7 @@ const HeroSection = () => {
             }}
             transition={{ 
               duration: 6, 
-              repeat: Infinity, 
+              repeat: loop, 
               ease: "easeInOut",
               delay: 0.5
             }}
@@ -252,7 +254,7 @@ const HeroSection = () => {
             }}
             transition={{ 
               duration: 5, 
-              repeat: Infinity, 
+              repeat: loop, 
               ease: "easeInOut"
             }}
           />

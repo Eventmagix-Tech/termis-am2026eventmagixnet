@@ -44,7 +44,7 @@ const InfoCards = () => {
           className="text-center mb-12"
         >
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
-            ⚜ Get Involved ⚜
+            <span aria-hidden="true">⚜</span> Get Involved <span aria-hidden="true">⚜</span>
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2">
             Conference Highlights
@@ -79,7 +79,10 @@ const InfoCards = () => {
                 </p>
 
                 {/* Decorative fleur-de-lis */}
-                <div className="absolute bottom-4 right-4 text-accent/10 text-2xl group-hover:text-accent/30 transition-colors duration-300">
+                <div
+                  aria-hidden="true"
+                  className="absolute bottom-4 right-4 text-accent/10 text-2xl group-hover:text-accent/30 transition-colors duration-300"
+                >
                   ⚜
                 </div>
               </div>
