@@ -44,7 +44,7 @@ const speakers = [
 
 const PlenarySpeakersSection = () => {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-16 px-4 bg-gradient-to-br from-primary via-primary/95 to-secondary overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ const PlenarySpeakersSection = () => {
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
             ⚜ Featured Voices ⚜
           </span>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mt-2">
             View our exciting lineup of Plenary Speakers
           </h2>
         </motion.div>
@@ -77,10 +77,10 @@ const PlenarySpeakersSection = () => {
                 loading="lazy"
                 className="rounded-full h-28 w-28 md:h-32 md:w-32 object-cover border-4 border-accent/30 mb-3"
               />
-              <h3 className="text-sm font-bold text-primary leading-tight">
+              <h3 className="text-sm font-bold text-white leading-tight">
                 {s.name}
               </h3>
-              <p className="text-xs text-muted-foreground mt-1">
+              <p className="text-xs text-white/70 mt-1">
                 {s.affiliation}
               </p>
             </motion.div>
