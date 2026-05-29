@@ -19,7 +19,6 @@ const navItems = [
       { label: "Explore New Orleans", href: "/explore-new-orleans" },
       { label: "Key Dates", href: "/key-dates" },
       { label: "Committees", href: "/committees" },
-      { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },
@@ -31,6 +30,7 @@ const navItems = [
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
+      { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
     ],
   },
   {
