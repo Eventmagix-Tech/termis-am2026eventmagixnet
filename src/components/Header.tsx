@@ -42,7 +42,6 @@ const navItems = [
     children: [
       { label: "Abstract Topics", href: "/abstract-topics" },
       { label: "Call for Abstract", href: "/call-for-abstracts" },
-      { label: "NIH R13 Travel Awards", href: "/nih-r13-travel-awards" },
     ],
   },
   {
@@ -72,6 +71,7 @@ const navItems = [
     label: "Awards",
     children: [
       { label: "HCS Travel Awards", href: "/hcs-travel-awards" },
+      { label: "NIH R13 Travel Awards", href: "/nih-r13-travel-awards" },
     ],
   },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
