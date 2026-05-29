@@ -68,7 +68,7 @@ const VenueSection = () => {
                   <div>
                     <h3 className="font-semibold text-foreground text-sm">
                       {item.title}
-                    </h4>
+                    </h3>
                     <p className="text-muted-foreground text-xs mt-0.5">
                       {item.description}
                     </p>

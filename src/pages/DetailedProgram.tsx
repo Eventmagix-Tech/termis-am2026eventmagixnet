@@ -230,7 +230,7 @@ const DetailedProgram = () => {
                     <div className="max-w-4xl mx-auto p-12 bg-muted/30 rounded-xl border border-accent/20 text-center">
                       <h2 className="font-semibold text-primary text-xl mb-2">
                         {currentDay?.dateLabel} - {selectedHall}
-                      </h3>
+                      </h2>
                       <p className="text-muted-foreground italic text-lg">
                         To be announced soon...
                       </p>

@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
             <h2 className="font-serif font-semibold text-primary mb-2">
               Conference Organizing Secretariat
-            </h4>
+            </h2>
             <p className="text-muted-foreground text-sm leading-relaxed text-center md:text-left">
               Kenes Group, Office: Kenes M+
             </p>

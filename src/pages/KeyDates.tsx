@@ -115,7 +115,7 @@ const KeyDates = () => {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                       <h2 className={`text-lg font-semibold ${item.highlight ? "text-white" : "text-foreground"}`}>
                         {item.title}
-                      </h3>
+                      </h2>
                       <span className={`text-xl font-bold whitespace-nowrap ${
                         item.highlight ? "text-gold" : "text-primary"
                       }`}>

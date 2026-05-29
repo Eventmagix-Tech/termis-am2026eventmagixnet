@@ -113,7 +113,7 @@ const PlenarySpeakers = () => {
                 />
                 <h2 className="text-xl font-bold text-primary text-center mb-1">
                   {s.name}
-                </h3>
+                </h2>
                 <p className="text-sm text-center text-foreground mb-4 whitespace-pre-line">
                   {s.affiliations}
                 </p>

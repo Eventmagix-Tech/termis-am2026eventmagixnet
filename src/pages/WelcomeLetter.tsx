@@ -116,7 +116,7 @@ const WelcomeLetter = () => {
             >
               <h2 className="text-2xl font-serif font-bold text-primary text-center mb-8">
                 Conference Co-Chairs
-              </h3>
+              </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {coChairs.map((chair, index) => (
@@ -136,7 +136,7 @@ const WelcomeLetter = () => {
                     </div>
                     <h3 className="text-lg font-serif font-semibold text-primary">
                       {chair.name}
-                    </h4>
+                    </h3>
                     {chair.subtitle && (
                       <p className="text-xs text-foreground/80 mt-1 leading-snug whitespace-pre-line">
                         {chair.subtitle}
