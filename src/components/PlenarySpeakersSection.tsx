@@ -53,7 +53,7 @@ const PlenarySpeakersSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <span className="text-accent font-medium text-sm tracking-wider uppercase">
+          <span className="text-gold-text font-semibold text-sm tracking-wider uppercase">
             <span aria-hidden="true">⚜</span> Featured Voices <span aria-hidden="true">⚜</span>
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mt-2">
