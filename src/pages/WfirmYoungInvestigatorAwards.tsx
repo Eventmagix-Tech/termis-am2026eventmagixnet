@@ -22,7 +22,7 @@ const WfirmYoungInvestigatorAwards = () => {
         subtitle="Wake Forest Institute for Regenerative Medicine · TERMIS-AM 2026"
       />
 
-      <main className="container mx-auto px-4 py-12 max-w-5xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-5xl">
         <div className="grid md:grid-cols-[240px_1fr] gap-8 items-start">
           <div className="flex justify-center md:justify-start md:sticky md:top-24">
             <img

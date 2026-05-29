@@ -167,7 +167,7 @@ const AwardsNetworking = () => {
       <Header />
       <PageHeader title="Awards, Networking & Career Development Opportunities" />
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-4xl">
         <p className="text-lg text-foreground mb-10">
           TERMIS-AM 2026 in New Orleans will offer an outstanding range of awards, networking
           events, and career development opportunities designed to support participants at all

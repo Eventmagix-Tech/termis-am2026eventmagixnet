@@ -136,7 +136,7 @@ const DetailedProgram = () => {
       <SEOHead title="Detailed Program" description="Full detailed scientific program for TERMIS-AM 2026 in New Orleans." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Detailed Program"
           subtitle="TERMIS-AM 2026 Scientific Program Overview"

@@ -18,7 +18,7 @@ const NihR13TravelAwards = () => {
       <Header />
       <PageHeader title="NIH R13 Travel Awards 2026" />
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-4xl">
         <div className="text-lg text-foreground space-y-5">
           <p>
             We would like to invite you to submit your application for consideration to receive a

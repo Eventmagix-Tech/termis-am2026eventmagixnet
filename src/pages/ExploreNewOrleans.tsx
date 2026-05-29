@@ -48,7 +48,7 @@ const ExploreNewOrleans = () => {
       <SEOHead title="Explore New Orleans" description="Discover the best of New Orleans during TERMIS-AM 2026." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Explore New Orleans"
           subtitle="We are excited to welcome you to New Orleans, Louisiana for TERMIS-AM 2026! Known as &quot;The Big Easy,&quot; New Orleans is famous for its rich history, vibrant music scene, distinctive cuisine, and unforgettable atmosphere."
