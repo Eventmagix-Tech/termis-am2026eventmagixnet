@@ -33,7 +33,7 @@ const CTASection = () => {
                 <span className="inline-block px-3 py-1 text-xs font-medium text-accent border border-accent/40 rounded-full">
                   Early Bird Open
                 </span>
-                <span className="text-foreground/50 text-xs hidden sm:inline">
+                <span className="text-foreground/75 text-xs hidden sm:inline">
                   Deadline: July 31, 2026
                 </span>
               </motion.div>
@@ -53,7 +53,7 @@ const CTASection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-1 text-xs text-foreground/70"
+                className="flex flex-wrap justify-center lg:justify-start gap-x-4 gap-y-1 text-xs text-foreground/85"
               >
                 {benefits.map((benefit) => (
                   <div key={benefit} className="flex items-center gap-1.5">

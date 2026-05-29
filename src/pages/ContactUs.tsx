@@ -73,7 +73,7 @@ const ContactUs = () => {
                     </p>
                     <a 
                       href={`mailto:${contact.email}`}
-                      className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium"
+                      className="inline-flex items-center gap-2 text-gold-text hover:text-accent/80 transition-colors font-medium"
                     >
                       <Mail className="h-4 w-4" />
                       {contact.email}

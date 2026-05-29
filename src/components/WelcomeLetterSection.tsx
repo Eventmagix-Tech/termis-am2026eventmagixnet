@@ -128,12 +128,12 @@ const WelcomeLetterSection = () => {
                   {chair.name}
                 </h4>
                 {chair.subtitle && (
-                  <p className="text-xs text-foreground/60 mt-1 leading-snug whitespace-pre-line">
+                  <p className="text-xs text-foreground/80 mt-1 leading-snug whitespace-pre-line">
                     {chair.subtitle}
                   </p>
                 )}
                 {chair.institution && (
-                  <p className="text-xs text-foreground/60 mt-0.5 leading-snug whitespace-pre-line">
+                  <p className="text-xs text-foreground/80 mt-0.5 leading-snug whitespace-pre-line">
                     {chair.institution}
                   </p>
                 )}

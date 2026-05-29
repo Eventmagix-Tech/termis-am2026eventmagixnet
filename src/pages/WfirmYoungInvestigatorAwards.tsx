@@ -53,7 +53,7 @@ const WfirmYoungInvestigatorAwards = () => {
           <p>
             Individuals interested in applying for this award should submit the following documents
             via e-mail to Dr. Sean Murphy (
-            <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent underline font-medium">
+            <a href={`mailto:${CONTACT_EMAIL}`} className="text-gold-text underline font-medium">
               {CONTACT_EMAIL}
             </a>
             ) by <u>August 1, 2026</u>:

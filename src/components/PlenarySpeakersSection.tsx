@@ -80,7 +80,7 @@ const PlenarySpeakersSection = () => {
               <h3 className="text-sm font-bold text-white leading-tight">
                 {s.name}
               </h3>
-              <p className="text-xs text-white/70 mt-1">
+              <p className="text-xs text-white/90 mt-1">
                 {s.affiliation}
               </p>
             </motion.div>

@@ -62,15 +62,15 @@ const RegistrationInformation = () => {
               {/* Annual Conference Secretariat */}
               <div className="bg-muted/50 rounded-xl p-8 shadow-lg border border-accent/10 mb-12">
                 <h3 className="text-2xl font-bold text-primary mb-2">Annual Conference Secretariat</h3>
-                <p className="text-foreground/70 mb-1 font-semibold">Kenes Group</p>
-                <p className="text-foreground/70 mb-1">Office: Kenes M+</p>
+                <p className="text-foreground/85 mb-1 font-semibold">Kenes Group</p>
+                <p className="text-foreground/85 mb-1">Office: Kenes M+</p>
                 <h4 className="text-lg font-bold text-primary mt-4 mb-2">Contact Person</h4>
                 <p className="text-foreground/80 mb-2">
                   Ms. Neyir Seda Utugen | Attendee Services & Event Technology Manager
                 </p>
                 <a
                   href="mailto:nutugen@kenes.com"
-                  className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium"
+                  className="inline-flex items-center gap-2 text-gold-text hover:text-accent/80 transition-colors font-medium"
                 >
                   <Mail className="h-5 w-5" />
                   nutugen@kenes.com
@@ -365,7 +365,7 @@ const RegistrationInformation = () => {
 
                 <h4 className="font-semibold text-primary mt-6 mb-2">Attendee Substitutions</h4>
                 <p>
-                  Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-accent hover:text-accent/80 underline">nutugen@kenes.com</a>).
+                  Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-gold-text hover:text-accent/80 underline">nutugen@kenes.com</a>).
                 </p>
               </div>
 

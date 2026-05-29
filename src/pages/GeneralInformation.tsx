@@ -40,7 +40,7 @@ const GeneralInformation = () => {
                 <p className="text-xl font-bold text-primary mb-2">New Orleans, LA</p>
                 <Link 
                   to="/explore-new-orleans" 
-                  className="text-accent hover:text-accent/80 text-sm font-medium inline-flex items-center gap-1"
+                  className="text-gold-text hover:text-accent/80 text-sm font-medium inline-flex items-center gap-1"
                 >
                   Explore New Orleans <span>→</span>
                 </Link>
@@ -82,7 +82,7 @@ const GeneralInformation = () => {
                       href="https://www.hilton.com/en/hotels/msynhhh-hilton-new-orleans-riverside/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="mt-6 inline-flex items-center gap-2 text-accent hover:text-accent/80 font-medium"
+                      className="mt-6 inline-flex items-center gap-2 text-gold-text hover:text-accent/80 font-medium"
                     >
                       Visit hotel website <ExternalLink className="w-4 h-4" />
                     </a>
@@ -139,7 +139,7 @@ const GeneralInformation = () => {
                       <p>
                         TERMIS-AM 2026 participants requiring a signed and stamped invitation letter should contact{" "}
                         <strong>Ms. Neyir Seda Utugen</strong>, Registration & Accommodation Manager, at{" "}
-                        <a href="mailto:nutugen@kenes.com" className="text-accent hover:underline font-medium">
+                        <a href="mailto:nutugen@kenes.com" className="text-gold-text hover:underline font-medium">
                           nutugen@kenes.com
                         </a>.
                       </p>

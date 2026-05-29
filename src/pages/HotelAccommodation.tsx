@@ -93,9 +93,9 @@ const HotelAccommodation = () => {
                 <div className="bg-primary/5 rounded-lg p-4 mb-4 max-w-md">
                   <p className="font-semibold text-primary mb-1">Hilton New Orleans Riverside</p>
                   <p className="text-lg font-bold text-accent">💲 From 295 USD per night</p>
-                  <p className="text-sm text-foreground/60">(single room)</p>
+                  <p className="text-sm text-foreground/80">(single room)</p>
                 </div>
-                <p className="text-sm text-foreground/70 leading-relaxed">
+                <p className="text-sm text-foreground/85 leading-relaxed">
                   Please note: Rates are subject to 16.75% tax and a $3.00 nightly occupancy fee (subject to change). Final pricing, including applicable taxes and fees, will be displayed during booking.
                 </p>
               </div>

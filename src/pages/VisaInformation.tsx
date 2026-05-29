@@ -68,7 +68,7 @@ const VisaInformation = () => {
                       href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-accent hover:underline font-medium"
+                      className="text-gold-text hover:underline font-medium"
                     >
                       U.S. Department of State's visa appointment and processing wait times website
                     </a>.
@@ -79,7 +79,7 @@ const VisaInformation = () => {
                       href="https://travel.state.gov/content/travel/en/us-visas/business.html" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-accent hover:underline font-medium"
+                      className="text-gold-text hover:underline font-medium"
                     >
                       U.S. Department of State Business Visa Center website
                     </a>{" "}
@@ -88,7 +88,7 @@ const VisaInformation = () => {
                       href="https://www.nationalacademies.org/international-visitors-office" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-accent hover:underline font-medium"
+                      className="text-gold-text hover:underline font-medium"
                     >
                       IVO website
                     </a>{" "}
@@ -100,7 +100,7 @@ const VisaInformation = () => {
                       href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visas-news-archive/provide-feedback-on-your-experience.html" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-accent hover:underline font-medium"
+                      className="text-gold-text hover:underline font-medium"
                     >
                       fill out the visa survey here
                     </a>. This will bring your case to the attention of the U.S. Department of State.
