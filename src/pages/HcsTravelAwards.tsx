@@ -68,14 +68,18 @@ const HcsTravelAwards = () => {
           </ol>
         </div>
 
-        <div className="text-center my-12">
+        <p className="text-center font-bold text-foreground mt-12">
+          Deadline to submit your application is July 1, 2026.
+        </p>
+
+        <div className="text-center my-8">
           <Button
             asChild
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
             <a href={APPLICATION_URL} target="_blank" rel="noopener noreferrer">
-              Download Application Form
+              Go to submission page
               <ExternalLink className="ml-2 h-5 w-5" />
             </a>
           </Button>
