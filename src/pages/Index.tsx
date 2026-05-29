@@ -55,6 +55,7 @@ const Index = () => {
         <HeroSection />
         <KeyDatesSection />
         <InfoCards />
+        <PlenarySpeakersSection />
         <WelcomeLetterSection />
         <CongressPosterSection />
 
