@@ -14,7 +14,7 @@ const FormLink = ({ href, children }: { href: string; children: React.ReactNode 
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-accent font-semibold underline hover:no-underline"
+    className="text-gold-text font-semibold underline hover:no-underline"
   >
     {children}
   </a>

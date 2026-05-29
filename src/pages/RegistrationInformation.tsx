@@ -70,7 +70,7 @@ const RegistrationInformation = () => {
                 </p>
                 <a
                   href="mailto:nutugen@kenes.com"
-                  className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium"
+                  className="inline-flex items-center gap-2 text-gold-text hover:text-accent/80 transition-colors font-medium"
                 >
                   <Mail className="h-5 w-5" />
                   nutugen@kenes.com
@@ -365,7 +365,7 @@ const RegistrationInformation = () => {
 
                 <h4 className="font-semibold text-primary mt-6 mb-2">Attendee Substitutions</h4>
                 <p>
-                  Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-accent hover:text-accent/80 underline">nutugen@kenes.com</a>).
+                  Substitution requests will be accepted until September 18, 2026. Notification of changes in the reservation and/or cancellations must be done in writing to the Conference Organizing Secretariat, to the attention of Ms. Neyir Seda Utugen (<a href="mailto:nutugen@kenes.com" className="text-gold-text hover:text-accent/80 underline">nutugen@kenes.com</a>).
                 </p>
               </div>
 

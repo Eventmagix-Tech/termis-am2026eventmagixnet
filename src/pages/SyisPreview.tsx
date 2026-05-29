@@ -67,7 +67,7 @@ const SyisPreview = () => {
                 href="https://x.com/SyisTermis"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent font-semibold hover:underline"
+                className="text-gold-text font-semibold hover:underline"
               >
                 X
               </a>{" "}
@@ -76,7 +76,7 @@ const SyisPreview = () => {
                 href="https://bsky.app/profile/syistermis.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent font-semibold hover:underline"
+                className="text-gold-text font-semibold hover:underline"
               >
                 BlueSky
               </a>{" "}
