@@ -65,9 +65,9 @@ const ContactUs = () => {
                     key={contact.email}
                     className="bg-muted/50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-accent/10"
                   >
-                    <h3 className="text-lg font-semibold text-primary mb-3">
+                    <h2 className="text-lg font-semibold text-primary mb-3">
                       {contact.department}
-                    </h3>
+                    </h2>
                     <p className="text-foreground/80 mb-4">
                       {contact.name}
                     </p>

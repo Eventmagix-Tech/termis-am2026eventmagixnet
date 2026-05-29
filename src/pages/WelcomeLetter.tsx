@@ -114,9 +114,9 @@ const WelcomeLetter = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-muted/50 rounded-lg shadow-card p-8 md:p-10 border border-accent/20 mt-8"
             >
-              <h3 className="text-2xl font-serif font-bold text-primary text-center mb-8">
+              <h2 className="text-2xl font-serif font-bold text-primary text-center mb-8">
                 Conference Co-Chairs
-              </h3>
+              </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {coChairs.map((chair, index) => (
@@ -134,9 +134,9 @@ const WelcomeLetter = () => {
                         className={`w-full h-full object-cover ${chair.photoPosition}`}
                       />
                     </div>
-                    <h4 className="text-lg font-serif font-semibold text-primary">
+                    <h3 className="text-lg font-serif font-semibold text-primary">
                       {chair.name}
-                    </h4>
+                    </h3>
                     {chair.subtitle && (
                       <p className="text-xs text-foreground/80 mt-1 leading-snug whitespace-pre-line">
                         {chair.subtitle}
