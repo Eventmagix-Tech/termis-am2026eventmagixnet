@@ -1,7 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import keyVisual from "@/assets/termis-hero-banner.jpg";
 
 const HeroSection = () => {
+  const prefersReducedMotion = useReducedMotion();
+  const loop = prefersReducedMotion ? 0 : Infinity;
   return (
     <section className="relative w-full pt-14 md:pt-16 overflow-hidden">
       {/* Animated background effect */}
