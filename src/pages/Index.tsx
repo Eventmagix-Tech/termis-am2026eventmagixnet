@@ -53,9 +53,10 @@ const Index = () => {
       <main>
         <HeroSection />
         <KeyDatesSection />
+        <InfoCards />
         <WelcomeLetterSection />
         <CongressPosterSection />
-        <InfoCards />
+
         {/* <TimelineSection /> */}
         {/* <VenueSection /> */}
         <NewsletterSection />
