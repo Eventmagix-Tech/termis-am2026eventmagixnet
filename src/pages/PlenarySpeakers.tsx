@@ -89,6 +89,8 @@ const PlenarySpeakers = () => {
       <Header />
       <PageHeader title="Plenary Speakers" />
 
+      <main id="main">
+
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="flex justify-end mb-6">
@@ -144,6 +146,8 @@ const PlenarySpeakers = () => {
           </p>
         </DialogContent>
       </Dialog>
+
+      </main>
 
       <Footer />
     </div>

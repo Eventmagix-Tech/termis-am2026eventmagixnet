@@ -57,7 +57,7 @@ const BusinessPitchCompetition = () => {
       <Header />
       <PageHeader title="Business Pitch Competition" />
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Deadline Alert */}
         <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-center gap-3 mb-8">
           <AlertCircle className="h-5 w-5 text-accent shrink-0" />

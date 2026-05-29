@@ -22,6 +22,8 @@ const AbstractTopics = () => {
       <Header />
       <PageHeader title="Abstract Topics" />
 
+      <main id="main">
+
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed mb-10">
@@ -76,6 +78,8 @@ const AbstractTopics = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

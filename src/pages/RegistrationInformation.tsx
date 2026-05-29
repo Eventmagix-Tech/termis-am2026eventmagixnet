@@ -28,7 +28,7 @@ const RegistrationInformation = () => {
       />
       <Header />
 
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader title="Registration Information" />
 
         {/* Top Announcement Banner */}

@@ -15,7 +15,7 @@ const HotelAccommodation = () => {
       />
       <Header />
 
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Hotel Information"
           subtitle="Official accommodation for TERMIS-AM 2026"

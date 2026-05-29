@@ -42,7 +42,7 @@ const VisaInformation = () => {
       <SEOHead title="Visa Information" description="Visa requirements and invitation letter details for TERMIS-AM 2026." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Visa Information"
           subtitle="Be sure to read through our visa guidance to ensure that your visit to New Orleans is easy, organized, and stress-free."

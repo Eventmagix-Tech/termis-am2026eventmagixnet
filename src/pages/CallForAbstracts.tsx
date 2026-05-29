@@ -18,7 +18,7 @@ const CallForAbstracts = () => {
       <Header />
       <PageHeader title="Call for Abstracts" />
 
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Intro */}
         <section className="mb-8">
           <p className="text-foreground/80 leading-relaxed mb-6">

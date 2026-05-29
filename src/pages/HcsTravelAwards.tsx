@@ -18,7 +18,7 @@ const HcsTravelAwards = () => {
       <Header />
       <PageHeader title="HCS Travel Awards" />
 
-      <main className="container mx-auto px-4 py-12 max-w-5xl">
+      <main id="main" className="container mx-auto px-4 py-12 max-w-5xl">
         <div className="grid md:grid-cols-[260px_1fr] gap-8 items-start">
           <div className="flex justify-center md:justify-start">
             <img

@@ -52,6 +52,8 @@ const SyisPreview = () => {
       <Header />
       <PageHeader title="2026 SYIS-AM Conference Activities" />
 
+      <main id="main">
+
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-lg max-w-4xl mx-auto space-y-4 text-foreground/90">
@@ -110,6 +112,8 @@ const SyisPreview = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

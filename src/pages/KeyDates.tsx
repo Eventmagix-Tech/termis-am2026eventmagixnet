@@ -75,7 +75,7 @@ const KeyDates = () => {
       <SEOHead title="Key Dates" description="Important deadlines for abstract submission, registration, and more at TERMIS-AM 2026." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Key Dates"
           subtitle="Important deadlines and milestones for TERMIS-AM 2026"

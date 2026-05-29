@@ -40,7 +40,7 @@ const WelcomeLetter = () => {
       <SEOHead title="Welcome Letter" description="A welcome message from the TERMIS-AM 2026 conference co-chairs." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Welcome Letter"
           subtitle="A message from the TERMIS-AM 2026 Conference Co-Chairs"

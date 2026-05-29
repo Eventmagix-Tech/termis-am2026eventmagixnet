@@ -12,7 +12,7 @@ const GeneralInformation = () => {
       <SEOHead title="General Information" description="Venue, travel, and practical information for TERMIS-AM 2026 attendees." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="General Information"
           subtitle="Essential information for TERMIS-AM 2026 attendees"

@@ -17,6 +17,8 @@ const SessionWorkshopSubmission = () => {
         subtitle="TERMIS-AM 2026 Annual Conference & Exhibition"
       />
 
+      <main id="main">
+
       {/* Content */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -152,6 +154,8 @@ const SessionWorkshopSubmission = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

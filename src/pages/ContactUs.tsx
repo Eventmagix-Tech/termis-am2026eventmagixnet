@@ -39,7 +39,7 @@ const ContactUs = () => {
       <SEOHead title="Contact Us" description="Get in touch with the TERMIS-AM 2026 organizing team." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Contact Us"
           subtitle="Get in touch with the TERMIS-AM 2026 Conference Organizing Secretariat"

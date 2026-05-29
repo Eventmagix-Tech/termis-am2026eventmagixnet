@@ -14,7 +14,7 @@ const NotFound = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-hero-gradient">
       <SEOHead title="Page Not Found" description="The page you are looking for does not exist." noindex={true} />
-      <div className="text-center">
+      <main id="main" className="text-center">
         <div className="text-accent text-6xl mb-4">⚜</div>
         <h1 className="mb-4 text-6xl font-serif font-bold text-primary-foreground">404</h1>
         <p className="mb-6 text-xl text-primary-foreground/90">Oops! This page doesn't exist</p>
@@ -24,7 +24,7 @@ const NotFound = () => {
             Return to Home
           </a>
         </Button>
-      </div>
+      </main>
     </div>
   );
 };

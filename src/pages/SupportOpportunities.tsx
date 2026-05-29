@@ -12,7 +12,7 @@ const SupportOpportunities = () => {
       <SEOHead title="Support Opportunities" description="Sponsorship and exhibition opportunities at TERMIS-AM 2026." />
       <Header />
       
-      <main className="flex-1">
+      <main id="main" className="flex-1">
         <PageHeader
           title="Support Opportunities"
           subtitle="Partner with TERMIS-AM 2026 and showcase your organization"

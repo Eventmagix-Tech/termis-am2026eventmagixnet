@@ -16,6 +16,8 @@ const ProgramAtAGlance = () => (
     <Header />
     <PageHeader title="Program at a Glance" />
 
+      <main id="main">
+
     <section className="py-12 md:py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
@@ -68,6 +70,8 @@ const ProgramAtAGlance = () => (
         </div>
       </div>
     </section>
+
+    </main>
 
     <Footer />
   </div>

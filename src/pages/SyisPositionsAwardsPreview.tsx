@@ -31,6 +31,8 @@ const SyisPositionsAwardsPreview = () => {
       <Header />
       <PageHeader title="SYIS Positions & Awards" />
 
+      <main id="main">
+
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -135,6 +137,8 @@ const SyisPositionsAwardsPreview = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>
