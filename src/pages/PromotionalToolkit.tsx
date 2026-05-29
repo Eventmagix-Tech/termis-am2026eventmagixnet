@@ -64,6 +64,8 @@ const PromotionalToolkit = () => {
         subtitle="Download official TERMIS-AM 2026 materials to help promote the conference."
       />
 
+      <main id="main">
+
       {/* Intro Text */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
@@ -197,6 +199,8 @@ const PromotionalToolkit = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

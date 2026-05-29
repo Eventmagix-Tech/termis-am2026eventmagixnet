@@ -77,6 +77,8 @@ const ConfirmedSponsors = () => (
     <Header />
     <PageHeader title="Confirmed Sponsors" />
 
+      <main id="main">
+
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-6xl space-y-20">
         <div>
@@ -105,6 +107,8 @@ const ConfirmedSponsors = () => (
         </div>
       </div>
     </section>
+
+    </main>
 
     <Footer />
   </div>

@@ -14,6 +14,8 @@ const PreConferenceWorkshops = () => {
 
       <PageHeader title="Pre-Conference Workshops" />
 
+      <main id="main">
+
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
@@ -28,6 +30,8 @@ const PreConferenceWorkshops = () => {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>

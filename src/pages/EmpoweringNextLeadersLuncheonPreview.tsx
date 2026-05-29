@@ -14,6 +14,8 @@ const EmpoweringNextLeadersLuncheonPreview = () => {
       <Header />
       <PageHeader title="Empowering Next Leaders in TERM Luncheon" />
 
+      <main id="main">
+
       <section className="max-w-4xl mx-auto py-8 px-4">
         <span className="inline-block bg-muted text-muted-foreground font-semibold px-4 py-2 rounded-md mb-8">
           Pre–Registration Required. Ticketed Session.
@@ -35,6 +37,8 @@ const EmpoweringNextLeadersLuncheonPreview = () => {
           Luncheon organizers: Karina Nakayama; Koyal Garg; Tracy Criswell; Gabriella Lindberg
         </p>
       </section>
+
+      </main>
 
       <Footer />
     </div>
