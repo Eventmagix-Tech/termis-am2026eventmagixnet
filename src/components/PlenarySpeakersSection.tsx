@@ -44,7 +44,7 @@ const speakers = [
 
 const PlenarySpeakersSection = () => {
   return (
-    <section className="py-16 px-4 bg-background">
+    <section className="py-16 px-4 bg-gradient-to-br from-primary via-primary/95 to-secondary overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
