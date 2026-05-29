@@ -120,7 +120,8 @@ const Header = () => {
             </a>
 
             {/* Desktop Navigation */}
-            <NavigationMenu className="hidden lg:flex" ref={navRef as any}>
+            <div ref={navRef} className="hidden lg:flex">
+            <NavigationMenu>
               <NavigationMenuList className="gap-1">
                 {navItems.map((item) => {
                   const words = item.label.split(" ");
