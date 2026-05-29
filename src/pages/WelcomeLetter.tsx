@@ -66,7 +66,7 @@ const WelcomeLetter = () => {
                 </p>
 
                 <p className="leading-relaxed">
-                  This year holds special significance. As we mark two decades of leadership in tissue engineering and regenerative medicine since the founding of TERMIS in 2006, we celebrate our collective achievements and look boldly to the future under the conference slogan: <span className="font-serif italic text-accent">"Bench. Chip. Clinic. Where y'at in regeneration?"</span>
+                  This year holds special significance. As we mark two decades of leadership in tissue engineering and regenerative medicine since the founding of TERMIS in 2006, we celebrate our collective achievements and look boldly to the future under the conference slogan: <span className="font-serif italic text-gold-text">"Bench. Chip. Clinic. Where y'at in regeneration?"</span>
                 </p>
 
                 <p className="leading-relaxed">
