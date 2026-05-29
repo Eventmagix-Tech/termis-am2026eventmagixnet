@@ -13,8 +13,8 @@ const Footer = () => {
   );
 
   const socialLinks = [
-    { icon: XIcon, href: "https://x.com/TERMISAM", label: "X" },
-    { icon: Linkedin, href: "https://www.linkedin.com/company/termis-am/", label: "LinkedIn" },
+    { icon: XIcon, href: "https://x.com/TERMISAM", label: "TERMIS-AM on X (Twitter)" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/termis-am/", label: "TERMIS-AM on LinkedIn" },
   ];
 
 
@@ -75,16 +75,21 @@ const Footer = () => {
 
           {/* Social Links - Center */}
           <div className="flex items-center gap-3">
-            {socialLinks.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                aria-label={social.label}
-                className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-primary hover:bg-accent hover:text-accent-foreground transition-all duration-300"
-              >
-                <social.icon size={18} />
-              </a>
-            ))}
+            {socialLinks.map((social) => {
+              const Icon = social.icon;
+              return (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                  className="inline-flex items-center justify-center min-h-11 min-w-11 rounded-full bg-accent/10 text-primary hover:bg-accent hover:text-accent-foreground transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                >
+                  <Icon size={18} aria-hidden="true" />
+                </a>
+              );
+            })}
           </div>
 
           {/* TERMIS Brand Column - Right */}
@@ -110,7 +115,7 @@ const Footer = () => {
                 href="https://web.kenes.com/klead/PRIVACY/KI.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Privacy Policy
               </a>
@@ -118,7 +123,7 @@ const Footer = () => {
                 href="https://kenes-group.com/cookie-policy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Cookie Policy
               </a>
@@ -126,13 +131,13 @@ const Footer = () => {
                 href="https://am2025.termis.org/wp-content/uploads/2025/07/TERMIS-AM-Code-of-Conduct-Policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Code of Conduct
               </a>
               <Link
                 to="/contact-us"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200"
+                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Contact
               </Link>
@@ -143,7 +148,8 @@ const Footer = () => {
                   href="https://eventmagix.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
+                  aria-label="Eventmagix — opens in a new tab"
+                  className="hover:opacity-80 transition-opacity rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                 >
                   <img 
                     src={eventmagixLogo} 
