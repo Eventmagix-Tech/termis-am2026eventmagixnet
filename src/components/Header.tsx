@@ -208,7 +208,7 @@ const Header = () => {
 
             {/* Hashtag & Social Icons */}
             <div className="hidden sm:flex flex-col items-center gap-1">
-              <span className="text-accent font-semibold text-sm">#TERMISAM2026</span>
+              <span className="text-gold-text font-bold text-sm">#TERMISAM2026</span>
               <div className="flex items-center gap-2">
                 <a
                   href="https://x.com/TERMISAM"
@@ -329,7 +329,7 @@ const Header = () => {
                 >
                   <Linkedin className="h-5 w-5" aria-hidden="true" />
                 </a>
-                <span className="text-accent font-semibold text-sm">#TERMISAM2026</span>
+                <span className="text-gold-text font-bold text-sm">#TERMISAM2026</span>
               </div>
             </nav>
           )}
