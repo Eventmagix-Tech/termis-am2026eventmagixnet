@@ -14,7 +14,7 @@ const GuestSocietyAnnouncementsSection = () => {
           className="text-center mb-10"
         >
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
-            ⚜ In Partnership ⚜
+            <span aria-hidden="true">⚜</span> In Partnership <span aria-hidden="true">⚜</span>
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2">
             Guest Society Announcements

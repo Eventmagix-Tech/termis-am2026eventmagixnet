@@ -99,12 +99,17 @@ const NewsletterSection = () => {
             </motion.div>
           ) : (
             <form onSubmit={handleSubmit} className="flex gap-2 w-full md:w-auto">
+              <label htmlFor="newsletter-email" className="sr-only">
+                Email address
+              </label>
               <Input
+                id="newsletter-email"
                 type="email"
                 placeholder="Enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full md:w-64 bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 focus:border-accent focus:ring-accent h-9 text-sm"
+                aria-label="Email address"
+                className="w-full md:w-64 bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/80 focus:border-accent focus:ring-accent h-9 text-sm"
                 required
               />
               <Button

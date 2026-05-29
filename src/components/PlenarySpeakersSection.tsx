@@ -54,7 +54,7 @@ const PlenarySpeakersSection = () => {
           className="text-center mb-12"
         >
           <span className="text-accent font-medium text-sm tracking-wider uppercase">
-            ⚜ Featured Voices ⚜
+            <span aria-hidden="true">⚜</span> Featured Voices <span aria-hidden="true">⚜</span>
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mt-2">
             View our exciting lineup of Plenary Speakers
