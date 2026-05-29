@@ -204,6 +204,7 @@ const Header = () => {
                 })}
               </NavigationMenuList>
             </NavigationMenu>
+            </div>
 
             {/* Hashtag & Social Icons */}
             <div className="hidden sm:flex flex-col items-center gap-1">
