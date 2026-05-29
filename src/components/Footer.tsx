@@ -115,7 +115,7 @@ const Footer = () => {
                 href="https://web.kenes.com/klead/PRIVACY/KI.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="text-foreground/80 hover:text-foreground transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Privacy Policy
               </a>
@@ -123,7 +123,7 @@ const Footer = () => {
                 href="https://kenes-group.com/cookie-policy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="text-foreground/80 hover:text-foreground transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Cookie Policy
               </a>
@@ -131,19 +131,19 @@ const Footer = () => {
                 href="https://am2025.termis.org/wp-content/uploads/2025/07/TERMIS-AM-Code-of-Conduct-Policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="text-foreground/80 hover:text-foreground transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Code of Conduct
               </a>
               <Link
                 to="/contact-us"
-                className="text-muted-foreground hover:text-accent transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="text-foreground/80 hover:text-foreground transition-colors duration-200 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 Contact
               </Link>
               {/* Powered by Eventmagix */}
               <div className="flex items-center gap-2">
-                <span className="text-muted-foreground">Powered by</span>
+                <span className="text-foreground/80">Powered by</span>
                 <a
                   href="https://eventmagix.com/"
                   target="_blank"

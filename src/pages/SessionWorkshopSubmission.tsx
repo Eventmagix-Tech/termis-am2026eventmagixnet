@@ -141,7 +141,7 @@ const SessionWorkshopSubmission = () => {
               </p>
               <a 
                 href="mailto:mrodic@kenes.com" 
-                className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-medium transition-colors"
+                className="inline-flex items-center gap-2 text-accent hover:underline font-medium transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 mrodic@kenes.com

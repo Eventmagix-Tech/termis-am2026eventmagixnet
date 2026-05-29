@@ -67,7 +67,7 @@ const SupportOpportunities = () => {
                 </p>
                 <a 
                   href="mailto:jalexander@kenes.com"
-                  className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors font-medium text-lg"
+                  className="inline-flex items-center gap-2 text-accent hover:underline transition-colors font-medium text-lg"
                 >
                   <Mail className="h-5 w-5" />
                   jalexander@kenes.com

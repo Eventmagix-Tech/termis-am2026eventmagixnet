@@ -40,7 +40,7 @@ const GeneralInformation = () => {
                 <p className="text-xl font-bold text-primary mb-2">New Orleans, LA</p>
                 <Link 
                   to="/explore-new-orleans" 
-                  className="text-gold-text hover:text-accent/80 text-sm font-medium inline-flex items-center gap-1"
+                  className="text-gold-text hover:underline text-sm font-medium inline-flex items-center gap-1"
                 >
                   Explore New Orleans <span>→</span>
                 </Link>
@@ -82,7 +82,7 @@ const GeneralInformation = () => {
                       href="https://www.hilton.com/en/hotels/msynhhh-hilton-new-orleans-riverside/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="mt-6 inline-flex items-center gap-2 text-gold-text hover:text-accent/80 font-medium"
+                      className="mt-6 inline-flex items-center gap-2 text-gold-text hover:underline font-medium"
                     >
                       Visit hotel website <ExternalLink className="w-4 h-4" />
                     </a>

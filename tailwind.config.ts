@@ -74,7 +74,7 @@ export default {
           DEFAULT: "#D4AF37",
           light: "#E8C84B",
           dark: "#B8941F",
-          text: "#806316", // AA-compliant dark gold for text on light surfaces (~7:1 on white)
+          text: "#6b5212", // AA-compliant dark gold for text on light surfaces (~7.5:1 on white)
         },
         parchment: "#F5F1E6",
       },
