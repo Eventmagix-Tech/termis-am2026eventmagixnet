@@ -93,7 +93,7 @@ const ExploreNewOrleans = () => {
                         {attraction.title}
                       </h2>
                     </div>
-                    <p className="text-foreground/70 text-lg leading-relaxed">
+                    <p className="text-foreground/85 text-lg leading-relaxed">
                       {attraction.description}
                     </p>
                   </div>

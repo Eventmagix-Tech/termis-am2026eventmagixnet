@@ -18,7 +18,7 @@ const sections: { title: string; body: React.ReactNode }[] = [
           HCS is promoting a dedicated session during the conference and has generously offered to
           support 10 travel awards to defray the participation cost of TERMIS AM attendees.
         </p>
-        <p className="italic text-foreground/70">*Applications for all awards will open soon.</p>
+        <p className="italic text-foreground/85">*Applications for all awards will open soon.</p>
       </>
     ),
   },
@@ -33,7 +33,7 @@ const sections: { title: string; body: React.ReactNode }[] = [
           emerging researchers to showcase their work, engage with senior scientists, and explore
           future opportunities.
         </p>
-        <p className="italic text-foreground/70">
+        <p className="italic text-foreground/85">
           *Please note that submission to this session will open later in the summer and will follow
           a separate process from the general abstract submission.
         </p>
@@ -51,7 +51,7 @@ const sections: { title: string; body: React.ReactNode }[] = [
           academic careers. Participants will present their research vision and achievements,
           offering attendees the opportunity to connect with the next generation of faculty leaders.
         </p>
-        <p className="italic text-foreground/70">
+        <p className="italic text-foreground/85">
           *Please note that submission to this session will open later in the summer and will be
           managed separately from the main abstract process.
         </p>

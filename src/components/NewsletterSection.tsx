@@ -82,7 +82,7 @@ const NewsletterSection = () => {
               <h2 className="text-lg md:text-xl font-serif font-bold text-primary-foreground">
                 Subscribe to Stay Informed
               </h2>
-              <p className="text-primary-foreground/70 text-sm">
+              <p className="text-primary-foreground/90 text-sm">
                 Receive the latest news about TERMIS-AM
               </p>
             </div>

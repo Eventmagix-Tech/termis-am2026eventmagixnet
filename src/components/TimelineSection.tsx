@@ -50,7 +50,7 @@ const TimelineSection = () => {
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary-foreground mt-2">
             20 Years of Clinical Translation
           </h2>
-          <p className="text-primary-foreground/70 mt-4 max-w-2xl mx-auto">
+          <p className="text-primary-foreground/90 mt-4 max-w-2xl mx-auto">
             The River of Science - flowing from fundamental research to transformative patient care
           </p>
         </motion.div>
@@ -86,7 +86,7 @@ const TimelineSection = () => {
                       <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
                         {milestone.title}
                       </h3>
-                      <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                      <p className="text-primary-foreground/85 text-sm leading-relaxed max-w-xs">
                         {milestone.description}
                       </p>
                     </div>
@@ -108,7 +108,7 @@ const TimelineSection = () => {
                     <h3 className="text-lg font-serif font-semibold text-primary-foreground mb-1">
                       {milestone.title}
                     </h3>
-                    <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
+                    <p className="text-primary-foreground/85 text-sm leading-relaxed max-w-xs">
                       {milestone.description}
                     </p>
                   </div>

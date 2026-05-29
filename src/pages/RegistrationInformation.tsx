@@ -62,8 +62,8 @@ const RegistrationInformation = () => {
               {/* Annual Conference Secretariat */}
               <div className="bg-muted/50 rounded-xl p-8 shadow-lg border border-accent/10 mb-12">
                 <h3 className="text-2xl font-bold text-primary mb-2">Annual Conference Secretariat</h3>
-                <p className="text-foreground/70 mb-1 font-semibold">Kenes Group</p>
-                <p className="text-foreground/70 mb-1">Office: Kenes M+</p>
+                <p className="text-foreground/85 mb-1 font-semibold">Kenes Group</p>
+                <p className="text-foreground/85 mb-1">Office: Kenes M+</p>
                 <h4 className="text-lg font-bold text-primary mt-4 mb-2">Contact Person</h4>
                 <p className="text-foreground/80 mb-2">
                   Ms. Neyir Seda Utugen | Attendee Services & Event Technology Manager

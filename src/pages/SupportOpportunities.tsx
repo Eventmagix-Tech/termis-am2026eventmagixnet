@@ -62,7 +62,7 @@ const SupportOpportunities = () => {
                 <h2 className="text-2xl font-bold text-primary mb-2">
                   Mr. Jason Alexander
                 </h2>
-                <p className="text-foreground/70 mb-6">
+                <p className="text-foreground/85 mb-6">
                   TERMIS-AM 2026 Organizing Secretariat, Industry Liaison & Sales Associate
                 </p>
                 <a 

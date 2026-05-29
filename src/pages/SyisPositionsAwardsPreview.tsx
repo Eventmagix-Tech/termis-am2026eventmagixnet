@@ -45,7 +45,7 @@ const SyisPositionsAwardsPreview = () => {
                 This program provides a unique opportunity for SYIS attendees to build their experience
                 in moderating scientific sessions and network with faculty members involved in TERMIS.
               </p>
-              <p className="text-foreground/70 italic">Sign-up will be available soon.</p>
+              <p className="text-foreground/85 italic">Sign-up will be available soon.</p>
             </div>
 
             <h2 className="text-2xl font-bold text-primary mt-8 mb-4 border-b pb-2">SYIS Awards</h2>

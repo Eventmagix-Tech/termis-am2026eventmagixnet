@@ -106,7 +106,7 @@ const PromotionalToolkit = () => {
                   <div className="p-6">
                     <h3 className="text-lg font-bold text-primary mb-1">{item.title}</h3>
                     <p className="text-muted-foreground text-sm mb-1">{item.description}</p>
-                    <p className="text-xs text-muted-foreground/70 mb-4">
+                    <p className="text-xs text-muted-foreground mb-4">
                       Format: {item.dimensions}
                     </p>
                     <Button variant="gold" asChild>
@@ -185,7 +185,7 @@ const PromotionalToolkit = () => {
                 <p className="text-muted-foreground text-sm mb-1">
                   Official branded PowerPoint template for your conference presentations and talks.
                 </p>
-                <p className="text-xs text-muted-foreground/70">Format: .pptx</p>
+                <p className="text-xs text-muted-foreground">Format: .pptx</p>
               </div>
               <Button variant="gold" asChild>
                 <a href="/downloads/TERMIS-AM_2026_PPT.pptx" download>
