@@ -21,6 +21,7 @@ const navItems = [
       { label: "Explore New Orleans", href: "/explore-new-orleans" },
       { label: "Key Dates", href: "/key-dates" },
       { label: "Committees", href: "/committees" },
+      { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
       { label: "Contact Us", href: "/contact-us" },
     ],
   },
@@ -49,7 +50,6 @@ const navItems = [
     children: [
       { label: "Registration Information", href: "/registration-information" },
       { label: "Hotel Accommodation", href: "/hotel-accommodation" },
-      { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
     ],
   },
   {
