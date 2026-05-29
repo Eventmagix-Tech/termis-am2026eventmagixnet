@@ -214,7 +214,7 @@ const DetailedProgram = () => {
                               {item.time}
                             </div>
                             <div className="flex-1">
-                              <h3 className="font-bold text-lg">{item.title}</h3>
+                              <h2 className="font-bold text-lg">{item.title}</h2>
                               {item.description && (
                                 <p className="mt-1 opacity-90 text-sm">{item.description}</p>
                               )}
@@ -228,7 +228,7 @@ const DetailedProgram = () => {
                     </div>
                   ) : (
                     <div className="max-w-4xl mx-auto p-12 bg-muted/30 rounded-xl border border-accent/20 text-center">
-                      <h3 className="font-semibold text-primary text-xl mb-2">
+                      <h2 className="font-semibold text-primary text-xl mb-2">
                         {currentDay?.dateLabel} - {selectedHall}
                       </h3>
                       <p className="text-muted-foreground italic text-lg">

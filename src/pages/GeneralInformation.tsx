@@ -27,7 +27,7 @@ const GeneralInformation = () => {
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
                   <Calendar className="w-7 h-7 text-accent" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-1">Conference Dates</h3>
+                <h2 className="text-lg font-semibold text-foreground mb-1">Conference Dates</h2>
                 <p className="text-2xl font-bold text-primary">November 15-18, 2026</p>
               </div>
 
@@ -36,7 +36,7 @@ const GeneralInformation = () => {
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-7 h-7 text-accent" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-1">Destination</h3>
+                <h2 className="text-lg font-semibold text-foreground mb-1">Destination</h2>
                 <p className="text-xl font-bold text-primary mb-2">New Orleans, LA</p>
                 <Link 
                   to="/explore-new-orleans" 
@@ -51,7 +51,7 @@ const GeneralInformation = () => {
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
                   <Building className="w-7 h-7 text-accent" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-1">Venue</h3>
+                <h2 className="text-lg font-semibold text-foreground mb-1">Venue</h2>
                 <p className="text-lg font-bold text-primary">Hilton New Orleans Riverside</p>
               </div>
             </div>

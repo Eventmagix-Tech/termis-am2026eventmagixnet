@@ -111,7 +111,7 @@ const PlenarySpeakers = () => {
                   className="rounded-full h-40 w-40 object-cover mx-auto mb-4 border-4 border-accent/30"
                   loading="lazy"
                 />
-                <h3 className="text-xl font-bold text-primary text-center mb-1">
+                <h2 className="text-xl font-bold text-primary text-center mb-1">
                   {s.name}
                 </h3>
                 <p className="text-sm text-center text-foreground mb-4 whitespace-pre-line">

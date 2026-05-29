@@ -65,7 +65,7 @@ const Footer = () => {
                 className="h-24 w-auto"
               />
             </div>
-            <h4 className="font-serif font-semibold text-primary mb-2">
+            <h2 className="font-serif font-semibold text-primary mb-2">
               Conference Organizing Secretariat
             </h4>
             <p className="text-muted-foreground text-sm leading-relaxed text-center md:text-left">
