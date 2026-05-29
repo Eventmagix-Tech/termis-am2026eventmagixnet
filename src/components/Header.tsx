@@ -59,7 +59,6 @@ const navItems = [
     children: [
       { label: "2026 SYIS-AM Conference Activities", href: "/2026-syis-am-conference-activities" },
       { label: "SYIS Positions & Awards", href: "/syis-positions-and-awards" },
-      { label: "WFIRM Young Investigator Awards", href: "/wfirm-young-investigator-awards" },
     ],
   },
   {
@@ -67,6 +66,7 @@ const navItems = [
     children: [
       { label: "HCS Travel Awards", href: "/hcs-travel-awards" },
       { label: "NIH R13 Travel Awards", href: "/nih-r13-travel-awards" },
+      { label: "WFIRM Young Investigator Awards", href: "/wfirm-young-investigator-awards" },
     ],
   },
   { label: "Promotional Toolkit", href: "/promotional-toolkit" },
