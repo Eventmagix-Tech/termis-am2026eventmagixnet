@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import InfoCards from "@/components/InfoCards";
+import PlenarySpeakersSection from "@/components/PlenarySpeakersSection";
 import WelcomeLetterSection from "@/components/WelcomeLetterSection";
 import CongressPosterSection from "@/components/CongressPosterSection";
 import KeyDatesSection from "@/components/KeyDatesSection";
@@ -54,6 +55,7 @@ const Index = () => {
         <HeroSection />
         <KeyDatesSection />
         <InfoCards />
+        <PlenarySpeakersSection />
         <WelcomeLetterSection />
         <CongressPosterSection />
 
