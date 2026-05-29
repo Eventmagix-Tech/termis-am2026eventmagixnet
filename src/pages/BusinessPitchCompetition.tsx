@@ -93,7 +93,7 @@ const BusinessPitchCompetition = () => {
           <p>Importantly, all applicants to the TERMIS-AM 2026 Business Pitch Competition—regardless of finalist selection status—will have the opportunity to request feedback from members of the TERMIS-AM Industry Committee regarding their application and commercialization approach.</p>
         </div>
 
-        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Finalist Pitch Presentation Format & Timing</h3>
+        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Finalist Pitch Presentation Format & Timing</h2>
         <div className="text-lg text-foreground space-y-4 mb-4">
           <p>Each finalist will deliver a 5-minute pitch presenting their product, technology, and/or business opportunity to the judging panel and TERMIS audience.</p>
           <p>At minimum, presentations should address the following:</p>
@@ -105,19 +105,19 @@ const BusinessPitchCompetition = () => {
         </ul>
         <p className="text-lg text-foreground">Each presentation will be followed by up to 5 minutes of questions from the judging panel.</p>
 
-        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Eligibility Requirements</h3>
+        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Eligibility Requirements</h2>
         <ul className="list-disc ml-8 space-y-2 text-lg text-foreground">
           {eligibilityRequirements.map((p) => (
             <li key={p}>{p}</li>
           ))}
         </ul>
 
-        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Important Confidentiality Notice</h3>
+        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Important Confidentiality Notice</h2>
         <p className="text-lg text-foreground">
           Please do not disclose confidential or proprietary information in either the application materials or the live presentation. All submitted and presented information should be suitable for public disclosure.
         </p>
 
-        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Important Dates & Events</h3>
+        <h2 className="text-xl font-bold text-primary mt-10 mb-4">Important Dates & Events</h2>
         <ul className="list-disc ml-8 space-y-2 text-lg text-foreground">
           {importantDates.map((p) => (
             <li key={p}>{p}</li>
