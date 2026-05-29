@@ -38,7 +38,7 @@ const KeyDatesSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {keyDates.map((item, index) => (
             <motion.div
               key={item.title}
