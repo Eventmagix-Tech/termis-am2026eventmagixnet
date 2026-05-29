@@ -90,10 +90,10 @@ const KeyDatesSection = () => {
         >
           <Link
             to="/key-dates"
-            className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-medium transition-colors"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/90 underline underline-offset-4 font-semibold transition-colors"
           >
             View all key dates
-            <span>→</span>
+            <span aria-hidden="true">→</span>
           </Link>
         </motion.div>
       </div>
