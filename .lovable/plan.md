@@ -1,27 +1,47 @@
-## Problem
+## WCAG Compliance Fixes
 
-The embedded PDF on `/program-at-a-glance` is being blocked by Opera (and likely other ad blockers) with `ERR_BLOCKED_BY_CLIENT`. This happens because the `<iframe>` element is heuristically flagged by ad blockers (iframes loading anything are common ad surfaces, and the path/filename can also trigger filters).
+Implement accessibility improvements in 4 prioritized steps. No visual/brand changes — purely a11y and semantic markup.
 
-## Fix
+### Step 1 — Critical fixes
 
-Replace the `<iframe>` with a more resilient embed strategy and add a graceful fallback so users always have a way to access the PDF.
+- `src/components/Header.tsx`
+  - Add `aria-label` ("Open menu" / "Close menu") and `aria-expanded={isOpen}` + `aria-controls` to the mobile menu toggle button.
+  - Add `aria-label` to the two mobile social icon links (X, LinkedIn).
+  - Add `aria-expanded`, `aria-haspopup="true"` to desktop submenu trigger buttons.
+- `src/components/NewsletterSection.tsx`
+  - Add a visually-hidden `<label htmlFor="newsletter-email">` (or `aria-label="Email address"`) on the email input.
+  - Bump placeholder opacity from `/50` to `/80` for contrast.
+- Wrap decorative `⚜` fleur-de-lis glyphs in `<span aria-hidden="true">` in `InfoCards.tsx`, `PlenarySpeakersSection.tsx`, `GuestSocietyAnnouncementsSection.tsx`.
 
-### Changes to `src/pages/ProgramAtAGlance.tsx`
+### Step 2 — Desktop Header keyboard support
 
-1. Swap the `<iframe>` for an `<object>` element pointing to the same PDF (`type="application/pdf"`). `<object>` is far less likely to be blocked by ad/tracker filter lists than `<iframe>`.
-2. Inside the `<object>`, include built-in fallback content that renders if the browser/extension cannot display the PDF inline:
-   - A short message: "Your browser or an extension is preventing the PDF from displaying inline."
-   - Two action buttons: "Open PDF in new tab" (target `_blank`) and "Download PDF".
-3. Keep the existing top "TERMIS-AM 2026 Program at a Glance" download button unchanged so the PDF is always one click away even if the embed fails entirely.
-4. Preserve current container styling (rounded, border, shadow, responsive height `h-[800px] md:h-[1000px]`).
-5. Add a small helper note under the viewer: "If the document does not load, please disable your ad blocker for this page or use the buttons above to open/download it."
+Replace the custom hover-only dropdowns in `src/components/Header.tsx` with the shadcn/Radix `NavigationMenu` primitives that are already imported. This gives:
+- Keyboard focus open/close
+- Escape to dismiss
+- Proper ARIA roles, `aria-expanded`, `aria-controls`
+- Click-to-open for touch devices
 
-### Why not Google Docs viewer / PDF.js
+Visual styling is preserved by passing existing Tailwind classes to `NavigationMenuTrigger` / `NavigationMenuContent`.
 
-- Google Docs viewer (`https://docs.google.com/gview`) is itself frequently blocked by privacy filters and adds an external dependency.
-- A full PDF.js integration (e.g. `react-pdf`) would solve blocking definitively but adds a heavy dependency for a single page. The `<object>` + fallback approach resolves the reported issue with minimal change and no new dependencies.
+### Step 3 — Page-level semantics & motion
+
+- Add a "Skip to main content" link as the first focusable element in `Header.tsx`, jumping to `#main`. Style as visually hidden until focused.
+- Add `id="main"` to the `<main>` element in `Index.tsx` and other top-level page files.
+- Add an `<h1>` to the homepage (in `HeroSection`, visually hidden if needed) — currently the home page starts at `<h2>`.
+- Wrap continuous Hero animations in `src/components/HeroSection.tsx` with a `prefers-reduced-motion: reduce` guard using a `useReducedMotion()` hook from framer-motion, disabling the infinite shimmer/wave/glow loops.
+
+### Step 4 — Tap targets & contrast sweep
+
+- Increase mobile menu toggle button to `min-h-11 min-w-11`.
+- Increase header social icon links to `min-h-11 min-w-11` (mobile) with centered icon.
+- Audit usages of `text-accent` (gold) on white/light backgrounds across pages and switch to `text-primary` or darken token where contrast < 4.5:1.
+- Bump `text-white/70` and `text-primary-foreground/70` body copy to `/85` where it appears as readable text (not decorative).
 
 ### Out of scope
 
-- No changes to the PDF asset, routing, or other pages.
-- No styling/theme changes beyond what's required for the fallback block.
+- No content rewrites, no brand color changes, no layout redesigns.
+- Existing animations are preserved, only gated by user preference.
+
+### Verification
+
+After implementation, spot-check via keyboard navigation (Tab through Header, Esc closes submenus), screen reader announcement of menu button and newsletter input, and a quick contrast check on updated tokens.
