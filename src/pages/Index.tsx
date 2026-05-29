@@ -57,6 +57,7 @@ const Index = () => {
         <KeyDatesSection />
         <InfoCards />
         <PlenarySpeakersSection />
+        <GuestSocietyAnnouncementsSection />
         <WelcomeLetterSection />
         <CongressPosterSection />
 
