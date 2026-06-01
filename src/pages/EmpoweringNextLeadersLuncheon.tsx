@@ -3,13 +3,12 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 
-const EmpoweringNextLeadersLuncheonPreview = () => {
+const EmpoweringNextLeadersLuncheon = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Empowering Next Leaders in TERM Luncheon (Preview)"
-        description="Preview of the Empowering Next Leaders in TERM Luncheon at TERMIS-AM 2026."
-        noindex
+        title="Empowering Next Leaders in TERM Luncheon"
+        description="Empowering Next Leaders in TERM Luncheon at TERMIS-AM 2026."
       />
       <Header />
       <PageHeader title="Empowering Next Leaders in TERM Luncheon" />
@@ -45,4 +44,4 @@ const EmpoweringNextLeadersLuncheonPreview = () => {
   );
 };
 
-export default EmpoweringNextLeadersLuncheonPreview;
+export default EmpoweringNextLeadersLuncheon;
