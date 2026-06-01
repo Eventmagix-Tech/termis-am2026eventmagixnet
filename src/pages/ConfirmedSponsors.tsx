@@ -11,6 +11,7 @@ import ssrLogo from "@/assets/sponsors/ssr.png";
 import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
 import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
+import iiamLogo from "@/assets/sponsors/iiam.png";
 
 interface Sponsor {
   name: string;
