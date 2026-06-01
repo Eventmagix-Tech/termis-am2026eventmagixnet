@@ -35,7 +35,7 @@ import ComingSoon from "./pages/ComingSoon";
 
 import SyisConferenceActivities from "./pages/SyisConferenceActivities";
 import SyisPositionsAwards from "./pages/SyisPositionsAwards";
-import EmpoweringNextLeadersLuncheonPreview from "./pages/EmpoweringNextLeadersLuncheonPreview";
+import EmpoweringNextLeadersLuncheon from "./pages/EmpoweringNextLeadersLuncheon";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -76,8 +76,9 @@ const App = () => (
           <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
           
           
-          <Route path="/preview-empowering-next-leaders-luncheon" element={<EmpoweringNextLeadersLuncheonPreview />} />
-          <Route path="/empowering-next-leaders-luncheon" element={<ComingSoon title="Empowering Next Leaders in TERM Luncheon" />} />
+          <Route path="/empowering-next-leaders-luncheon" element={<EmpoweringNextLeadersLuncheon />} />
+          
+          <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           <Route path="/2026-syis-am-conference-activities" element={<SyisConferenceActivities />} />
