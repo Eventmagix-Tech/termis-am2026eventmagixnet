@@ -12,12 +12,17 @@ import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
 import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
 import iiamLogo from "@/assets/sponsors/iiam.png";
+import wfirmLogo from "@/assets/sponsors/wfirm.png";
 
 interface Sponsor {
   name: string;
   href: string;
   logo: string;
 }
+
+const silverSponsors: Sponsor[] = [
+  { name: "Wake Forest Institute for Regenerative Medicine", href: "https://school.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine", logo: wfirmLogo },
+];
 
 const bronzeSponsors: Sponsor[] = [
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
