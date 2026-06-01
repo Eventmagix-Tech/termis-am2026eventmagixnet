@@ -79,8 +79,6 @@ const App = () => (
           <Route path="/empowering-next-leaders-luncheon" element={<EmpoweringNextLeadersLuncheon />} />
           
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
-          
-          <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
           <Route path="/2026-syis-am-conference-activities" element={<SyisConferenceActivities />} />
           <Route path="/syis-positions-and-awards" element={<SyisPositionsAwards />} />
 
