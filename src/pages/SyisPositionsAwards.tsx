@@ -20,13 +20,12 @@ const FormLink = ({ href, children }: { href: string; children: React.ReactNode 
   </a>
 );
 
-const SyisPositionsAwardsPreview = () => {
+const SyisPositionsAwards = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
         title="SYIS Positions & Awards"
         description="Students and Young Investigators Section positions and awards at TERMIS-AM 2026."
-        noindex
       />
       <Header />
       <PageHeader title="SYIS Positions & Awards" />
@@ -145,4 +144,4 @@ const SyisPositionsAwardsPreview = () => {
   );
 };
 
-export default SyisPositionsAwardsPreview;
+export default SyisPositionsAwards;
