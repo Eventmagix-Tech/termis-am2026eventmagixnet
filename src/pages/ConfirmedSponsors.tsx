@@ -90,6 +90,17 @@ const ConfirmedSponsors = () => (
       <div className="container mx-auto px-4 max-w-6xl space-y-20">
         <div>
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
+            Silver Sponsors
+          </h2>
+          <SponsorGrid
+            sponsors={silverSponsors}
+            logoHeightClass="h-[184px]"
+            itemWidthClass="w-full sm:w-[414px]"
+          />
+        </div>
+
+        <div>
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
             Bronze Sponsors
           </h2>
           <SponsorGrid
