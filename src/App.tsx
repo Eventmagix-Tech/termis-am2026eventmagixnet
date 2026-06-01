@@ -33,8 +33,8 @@ import HcsTravelAwards from "./pages/HcsTravelAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 
-import SyisPreview from "./pages/SyisPreview";
-import SyisPositionsAwardsPreview from "./pages/SyisPositionsAwardsPreview";
+import SyisConferenceActivities from "./pages/SyisConferenceActivities";
+import SyisPositionsAwards from "./pages/SyisPositionsAwards";
 import EmpoweringNextLeadersLuncheonPreview from "./pages/EmpoweringNextLeadersLuncheonPreview";
 import NotFound from "./pages/NotFound";
 
@@ -76,14 +76,12 @@ const App = () => (
           <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
           
           
-          <Route path="/preview-2026-syis-am-conference-activities" element={<SyisPreview />} />
-          <Route path="/preview-syis-positions-and-awards" element={<SyisPositionsAwardsPreview />} />
           <Route path="/preview-empowering-next-leaders-luncheon" element={<EmpoweringNextLeadersLuncheonPreview />} />
           <Route path="/empowering-next-leaders-luncheon" element={<ComingSoon title="Empowering Next Leaders in TERM Luncheon" />} />
           
           <Route path="/students-young-investigators" element={<ComingSoon title="Students & Young Investigators" />} />
-          <Route path="/2026-syis-am-conference-activities" element={<ComingSoon title="2026 SYIS-AM Conference Activities" />} />
-          <Route path="/syis-positions-and-awards" element={<ComingSoon title="SYIS Positions & Awards" />} />
+          <Route path="/2026-syis-am-conference-activities" element={<SyisConferenceActivities />} />
+          <Route path="/syis-positions-and-awards" element={<SyisPositionsAwards />} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

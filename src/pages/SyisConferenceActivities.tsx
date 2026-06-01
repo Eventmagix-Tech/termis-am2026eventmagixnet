@@ -41,13 +41,12 @@ const days = [
   },
 ];
 
-const SyisPreview = () => {
+const SyisConferenceActivities = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
         title="2026 SYIS-AM Conference Activities"
         description="Students and Young Investigators Section activities at TERMIS-AM 2026."
-        noindex
       />
       <Header />
       <PageHeader title="2026 SYIS-AM Conference Activities" />
@@ -120,4 +119,4 @@ const SyisPreview = () => {
   );
 };
 
-export default SyisPreview;
+export default SyisConferenceActivities;
