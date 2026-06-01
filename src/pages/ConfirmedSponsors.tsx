@@ -12,12 +12,17 @@ import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
 import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
 import iiamLogo from "@/assets/sponsors/iiam.png";
+import wfirmLogo from "@/assets/sponsors/wfirm.png";
 
 interface Sponsor {
   name: string;
   href: string;
   logo: string;
 }
+
+const silverSponsors: Sponsor[] = [
+  { name: "Wake Forest Institute for Regenerative Medicine", href: "https://school.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine", logo: wfirmLogo },
+];
 
 const bronzeSponsors: Sponsor[] = [
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
@@ -83,6 +88,17 @@ const ConfirmedSponsors = () => (
 
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-6xl space-y-20">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
+            Silver Sponsors
+          </h2>
+          <SponsorGrid
+            sponsors={silverSponsors}
+            logoHeightClass="h-[184px]"
+            itemWidthClass="w-full sm:w-[414px]"
+          />
+        </div>
+
         <div>
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
             Bronze Sponsors
