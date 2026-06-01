@@ -27,6 +27,7 @@ const bronzeSponsors: Sponsor[] = [
 
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
+  { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
 ];
