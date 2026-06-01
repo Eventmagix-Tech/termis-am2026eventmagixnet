@@ -17,7 +17,7 @@ const EmpoweringNextLeadersLuncheon = () => {
 
       <section className="max-w-4xl mx-auto py-8 px-4">
         <span className="inline-block bg-muted text-muted-foreground font-semibold px-4 py-2 rounded-md mb-8">
-          Pre–Registration Required. Ticketed Session.
+          Pre–Registration Required. Ticketed Session (50.00 USD)
         </span>
 
         <h2 className="text-2xl font-bold text-primary mb-6 border-b pb-2">
