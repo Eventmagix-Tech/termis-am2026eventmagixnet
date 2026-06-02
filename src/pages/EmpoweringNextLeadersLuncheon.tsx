@@ -28,7 +28,7 @@ const EmpoweringNextLeadersLuncheon = () => {
           <p>As TERMIS marks its 20th Anniversary, this year's luncheon honors the remarkable legacy of women in tissue engineering and regenerative medicine.</p>
           <p>Together, we will celebrate the progress that has shaped the field and look ahead to the opportunities that will define the next two decades.</p>
           <p>This year's program highlights the contributions of women across every stage of TERM's evolution, from foundational discoveries to transformative therapies with real-world impact.</p>
-          <p>Leaders in academic research and entrepreneurship will share their pathways to innovation, recognizing key milestones and inspiring new ideas.</p>
+          <p>A panel of leaders in academic research and entrepreneurship will share their pathways to innovation, recognizing key milestones and inspiring new ideas.</p>
           <p>This gathering offers a unique opportunity to connect, learn, and envision the future: one driven by collaboration, discovery, and scientific inquiry to accelerate meaningful breakthroughs that benefit all.</p>
         </div>
 
