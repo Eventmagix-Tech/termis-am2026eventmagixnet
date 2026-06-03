@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FileText, UserPlus } from "lucide-react";
+import { Medal, FileText, UserPlus } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const keyDates = [
@@ -9,22 +9,22 @@ const keyDates = [
     date: "June 2026",
   },
   {
-    icon: FileText,
+    icon: Medal,
     title: "NIH R13 Travel Awards Application Deadline",
     date: "July 1, 2026",
   },
   {
-    icon: FileText,
+    icon: Medal,
     title: "HCS Travel Awards Application Deadline",
     date: "July 1, 2026",
   },
   {
-    icon: FileText,
+    icon: Medal,
     title: "SYIS Awards Application Deadline",
     date: "July 18, 2026",
   },
   {
-    icon: FileText,
+    icon: Medal,
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
   },
