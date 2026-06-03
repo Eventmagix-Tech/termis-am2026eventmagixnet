@@ -1,34 +1,45 @@
 import { motion } from "framer-motion";
-import { Calendar, FileText, UserPlus } from "lucide-react";
+import { FileText, UserPlus } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const keyDates = [
   {
-    icon: FileText,
-    title: "Abstract Submission Deadline",
-    description: "Submit your abstracts before the deadline",
-    date: "June 1, 2026",
-    href: "/call-for-abstracts",
-  },
-  {
     icon: UserPlus,
     title: "Registration Opens",
-    description: "Secure your spot at TERMIS-AM 2026",
     date: "June 2026",
-    href: "/registration-information",
+  },
+  {
+    icon: FileText,
+    title: "NIH R13 Travel Awards Application Deadline",
+    date: "July 1, 2026",
+  },
+  {
+    icon: FileText,
+    title: "HCS Travel Awards Application Deadline",
+    date: "July 1, 2026",
+  },
+  {
+    icon: FileText,
+    title: "SYIS Awards Application Deadline",
+    date: "July 18, 2026",
+  },
+  {
+    icon: FileText,
+    title: "WFIRM YI Awards Application Deadline",
+    date: "August 1, 2026",
   },
 ];
 
 const KeyDatesSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5">
+    <section className="py-12 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-primary/5">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-8"
         >
           <span className="text-gold-text font-semibold text-sm tracking-wider uppercase">
             ⚜ Mark Your Calendar ⚜
@@ -38,42 +49,32 @@ const KeyDatesSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
           {keyDates.map((item, index) => (
             <motion.div
               key={item.title}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.15 }}
+              transition={{ duration: 0.4, delay: index * 0.08 }}
             >
               <Link
-                to={item.href}
-                className="relative bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 hover:-translate-y-2 overflow-hidden group h-full flex flex-col block"
+                to="/key-dates"
+                className="relative bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1 overflow-hidden group h-full flex flex-col block"
               >
-                {/* Top accent bar */}
-                <div className="h-1.5 bg-gradient-to-r from-accent to-gold" />
+                <div className="h-1 bg-gradient-to-r from-accent to-gold" />
 
-                <div className="p-6 text-center flex flex-col flex-1">
-                  <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors duration-300">
-                    <item.icon className="w-7 h-7 text-accent" />
+                <div className="p-4 text-center flex flex-col flex-1">
+                  <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-2 group-hover:bg-accent/20 transition-colors duration-300">
+                    <item.icon className="w-5 h-5 text-accent" />
                   </div>
 
-                  <h3 className="text-lg font-serif font-semibold text-foreground mb-1">
+                  <h3 className="text-sm font-serif font-semibold text-foreground mb-2 leading-snug flex-1">
                     {item.title}
                   </h3>
 
-                  <p className="text-muted-foreground text-sm mb-3 flex-1">
-                    {item.description}
-                  </p>
-
-                  <div className="text-xl font-bold text-secondary mt-auto">
+                  <div className="text-base font-bold text-secondary mt-auto">
                     {item.date}
-                  </div>
-
-                  {/* Decorative fleur-de-lis */}
-                  <div className="absolute bottom-3 right-3 text-accent/10 text-xl group-hover:text-accent/30 transition-colors duration-300">
-                    ⚜
                   </div>
                 </div>
               </Link>
@@ -86,7 +87,7 @@ const KeyDatesSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="text-center mt-8"
+          className="text-center mt-6"
         >
           <Link
             to="/key-dates"
