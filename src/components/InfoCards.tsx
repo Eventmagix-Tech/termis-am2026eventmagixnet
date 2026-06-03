@@ -3,10 +3,10 @@ import { Trophy, Info, Calendar, Handshake } from "lucide-react";
 
 const cards = [
   {
-    title: "Abstract Submission",
-    description: "Submit your abstract for the TERMIS-AM 2026 conference",
-    icon: FileText,
-    href: "/call-for-abstracts",
+    title: "Opportunities",
+    description: "Awards, Networking & Career Development Opportunities",
+    icon: Trophy,
+    href: "/awards-networking-career-development",
     color: "from-purple-deep to-purple-light",
   },
   {
