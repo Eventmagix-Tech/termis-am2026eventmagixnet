@@ -5,7 +5,7 @@ const cards = [
   {
     title: "Opportunities",
     description: "Awards, Networking & Career Development Opportunities",
-    icon: Trophy,
+    icon: Medal,
     href: "/awards-networking-career-development",
     color: "from-purple-deep to-purple-light",
   },
