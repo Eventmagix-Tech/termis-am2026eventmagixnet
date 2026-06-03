@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FileText, UserPlus } from "lucide-react";
+import { Medal, FileText, UserPlus } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const keyDates = [
