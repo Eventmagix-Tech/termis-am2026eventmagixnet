@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FileText, Info, Calendar, Handshake } from "lucide-react";
+import { Trophy, Info, Calendar, Handshake } from "lucide-react";
 
 const cards = [
   {
