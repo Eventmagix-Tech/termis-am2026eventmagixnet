@@ -70,7 +70,7 @@ const PreviewCareerDevelopmentPosterSessions = () => {
               <li>Early-career scientists seeking independent academic positions</li>
             </ul>
 
-            <a href="#" className="inline-flex items-center gap-1.5 text-primary underline-offset-4 hover:underline font-medium">
+            <a href="https://kenes.eventsair.com/termis-am-2026/cdps/Site/Register" className="inline-flex items-center gap-1.5 text-primary underline-offset-4 hover:underline font-medium">
               <ExternalLink size={16} />
               Register to showcase a poster in this session
             </a>
