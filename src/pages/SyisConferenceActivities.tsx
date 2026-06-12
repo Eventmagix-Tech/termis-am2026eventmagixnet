@@ -28,12 +28,12 @@ const days = [
     day: "Day 3: Wednesday, November 18th",
     events: [
       {
-        title: "SYIS Career Panel Discussion (45.00 USD)",
+        title: "SYIS Career Panel Discussion (TBD)",
         description:
           "The Career Panel discussion will include young professionals representing careers in both academic and non-academic TERM sectors, such as industry, government, publishing, or biomedical start-ups. In addition to a moderated discussion, the panel will include a Q&A portion where attendees may ask panelists about their career paths and experiences.",
       },
       {
-        title: "Meet the Editors Session (45.00 USD)",
+        title: "Meet the Editors Session (TBD)",
         description:
           "The Meet the Editors session will include an opportunity to network with editors representing high impact academic journals in the area of tissue engineering and regenerative medicine. In addition to a moderated discussion, the attendees may ask editors about publishing requirements. RSVP during conference sign-up to attend.",
       },
