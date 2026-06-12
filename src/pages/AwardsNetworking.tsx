@@ -6,24 +6,6 @@ import { Separator } from "@/components/ui/separator";
 
 const sections: { title: string; body: React.ReactNode }[] = [
   {
-    title: "Meet the Future Postdoc Candidates – Poster Session",
-    body: (
-      <>
-        <p>
-          Are you a PhD student looking for your next position? Are you a faculty looking to recruit
-          the best future postdoc? This dedicated poster session highlights outstanding PhD students
-          who are preparing to transition into postdoctoral research. It provides a platform for
-          emerging researchers to showcase their work, engage with senior scientists, and explore
-          future opportunities.
-        </p>
-        <p className="italic text-foreground/85">
-          *Please note that submission to this session will open later in the summer and will follow
-          a separate process from the general abstract submission.
-        </p>
-      </>
-    ),
-  },
-  {
     title: "Meet the Future Faculty Candidates – Poster Session",
     body: (
       <>
