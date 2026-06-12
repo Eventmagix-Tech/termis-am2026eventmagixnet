@@ -29,6 +29,7 @@ const navItems = [
       { label: "Plenary Speakers", href: "/plenary-speakers" },
       { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
+      { label: "Career Development Poster Sessions", href: "/career-development-poster-sessions" },
       { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
       { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
     ],
