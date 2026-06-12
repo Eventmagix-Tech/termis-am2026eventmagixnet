@@ -6,23 +6,6 @@ import { Separator } from "@/components/ui/separator";
 
 const sections: { title: string; body: React.ReactNode }[] = [
   {
-    title: "Guest Society – The Histochemical Society",
-    body: (
-      <>
-        <p className="italic">
-          Do you have that weird histology that you cannot figure out what it means? You got the
-          unique opportunity to try and catch the experts of this year's guest society!
-        </p>
-        <p>
-          We are excited to host The Histochemical Society (HCS) at this year's annual meeting. The
-          HCS is promoting a dedicated session during the conference and has generously offered to
-          support 10 travel awards to defray the participation cost of TERMIS AM attendees.
-        </p>
-        <p className="italic text-foreground/85">*Applications for all awards will open soon.</p>
-      </>
-    ),
-  },
-  {
     title: "Meet the Future Postdoc Candidates – Poster Session",
     body: (
       <>
