@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
+import { ExternalLink } from "lucide-react";
 
 const PreviewCareerDevelopmentPosterSessions = () => {
   return (
