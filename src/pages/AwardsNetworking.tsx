@@ -6,24 +6,6 @@ import { Separator } from "@/components/ui/separator";
 
 const sections: { title: string; body: React.ReactNode }[] = [
   {
-    title: "Meet the Future Faculty Candidates – Poster Session",
-    body: (
-      <>
-        <p>
-          Are you a Postdoctoral fellow looking for your first faculty position? Are you a faculty
-          looking to recruit a new colleague to your department? This session is designed for
-          postdoctoral researchers and early-career scientists who are preparing for independent
-          academic careers. Participants will present their research vision and achievements,
-          offering attendees the opportunity to connect with the next generation of faculty leaders.
-        </p>
-        <p className="italic text-foreground/85">
-          *Please note that submission to this session will open later in the summer and will be
-          managed separately from the main abstract process.
-        </p>
-      </>
-    ),
-  },
-  {
     title: "Travel Awards (multiple available)",
     body: (
       <p>
@@ -71,40 +53,6 @@ const sections: { title: string; body: React.ReactNode }[] = [
         These awards from the TERMIS AM SYIS recognize outstanding postdoc contributions to the
         annual conference. Awards acknowledge excellence in research and presentation. Awardees will
         receive an official certificate and a monetary award.
-      </p>
-    ),
-  },
-  {
-    title: "The Wake Forest Institute for Regenerative Medicine Young Investigator Awards (2 awards)",
-    body: (
-      <p>
-        The WFIRM YI Awards will be presented during the TERMIS AM meeting to two (2) individuals in
-        the early stages of their research careers (graduate student or post-doctoral fellow). Each
-        awardee will be invited to present their conference abstract during the TERMIS-AM meeting
-        and will receive an award certificate and a monetary award.
-      </p>
-    ),
-  },
-  {
-    title: "Women in TERM Luncheon — Monday, November 16, 2026",
-    body: (
-      <p>
-        The Women in TERM Luncheon is a networking and discussion event dedicated to supporting and
-        promoting women in tissue engineering and regenerative medicine. The luncheon provides a
-        welcoming environment for sharing experiences, fostering mentorship, and encouraging
-        collaboration across all career stages. Separate registration is required.
-      </p>
-    ),
-  },
-  {
-    title: "Meet the Mentor Lunch (SYIS Event) — Tuesday, November 17, 2026",
-    body: (
-      <p>
-        As the signature SYIS event at TERMIS conferences, the Student-Meet-Mentor Luncheon provides
-        students and young investigators the opportunity to enjoy a seated lunch with senior faculty
-        and scientists working in the fields of tissue engineering and regenerative medicine.
-        Mentors will include session chairs, TERMIS faculty members, and local industry leaders.
-        Registration for a ticket during the conference sign-up is required to attend.
       </p>
     ),
   },
