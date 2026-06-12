@@ -233,7 +233,7 @@ const RegistrationInformation = () => {
                           <TableRow><TableCell className="font-medium">Exhibit Hall-Only Registration (promo code needed)</TableCell><TableCell className="text-center">450.00 USD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Single Day Onsite Registrant</TableCell><TableCell className="text-center">600.00 USD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Guest Pass Welcome Reception****</TableCell><TableCell className="text-center">150.00 USD</TableCell></TableRow>
-                          <TableRow><TableCell className="font-medium">Preconference Workshops (per workshop, can select more than one)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
+                          <TableRow><TableCell className="font-medium">Pre-conference Workshop</TableCell><TableCell className="text-center">45.00 USD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">Empowering Next Leaders in TERM Luncheon</TableCell><TableCell className="text-center">50.00 USD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">SYIS Networking Event (SYIS only)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
                           <TableRow><TableCell className="font-medium">SYIS Student Meet Mentor Lunch (SYIS only)</TableCell><TableCell className="text-center">TBD</TableCell></TableRow>
