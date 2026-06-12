@@ -46,7 +46,8 @@ const PreviewCareerDevelopmentPosterSessions = () => {
               <li>Trainees planning to apply for postdoctoral positions within the next year</li>
             </ul>
 
-            <a href="#" className="text-primary underline-offset-4 hover:underline font-medium">
+            <a href="#" className="inline-flex items-center gap-1.5 text-primary underline-offset-4 hover:underline font-medium">
+              <ExternalLink size={16} />
               Register to showcase a poster in this session
             </a>
             <p className="font-bold mt-2">Registration Deadline: September 18</p>
