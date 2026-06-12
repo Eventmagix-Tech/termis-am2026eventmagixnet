@@ -57,40 +57,6 @@ const sections: { title: string; body: React.ReactNode }[] = [
     ),
   },
   {
-    title: "The Wake Forest Institute for Regenerative Medicine Young Investigator Awards (2 awards)",
-    body: (
-      <p>
-        The WFIRM YI Awards will be presented during the TERMIS AM meeting to two (2) individuals in
-        the early stages of their research careers (graduate student or post-doctoral fellow). Each
-        awardee will be invited to present their conference abstract during the TERMIS-AM meeting
-        and will receive an award certificate and a monetary award.
-      </p>
-    ),
-  },
-  {
-    title: "Women in TERM Luncheon — Monday, November 16, 2026",
-    body: (
-      <p>
-        The Women in TERM Luncheon is a networking and discussion event dedicated to supporting and
-        promoting women in tissue engineering and regenerative medicine. The luncheon provides a
-        welcoming environment for sharing experiences, fostering mentorship, and encouraging
-        collaboration across all career stages. Separate registration is required.
-      </p>
-    ),
-  },
-  {
-    title: "Meet the Mentor Lunch (SYIS Event) — Tuesday, November 17, 2026",
-    body: (
-      <p>
-        As the signature SYIS event at TERMIS conferences, the Student-Meet-Mentor Luncheon provides
-        students and young investigators the opportunity to enjoy a seated lunch with senior faculty
-        and scientists working in the fields of tissue engineering and regenerative medicine.
-        Mentors will include session chairs, TERMIS faculty members, and local industry leaders.
-        Registration for a ticket during the conference sign-up is required to attend.
-      </p>
-    ),
-  },
-  {
     title: "Meet the Editor",
     body: (
       <p>
