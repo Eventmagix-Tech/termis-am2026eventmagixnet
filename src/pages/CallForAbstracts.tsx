@@ -44,11 +44,16 @@ const CallForAbstracts = () => {
 
         {/* Abstract Submission Button */}
         <div className="text-center mb-10">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer">
-              Click Here to Submit Abstract
-            </a>
+          <Button
+            size="lg"
+            disabled
+            className="bg-primary/40 text-primary-foreground/60 font-bold text-lg px-8 py-6 rounded-lg cursor-not-allowed opacity-70"
+          >
+            Click Here to Submit Abstract
           </Button>
+          <p className="mt-4 text-sm text-foreground/70 max-w-xl mx-auto">
+            The abstract submission deadline has passed. Stay tuned for upcoming information on late-breaking abstract submissions, opening on 18 July.
+          </p>
         </div>
 
         {/* Abstract Guidelines Card */}
