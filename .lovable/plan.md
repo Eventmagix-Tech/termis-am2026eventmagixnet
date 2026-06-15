@@ -1,47 +1,44 @@
-## WCAG Compliance Fixes
+## Hedef
+Call for Abstracts sayfasındaki "The abstract submission deadline has passed..." mesaj kutusuna, dikkat çekmek için altın renkli (gold) bir lazer süpürme animasyonu eklemek.
 
-Implement accessibility improvements in 4 prioritized steps. No visual/brand changes — purely a11y and semantic markup.
+## Mevcut Durum
+- `src/pages/CallForAbstracts.tsx` içinde satır 45-50 arasında altın rengi çerçeveli bir bilgi kutusu var:
+```tsx
+<div className="text-center mb-10 p-6 bg-gold/20 border-2 border-gold rounded-xl">
+  <p className="text-foreground font-semibold text-base md:text-lg">
+    The abstract submission deadline has passed...
+  </p>
+</div>
+```
+- Proje Framer Motion kullanıyor ancak dekoratif animasyonlar için CSS keyframes de mevcut (`src/index.css` içinde `animate-shimmer`, `animate-pulse-glow` vb.)
 
-### Step 1 — Critical fixes
+## Teknik Yaklaşım
+Animasyonu saf CSS ile uygulayacağız (Framer Motion'a gerek yok, daha hafif):
 
-- `src/components/Header.tsx`
-  - Add `aria-label` ("Open menu" / "Close menu") and `aria-expanded={isOpen}` + `aria-controls` to the mobile menu toggle button.
-  - Add `aria-label` to the two mobile social icon links (X, LinkedIn).
-  - Add `aria-expanded`, `aria-haspopup="true"` to desktop submenu trigger buttons.
-- `src/components/NewsletterSection.tsx`
-  - Add a visually-hidden `<label htmlFor="newsletter-email">` (or `aria-label="Email address"`) on the email input.
-  - Bump placeholder opacity from `/50` to `/80` for contrast.
-- Wrap decorative `⚜` fleur-de-lis glyphs in `<span aria-hidden="true">` in `InfoCards.tsx`, `PlenarySpeakersSection.tsx`, `GuestSocietyAnnouncementsSection.tsx`.
+1. **`src/index.css`** içine yeni `@keyframes laser-sweep` tanımlanacak:
+   - Yatay veya hafif eğimli (`skew-x-12`) bir gradyan çizgi
+   - Kutunun solundan sağına doğru hareket edecek
+   - Parlak altın rengi (`#D4AF37` / `hsl(var(--accent))`) ile beyaz parıltı merkezi
+   - Opacity pulse efekti ile daha dramatik görünüm
+   - Sürekli tekrar (`infinite`), yaklaşık 3 saniyelik periyot
 
-### Step 2 — Desktop Header keyboard support
+2. **`.animate-laser-sweep` utility class** eklenecek
 
-Replace the custom hover-only dropdowns in `src/components/Header.tsx` with the shadcn/Radix `NavigationMenu` primitives that are already imported. This gives:
-- Keyboard focus open/close
-- Escape to dismiss
-- Proper ARIA roles, `aria-expanded`, `aria-controls`
-- Click-to-open for touch devices
+3. **`src/pages/CallForAbstracts.tsx`** içindeki bilgi kutusu:
+   - `relative overflow-hidden` ile güncellenecek (lazerin taşmaması için)
+   - İçine bir `<div className="animate-laser-sweep ...">` eklenerek pseudo-element veya absolute-positioned gradient çizgi yerleştirilecek
+   - Lazer, arka planda gezsin, yazıların üzerine çıkmasın (`z-index` yönetimi)
 
-Visual styling is preserved by passing existing Tailwind classes to `NavigationMenuTrigger` / `NavigationMenuContent`.
+## Animasyon Detayları
+- Lazer rengi: Altın (gold) tonları, beyaz parıltılı merkez
+- Hız: ~3 saniyelik periyot, sürekli döngü
+- Yön: Soldan sağa yatay süpürme
+- Konum: Çerçevenin iç kenarından geçebilir veya kutunun tam ortasından
+- Opacity: 0.6 - 1.0 arası pulse
 
-### Step 3 — Page-level semantics & motion
+## Dosyalar
+- `src/index.css` — yeni keyframes ve utility class
+- `src/pages/CallForAbstracts.tsx` — bilgi kutusu container güncellemesi + lazer elementi
 
-- Add a "Skip to main content" link as the first focusable element in `Header.tsx`, jumping to `#main`. Style as visually hidden until focused.
-- Add `id="main"` to the `<main>` element in `Index.tsx` and other top-level page files.
-- Add an `<h1>` to the homepage (in `HeroSection`, visually hidden if needed) — currently the home page starts at `<h2>`.
-- Wrap continuous Hero animations in `src/components/HeroSection.tsx` with a `prefers-reduced-motion: reduce` guard using a `useReducedMotion()` hook from framer-motion, disabling the infinite shimmer/wave/glow loops.
-
-### Step 4 — Tap targets & contrast sweep
-
-- Increase mobile menu toggle button to `min-h-11 min-w-11`.
-- Increase header social icon links to `min-h-11 min-w-11` (mobile) with centered icon.
-- Audit usages of `text-accent` (gold) on white/light backgrounds across pages and switch to `text-primary` or darken token where contrast < 4.5:1.
-- Bump `text-white/70` and `text-primary-foreground/70` body copy to `/85` where it appears as readable text (not decorative).
-
-### Out of scope
-
-- No content rewrites, no brand color changes, no layout redesigns.
-- Existing animations are preserved, only gated by user preference.
-
-### Verification
-
-After implementation, spot-check via keyboard navigation (Tab through Header, Esc closes submenus), screen reader announcement of menu button and newsletter input, and a quick contrast check on updated tokens.
+## Çıkarılacak Sonuç
+Sayfa yüklendiğinde bilgi kutusunun üzerinden periyodik olarak parlak bir altın lazer çizgisi geçerek kullanıcının dikkatini mesaja çekecek.

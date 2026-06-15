@@ -43,8 +43,19 @@ const CallForAbstracts = () => {
         </section>
 
         {/* Abstract Submission Message */}
-        <div className="text-center mb-10 p-6 bg-gold/20 border-2 border-gold rounded-xl">
-          <p className="text-foreground font-semibold text-base md:text-lg">
+        <div className="relative overflow-hidden text-center mb-10 p-6 bg-gold/20 border-2 border-gold rounded-xl shadow-gold">
+          {/* Laser sweep effect */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-y-0 left-0 w-1/3 animate-laser-sweep"
+            style={{
+              background:
+                "linear-gradient(90deg, transparent 0%, rgba(212,175,55,0.35) 35%, rgba(255,250,220,0.95) 50%, rgba(212,175,55,0.35) 65%, transparent 100%)",
+              filter: "blur(2px)",
+              mixBlendMode: "screen",
+            }}
+          />
+          <p className="relative z-10 text-foreground font-semibold text-base md:text-lg">
             The abstract submission deadline has passed. Stay tuned for upcoming information on late-breaking abstract submissions, opening on 18 July.
           </p>
         </div>
