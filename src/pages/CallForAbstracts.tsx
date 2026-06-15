@@ -42,16 +42,9 @@ const CallForAbstracts = () => {
           </div>
         </section>
 
-        {/* Abstract Submission Button */}
-        <div className="text-center mb-10">
-          <Button
-            size="lg"
-            disabled
-            className="bg-primary/40 text-primary-foreground/60 font-bold text-lg px-8 py-6 rounded-lg cursor-not-allowed opacity-70"
-          >
-            Click Here to Submit Abstract
-          </Button>
-          <p className="mt-4 text-sm text-foreground/70 max-w-xl mx-auto">
+        {/* Abstract Submission Message */}
+        <div className="text-center mb-10 p-6 bg-gold/20 border-2 border-gold rounded-xl">
+          <p className="text-foreground font-semibold text-base md:text-lg">
             The abstract submission deadline has passed. Stay tuned for upcoming information on late-breaking abstract submissions, opening on 18 July.
           </p>
         </div>
