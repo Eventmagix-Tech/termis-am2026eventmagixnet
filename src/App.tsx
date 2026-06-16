@@ -29,6 +29,7 @@ import AwardsNetworking from "./pages/AwardsNetworking";
 import AbstractTopics from "./pages/AbstractTopics";
 import NihR13TravelAwards from "./pages/NihR13TravelAwards";
 import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
+import HcsTravelAwards from "./pages/HcsTravelAwards";
 import AmChapterAwards from "./pages/AmChapterAwards";
 
 import ComingSoon from "./pages/ComingSoon";
