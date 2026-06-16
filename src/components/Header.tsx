@@ -67,6 +67,7 @@ const navItems = [
     children: [
       { label: "HCS Travel Awards", href: "/hcs-travel-awards" },
       { label: "NIH R13 Travel Awards", href: "/nih-r13-travel-awards" },
+      { label: "AM Chapter Awards", href: "/am-chapter-awards" },
       { label: "WFIRM Young Investigator Awards", href: "/wfirm-young-investigator-awards" },
     ],
   },

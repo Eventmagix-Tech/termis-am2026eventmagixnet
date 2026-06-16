@@ -30,6 +30,7 @@ import AbstractTopics from "./pages/AbstractTopics";
 import NihR13TravelAwards from "./pages/NihR13TravelAwards";
 import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
 import HcsTravelAwards from "./pages/HcsTravelAwards";
+import AmChapterAwards from "./pages/AmChapterAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSessions";
@@ -76,6 +77,7 @@ const App = () => (
           <Route path="/nih-r13-travel-awards" element={<NihR13TravelAwards />} />
           <Route path="/wfirm-young-investigator-awards" element={<WfirmYoungInvestigatorAwards />} />
           <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
+          <Route path="/am-chapter-awards" element={<AmChapterAwards />} />
           <Route path="/career-development-poster-sessions" element={<CareerDevelopmentPosterSessions />} />
           
           
