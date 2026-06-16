@@ -33,7 +33,7 @@ import HcsTravelAwards from "./pages/HcsTravelAwards";
 
 import ComingSoon from "./pages/ComingSoon";
 import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSessions";
-import PreviewCareerDevelopmentPosterSessions from "./pages/PreviewCareerDevelopmentPosterSessions";
+
 
 import SyisConferenceActivities from "./pages/SyisConferenceActivities";
 import SyisPositionsAwards from "./pages/SyisPositionsAwards";
@@ -77,7 +77,7 @@ const App = () => (
           <Route path="/wfirm-young-investigator-awards" element={<WfirmYoungInvestigatorAwards />} />
           <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
           <Route path="/career-development-poster-sessions" element={<CareerDevelopmentPosterSessions />} />
-          <Route path="/preview-career-development-poster-sessions" element={<PreviewCareerDevelopmentPosterSessions />} />
+          
           
           
           <Route path="/empowering-next-leaders-luncheon" element={<EmpoweringNextLeadersLuncheon />} />
