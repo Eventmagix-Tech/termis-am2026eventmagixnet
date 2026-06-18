@@ -44,7 +44,7 @@ const KeyDatesSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto justify-items-center">
           {keyDates.map((item, index) => (
             <motion.div
               key={item.title}
