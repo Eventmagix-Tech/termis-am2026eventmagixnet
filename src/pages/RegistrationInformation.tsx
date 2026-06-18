@@ -42,8 +42,10 @@ const RegistrationInformation = () => {
               </p>
 
               <div className="mb-8">
-                <Button variant="gold" size="xl" disabled aria-disabled="true">
-                  PENDING
+                <Button variant="gold" size="xl" asChild>
+                  <a href="https://kenes.eventsair.com/termis-am-2026/mainform" target="_blank" rel="noopener noreferrer">
+                    Register Here
+                  </a>
                 </Button>
               </div>
 
