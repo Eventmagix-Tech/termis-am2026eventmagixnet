@@ -3,7 +3,7 @@ import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
-import { Calendar, FileText, UserPlus, Clock, CalendarDays } from "lucide-react";
+import { Calendar, FileText, Clock, CalendarDays } from "lucide-react";
 
 const keyDates = [
   {
@@ -20,11 +20,6 @@ const keyDates = [
     icon: FileText,
     title: "Call for Abstracts Opens",
     date: "April 10, 2026",
-  },
-  {
-    icon: UserPlus,
-    title: "Registration Opens",
-    date: "June 2026",
   },
   {
     icon: Clock,
