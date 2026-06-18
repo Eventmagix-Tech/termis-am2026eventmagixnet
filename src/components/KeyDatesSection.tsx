@@ -1,13 +1,8 @@
 import { motion } from "framer-motion";
-import { Medal, FileText, UserPlus } from "lucide-react";
+import { Medal } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const keyDates = [
-  {
-    icon: UserPlus,
-    title: "Registration Opens",
-    date: "June 2026",
-  },
   {
     icon: Medal,
     title: "NIH R13 Travel Awards Application Deadline",
