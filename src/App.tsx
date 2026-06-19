@@ -38,6 +38,7 @@ import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSess
 
 import SyisConferenceActivities from "./pages/SyisConferenceActivities";
 import SyisPositionsAwards from "./pages/SyisPositionsAwards";
+import EmpoweringNextLeadersLuncheon from "./pages/EmpoweringNextLeadersLuncheon";
 import Nevai from "./pages/Nevai";
 import NotFound from "./pages/NotFound";
 
