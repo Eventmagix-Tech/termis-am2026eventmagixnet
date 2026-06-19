@@ -54,7 +54,9 @@ const ContactUs = () => {
                 <img 
                   src={kenesLogo} 
                   alt="Kenes Group" 
-                  className="h-20 md:h-[100px] mx-auto"
+                  width={222}
+                  height={93}
+                  className="h-20 md:h-[100px] w-auto mx-auto"
                 />
               </div>
 
