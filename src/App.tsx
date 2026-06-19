@@ -36,9 +36,9 @@ import ComingSoon from "./pages/ComingSoon";
 import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSessions";
 
 
-import SyisConferenceActivities from "./pages/SyisConferenceActivities";
 import SyisPositionsAwards from "./pages/SyisPositionsAwards";
 import EmpoweringNextLeadersLuncheon from "./pages/EmpoweringNextLeadersLuncheon";
+import Nevai from "./pages/Nevai";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
