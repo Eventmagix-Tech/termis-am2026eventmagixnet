@@ -158,6 +158,8 @@ const Footer = () => {
                   <img 
                     src={eventmagixLogo} 
                     alt="Eventmagix" 
+                    width={574}
+                    height={106}
                     className="h-5 w-auto"
                   />
                 </a>
