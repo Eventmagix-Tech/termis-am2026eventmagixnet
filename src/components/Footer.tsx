@@ -62,6 +62,8 @@ const Footer = () => {
               <img 
                 src={kenesLogo} 
                 alt="Kenes Group" 
+                width={222}
+                height={93}
                 className="h-24 w-auto"
               />
             </div>
@@ -98,6 +100,8 @@ const Footer = () => {
               <img 
                 src={termisLogo} 
                 alt="TERMIS Americas" 
+                width={300}
+                height={94}
                 className="h-20 w-auto"
               />
             </div>
@@ -154,6 +158,8 @@ const Footer = () => {
                   <img 
                     src={eventmagixLogo} 
                     alt="Eventmagix" 
+                    width={574}
+                    height={106}
                     className="h-5 w-auto"
                   />
                 </a>
