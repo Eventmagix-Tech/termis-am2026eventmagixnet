@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import keyVisual from "@/assets/termis-hero-banner.jpg";
+const keyVisual = "/termis-hero-banner.jpg";
 
 const HeroSection = () => {
   const prefersReducedMotion = useReducedMotion();
@@ -76,9 +76,12 @@ const HeroSection = () => {
             }}
           />
           
-          <motion.img 
-            src={keyVisual} 
+          <motion.img
+            src={keyVisual}
             alt="TERMIS-AM 2026 - Bench. Chip. Clinic. Where Y'at in regeneration?"
+            width={1920}
+            height={450}
+            fetchPriority="high"
             className="w-full h-auto object-contain rounded-lg shadow-2xl relative z-10"
             initial={{ filter: "brightness(0.8)" }}
             animate={{ filter: "brightness(1)" }}
