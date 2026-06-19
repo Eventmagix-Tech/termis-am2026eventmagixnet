@@ -67,6 +67,8 @@ const GeneralInformation = () => {
                   <img 
                     src={hiltonImg} 
                     alt="Hilton New Orleans Riverside" 
+                    width={1920}
+                    height={1055}
                     className="w-full h-64 md:h-full object-cover"
                   />
                   <div className="p-8">
