@@ -62,6 +62,8 @@ const Footer = () => {
               <img 
                 src={kenesLogo} 
                 alt="Kenes Group" 
+                width={222}
+                height={93}
                 className="h-24 w-auto"
               />
             </div>
