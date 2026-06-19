@@ -8,9 +8,11 @@
   <url><loc>https://am2026.termis.org/detailed-program</loc></url>
   <url><loc>https://am2026.termis.org/pre-conference-workshops</loc></url>
   <url><loc>https://am2026.termis.org/plenary-keynote-speakers</loc></url>
+  <url><loc>https://am2026.termis.org/plenary-speakers</loc></url>
   <url><loc>https://am2026.termis.org/session-workshop-submission</loc></url>
   <url><loc>https://am2026.termis.org/business-pitch-competition</loc></url>
-  <!-- <url><loc>https://am2026.termis.org/call-for-abstracts</loc></url> --> <!-- Hidden temporarily -->
+  <url><loc>https://am2026.termis.org/call-for-abstracts</loc></url>
+  <url><loc>https://am2026.termis.org/abstract-topics</loc></url>
   <url><loc>https://am2026.termis.org/registration-information</loc></url>
   <url><loc>https://am2026.termis.org/hotel-accommodation</loc></url>
   <url><loc>https://am2026.termis.org/general-information</loc></url>
@@ -20,4 +22,14 @@
   <url><loc>https://am2026.termis.org/confirmed-sponsors</loc></url>
   <url><loc>https://am2026.termis.org/promotional-toolkit</loc></url>
   <url><loc>https://am2026.termis.org/contact-us</loc></url>
+  <url><loc>https://am2026.termis.org/awards-networking-career-development</loc></url>
+  <url><loc>https://am2026.termis.org/nih-r13-travel-awards</loc></url>
+  <url><loc>https://am2026.termis.org/wfirm-young-investigator-awards</loc></url>
+  <url><loc>https://am2026.termis.org/hcs-travel-awards</loc></url>
+  <url><loc>https://am2026.termis.org/am-chapter-awards</loc></url>
+  <url><loc>https://am2026.termis.org/career-development-poster-sessions</loc></url>
+  <url><loc>https://am2026.termis.org/empowering-next-leaders-luncheon</loc></url>
+  <url><loc>https://am2026.termis.org/students-young-investigators</loc></url>
+  <url><loc>https://am2026.termis.org/2026-syis-am-conference-activities</loc></url>
+  <url><loc>https://am2026.termis.org/syis-positions-and-awards</loc></url>
 </urlset>
