@@ -20,6 +20,7 @@ const navItems = [
       { label: "Key Dates", href: "/key-dates" },
       { label: "Committees", href: "/committees" },
       { label: "Contact Us", href: "/contact-us" },
+      { label: "TERMIS-AM Code of Conduct", href: "/code-of-conduct" },
     ],
   },
   {
