@@ -69,7 +69,7 @@ const HcsTravelAwards = () => {
         </div>
 
         <p className="text-center font-bold text-foreground mt-12">
-          Deadline to submit your application is July 1, 2026.
+          Deadline to submit your application is August 1, 2026.
         </p>
 
         <div className="text-center my-8">
