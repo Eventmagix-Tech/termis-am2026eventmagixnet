@@ -31,6 +31,7 @@ import NihR13TravelAwards from "./pages/NihR13TravelAwards";
 import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
 import HcsTravelAwards from "./pages/HcsTravelAwards";
 import AmChapterAwards from "./pages/AmChapterAwards";
+import CodeOfConduct from "./pages/CodeOfConduct";
 
 import ComingSoon from "./pages/ComingSoon";
 import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSessions";
