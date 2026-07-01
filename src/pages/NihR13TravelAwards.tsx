@@ -13,7 +13,7 @@ const NihR13TravelAwards = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="NIH R13 Travel Awards 2026"
-        description="Apply for NIH R13 Travel Awards for the TERMIS-AM 2026 Conference. Deadline: July 1, 2026."
+        description="Apply for NIH R13 Travel Awards for the TERMIS-AM 2026 Conference. Deadline: August 1, 2026."
       />
       <Header />
       <PageHeader title="NIH R13 Travel Awards 2026" />
@@ -41,7 +41,7 @@ const NihR13TravelAwards = () => {
           <p className="text-foreground font-semibold">
             The deadline to submit the application form for consideration of receiving the funds to
             support travel to the TERMIS-AM 2026 Conference is{" "}
-            <span className="underline">July 1, 2026</span>.
+            <span className="underline">August 1, 2026</span>.
           </p>
         </div>
 
