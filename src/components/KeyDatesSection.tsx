@@ -6,12 +6,12 @@ const keyDates = [
   {
     icon: Medal,
     title: "NIH R13 Travel Awards Application Deadline",
-    date: "July 1, 2026",
+    date: "August 1, 2026",
   },
   {
     icon: Medal,
     title: "HCS Travel Awards Application Deadline",
-    date: "July 1, 2026",
+    date: "August 1, 2026",
   },
   {
     icon: Medal,
