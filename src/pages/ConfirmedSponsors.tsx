@@ -13,6 +13,7 @@ import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translat
 import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
 import iiamLogo from "@/assets/sponsors/iiam.png";
 import wfirmLogo from "@/assets/sponsors/wfirm.png";
+import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -33,6 +34,7 @@ const bronzeSponsors: Sponsor[] = [
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
+  { name: "Nanoscribe", href: "https://www.nanoscribe.com/", logo: nanoscribeLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
 ];
