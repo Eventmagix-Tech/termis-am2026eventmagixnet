@@ -15,7 +15,7 @@ const coChairs = [
   {
     name: "Nicole Li-Jessen, PhD",
     title: "Conference Co-Chair",
-    subtitle: "Associate Professor, Departments of Biomedical Engineering, Otolaryngology, Communication Sciences and Disorders",
+    subtitle: "Professor, Departments of Biomedical Engineering, Otolaryngology, Communication Sciences and Disorders",
     institution: "Canada Research Chair in Personalized Medicine of Upper Airway Health and Diseases\nMcGill University, Canada",
     photo: cochairLiJessen,
     photoPosition: "object-[30%_20%]",
