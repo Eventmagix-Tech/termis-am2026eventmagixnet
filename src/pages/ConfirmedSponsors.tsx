@@ -14,6 +14,7 @@ import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.pn
 import iiamLogo from "@/assets/sponsors/iiam.png";
 import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
+import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -33,6 +34,7 @@ const bronzeSponsors: Sponsor[] = [
 
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
+  { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
