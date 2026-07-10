@@ -40,6 +40,8 @@ const navItems = [
     children: [
       { label: "Abstract Topics", href: "/abstract-topics" },
       { label: "Call for Abstract", href: "/call-for-abstracts" },
+      { label: "Late Breaking Abstract Topics", href: "/late-breaking-abstract-topics" },
+      { label: "Late Breaking Abstract Submission", href: "/late-breaking-abstract-submission" },
     ],
   },
   {
