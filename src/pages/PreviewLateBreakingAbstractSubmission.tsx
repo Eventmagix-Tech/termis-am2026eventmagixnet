@@ -66,7 +66,7 @@ const PreviewLateBreakingAbstractSubmission = () => {
             <p><strong>Abstract Title:</strong> The title should be brief, clearly indicating the nature of the presentation of max 25 words. Do not place a period at the end of the title.</p>
             <p>
               <strong>Abstract Topic & Optional Topics:</strong> Please select the category that aligns best with your submission. Click{" "}
-              <Link to="/late-breaking-abstract-topics" className="text-gold-text underline font-medium">HERE</Link>{" "}
+              <a href="https://am2026.termis.org/late-breaking-abstract-topics" target="_blank" rel="noopener noreferrer" className="text-gold-text underline font-medium">HERE</a>{" "}
               to see the full list of LB abstract topics.
             </p>
             <p><strong>Presentation Preference:</strong> Choose your preferred method of presentation (Oral, Poster, or Oral or Poster). After the abstract assessment process, the Scientific Advisory Committee will determine whether the abstract will be accepted into the scientific program and for which presentation type. Consideration will be given to the author's preference.</p>
