@@ -1,44 +1,49 @@
-## Hedef
-Call for Abstracts sayfasındaki "The abstract submission deadline has passed..." mesaj kutusuna, dikkat çekmek için altın renkli (gold) bir lazer süpürme animasyonu eklemek.
+## Late Breaking Abstract Pages
 
-## Mevcut Durum
-- `src/pages/CallForAbstracts.tsx` içinde satır 45-50 arasında altın rengi çerçeveli bir bilgi kutusu var:
-```tsx
-<div className="text-center mb-10 p-6 bg-gold/20 border-2 border-gold rounded-xl">
-  <p className="text-foreground font-semibold text-base md:text-lg">
-    The abstract submission deadline has passed...
-  </p>
-</div>
-```
-- Proje Framer Motion kullanıyor ancak dekoratif animasyonlar için CSS keyframes de mevcut (`src/index.css` içinde `animate-shimmer`, `animate-pulse-glow` vb.)
+### 1. Public "Coming Soon" pages (added to navbar)
 
-## Teknik Yaklaşım
-Animasyonu saf CSS ile uygulayacağız (Framer Motion'a gerek yok, daha hafif):
+Create two thin pages that reuse the existing `ComingSoon` template with `SEOHead`:
 
-1. **`src/index.css`** içine yeni `@keyframes laser-sweep` tanımlanacak:
-   - Yatay veya hafif eğimli (`skew-x-12`) bir gradyan çizgi
-   - Kutunun solundan sağına doğru hareket edecek
-   - Parlak altın rengi (`#D4AF37` / `hsl(var(--accent))`) ile beyaz parıltı merkezi
-   - Opacity pulse efekti ile daha dramatik görünüm
-   - Sürekli tekrar (`infinite`), yaklaşık 3 saniyelik periyot
+- `src/pages/LateBreakingAbstractTopics.tsx` → title "Late Breaking Abstract Topics"
+- `src/pages/LateBreakingAbstractSubmission.tsx` → title "Late Breaking Abstract Submission"
 
-2. **`.animate-laser-sweep` utility class** eklenecek
+Both render only the standard Coming Soon block (same pattern as `PlenaryKeynoteSpeakers.tsx`).
 
-3. **`src/pages/CallForAbstracts.tsx`** içindeki bilgi kutusu:
-   - `relative overflow-hidden` ile güncellenecek (lazerin taşmaması için)
-   - İçine bir `<div className="animate-laser-sweep ...">` eklenerek pseudo-element veya absolute-positioned gradient çizgi yerleştirilecek
-   - Lazer, arka planda gezsin, yazıların üzerine çıkmasın (`z-index` yönetimi)
+### 2. Hidden preview pages (NOT in navbar, `noindex`)
 
-## Animasyon Detayları
-- Lazer rengi: Altın (gold) tonları, beyaz parıltılı merkez
-- Hız: ~3 saniyelik periyot, sürekli döngü
-- Yön: Soldan sağa yatay süpürme
-- Konum: Çerçevenin iç kenarından geçebilir veya kutunun tam ortasından
-- Opacity: 0.6 - 1.0 arası pulse
+- `src/pages/PreviewLateBreakingAbstractTopics.tsx`
+  - `SEOHead` with `noindex`, `PageHeader` "Late Breaking Abstract Topics"
+  - Container `max-w-4xl mx-auto py-8 px-4`
+  - `<ul className="list-disc ml-6 space-y-2 text-lg text-foreground">` containing the 19 provided topic strings verbatim
 
-## Dosyalar
-- `src/index.css` — yeni keyframes ve utility class
-- `src/pages/CallForAbstracts.tsx` — bilgi kutusu container güncellemesi + lazer elementi
+- `src/pages/PreviewLateBreakingAbstractSubmission.tsx`
+  - `SEOHead` with `noindex`, `PageHeader` "LATE BREAKING ABSTRACT SUBMISSION"
+  - Structure mirrors existing `CallForAbstracts.tsx` styling (cards, alert box, section headings `h2 text-2xl font-bold text-primary mt-8 mb-4 border-b pb-2`)
+  - Sections:
+    - Intro paragraph
+    - Abstract Consideration (paragraph + accent alert box with LBA deadline **August 17, 2026, 11:59 PM Central Time**)
+    - Centered gold CTA `Button` "Click Here for ABSTRACT SUBMISSION" (href `#` placeholder — no submission URL was provided)
+    - Abstract Guidelines list (8 bullets verbatim)
+    - Submission Instructions → Abstract Preparation with all bolded titles + descriptions (Title, Topic & Optional Topics with **HERE** linking to `/late-breaking-abstract-topics`, Presentation Preference, Authors, Abstract Body, Figure, Demographics, Disclosure Information, Preview & Submit)
+    - Abstract Withdrawals, Registration Requirements, For More Information (3-column card grid like CallForAbstracts, `mrodic@kenes.com`)
 
-## Çıkarılacak Sonuç
-Sayfa yüklendiğinde bilgi kutusunun üzerinden periyodik olarak parlak bir altın lazer çizgisi geçerek kullanıcının dikkatini mesaja çekecek.
+### 3. Routing (`src/App.tsx`)
+
+Add four routes above the catch-all:
+- `/late-breaking-abstract-topics` → `LateBreakingAbstractTopics`
+- `/late-breaking-abstract-submission` → `LateBreakingAbstractSubmission`
+- `/preview-late-breaking-abstract-topics` → `PreviewLateBreakingAbstractTopics`
+- `/preview-late-breaking-abstract-submission` → `PreviewLateBreakingAbstractSubmission`
+
+### 4. Navbar (`src/components/Header.tsx`)
+
+Under the existing **Abstract Submission** menu, append two children (public routes only):
+- "Late Breaking Abstract Topics" → `/late-breaking-abstract-topics`
+- "Late Breaking Abstract Submission" → `/late-breaking-abstract-submission`
+
+Preview routes are NOT linked anywhere.
+
+### Notes / assumptions
+
+- Content is copied verbatim from your message (including "August 17, 2026, 2025" in the alert — kept as-is unless you want it corrected to just "August 17, 2026").
+- The CTA button has no target URL yet, so it will link to `#`. Share the submission portal URL and I'll wire it in.
