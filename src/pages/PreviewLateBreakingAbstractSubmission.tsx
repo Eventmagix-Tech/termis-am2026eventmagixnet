@@ -37,7 +37,7 @@ const PreviewLateBreakingAbstractSubmission = () => {
 
         <div className="flex justify-center mb-10">
           <Button variant="gold" size="lg" asChild>
-            <a href="#">Click Here for ABSTRACT SUBMISSION</a>
+            <a href="https://cpaper.ctimeetingtech.com/termisam26/login" target="_blank" rel="noopener noreferrer">Click Here for ABSTRACT SUBMISSION</a>
           </Button>
         </div>
 
