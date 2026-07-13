@@ -28,7 +28,7 @@ const navItems = [
     children: [
       { label: "Program at-a-glance", href: "/program-at-a-glance" },
       { label: "Plenary Speakers", href: "/plenary-speakers" },
-      { label: "Pre-Conference Workshops", href: "/pre-conference-workshops" },
+      { label: "Pre-Conference Workshop", href: "/pre-conference-workshops" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       { label: "Career Development Poster Sessions", href: "/career-development-poster-sessions" },
       { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
