@@ -127,7 +127,7 @@ const PreConferenceWorkshops = () => {
               </h2>
               <p className="text-muted-foreground mb-8">
                 <span className="font-semibold text-foreground">Workshop Organizers:</span>{" "}
-                International Microphysiological Systems Society (iMPSS)
+                The Americas Regional Chapter and the M-CELS Interest Group of the International Microphysiological Systems Society (iMPSS)
               </p>
 
               <h3 className="text-xl font-bold text-primary mb-4">Workshop Overview</h3>
