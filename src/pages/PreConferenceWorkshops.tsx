@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import kammAsset from "@/assets/workshops/kamm.jpg.asset.json";
 import weissAsset from "@/assets/workshops/weiss.jpg.asset.json";
 import ramanAsset from "@/assets/workshops/raman.jpg.asset.json";
@@ -150,6 +151,18 @@ const PreConferenceWorkshops = () => {
                 <p>
                   Through invited presentations and a panel discussion featuring leaders from academia, government, and translational research, participants will engage in forward-looking conversations about the future of engineered living systems and the roadmap needed to transform scientific innovation into practical and impactful applications.
                 </p>
+              </div>
+
+              <div className="mt-8">
+                <Button asChild>
+                  <a
+                    href="https://am2026.termis.org/registration-information"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Register Here
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
