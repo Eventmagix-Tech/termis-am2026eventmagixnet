@@ -149,7 +149,7 @@ const PreConferenceWorkshops = () => {
                   This workshop will bring together leaders at the forefront of scientific innovation and translation to discuss both emerging technological frontiers and the critical steps needed to accelerate their impact. Attendees will gain insights into advances in synthetic biology, biobots, organoid intelligence, and next-generation microphysiological systems, while also exploring evolving opportunities for regulatory acceptance, translational implementation, and broader deployment of New Approach Methodologies (NAMs).
                 </p>
                 <p>
-                  Through invited presentations and a panel discussion featuring leaders from academia, government, and translational research, participants will engage in forward-looking conversations about the future of engineered living systems and the roadmap needed to transform scientific innovation into practical and impactful applications.
+                  Through invited presentations and a panel discussion featuring leaders from academia, government, and translational research, participants will engage in forward-looking conversations about the future of engineered living systems and the roadmap needed to transform scientific innovation into practical and impactful applications.{"\n\n"}
                 </p>
               </div>
 
