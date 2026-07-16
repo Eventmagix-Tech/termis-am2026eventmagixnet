@@ -152,6 +152,18 @@ const PreConferenceWorkshops = () => {
                   Through invited presentations and a panel discussion featuring leaders from academia, government, and translational research, participants will engage in forward-looking conversations about the future of engineered living systems and the roadmap needed to transform scientific innovation into practical and impactful applications.
                 </p>
               </div>
+
+              <div className="mt-8">
+                <Button asChild>
+                  <a
+                    href="https://am2026.termis.org/registration-information"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Register Here
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
