@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-const keyVisual = "/termis-hero-banner.jpg";
+const keyVisual = "/termis-hero-banner.webp";
 
 const HeroSection = () => {
   const prefersReducedMotion = useReducedMotion();
