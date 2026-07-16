@@ -125,6 +125,12 @@ const PreConferenceWorkshops = () => {
               <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
                 Microphysiological and Multi-Cellular Engineered Living Systems: Scientific Frontiers and Translational Opportunities
               </h2>
+              <div className="space-y-1 mb-6 text-muted-foreground">
+                <p><span className="font-semibold text-foreground">Date:</span> Sunday, November 15, 2026</p>
+                <p><span className="font-semibold text-foreground">Time:</span> 1:00 PM – 4:00 PM</p>
+                <p><span className="font-semibold text-foreground">Hall:</span> HALL B (Jackson)</p>
+              </div>
+
               <p className="text-muted-foreground mb-8">
                 <span className="font-semibold text-foreground">Workshop Organizers:</span>{" "}
                 The Americas Regional Chapter and the M-CELS Interest Group of the International Microphysiological Systems Society (iMPSS)
