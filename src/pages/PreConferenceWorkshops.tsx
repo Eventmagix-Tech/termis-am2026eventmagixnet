@@ -230,6 +230,18 @@ const PreConferenceWorkshops = () => {
                   </div>
                 ))}
               </div>
+
+              <div className="mt-10 flex justify-center">
+                <Button asChild>
+                  <a
+                    href="https://am2026.termis.org/registration-information"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Register Here
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
