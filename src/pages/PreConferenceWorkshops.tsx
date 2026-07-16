@@ -82,25 +82,25 @@ const agenda = [
     speakers: ["Lena Smirnova, PhD, Johns Hopkins University"],
   },
   {
-    time: "2:35 – 2:40 PM",
+    time: "2:35 – 2:45 PM",
     title: "Coffee Break",
     speakers: [],
   },
   {
-    time: "2:40 – 3:05 PM",
+    time: "2:45 – 3:10 PM",
     title: "The Promise of NAMs: Policy, Funding, and the Regulatory Landscape",
     speakers: [
       "Nicole C. Kleinstreuer, PhD, National Institutes of Health (NIH), Division of Program Coordination, Planning, and Strategic Initiatives (DPCPSI)",
     ],
   },
   {
-    time: "3:05 – 3:50 PM",
+    time: "3:10 – 3:55 PM",
     title:
       "Panel Discussion: Accelerating Translation, Validation, and Regulatory Readiness of MPS and M-CELS Technologies",
     speakers: ["Panelists: Roger Kamm, Lena Smirnova, Nicole Kleinstreuer"],
   },
   {
-    time: "3:50 – 4:00 PM",
+    time: "3:55 – 4:00 PM",
     title: "Closing Remarks",
     speakers: [],
   },
