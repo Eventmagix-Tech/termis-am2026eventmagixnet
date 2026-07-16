@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import kammAsset from "@/assets/workshops/kamm.jpg.asset.json";
 import weissAsset from "@/assets/workshops/weiss.jpg.asset.json";
 import ramanAsset from "@/assets/workshops/raman.jpg.asset.json";
