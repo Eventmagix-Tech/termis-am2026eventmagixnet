@@ -51,6 +51,7 @@ const PreviewLateBreakingAbstractSubmission = () => {
               <li>Always make sure to check the final abstract with the system's preview function before submission and edit or replace as necessary. It is the author's responsibility to submit a correct abstract. Any errors in spelling, grammar or scientific fact will be reproduced as typed by the author.</li>
               <li>The presenting author is required to ensure that all co-authors are aware of the content of the abstract before submission of the abstract.</li>
               <li>Only LB abstracts for which presenting authors have paid the conference registration fees by <strong>September 18, 2026</strong> will be included in the Scientific Program.</li>
+              <li>LB abstracts will not be published in the Tissue Engineering Journal.</li>
               <li>There is no fee to submit an abstract.</li>
               <li>All abstract submitters including presenting authors are expected to pay their own travel expenses and conference registration fees.</li>
             </ul>
