@@ -56,7 +56,7 @@ const CallForAbstracts = () => {
             }}
           />
           <p className="relative z-10 text-foreground font-semibold text-base md:text-lg">
-            The abstract submission deadline has passed. Stay tuned for upcoming information on late-breaking abstract submissions, opening on 18 July.
+            The abstract submission deadline has passed. Stay tuned for upcoming information on late-breaking abstract submissions, opening by end of July.
           </p>
         </div>
 
