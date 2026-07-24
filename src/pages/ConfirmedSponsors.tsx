@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import cellinkLogo from "@/assets/sponsors/cellink.webp.asset.json";
 import cookMyositeLogo from "@/assets/sponsors/cook-myosite.png";
 import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
