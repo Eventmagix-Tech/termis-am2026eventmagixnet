@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import cellinkLogo from "@/assets/sponsors/cellink.webp.asset.json";
 import cookMyositeLogo from "@/assets/sponsors/cook-myosite.png";
 import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
@@ -27,6 +28,7 @@ const silverSponsors: Sponsor[] = [
 ];
 
 const bronzeSponsors: Sponsor[] = [
+  { name: "Cellink by BICO", href: "https://www.cellink.com/tissue-engineering/", logo: cellinkLogo.url },
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
