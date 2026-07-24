@@ -28,6 +28,7 @@ const silverSponsors: Sponsor[] = [
 ];
 
 const bronzeSponsors: Sponsor[] = [
+  { name: "Cellink by BICO", href: "https://www.cellink.com/tissue-engineering/", logo: cellinkLogo.url },
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
