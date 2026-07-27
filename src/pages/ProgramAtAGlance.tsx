@@ -4,8 +4,9 @@ import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Download, ExternalLink } from "lucide-react";
+import programPdfAsset from "@/assets/TERMIS-2026-Program-at-a-glance-v2.pdf.asset.json";
 
-const PDF_URL = "/downloads/TERMIS-AM-2026-Program-at-a-Glance.pdf";
+const PDF_URL = programPdfAsset.url;
 
 const ProgramAtAGlance = () => (
   <div className="min-h-screen bg-background">
