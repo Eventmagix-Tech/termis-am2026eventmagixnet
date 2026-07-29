@@ -15,8 +15,8 @@ const keyDates = [
   },
   {
     icon: Medal,
-    title: "SYIS Awards Application Deadline",
-    date: "July 18, 2026",
+    title: "Business Pitch Competition Submission Deadline",
+    date: "July 31, 2026",
   },
   {
     icon: Medal,
