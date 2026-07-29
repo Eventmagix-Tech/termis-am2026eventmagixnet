@@ -56,6 +56,7 @@ const navItems = [
     children: [
       { label: "Support Opportunities", href: "/support-opportunities" },
       { label: "Confirmed Sponsors", href: "/confirmed-sponsors" },
+      { label: "Exhibition Timetable", href: "/exhibition-timetable" },
     ],
   },
   {
