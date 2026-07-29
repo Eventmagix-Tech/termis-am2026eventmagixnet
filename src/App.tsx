@@ -21,6 +21,7 @@ import RegistrationInformation from "./pages/RegistrationInformation";
 import HotelAccommodation from "./pages/HotelAccommodation";
 import SupportOpportunities from "./pages/SupportOpportunities";
 import ConfirmedSponsors from "./pages/ConfirmedSponsors";
+import ExhibitionTimetable from "./pages/ExhibitionTimetable";
 import PromotionalToolkit from "./pages/PromotionalToolkit";
 import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
@@ -74,6 +75,7 @@ const App = () => (
           <Route path="/hotel-accommodation" element={<HotelAccommodation />} />
           <Route path="/support-opportunities" element={<SupportOpportunities />} />
           <Route path="/confirmed-sponsors" element={<ConfirmedSponsors />} />
+          <Route path="/exhibition-timetable" element={<ExhibitionTimetable />} />
           <Route path="/promotional-toolkit" element={<PromotionalToolkit />} />
           <Route path="/session-workshop-submission" element={<SessionWorkshopSubmission />} />
           <Route path="/business-pitch-competition" element={<BusinessPitchCompetition />} />
