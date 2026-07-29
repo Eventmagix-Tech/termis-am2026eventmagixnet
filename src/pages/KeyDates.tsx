@@ -43,11 +43,6 @@ const keyDates = [
   },
   {
     icon: FileText,
-    title: "Business Pitch Competition Submission Deadline",
-    date: "July 31, 2026",
-  },
-  {
-    icon: FileText,
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
   },
