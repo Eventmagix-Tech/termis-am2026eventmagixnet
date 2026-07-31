@@ -1,49 +1,19 @@
-## Late Breaking Abstract Pages
+# Plan: Fix Support Opportunities Resource Cards Layout
 
-### 1. Public "Coming Soon" pages (added to navbar)
+## Goal
+On the `/support-opportunities` page, the two resource cards ("Sponsorship & Exhibition Prospectus" and "Live Exhibition Floorplan") are currently rendered as a single merged/stacked element. Make them distinct, side-by-side cards with proper spacing.
 
-Create two thin pages that reuse the existing `ComingSoon` template with `SEOHead`:
+## Current issue
+In `src/pages/SupportOpportunities.tsx`, the first resource card's outer `<div>` is not closed before the second card starts. As a result, the second card is nested inside the first, collapsing the grid gap and making them appear as one tall card.
 
-- `src/pages/LateBreakingAbstractTopics.tsx` → title "Late Breaking Abstract Topics"
-- `src/pages/LateBreakingAbstractSubmission.tsx` → title "Late Breaking Abstract Submission"
+## Proposed change
+1. Add the missing closing `</div>` for the first resource card immediately after its inner `p-5` content block ends.
+2. Keep the existing `grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8` container so cards remain responsive and maintain their 8-unit gap.
+3. Verify the visual result in the preview: two separate cards on desktop, stacked on mobile, with consistent spacing.
 
-Both render only the standard Coming Soon block (same pattern as `PlenaryKeynoteSpeakers.tsx`).
+## Files to edit
+- `src/pages/SupportOpportunities.tsx`
 
-### 2. Hidden preview pages (NOT in navbar, `noindex`)
-
-- `src/pages/PreviewLateBreakingAbstractTopics.tsx`
-  - `SEOHead` with `noindex`, `PageHeader` "Late Breaking Abstract Topics"
-  - Container `max-w-4xl mx-auto py-8 px-4`
-  - `<ul className="list-disc ml-6 space-y-2 text-lg text-foreground">` containing the 19 provided topic strings verbatim
-
-- `src/pages/PreviewLateBreakingAbstractSubmission.tsx`
-  - `SEOHead` with `noindex`, `PageHeader` "LATE BREAKING ABSTRACT SUBMISSION"
-  - Structure mirrors existing `CallForAbstracts.tsx` styling (cards, alert box, section headings `h2 text-2xl font-bold text-primary mt-8 mb-4 border-b pb-2`)
-  - Sections:
-    - Intro paragraph
-    - Abstract Consideration (paragraph + accent alert box with LBA deadline **August 17, 2026, 11:59 PM Central Time**)
-    - Centered gold CTA `Button` "Click Here for ABSTRACT SUBMISSION" (href `#` placeholder — no submission URL was provided)
-    - Abstract Guidelines list (8 bullets verbatim)
-    - Submission Instructions → Abstract Preparation with all bolded titles + descriptions (Title, Topic & Optional Topics with **HERE** linking to `/late-breaking-abstract-topics`, Presentation Preference, Authors, Abstract Body, Figure, Demographics, Disclosure Information, Preview & Submit)
-    - Abstract Withdrawals, Registration Requirements, For More Information (3-column card grid like CallForAbstracts, `mrodic@kenes.com`)
-
-### 3. Routing (`src/App.tsx`)
-
-Add four routes above the catch-all:
-- `/late-breaking-abstract-topics` → `LateBreakingAbstractTopics`
-- `/late-breaking-abstract-submission` → `LateBreakingAbstractSubmission`
-- `/preview-late-breaking-abstract-topics` → `PreviewLateBreakingAbstractTopics`
-- `/preview-late-breaking-abstract-submission` → `PreviewLateBreakingAbstractSubmission`
-
-### 4. Navbar (`src/components/Header.tsx`)
-
-Under the existing **Abstract Submission** menu, append two children (public routes only):
-- "Late Breaking Abstract Topics" → `/late-breaking-abstract-topics`
-- "Late Breaking Abstract Submission" → `/late-breaking-abstract-submission`
-
-Preview routes are NOT linked anywhere.
-
-### Notes / assumptions
-
-- Content is copied verbatim from your message (including "August 17, 2026, 2025" in the alert — kept as-is unless you want it corrected to just "August 17, 2026").
-- The CTA button has no target URL yet, so it will link to `#`. Share the submission portal URL and I'll wire it in.
+## Validation
+- Run a production build to ensure no JSX syntax errors.
+- Check the `/support-opportunities` preview to confirm the cards are visually separated.
