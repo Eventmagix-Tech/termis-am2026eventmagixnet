@@ -44,6 +44,7 @@ const SupportOpportunities = () => {
                         Sponsorship & Exhibition Prospectus
                       </a>
                     </Button>
+                  </div>
                 </div>
 
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
@@ -69,10 +70,8 @@ const SupportOpportunities = () => {
                 </div>
               </div>
             </div>
-            </div>
           </div>
         </section>
-
 
         {/* Contact Content */}
         <section className="py-16 md:py-20 bg-white">
