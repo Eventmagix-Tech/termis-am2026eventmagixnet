@@ -7,24 +7,20 @@ import { Calendar, FileText, Clock, CalendarDays } from "lucide-react";
 
 const keyDates = [
   {
+    icon: CalendarDays,
+    title: "Conference Dates",
+    date: "November 15-18, 2026",
+    highlight: true,
+  },
+  {
+    icon: Calendar,
+    title: "Early Registration Deadline",
+    date: "September 18, 2026",
+  },
+  {
     icon: FileText,
-    title: "Call for General Sessions, TWIG Sessions & Workshop Submissions Opens",
-    date: "January 7, 2026",
-  },
-  {
-    icon: Clock,
-    title: "General Sessions, TWIG Sessions & Workshops Submission Deadline",
-    date: "February 23, 2026",
-  },
-  {
-    icon: FileText,
-    title: "Call for Abstracts Opens",
-    date: "April 10, 2026",
-  },
-  {
-    icon: Clock,
-    title: "Extended Abstract Submission Deadline",
-    date: "June 1, 2026",
+    title: "SYIS Awards Application Deadline",
+    date: "August 18, 2026",
   },
   {
     icon: FileText,
@@ -38,29 +34,33 @@ const keyDates = [
   },
   {
     icon: FileText,
-    title: "Business Pitch Competition Submission Deadline",
-    date: "July 31, 2026",
-  },
-  {
-    icon: FileText,
-    title: "SYIS Awards Application Deadline",
-    date: "August 18, 2026",
-  },
-  {
-    icon: FileText,
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
   },
   {
-    icon: Calendar,
-    title: "Early Registration Deadline",
-    date: "September 18, 2026",
+    icon: FileText,
+    title: "Business Pitch Competition Submission Deadline",
+    date: "July 31, 2026",
   },
   {
-    icon: CalendarDays,
-    title: "Conference Dates",
-    date: "November 15-18, 2026",
-    highlight: true,
+    icon: Clock,
+    title: "Extended Abstract Submission Deadline",
+    date: "June 1, 2026",
+  },
+  {
+    icon: FileText,
+    title: "Call for Abstracts Opens",
+    date: "April 10, 2026",
+  },
+  {
+    icon: Clock,
+    title: "General Sessions, TWIG Sessions & Workshops Submission Deadline",
+    date: "February 23, 2026",
+  },
+  {
+    icon: FileText,
+    title: "Call for General Sessions, TWIG Sessions & Workshop Submissions Opens",
+    date: "January 7, 2026",
   },
 ];
 
