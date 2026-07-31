@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Mail, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import prospectusImage from "@/assets/sponsorship-prospectus-cover.jpg";
+import prospectusImage from "@/assets/sponsorshipexhibition-prospectus.jpg.asset.json";
 import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
 
 const SupportOpportunities = () => {
@@ -28,7 +28,7 @@ const SupportOpportunities = () => {
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
                   <div className="aspect-video overflow-hidden">
                     <img
-                      src={prospectusImage}
+                      src={prospectusImage.url}
                       alt="Conference exhibition hall with networking attendees"
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
