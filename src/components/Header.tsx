@@ -34,6 +34,7 @@ const navItems = [
       { label: "Career Development Poster Sessions", href: "/career-development-poster-sessions" },
       { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
       { label: "Empowering Next Leaders in TERM Luncheon", href: "/empowering-next-leaders-luncheon" },
+      { label: "Presentation Guidelines", href: "/presentation-guidelines" },
     ],
   },
   {
