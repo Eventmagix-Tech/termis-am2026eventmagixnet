@@ -30,6 +30,7 @@ import LateBreakingAbstractSubmission from "./pages/LateBreakingAbstractSubmissi
 import PreviewLateBreakingAbstractTopics from "./pages/PreviewLateBreakingAbstractTopics";
 import PreviewLateBreakingAbstractSubmission from "./pages/PreviewLateBreakingAbstractSubmission";
 import ScientificProgram from "./pages/ScientificProgram";
+import PresentationGuidelines from "./pages/PresentationGuidelines";
 import PreviewScientificProgram from "./pages/PreviewScientificProgram";
 import BusinessPitchCompetition from "./pages/BusinessPitchCompetition";
 import AwardsNetworking from "./pages/AwardsNetworking";
@@ -71,6 +72,7 @@ const App = () => (
           <Route path="/committees" element={<Committees />} />
           <Route path="/program-at-a-glance" element={<ProgramAtAGlance />} />
           <Route path="/scientific-program" element={<ScientificProgram />} />
+          <Route path="/presentation-guidelines" element={<PresentationGuidelines />} />
           <Route path="/preview-scientific-program" element={<PreviewScientificProgram />} />
           <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
           <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
