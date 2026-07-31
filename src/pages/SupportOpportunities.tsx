@@ -28,7 +28,7 @@ const SupportOpportunities = () => {
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
                   <div className="aspect-video overflow-hidden">
                     <img
-                      src={prospectusImage}
+                      src={prospectusImage.url}
                       alt="Conference exhibition hall with networking attendees"
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
