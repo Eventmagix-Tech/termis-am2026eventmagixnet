@@ -44,6 +44,7 @@ const SupportOpportunities = () => {
                         Sponsorship & Exhibition Prospectus
                       </a>
                     </Button>
+                  </div>
                 </div>
 
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
