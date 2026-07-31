@@ -70,10 +70,8 @@ const SupportOpportunities = () => {
                 </div>
               </div>
             </div>
-            </div>
           </div>
         </section>
-
 
         {/* Contact Content */}
         <section className="py-16 md:py-20 bg-white">
