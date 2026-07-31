@@ -43,6 +43,11 @@ const keyDates = [
   },
   {
     icon: FileText,
+    title: "SYIS Awards Application Deadline",
+    date: "August 18, 2026",
+  },
+  {
+    icon: FileText,
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
   },
