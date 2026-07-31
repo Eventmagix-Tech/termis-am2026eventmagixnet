@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Mail, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import prospectusImage from "@/assets/sponsorship-prospectus-cover.jpg";
+import prospectusImage from "@/assets/sponsorshipexhibition-prospectus.jpg.asset.json";
 import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
 
 const SupportOpportunities = () => {
