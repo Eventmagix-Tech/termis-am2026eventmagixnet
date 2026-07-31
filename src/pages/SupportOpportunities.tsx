@@ -2,9 +2,10 @@ import Header from "@/components/Header";
 import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
-import { Mail, Download } from "lucide-react";
+import { Mail, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import prospectusImage from "@/assets/sponsorship-prospectus-cover.jpg";
+import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
 
 const SupportOpportunities = () => {
   return (
