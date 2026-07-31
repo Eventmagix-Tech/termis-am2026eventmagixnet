@@ -64,7 +64,7 @@ const SyisPositionsAwards = () => {
               <p className="text-foreground/80 leading-relaxed mb-3">
                 Eligible applicants may apply by <FormLink href="https://forms.gle/nWDqBe5PscLwzJaA7">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
-                <span className="font-semibold">July 18, 2026</span>.
+                <span className="font-semibold">August 18, 2026</span>.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
                 Thank you to <span className="font-semibold">Science Translational Medicine / AAAS</span>{" "}
@@ -106,7 +106,7 @@ const SyisPositionsAwards = () => {
               <p className="text-foreground/80 leading-relaxed mb-3">
                 Eligible applicants may apply by <FormLink href="https://forms.gle/CfZZVMsjzJbVLgh6A">filling out this form</FormLink> and
                 submitting your CV, graphical and written abstract. The deadline to apply is{" "}
-                <span className="font-semibold">July 18, 2026</span>. Awards will be granted to 5
+                <span className="font-semibold">August 18, 2026</span>. Awards will be granted to 5
                 applicants, who will receive a certificate and $200 travel stipend.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
