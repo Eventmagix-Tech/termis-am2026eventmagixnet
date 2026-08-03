@@ -18,8 +18,6 @@
 - [/career-development-poster-sessions](/career-development-poster-sessions): Career Development Poster Sessions schedule and event information.
 - [/awards-networking-career-development](/awards-networking-career-development): Overview of awards, networking events, and career development opportunities.
 - [/empowering-next-leaders-luncheon](/empowering-next-leaders-luncheon): Information about the Empowering Next Leaders in TERM Luncheon.
-- [/abstract-topics](/abstract-topics): List of abstract submission topics and categories.
-- [/call-for-abstracts](/call-for-abstracts): Instructions, deadlines, and guidelines for abstract submission.
 - [/registration-information](/registration-information): Registration fees, categories, and how to register for the conference.
 - [/hotel-accommodation](/hotel-accommodation): Hotel booking information and accommodation options in New Orleans.
 - [/general-information](/general-information): General conference information including venue, dates, and location details.
