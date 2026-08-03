@@ -40,7 +40,7 @@ const LateBreakingAbstractTopics = () => (
       </ul>
       <div className="flex justify-center mt-10">
         <Button variant="gold" size="lg" asChild>
-          <Link to="/late-breaking-abstract-submission">Go to Late Breaking Abstract Submission</Link>
+          <Link to="/late-breaking-abstract-submission">Go to 'Late Breaking Abstract Submission' page</Link>
         </Button>
       </div>
     </main>
