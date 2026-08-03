@@ -4,8 +4,8 @@ import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 
 const EmailLink = () => (
-  <a href="mailto:terimisamsyis@gmail.com" className="text-primary font-semibold hover:underline">
-    terimisamsyis@gmail.com
+  <a href="mailto:termisamsyis@gmail.com" className="text-primary font-semibold hover:underline">
+    termisamsyis@gmail.com
   </a>
 );
 
