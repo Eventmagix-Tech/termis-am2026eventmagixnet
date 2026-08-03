@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import { Button } from "@/components/ui/button";
 
 const topics = [
   "Biofabrication",
@@ -36,6 +38,11 @@ const LateBreakingAbstractTopics = () => (
           <li key={t}>{t}</li>
         ))}
       </ul>
+      <div className="flex justify-center mt-10">
+        <Button variant="gold" size="lg" asChild>
+          <Link to="/late-breaking-abstract-submission">Go to Late Breaking Abstract Submission</Link>
+        </Button>
+      </div>
     </main>
     <Footer />
   </div>
