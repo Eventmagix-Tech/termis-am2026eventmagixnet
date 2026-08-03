@@ -27,8 +27,6 @@ import SessionWorkshopSubmission from "./pages/SessionWorkshopSubmission";
 import CallForAbstracts from "./pages/CallForAbstracts";
 import LateBreakingAbstractTopics from "./pages/LateBreakingAbstractTopics";
 import LateBreakingAbstractSubmission from "./pages/LateBreakingAbstractSubmission";
-import PreviewLateBreakingAbstractTopics from "./pages/PreviewLateBreakingAbstractTopics";
-import PreviewLateBreakingAbstractSubmission from "./pages/PreviewLateBreakingAbstractSubmission";
 import ScientificProgram from "./pages/ScientificProgram";
 import PresentationGuidelines from "./pages/PresentationGuidelines";
 import PreviewScientificProgram from "./pages/PreviewScientificProgram";
@@ -90,8 +88,6 @@ const App = () => (
           <Route path="/call-for-abstracts" element={<CallForAbstracts />} />
           <Route path="/late-breaking-abstract-topics" element={<LateBreakingAbstractTopics />} />
           <Route path="/late-breaking-abstract-submission" element={<LateBreakingAbstractSubmission />} />
-          <Route path="/preview-late-breaking-abstract-topics" element={<PreviewLateBreakingAbstractTopics />} />
-          <Route path="/preview-late-breaking-abstract-submission" element={<PreviewLateBreakingAbstractSubmission />} />
           <Route path="/nih-r13-travel-awards" element={<NihR13TravelAwards />} />
           <Route path="/wfirm-young-investigator-awards" element={<WfirmYoungInvestigatorAwards />} />
           <Route path="/hcs-travel-awards" element={<HcsTravelAwards />} />
