@@ -38,6 +38,11 @@ const LateBreakingAbstractTopics = () => (
           <li key={t}>{t}</li>
         ))}
       </ul>
+      <div className="flex justify-center mt-10">
+        <Button variant="gold" size="lg" asChild>
+          <Link to="/late-breaking-abstract-submission">Go to Late Breaking Abstract Submission</Link>
+        </Button>
+      </div>
     </main>
     <Footer />
   </div>
