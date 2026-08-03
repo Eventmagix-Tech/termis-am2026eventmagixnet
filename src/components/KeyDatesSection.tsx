@@ -23,6 +23,11 @@ const keyDates = [
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
   },
+  {
+    icon: Medal,
+    title: "Late Breaking Abstract Submission Deadline",
+    date: "August 31, 2026",
+  },
 ];
 
 const KeyDatesSection = () => {

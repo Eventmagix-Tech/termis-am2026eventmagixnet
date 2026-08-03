@@ -13,6 +13,11 @@ const keyDates = [
     highlight: true,
   },
   {
+    icon: Clock,
+    title: "Late Breaking Abstract Submission Deadline",
+    date: "August 31, 2026",
+  },
+  {
     icon: Calendar,
     title: "Early Registration Deadline",
     date: "September 18, 2026",
