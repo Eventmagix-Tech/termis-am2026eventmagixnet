@@ -31,7 +31,7 @@ const LateBreakingAbstractSubmission = () => {
         <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-center gap-3 mb-8">
           <AlertCircle className="h-5 w-5 text-accent shrink-0" />
           <p className="text-foreground/90 font-medium">
-            Late Breaking Abstracts (LBA) must be submitted online through the abstract submission portal until <strong>August 17, 2026, 2025 11:59 PM Central Time</strong>.
+            Late Breaking Abstracts (LBA) must be submitted online through the abstract submission portal until <strong>August 31, 2026, 11:59 PM Central Time</strong>.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const LateBreakingAbstractSubmission = () => {
             <p><strong>Figure:</strong> A maximum of one figure may be uploaded per abstract, and only in the Results section. The file size must not exceed 500 KB, and the maximum dimensions are 600 (width) × 800 (height) pixels. Accepted formats are JPG, JPEG, JPN, and PNG. The figure legend may be included either within the figure file or in the Results section of the abstract. A legend embedded in the figure does not count toward the 350-word limit, whereas a legend included in the abstract text does count toward this limit.</p>
             <p><strong>Demographics:</strong> Please complete the demographic information if you feel comfortable. These questions help us promote diversity among presenters. You may also indicate if you are a Student or Young Investigator.</p>
             <p><strong>Disclosure Information:</strong> To allow colleagues to properly evaluate the information and opinions presented, authors must disclose any potential conflicts of interest. This includes personal or professional relationships or circumstances that might reasonably influence the author's views. Examples include, but are not limited to: Stock options or bond holdings in a for-profit corporation or self-directed pension plan, Employment (full or part-time), Ownership or partnership, Consulting fees or other remuneration (payment), Non-remunerative positions of influence such as officer, board member, trustee, or public spokesperson, Receipt of royalties, Speakers bureau. If you do not have anything to disclose, you must indicate this on the online abstract submission form. Disclosure information does not affect the review process.</p>
-            <p><strong>Preview & Submit:</strong> If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until <strong>August 17, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
+            <p><strong>Preview & Submit:</strong> If any required fields are missing, a message will appear in red. Please go back and make corrections. When ready, click Finish Submission to submit your abstract. You may edit your abstract until <strong>August 31, 2026, 11:59 PM Central Time</strong>. After the deadline, no further edits can be made.</p>
           </CardContent>
         </Card>
 
