@@ -16,13 +16,13 @@ const PreviewScientificProgram = () => (
 
     <main id="main">
       <div className="max-w-3xl mx-auto py-12 px-4">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-16">
+        <div className="flex flex-col sm:flex-row justify-center items-stretch gap-6 mb-16">
           <Button variant="purple" size="lg" asChild>
             <a
               href="https://booklet.kenes.com/export/termisam26"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center leading-tight"
+              className="flex flex-col items-center justify-center leading-tight h-full"
             >
               <span>Program at a Glance</span>
               <span className="italic font-light text-sm opacity-90">
@@ -31,13 +31,16 @@ const PreviewScientificProgram = () => (
             </a>
           </Button>
           <Button variant="purple" size="lg" asChild>
-            <a href="#">Detailed Program in PDF</a>
+            <a href="#" className="flex items-center justify-center h-full">
+              Detailed Program in PDF
+            </a>
           </Button>
           <Button variant="purple" size="lg" asChild>
             <a
               href="https://cslide.ctimeetingtech.com/termisam26/attendee/confcal"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center justify-center h-full"
             >
               Interactive Detailed Program
             </a>
