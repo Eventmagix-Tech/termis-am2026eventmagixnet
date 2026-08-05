@@ -18,6 +18,15 @@ const PreviewScientificProgram = () => (
       <div className="max-w-3xl mx-auto py-12 px-4">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-16">
           <Button variant="purple" size="lg" asChild>
+            <a
+              href="https://booklet.kenes.com/export/termisam26"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Program at a Glance (Quick overview of the program)
+            </a>
+          </Button>
+          <Button variant="purple" size="lg" asChild>
             <a href="#">Detailed Program in PDF</a>
           </Button>
           <Button variant="purple" size="lg" asChild>
