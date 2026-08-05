@@ -32,7 +32,9 @@ const PreviewScientificProgram = () => (
           </Button>
           <Button variant="purple" size="lg" asChild>
             <a
-              href="#"
+              href="https://assets.mailmagix.com/kenes/termis/termis-scientific-detailed.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
             >
               Detailed Program in PDF
