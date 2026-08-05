@@ -22,22 +22,28 @@ const PreviewScientificProgram = () => (
               href="https://booklet.kenes.com/export/termisam26"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center leading-tight"
+              className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
             >
               <span>Program at a Glance</span>
-              <span className="italic font-light text-sm opacity-90">
+              <span className="italic font-light text-sm opacity-90 mt-1">
                 (Quick overview of the program)
               </span>
             </a>
           </Button>
           <Button variant="purple" size="lg" asChild>
-            <a href="#">Detailed Program in PDF</a>
+            <a
+              href="#"
+              className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
+            >
+              Detailed Program in PDF
+            </a>
           </Button>
           <Button variant="purple" size="lg" asChild>
             <a
               href="https://cslide.ctimeetingtech.com/termisam26/attendee/confcal"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
             >
               Interactive Detailed Program
             </a>
