@@ -22,8 +22,12 @@ const PreviewScientificProgram = () => (
               href="https://booklet.kenes.com/export/termisam26"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex flex-col items-center leading-tight"
             >
-              Program at a Glance (Quick overview of the program)
+              <span>Program at a Glance</span>
+              <span className="italic font-light text-sm opacity-90">
+                (Quick overview of the program)
+              </span>
             </a>
           </Button>
           <Button variant="purple" size="lg" asChild>
