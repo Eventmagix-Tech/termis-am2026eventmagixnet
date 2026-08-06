@@ -52,7 +52,7 @@ const BusinessPitchCompetition = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="Business Pitch Competition"
-        description="Apply to the TERMIS-AM 2026 Business Pitch Competition. Submit your tissue engineering or regenerative medicine innovation by July 31, 2026."
+        description="Apply to the TERMIS-AM 2026 Business Pitch Competition. Submit your tissue engineering or regenerative medicine innovation by August 14, 2026."
       />
       <Header />
       <PageHeader title="Business Pitch Competition" />
@@ -64,7 +64,7 @@ const BusinessPitchCompetition = () => {
           <p className="text-foreground/90 font-medium">
             The deadline for submissions is{" "}
             <Badge variant="default" className="ml-1 bg-accent text-white text-sm">
-              July 31, 2026
+              August 14, 2026
             </Badge>
           </p>
         </div>
@@ -74,7 +74,7 @@ const BusinessPitchCompetition = () => {
           <p>Are you interested in learning more about technology translation, entrepreneurship, and product development?</p>
           <p>Do you want the opportunity to showcase your innovation to leaders in academia, industry, and investment?</p>
           <p>
-            If so, we invite you to apply to the <strong>TERMIS-Americas (TERMIS-AM) 2026 Business Pitch Competition (BPC)</strong> by submitting your application until July 31, 2026.
+            If so, we invite you to apply to the <strong>TERMIS-Americas (TERMIS-AM) 2026 Business Pitch Competition (BPC)</strong> by submitting your application until August 14, 2026.
           </p>
         </div>
 
