@@ -17,6 +17,7 @@ import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
 import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
 import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
+import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
 
 interface Sponsor {
   name: string;
