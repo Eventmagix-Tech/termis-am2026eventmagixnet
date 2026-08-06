@@ -6,6 +6,7 @@ import { Mail, Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import prospectusImage from "@/assets/sponsorshipexhibition-prospectus.jpg.asset.json";
 import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
+import onlineSponsorshipImage from "@/assets/online-sponsorship-portal.webp.asset.json";
 
 const SupportOpportunities = () => {
   return (
