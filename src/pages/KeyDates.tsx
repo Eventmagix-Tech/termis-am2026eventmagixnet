@@ -45,7 +45,7 @@ const keyDates = [
   {
     icon: FileText,
     title: "Business Pitch Competition Submission Deadline",
-    date: "July 31, 2026",
+    date: "August 14, 2026",
   },
   {
     icon: Clock,
