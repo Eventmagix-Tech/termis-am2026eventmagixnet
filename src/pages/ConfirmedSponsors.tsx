@@ -16,6 +16,7 @@ import iiamLogo from "@/assets/sponsors/iiam.png";
 import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
 import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
+import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -31,6 +32,7 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Cellink by BICO", href: "https://www.cellink.com/tissue-engineering/", logo: cellinkLogo.url },
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
+  { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
 ];
 
