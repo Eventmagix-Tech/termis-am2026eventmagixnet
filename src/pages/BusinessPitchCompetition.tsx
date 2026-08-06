@@ -27,7 +27,7 @@ const eligibilityRequirements = [
 
 const importantDates = [
   "The TERMIS-AM 2026 Business Pitch Competition will take place during the TERMIS-AM Annual Meeting in New Orleans, Louisiana, November 15–18, 2026 (exact date and time to be announced). Finalists must be physically present to compete.",
-  "Completed applications and all supporting materials must be submitted through the official submission form no later than July 31, 2026.",
+  "Completed applications and all supporting materials must be submitted through the official submission form no later than August 14, 2026.",
   "The TERMIS-AM 2026 Industry Committee will review all submissions and notify the five selected finalists by September 1, 2026.",
   "Following finalist notification, selected teams will be paired with entrepreneurial coaches to schedule one or more virtual coaching sessions in advance of the competition.",
   "Applicants not selected as finalists may request feedback on their submission from members of the TERMIS-AM Industry Committee.",
