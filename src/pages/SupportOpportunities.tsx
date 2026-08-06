@@ -69,6 +69,28 @@ const SupportOpportunities = () => {
                     </Button>
                   </div>
                 </div>
+
+                <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
+                  <div className="aspect-video overflow-hidden">
+                    <img
+                      src={onlineSponsorshipImage.url}
+                      alt="Online Sponsorship Portal"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <Button variant="gold" className="w-full whitespace-normal h-auto py-3 text-sm leading-tight" asChild>
+                      <a
+                        href="https://kenes.eventsair.com/SponsorshipPortal/Account/Login?ReturnUrl=%2FSponsorshipPortal%2Ftermis-am-2026%2Fonlinesponsorshipportal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Online Sponsorship Portal
+                      </a>
+                    </Button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
