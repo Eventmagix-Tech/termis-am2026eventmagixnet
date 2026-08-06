@@ -17,6 +17,7 @@ import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
 import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
 import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
+import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -43,6 +44,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
+  { name: "Tissue Source", href: "https://tissue-source.com", logo: tissueSourceLogo.url },
 ];
 
 const syisAwardSupporters: Sponsor[] = [
