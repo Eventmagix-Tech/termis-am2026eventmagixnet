@@ -44,6 +44,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
+  { name: "Tissue Source", href: "https://tissue-source.com", logo: tissueSourceLogo.url },
 ];
 
 const syisAwardSupporters: Sponsor[] = [
