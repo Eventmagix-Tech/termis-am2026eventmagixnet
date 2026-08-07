@@ -42,7 +42,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
-  { name: "Perimed", href: "https://www.perimed-instruments.com", logo: perimedLogo },
+  { name: "Perimed", href: "https://www.perimed-instruments.com/products/pericam-imaging-systems/", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
   { name: "Tissue Source", href: "https://tissue-source.com", logo: tissueSourceLogo.url },
 ];
