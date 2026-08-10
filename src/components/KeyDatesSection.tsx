@@ -26,7 +26,7 @@ const keyDates = [
   {
     icon: Medal,
     title: "Business Pitch Competition Submission Deadline",
-    date: "August 14, 2026",
+    date: "August 28, 2026",
   },
   {
     icon: Medal,
