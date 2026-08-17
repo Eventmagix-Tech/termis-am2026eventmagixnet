@@ -26,7 +26,7 @@ const ExhibitionTimetable = () => {
               </h2>
 
               <p className="text-lg mb-8">
-                <strong>Setup:</strong> Sunday, November 15, 2026: 8:00am - 12:30pm
+                <strong>Setup:</strong> Sunday, November 15, 2026 / 8:00am - 12:30pm
               </p>
 
               <h3 className="text-xl font-bold text-primary mb-6">
@@ -36,7 +36,7 @@ const ExhibitionTimetable = () => {
               <div className="flex flex-col space-y-6">
                 <div>
                   <h4 className="font-semibold text-foreground text-lg border-b border-muted pb-1 mb-2">
-                    Sunday, November 15, 2026
+                    Sunday, November 15, 2026 / 1:00pm - 8:30pm (General Opening Hours)
                   </h4>
                   <p className="text-foreground ml-4">
                     6:30pm - 8:30pm (Welcome Reception &amp; Poster Session 1)
@@ -45,7 +45,7 @@ const ExhibitionTimetable = () => {
 
                 <div>
                   <h4 className="font-semibold text-foreground text-lg border-b border-muted pb-1 mb-2">
-                    Monday, November 16, 2026
+                    Monday, November 16, 2026 / 8:00am - 9:00pm (General Opening Hours)
                   </h4>
                   <ul className="space-y-1 ml-4 text-foreground">
                     <li>9:30am - 10:00am (AM Coffee Break)</li>
@@ -57,7 +57,7 @@ const ExhibitionTimetable = () => {
 
                 <div>
                   <h4 className="font-semibold text-foreground text-lg border-b border-muted pb-1 mb-2">
-                    Tuesday, November 17, 2026
+                    Tuesday, November 17, 2026 / 8:00am - 6:45pm (General Opening Hours)
                   </h4>
                   <ul className="space-y-1 ml-4 text-foreground">
                     <li>9:30am – 10:00am (AM Coffee Break)</li>
@@ -69,7 +69,7 @@ const ExhibitionTimetable = () => {
 
                 <div>
                   <h4 className="font-semibold text-foreground text-lg border-b border-muted pb-1 mb-2">
-                    Wednesday, November 18, 2026
+                    Wednesday, November 18, 2026 / 8:00am - 1:00pm (General Opening Hours)
                   </h4>
                   <p className="text-foreground ml-4">
                     10:30am – 11:00am (AM Coffee Break)
@@ -79,10 +79,9 @@ const ExhibitionTimetable = () => {
 
               <div className="mt-8 text-lg">
                 <p>
-                  <strong>Dismantling:</strong> Wednesday, November 18, 2026: 13:00 - 17:00
+                  <strong>Dismantling:</strong> Wednesday, November 18, 2026 / 1:00pm - 5:00pm&nbsp;(larger builds dismantle should begin after 2:00pm)
                 </p>
                 <p className="text-muted-foreground text-base">
-                  (larger builds dismantle should begin after 14:00)
                 </p>
               </div>
 
