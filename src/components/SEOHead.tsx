@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 
 const SITE_URL = "https://am2026.termis.org";
 const SITE_NAME = "TERMIS-AM 2026 Annual Conference & Exhibition";
+const SITE_SHORT_NAME = "TERMIS-AM 2026";
+const MAX_TITLE_LENGTH = 60;
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 interface SEOHeadProps {
@@ -14,7 +16,13 @@ interface SEOHeadProps {
 const SEOHead = ({ title, description, noindex }: SEOHeadProps) => {
   const location = useLocation();
   const canonicalUrl = `${SITE_URL}${location.pathname}`;
-  const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+  const buildTitle = () => {
+    if (title === SITE_NAME || title === SITE_SHORT_NAME) return title;
+    const withShortSuffix = `${title} | ${SITE_SHORT_NAME}`;
+    if (withShortSuffix.length <= MAX_TITLE_LENGTH) return withShortSuffix;
+    return title.length <= MAX_TITLE_LENGTH ? title : `${title.slice(0, MAX_TITLE_LENGTH - 1).trimEnd()}…`;
+  };
+  const fullTitle = buildTitle();
 
   return (
     <Helmet>
