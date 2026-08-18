@@ -91,6 +91,7 @@ const SupportOpportunities = () => {
                         Online Sponsorship Portal
                       </a>
                     </Button>
+                  </div>
                 </div>
 
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
@@ -113,7 +114,6 @@ const SupportOpportunities = () => {
                       </a>
                     </Button>
                   </div>
-                </div>
                 </div>
               </div>
             </div>
