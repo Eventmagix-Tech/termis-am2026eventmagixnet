@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import prospectusImage from "@/assets/sponsorshipexhibition-prospectus.jpg.asset.json";
 import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
 import onlineSponsorshipImage from "@/assets/online-sponsorship-portal.webp.asset.json";
+import exhibitorManualPdf from "@/assets/TERMIS-2026_Expo-Manual.pdf.asset.json";
+import exhibitorManualThumb from "@/assets/Technical_Manual_thumbnail.webp.asset.json";
 
 const SupportOpportunities = () => {
   return (
@@ -87,6 +89,28 @@ const SupportOpportunities = () => {
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Online Sponsorship Portal
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+
+                <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
+                  <div className="aspect-video overflow-hidden">
+                    <img
+                      src={exhibitorManualThumb.url}
+                      alt="Exhibitor Technical Manual cover showing a conference exhibition floor"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <Button variant="gold" className="w-full whitespace-normal h-auto py-3 text-sm leading-tight" asChild>
+                      <a
+                        href={exhibitorManualPdf.url}
+                        target="_blank"
+                        download
+                      >
+                        <Download className="w-4 h-4 mr-2" />
+                        Exhibitor Technical Manual
                       </a>
                     </Button>
                   </div>
