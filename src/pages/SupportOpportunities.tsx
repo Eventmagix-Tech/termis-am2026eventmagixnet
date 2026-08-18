@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import prospectusImage from "@/assets/sponsorshipexhibition-prospectus.jpg.asset.json";
 import floorPlanImage from "@/assets/floor-plan-section.jpeg.asset.json";
 import onlineSponsorshipImage from "@/assets/online-sponsorship-portal.webp.asset.json";
+import exhibitorManualPdf from "@/assets/TERMIS-2026_Expo-Manual.pdf.asset.json";
+import exhibitorManualThumb from "@/assets/Technical_Manual_thumbnail.webp.asset.json";
 
 const SupportOpportunities = () => {
   return (
