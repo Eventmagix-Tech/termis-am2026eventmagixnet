@@ -27,7 +27,7 @@ const SupportOpportunities = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-2xl font-bold text-primary mb-8">Resources</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-border/50 group">
                   <div className="aspect-video overflow-hidden">
                     <img
