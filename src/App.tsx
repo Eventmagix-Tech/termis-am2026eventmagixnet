@@ -15,6 +15,7 @@ import KeyDates from "./pages/KeyDates";
 import Committees from "./pages/Committees";
 import ProgramAtAGlance from "./pages/ProgramAtAGlance";
 import PreConferenceWorkshops from "./pages/PreConferenceWorkshops";
+import RisingStarsApplication from "./pages/RisingStarsApplication";
 import PlenaryKeynoteSpeakers from "./pages/PlenaryKeynoteSpeakers";
 import PlenarySpeakers from "./pages/PlenarySpeakers";
 import RegistrationInformation from "./pages/RegistrationInformation";
@@ -71,6 +72,7 @@ const App = () => (
           <Route path="/scientific-program" element={<ScientificProgram />} />
           <Route path="/presentation-guidelines" element={<PresentationGuidelines />} />
           <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
+          <Route path="/rising-stars-application" element={<RisingStarsApplication />} />
           <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
           <Route path="/plenary-speakers" element={<PlenarySpeakers />} />
           <Route path="/registration-information" element={<RegistrationInformation />} />
