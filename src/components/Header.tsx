@@ -29,6 +29,7 @@ const navItems = [
       { label: "Scientific Program", href: "/scientific-program" },
       { label: "Plenary Speakers", href: "/plenary-speakers" },
       { label: "Pre-Conference Workshop", href: "/pre-conference-workshops" },
+      { label: "Rising Stars Application", href: "/rising-stars-application" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       { label: "Career Development Poster Sessions", href: "/career-development-poster-sessions" },
       { label: "Awards, Networking & Career Development Opportunities", href: "/awards-networking-career-development" },
