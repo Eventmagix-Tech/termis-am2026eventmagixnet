@@ -16,6 +16,7 @@ import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.pn
 import iiamLogo from "@/assets/sponsors/iiam.png";
 import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
+import ufBmeLogo from "@/assets/sponsors/UF-BME-Logo.webp.asset.json";
 import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
 import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
 import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
@@ -50,6 +51,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "Perimed", href: "https://www.perimed-instruments.com/products/pericam-imaging-systems/", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
   { name: "Tissue Source", href: "https://tissue-source.com", logo: tissueSourceLogo.url },
+  { name: "University of Florida/BME", href: "https://bme.ufl.edu/", logo: ufBmeLogo.url },
   { name: "University of Michigan/BME", href: "https://bme.umich.edu/", logo: bmeLogo.url },
 ];
 
