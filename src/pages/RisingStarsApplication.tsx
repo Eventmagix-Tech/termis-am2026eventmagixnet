@@ -114,13 +114,10 @@ const RisingStarsApplication = () => {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           >
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTZ3WA3lZhTAzTps2rzU2Tq7MDVn1LlMFTvqlO2tO4GBQqpA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
               APPLY FOR RISING STARS OF TERMIS-AM 2026
             </a>
           </Button>
-          <p className="text-sm text-muted-foreground mt-3">
-            Submission portal link will be added here once available.
-          </p>
         </div>
 
         <h2 className="text-xl font-bold text-primary mt-10 mb-4">Questions?</h2>
