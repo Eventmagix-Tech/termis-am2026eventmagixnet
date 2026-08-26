@@ -113,8 +113,65 @@ const PresentationGuidelines = () => {
                     <p className="text-foreground mb-8">Poster presentation list will be available soon.</p>
 
                     <h3 className="text-xl font-bold text-primary mb-4">
-                      Poster Set-Up, Presentation and Dismantle Schedule: TBA
+                      Poster Set-Up, Presentation and Dismantle Schedule:
                     </h3>
+                    <div className="mb-8 space-y-6 text-foreground">
+                      <div>
+                        <p className="font-semibold mb-2">Poster Session 1</p>
+                        <ul className="space-y-1">
+                          <li>• Set-up: Sunday, November 15, 2026 at 3:30 PM – 5:30 PM</li>
+                          <li>
+                            • Poster Display Days &amp; Hours: Sunday, November 15, 2026 5:30 PM – 8:30 PM;
+                            Monday, November 16, 2026, 8:00 AM – 1:30 PM
+                          </li>
+                          <li>
+                            • Author Presentation Hours: Sunday, November 15, 2026 at 6:30 PM - 8:30 PM
+                            (Welcome Reception with Posters)
+                          </li>
+                          <li>• Dismantle: Monday, November 16, 2026, 1:30 PM - 2:00 PM</li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold mb-2">Poster Session 2</p>
+                        <ul className="space-y-1">
+                          <li>• Set-up: Monday, November 16, 2026 at 2:30 PM – 5:00 PM</li>
+                          <li>
+                            • Poster Display Days &amp; Hours: Monday, November 16, 2026, 5:00 PM – 8:00 PM;
+                            Tuesday, November 17, 2026, 8:00 AM – 1:30 PM
+                          </li>
+                          <li>
+                            • Author Presentation Hours: Monday, November 16, 2026 at 6:35 PM - 8:00 PM
+                            (Reception with Posters)
+                          </li>
+                          <li>• Dismantle: Tuesday, November 17, 2026, 1:30 PM - 2:00 PM</li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <p className="font-semibold mb-2">Poster Session 3</p>
+                        <ul className="space-y-1">
+                          <li>• Set-up: Tuesday, November 17, 2026 at 2:30 PM – 5:00 PM</li>
+                          <li>
+                            • Poster Display Days &amp; Hours: Tuesday, November 17, 2026, 5:00 PM – 7:15 PM;
+                            Wednesday, November 18, 2026, 8:00 AM – 10:00 AM
+                          </li>
+                          <li>
+                            • Author Presentation Hours: Tuesday, November 17, 2026 at 5:15 PM - 7:15 PM
+                            (Reception with Posters)
+                          </li>
+                          <li>• Dismantle: Wednesday, November 18, 10:00 AM - 10:30 AM</li>
+                        </ul>
+                      </div>
+
+                      <p>
+                        All authors are expected to be present during their assigned poster sessions
+                        presentation times. Posters must be removed at designated dismantle times. Any posters
+                        left behind will be held at the Poster Help Desk until noon on Wednesday. Posters not
+                        collected by then will be recycled.
+                      </p>
+                    </div>
+
 
                     <h3 className="text-xl font-bold text-primary mb-8">Poster Format Guidelines: TBA</h3>
 
