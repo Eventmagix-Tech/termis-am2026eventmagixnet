@@ -173,7 +173,18 @@ const PresentationGuidelines = () => {
                     </div>
 
 
-                    <h3 className="text-xl font-bold text-primary mb-8">Poster Format Guidelines: TBA</h3>
+                    <h3 className="text-xl font-bold text-primary mb-8">{`Poster Format Guidelines:\u00a0
+
+•\tEach poster must fit within a maximum display area of 48 inches (width) × 48 inches (height).
+•\tPosters may be in portrait, landscape, or square format, but their dimensions must not exceed the maximum display area specified above.
+•\tThe abstract title, author(s), and affiliation(s) should appear at the top of the poster.
+•\tInformation may be presented using figures, tables, text, photographs, and other visual materials. All illustrations should be neat, legible, and sized for easy reading from a reasonable distance. A font size of 24–36 pt is recommended.
+•\tTypewritten sheets attached to the poster board will not be accepted.
+•\tAll posters must be prepared entirely in English.
+•\tMaterials for attaching posters to the poster board will be available at the Poster Help Desk in the poster area.
+•\tPosters may be produced using any suitable material.
+
+`}</h3>
 
                     <p className="text-foreground italic">
                       We look forward to your contributions and thank you for sharing your work with the TERMIS-AM
