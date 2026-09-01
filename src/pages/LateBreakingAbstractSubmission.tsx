@@ -31,7 +31,7 @@ const LateBreakingAbstractSubmission = () => {
         <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-center gap-3 mb-8">
           <AlertCircle className="h-5 w-5 text-accent shrink-0" />
           <p className="text-foreground/90 font-medium">
-            Late Breaking Abstracts (LBA) must be submitted online through the abstract submission portal until <strong>August 31, 2026, 11:59 PM Central Time</strong>.
+            Late Breaking Abstracts (LBA) must be submitted online through the abstract submission portal until <strong>September 7, 2026, 11:59 PM Central Time</strong>.
           </p>
         </div>
 
