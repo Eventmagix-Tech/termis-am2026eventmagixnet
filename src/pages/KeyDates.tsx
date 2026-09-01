@@ -15,7 +15,7 @@ const keyDates = [
   {
     icon: Clock,
     title: "Late Breaking Abstract Submission Deadline",
-    date: "August 31, 2026",
+    date: "September 7, 2026",
   },
   {
     icon: Calendar,
