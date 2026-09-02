@@ -23,6 +23,7 @@ import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
 import unionBiometricaLogo from "@/assets/sponsors/Union_Biometrica_logo.webp.asset.json";
 import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
 import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
+import trauerLogo from "@/assets/sponsors/trauer-logo.webp.asset.json";
 
 interface Sponsor {
   name: string;
