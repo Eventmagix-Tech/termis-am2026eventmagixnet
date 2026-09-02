@@ -42,6 +42,7 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
+  { name: "Trauer", href: "https://www.trauerhk.com/", logo: trauerLogo.url },
   { name: "University of Florida/BME", href: "https://bme.ufl.edu/", logo: ufBmeLogo.url },
 ];
 
