@@ -23,6 +23,7 @@ import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
 import unionBiometricaLogo from "@/assets/sponsors/Union_Biometrica_logo.webp.asset.json";
 import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
 import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
+import trauerLogo from "@/assets/sponsors/trauer-logo.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -41,6 +42,7 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
+  { name: "Trauer", href: "https://www.trauerhk.com/", logo: trauerLogo.url },
   { name: "University of Florida/BME", href: "https://bme.ufl.edu/", logo: ufBmeLogo.url },
 ];
 
