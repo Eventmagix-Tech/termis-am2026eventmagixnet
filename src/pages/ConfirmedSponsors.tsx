@@ -19,6 +19,8 @@ import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
 import ufBmeLogo from "@/assets/sponsors/UF-BME-Logo.webp.asset.json";
 import hcsLogo from "@/assets/sponsors/hcs-logo.webp.asset.json";
 import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
+import optics11Logo from "@/assets/sponsors/Optics11_Life_logo.webp.asset.json";
+import regenhuLogo from "@/assets/sponsors/REGENHU_logo.webp.asset.json";
 import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
 import unionBiometricaLogo from "@/assets/sponsors/Union_Biometrica_logo.webp.asset.json";
 import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
@@ -41,6 +43,8 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
+  { name: "Optics11 Life", href: "https://www.optics11life.com/", logo: optics11Logo.url },
+  { name: "REGENHU", href: "https://www.regenhu.com/", logo: regenhuLogo.url },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
   { name: "Trauer", href: "https://www.trauerhk.com/", logo: trauerLogo.url },
   { name: "University of Florida/BME", href: "https://bme.ufl.edu/", logo: ufBmeLogo.url },
