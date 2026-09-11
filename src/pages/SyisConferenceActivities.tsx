@@ -13,7 +13,7 @@ const days = [
           "The SYIS networking event is a social gathering and evening of fun for students and young investigators at the conference. There will be a welcome reception with drinks provided during the event. Registration for a ticket during the conference sign-up is required to attend.",
       },
       {
-        title: "SYIS Career Panel Discussion (TBD)",
+        title: "SYIS Career Panel Discussion (5:05 - 6:35 pm)",
         description:
           "The Career Panel discussion will include young professionals representing careers in both academic and non-academic TERM sectors, such as industry, government, publishing, or biomedical start-ups. In addition to a moderated discussion, the panel will include a Q&A portion where attendees may ask panelists about their career paths and experiences.",
       },
