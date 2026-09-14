@@ -21,6 +21,10 @@ const navItems = [
       { label: "Committees", href: "/committees" },
       { label: "Contact Us", href: "/contact-us" },
       { label: "TERMIS-AM Code of Conduct", href: "/code-of-conduct" },
+      {
+        label: "Meet the Editor: Tissue Engineering Part B: Reviews",
+        href: "/meet-the-editor-part-b",
+      },
     ],
   },
   {
