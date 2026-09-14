@@ -2,12 +2,26 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
-import { Button } from "@/components/ui/button";
-import { AlertCircle, Download, Mail } from "lucide-react";
 import wfirmLogo from "@/assets/wfirm-logo.webp";
+import shiveshAnandPortrait from "@/assets/wfirm-winners/Shivesh-Anand.webp.asset.json";
+import parkerEssweinPortrait from "@/assets/wfirm-winners/Parker-Esswein-WFIRM-YI-Award-2026.webp.asset.json";
 
-const APPLICATION_FORM_URL = "/documents/WFIRM_YIA_Application_form_2026.docx";
-const CONTACT_EMAIL = "regenmed@advocatehealth.org";
+const awardWinners = [
+  {
+    name: "Shivesh Anand, PhD",
+    institution: "Stanford University",
+    presentation:
+      "Dynamic Biophysical Modulation: Engineering Tissue Regeneration through Acoustical, Electrical, and Mechanical Forces",
+    portrait: shiveshAnandPortrait.url,
+  },
+  {
+    name: "Parker Esswein",
+    institution: "Duke University",
+    presentation:
+      "Engineering Retinal Blood Vessels for Disease Modeling and Regenerative Medicine",
+    portrait: parkerEssweinPortrait.url,
+  },
+];
 
 const WfirmYoungInvestigatorAwards = () => {
   return (
@@ -32,85 +46,57 @@ const WfirmYoungInvestigatorAwards = () => {
             />
           </div>
           <div className="text-base md:text-lg text-foreground space-y-5">
-          <p>
-            The Wake Forest Institute for Regenerative Medicine is committed to developing and
-            disseminating novel therapies for the repair and replacement of diseased tissues and
-            organs. One way to achieve this goal is to foster the careers of young investigators to
-            encourage them to find solutions to problems in regenerative medicine. As part of this
-            effort, the <strong>Wake Forest Institute for Regenerative Medicine Young Investigator
-            Award</strong> was established in 2008 to recognize outstanding achievements by members
-            of the Tissue Engineering and Regenerative Medicine International Society (TERMIS) who
-            are in the early stages of a career in regenerative medicine.
-          </p>
-          <p>
-            The <strong>Wake Forest Institute for Regenerative Medicine Young Investigator Award</strong>{" "}
-            will be presented during the TERMIS AM meeting (November 15-18, 2026) to two (2)
-            individuals in the early stages of their research careers (one (1) graduate student and
-            one (1) post-doctoral fellow). Each awardee will be invited to present their conference
-            abstract during the TERMIS-AM meeting and will receive an award certificate and a
-            monetary award of $2,500 (U.S.).
-          </p>
-          <p>
-            Individuals interested in applying for this award should submit the following documents
-            via e-mail to Dr. Sean Murphy (
-            <a href={`mailto:${CONTACT_EMAIL}`} className="text-gold-text underline font-medium">
-              {CONTACT_EMAIL}
-            </a>
-            ) by <u>August 1, 2026</u>:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Attached application form</li>
-            <li>Applicant's current CV</li>
-            <li>A copy of the applicant's TERMIS-AM 2026 abstract</li>
-            <li>A one-page Personal Statement describing the applicant's career goals</li>
-            <li>One letter of recommendation</li>
-          </ul>
-          <p>
-            All eligible individuals are encouraged to apply. To be eligible for the award, the
-            applicant must meet the following <strong><u>criteria</u></strong>:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Currently enrolled as a student in an advanced degree program (Ph.D., M.D., or equivalent) OR currently a post-doctoral fellow</li>
-            <li>Member of TERMIS (student or regular membership)</li>
-            <li>Actively involved in any area of regenerative medicine research</li>
-            <li>Have or will have submitted an abstract for TERMIS-AM 2026</li>
-            <li>Be in attendance at TERMIS-AM in New Orleans, Louisiana</li>
-            <li>No affiliation with Wake Forest University or Wake Forest University Health Sciences</li>
-          </ul>
-        </div>
+            <p>
+              The Wake Forest Institute for Regenerative Medicine is committed to developing and
+              disseminating novel therapies for the repair and replacement of diseased tissues and
+              organs. One way to achieve this goal is to foster the careers of young investigators to
+              encourage them to find solutions to problems in regenerative medicine. As part of this
+              effort, the <strong>Wake Forest Institute for Regenerative Medicine Young Investigator
+              Award</strong> was established in 2008 to recognize outstanding achievements by members
+              of the Tissue Engineering and Regenerative Medicine International Society (TERMIS) who
+              are in the early stages of a career in regenerative medicine.
+            </p>
+            <p>
+              The <strong>Wake Forest Institute for Regenerative Medicine Young Investigator Award</strong>{" "}
+              will be presented during the TERMIS AM meeting (November 15-18, 2026) to two (2)
+              individuals in the early stages of their research careers (one (1) graduate student and
+              one (1) post-doctoral fellow). Each awardee will be invited to present their conference
+              abstract during the TERMIS-AM meeting and will receive an award certificate and a
+              monetary award of $2,500 (U.S.).
+            </p>
+          </div>
         </div>
 
-        <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 flex items-start gap-3 mt-8">
-          <AlertCircle className="h-5 w-5 text-accent shrink-0 mt-1" />
-          <p className="text-foreground font-semibold">
-            The award winners will be selected by a review panel, and applicants will be informed of
-            the decision by <span className="underline">September 1, 2026</span>.
-          </p>
-        </div>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center my-10">
-          <Button
-            asChild
-            size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+        <section className="mt-14" aria-labelledby="award-winners-heading">
+          <h2
+            id="award-winners-heading"
+            className="text-3xl md:text-4xl font-bold text-primary text-center mb-8"
           >
-            <a href={APPLICATION_FORM_URL} target="_blank" rel="noopener noreferrer">
-              <Download className="mr-2 h-5 w-5" />
-              Download Application Form
-            </a>
-          </Button>
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="font-bold text-lg px-8 py-6 rounded-lg"
-          >
-            <a href={`mailto:${CONTACT_EMAIL}`}>
-              <Mail className="mr-2 h-5 w-5" />
-              Email Dr. Sean Murphy
-            </a>
-          </Button>
-        </div>
+            2026 Award Winners
+          </h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            {awardWinners.map((winner) => (
+              <article
+                key={winner.name}
+                className="overflow-hidden rounded-lg border border-border bg-card shadow-card"
+              >
+                <img
+                  src={winner.portrait}
+                  alt={`Portrait of ${winner.name}`}
+                  className="aspect-square w-full object-cover"
+                  loading="lazy"
+                />
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-primary">{winner.name}</h3>
+                  <p className="mt-1 font-semibold text-secondary">{winner.institution}</p>
+                  <p className="mt-5 text-foreground leading-relaxed">
+                    <strong>Presentation Title:</strong> “{winner.presentation}”
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
       </main>
 
       <Footer />
