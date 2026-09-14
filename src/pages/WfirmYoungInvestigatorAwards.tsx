@@ -67,34 +67,41 @@ const WfirmYoungInvestigatorAwards = () => {
           </div>
         </div>
 
-        <section className="mt-14" aria-labelledby="award-winners-heading">
-          <h2
-            id="award-winners-heading"
-            className="text-3xl md:text-4xl font-bold text-primary text-center mb-8"
-          >
-            2026 Award Winners
-          </h2>
-          <div className="grid gap-8 md:grid-cols-2">
-            {awardWinners.map((winner) => (
-              <article
-                key={winner.name}
-                className="overflow-hidden rounded-lg border border-border bg-card shadow-card"
-              >
-                <img
-                  src={winner.portrait}
-                  alt={`Portrait of ${winner.name}`}
-                  className="aspect-square w-full object-cover"
-                  loading="lazy"
-                />
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-primary">{winner.name}</h3>
-                  <p className="mt-1 font-semibold text-secondary">{winner.institution}</p>
-                  <p className="mt-5 text-foreground leading-relaxed">
-                    <strong>Presentation Title:</strong> “{winner.presentation}”
-                  </p>
-                </div>
-              </article>
-            ))}
+        <section
+          className="mt-14 grid md:grid-cols-[240px_1fr] gap-8"
+          aria-labelledby="award-winners-heading"
+        >
+          <div className="md:col-start-2">
+            <h2
+              id="award-winners-heading"
+              className="text-3xl md:text-4xl font-bold text-primary text-center mb-8"
+            >
+              2026 Award Winners
+            </h2>
+            <div className="grid gap-5 md:grid-cols-2">
+              {awardWinners.map((winner) => (
+                <article
+                  key={winner.name}
+                  className="overflow-hidden rounded-lg border border-border bg-card shadow-card"
+                >
+                  <img
+                    src={winner.portrait}
+                    alt={`Portrait of ${winner.name}`}
+                    className="aspect-square w-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h3 className="text-xl font-bold text-primary">{winner.name}</h3>
+                    <p className="mt-1 text-sm font-semibold text-secondary">
+                      {winner.institution}
+                    </p>
+                    <p className="mt-4 text-sm text-foreground leading-relaxed">
+                      <strong>Presentation Title:</strong> “{winner.presentation}”
+                    </p>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
       </main>
