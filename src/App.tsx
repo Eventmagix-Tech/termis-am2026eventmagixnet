@@ -95,6 +95,7 @@ const App = () => (
           <Route path="/am-chapter-awards" element={<AmChapterAwards />} />
           <Route path="/career-development-poster-sessions" element={<CareerDevelopmentPosterSessions />} />
           <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+          <Route path="/meet-the-editor-part-b" element={<MeetTheEditorPartB />} />
           
           
           
