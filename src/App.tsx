@@ -38,6 +38,7 @@ import WfirmYoungInvestigatorAwards from "./pages/WfirmYoungInvestigatorAwards";
 import HcsTravelAwards from "./pages/HcsTravelAwards";
 import AmChapterAwards from "./pages/AmChapterAwards";
 import CodeOfConduct from "./pages/CodeOfConduct";
+import MeetTheEditorPartB from "./pages/MeetTheEditorPartB";
 
 import ComingSoon from "./pages/ComingSoon";
 import CareerDevelopmentPosterSessions from "./pages/CareerDevelopmentPosterSessions";
@@ -94,6 +95,7 @@ const App = () => (
           <Route path="/am-chapter-awards" element={<AmChapterAwards />} />
           <Route path="/career-development-poster-sessions" element={<CareerDevelopmentPosterSessions />} />
           <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+          <Route path="/meet-the-editor-part-b" element={<MeetTheEditorPartB />} />
           
           
           
