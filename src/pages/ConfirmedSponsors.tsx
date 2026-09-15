@@ -22,6 +22,7 @@ import maverickBioLogo from "@/assets/sponsors/maverick-bio.webp.asset.json";
 import optics11Logo from "@/assets/sponsors/Optics11_Life_logo.webp.asset.json";
 import regenhuLogo from "@/assets/sponsors/REGENHU_logo.webp.asset.json";
 import tissueSourceLogo from "@/assets/sponsors/tissue-source.webp.asset.json";
+import tulaneLogo from "@/assets/sponsors/tulane-university-logo.webp.asset.json";
 import unionBiometricaLogo from "@/assets/sponsors/Union_Biometrica_logo.webp.asset.json";
 import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
 import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
@@ -59,6 +60,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "Perimed", href: "https://www.perimed-instruments.com/products/pericam-imaging-systems/", logo: perimedLogo },
   { name: "Science Advances", href: "https://bit.ly/4tLbok4", logo: scienceAdvancesLogo },
   { name: "Tissue Source", href: "https://tissue-source.com", logo: tissueSourceLogo.url },
+  { name: "Tulane University", href: "https://sse.tulane.edu/bme/MPS", logo: tulaneLogo.url },
   { name: "Union Biometrica", href: "https://www.unionbio.com/", logo: unionBiometricaLogo.url },
   { name: "University of Michigan/BME", href: "https://bme.umich.edu/", logo: bmeLogo.url },
 ];
