@@ -29,7 +29,24 @@ const RegistrationInformation = () => {
       <Header />
 
       <main id="main" className="flex-1">
-        <PageHeader title="Registration Information" />
+        {/* Early-Bird Extension Notice */}
+        <div className="pt-16 md:pt-20">
+          <div className="bg-gold-gradient border-y border-accent/40">
+            <div className="container mx-auto px-4 py-3 flex items-center justify-center gap-3 text-center">
+              <Clock className="h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+              <p className="text-sm md:text-base font-semibold text-primary leading-snug">
+                The early-bird registration deadline has been extended to{" "}
+                <span className="underline decoration-primary/40 underline-offset-4">
+                  Friday, October 2, 2026
+                </span>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <PageHeader title="Registration Information" topOffset={false} />
+
 
 
         {/* How to Register */}
