@@ -97,8 +97,8 @@ const RegistrationInformation = () => {
                         <TableHeader>
                           <TableRow className="bg-primary">
                             <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until October 2nd)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (October 2nd – November 14th)</TableHead>
                             <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
                           </TableRow>
                         </TableHeader>
@@ -125,8 +125,8 @@ const RegistrationInformation = () => {
                         <TableHeader>
                           <TableRow className="bg-primary">
                             <TableHead className="text-white font-semibold min-w-[280px] w-[40%]">Registration Categories & Fees</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until October 2nd)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (October 2nd – November 14th)</TableHead>
                             <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
                           </TableRow>
                         </TableHeader>
@@ -203,8 +203,8 @@ const RegistrationInformation = () => {
                         <TableHeader>
                           <TableRow className="bg-primary">
                             <TableHead className="text-white font-semibold min-w-[200px]">Registration Categories & Fees</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until September 18th)</TableHead>
-                            <TableHead className="text-white font-semibold text-center">Regular Registration (September 19th – November 14th)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Early-Bird Registration (Until October 2nd)</TableHead>
+                            <TableHead className="text-white font-semibold text-center">Regular Registration (October 2nd – November 14th)</TableHead>
                             <TableHead className="text-white font-semibold text-center">Onsite Registration (November 15th – 18th)</TableHead>
                           </TableRow>
                         </TableHeader>
