@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Medal } from "lucide-react";
+import { CalendarClock, Medal } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const keyDates = [
@@ -7,31 +7,43 @@ const keyDates = [
     icon: Medal,
     title: "NIH R13 Travel Awards Application Deadline",
     date: "August 1, 2026",
+    past: true,
   },
   {
     icon: Medal,
     title: "HCS Travel Awards Application Deadline",
     date: "August 1, 2026",
+    past: true,
   },
   {
     icon: Medal,
     title: "SYIS Awards Application Deadline",
     date: "August 18, 2026",
+    past: true,
   },
   {
     icon: Medal,
     title: "WFIRM YI Awards Application Deadline",
     date: "August 1, 2026",
+    past: true,
   },
   {
     icon: Medal,
     title: "Business Pitch Competition Submission Deadline",
     date: "August 28, 2026",
+    past: true,
   },
   {
     icon: Medal,
     title: "Late Breaking Abstract Submission Deadline",
     date: "September 7, 2026",
+    past: true,
+  },
+  {
+    icon: CalendarClock,
+    title: "Extended Early-Bird Registration Deadline",
+    date: "October 2, 2026",
+    past: false,
   },
 ];
 
