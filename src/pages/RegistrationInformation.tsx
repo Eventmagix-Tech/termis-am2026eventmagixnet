@@ -3,7 +3,7 @@ import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { Button } from "@/components/ui/button";
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail, ExternalLink, Clock } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
