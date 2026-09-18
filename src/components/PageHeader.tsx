@@ -4,11 +4,13 @@ interface PageHeaderProps {
   title: string;
   subtitle?: string;
   tag?: string;
+  /** When false, the fixed-nav top offset is skipped (used when a band sits directly above). */
+  topOffset?: boolean;
 }
 
-const PageHeader = ({ title, subtitle, tag }: PageHeaderProps) => {
+const PageHeader = ({ title, subtitle, tag, topOffset = true }: PageHeaderProps) => {
   return (
-    <div className="pt-16 md:pt-20">
+    <div className={topOffset ? "pt-16 md:pt-20" : undefined}>
       {/* Top Section - Banner Image */}
       <div className="w-full leading-[0]">
         <img
