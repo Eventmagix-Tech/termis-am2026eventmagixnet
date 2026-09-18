@@ -19,8 +19,8 @@ const keyDates = [
   },
   {
     icon: Calendar,
-    title: "Early Registration Deadline",
-    date: "September 18, 2026",
+    title: "Extended - Early Registration Deadline",
+    date: "October 2, 2026",
   },
   {
     icon: FileText,
