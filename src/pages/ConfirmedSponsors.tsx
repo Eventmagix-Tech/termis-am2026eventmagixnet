@@ -5,6 +5,7 @@ import SEOHead from "@/components/SEOHead";
 import cellinkLogo from "@/assets/sponsors/cellink.webp.asset.json";
 import cellScaleLogo from "@/assets/sponsors/CellScale-Logo.webp.asset.json";
 import cookMyositeLogo from "@/assets/sponsors/cook-myosite.png";
+import curiBioLogo from "@/assets/sponsors/curi-bio.webp.asset.json";
 import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
@@ -42,6 +43,7 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Cellink by BICO", href: "https://www.cellink.com/tissue-engineering/", logo: cellinkLogo.url },
   { name: "CellScale", href: "https://cellscale.com/", logo: cellScaleLogo.url },
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
+  { name: "Curi Bio", href: "https://www.curibio.com/", logo: curiBioLogo.url },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
   { name: "Optics11 Life", href: "https://www.optics11life.com/", logo: optics11Logo.url },
