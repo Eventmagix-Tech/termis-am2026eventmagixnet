@@ -28,6 +28,7 @@ import unionBiometricaLogo from "@/assets/sponsors/Union_Biometrica_logo.webp.as
 import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
 import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
 import trauerLogo from "@/assets/sponsors/trauer-logo.webp.asset.json";
+import uoregonLogo from "@/assets/sponsors/University-of-Oregon-logo.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -65,6 +66,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "Tulane University", href: "https://sse.tulane.edu/bme/MPS", logo: tulaneLogo.url },
   { name: "Union Biometrica", href: "https://www.unionbio.com/", logo: unionBiometricaLogo.url },
   { name: "University of Michigan/BME", href: "https://bme.umich.edu/", logo: bmeLogo.url },
+  { name: "University of Oregon", href: "https://knightcampus.uoregon.edu/performance", logo: uoregonLogo.url },
 ];
 
 const syisAwardSupporters: Sponsor[] = [
