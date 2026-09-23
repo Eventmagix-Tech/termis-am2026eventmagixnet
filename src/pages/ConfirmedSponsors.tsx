@@ -14,6 +14,7 @@ import ssrLogo from "@/assets/sponsors/ssr.png";
 import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
 import biomaterialsResearchLogo from "@/assets/sponsors/biomaterials-research.png";
+import bmefLogo from "@/assets/sponsors/bmef-tagline.webp.asset.json";
 import iiamLogo from "@/assets/sponsors/iiam.png";
 import wfirmLogo from "@/assets/sponsors/wfirm.png";
 import nanoscribeLogo from "@/assets/sponsors/nanoscribe.webp.asset.json";
@@ -56,6 +57,7 @@ const bronzeSponsors: Sponsor[] = [
 
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
+  { name: "BME Frontiers", href: "https://spj.science.org/journal/bmef", logo: bmefLogo.url },
   { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
