@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
+import cellboxSolutionsLogo from "@/assets/sponsors/cellbox-solutions.webp.asset.json";
 import cellinkLogo from "@/assets/sponsors/cellink.webp.asset.json";
 import cellScaleLogo from "@/assets/sponsors/CellScale-Logo.webp.asset.json";
 import cookMyositeLogo from "@/assets/sponsors/cook-myosite.png";
@@ -42,6 +43,7 @@ const silverSponsors: Sponsor[] = [
 ];
 
 const bronzeSponsors: Sponsor[] = [
+  { name: "Cellbox Solutions", href: "https://cellbox-solutions.com/", logo: cellboxSolutionsLogo.url },
   { name: "Cellink by BICO", href: "https://www.cellink.com/tissue-engineering/", logo: cellinkLogo.url },
   { name: "CellScale", href: "https://cellscale.com/", logo: cellScaleLogo.url },
   { name: "Cook Myosite", href: "https://www.cookmyosite.com", logo: cookMyositeLogo },
