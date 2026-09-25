@@ -2,7 +2,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
-import { Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Download, ExternalLink } from "lucide-react";
+import twigsPdfAsset from "@/assets/TWIGs_TERMIS-AM_2026_PPT_final_post.pdf.asset.json";
+
+const PDF_URL = twigsPdfAsset.url;
 
 const Twigs = () => {
   return (
