@@ -61,11 +61,7 @@ const Twigs = () => {
                   title="TWIGs of TERMIS-AM 2026 Flyer"
                   className="w-full h-[800px] md:h-[1100px]"
                   loading="lazy"
-                >
-                  <p className="text-foreground text-base">
-                    Your browser is preventing the PDF from displaying inline. Use the buttons above to open or download it.
-                  </p>
-                </iframe>
+                />
               </div>
             </div>
           </div>
