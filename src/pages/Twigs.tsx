@@ -23,9 +23,6 @@ const Twigs = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <div className="text-center mb-8">
-                <p className="text-foreground text-lg leading-relaxed">
-                  New! Each TWIG now has its own 1-hour session at TERMIS-AM — Tuesday 3PM – 4PM, November 17, 2026.
-                </p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
                   <Button variant="purple" asChild>
                     <a href={PDF_URL} download>
