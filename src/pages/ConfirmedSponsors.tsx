@@ -31,12 +31,17 @@ import osfLogo from "@/assets/sponsors/osf-logo.webp.asset.json";
 import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
 import trauerLogo from "@/assets/sponsors/trauer-logo.webp.asset.json";
 import uoregonLogo from "@/assets/sponsors/University-of-Oregon-logo.webp.asset.json";
+import bwfLogo from "@/assets/sponsors/burroughs-wellcome-fund.png.asset.json";
 
 interface Sponsor {
   name: string;
   href: string;
   logo: string;
 }
+
+const goldSponsors: Sponsor[] = [
+  { name: "Burroughs Wellcome Fund", href: "https://www.bwfund.org/", logo: bwfLogo.url },
+];
 
 const silverSponsors: Sponsor[] = [
   { name: "Wake Forest Institute for Regenerative Medicine", href: "https://school.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine", logo: wfirmLogo },
@@ -124,6 +129,17 @@ const ConfirmedSponsors = () => (
 
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-6xl space-y-20">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
+            Gold Sponsors
+          </h2>
+          <SponsorGrid
+            sponsors={goldSponsors}
+            logoHeightClass="h-[184px]"
+            itemWidthClass="w-full sm:w-[414px]"
+          />
+        </div>
+
         <div>
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-primary text-center mb-10">
             Silver Sponsors
