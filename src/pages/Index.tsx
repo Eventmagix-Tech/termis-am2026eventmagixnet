@@ -10,6 +10,7 @@ import TimelineSection from "@/components/TimelineSection";
 import VenueSection from "@/components/VenueSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
+import AnnouncementPopup from "@/components/AnnouncementPopup";
 import SEOHead from "@/components/SEOHead";
 import { Helmet } from "react-helmet-async";
 
@@ -52,6 +53,7 @@ const Index = () => {
         <script type="application/ld+json">{JSON.stringify(eventJsonLd)}</script>
       </Helmet>
       <Header />
+      <AnnouncementPopup />
       <h1 className="sr-only">TERMIS-AM 2026 Annual Conference &amp; Exhibition — New Orleans, November 15–18</h1>
       <main id="main">
         <HeroSection />
