@@ -10,6 +10,7 @@ import TimelineSection from "@/components/TimelineSection";
 import VenueSection from "@/components/VenueSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
+import AnnouncementPopup from "@/components/AnnouncementPopup";
 import SEOHead from "@/components/SEOHead";
 import { Helmet } from "react-helmet-async";
 
