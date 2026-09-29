@@ -68,6 +68,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "BME Frontiers", href: "https://spj.science.org/journal/bmef", logo: bmefLogo.url },
   { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
+  { name: "Lymphatic Education & Research Network", href: "https://lymphaticnetwork.org/", logo: lernLogo.url },
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
   { name: "Osteo Science Foundation", href: "https://www.osteoscience.org", logo: osfLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com/products/pericam-imaging-systems/", logo: perimedLogo },
