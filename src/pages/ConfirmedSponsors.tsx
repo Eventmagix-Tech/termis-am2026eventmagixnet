@@ -11,6 +11,7 @@ import gelomicsLogo from "@/assets/sponsors/gelomics.png";
 import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
 import jpmLogo from "@/assets/sponsors/jpm.png";
+import lernLogo from "@/assets/sponsors/LE-RN-logo.webp.asset.json";
 import mcsLogo from "@/assets/sponsors/MCS-logo.webp.asset.json";
 import ssrLogo from "@/assets/sponsors/ssr.png";
 import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
