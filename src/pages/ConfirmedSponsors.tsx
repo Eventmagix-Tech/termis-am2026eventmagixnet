@@ -12,6 +12,7 @@ import acsLogo from "@/assets/sponsors/acs-publications.png";
 import perimedLogo from "@/assets/sponsors/perimed.png";
 import jpmLogo from "@/assets/sponsors/jpm.png";
 import lernLogo from "@/assets/sponsors/LE-RN-logo.webp.asset.json";
+import mcsLogo from "@/assets/sponsors/MCS-logo.webp.asset.json";
 import ssrLogo from "@/assets/sponsors/ssr.png";
 import scienceAdvancesLogo from "@/assets/sponsors/science-advances.png";
 import scienceTranslationalMedicineLogo from "@/assets/sponsors/science-translational-medicine.png";
@@ -69,6 +70,7 @@ const sponsorsExhibitors: Sponsor[] = [
   { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Lymphatic Education & Research Network", href: "https://lymphaticnetwork.org/", logo: lernLogo.url },
+  { name: "The Microcirculatory Society", href: "https://www.microcirc.org/", logo: mcsLogo.url },
   { name: "Nanoscribe", href: "https://www.nanoscribe.com/en/products/high-resolution-3d-bioprinter-quantum-x-bio/", logo: nanoscribeLogo.url },
   { name: "Osteo Science Foundation", href: "https://www.osteoscience.org", logo: osfLogo.url },
   { name: "Perimed", href: "https://www.perimed-instruments.com/products/pericam-imaging-systems/", logo: perimedLogo },
