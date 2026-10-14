@@ -34,6 +34,8 @@ import bmeLogo from "@/assets/sponsors/BME-LOGO-CROP.webp.asset.json";
 import trauerLogo from "@/assets/sponsors/trauer-logo.webp.asset.json";
 import uoregonLogo from "@/assets/sponsors/University-of-Oregon-logo.webp.asset.json";
 import bwfLogo from "@/assets/sponsors/burroughs-wellcome-fund.png.asset.json";
+import obatalaSciencesLogo from "@/assets/sponsors/obatala-sciences.webp.asset.json";
+import fasebLogo from "@/assets/sponsors/faseb.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -57,6 +59,7 @@ const bronzeSponsors: Sponsor[] = [
   { name: "Curi Bio", href: "https://www.curibio.com/", logo: curiBioLogo.url },
   { name: "Gelomics", href: "https://gelomics.com", logo: gelomicsLogo },
   { name: "Maverick Bio", href: "https://www.maverickbio.com", logo: maverickBioLogo.url },
+  { name: "Obatala Sciences", href: "https://www.obatalasciences.com/", logo: obatalaSciencesLogo.url },
   { name: "Optics11 Life", href: "https://www.optics11life.com/", logo: optics11Logo.url },
   { name: "REGENHU", href: "https://www.regenhu.com/", logo: regenhuLogo.url },
   { name: "Sustainable Swine Resources", href: "https://ssr-solutions.com", logo: ssrLogo },
@@ -67,6 +70,7 @@ const bronzeSponsors: Sponsor[] = [
 const sponsorsExhibitors: Sponsor[] = [
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
   { name: "BME Frontiers", href: "https://spj.science.org/journal/bmef", logo: bmefLogo.url },
+  { name: "FASEB", href: "https://www.faseb.org/", logo: fasebLogo.url },
   { name: "HCS", href: "https://www.histochemicalsociety.org", logo: hcsLogo.url },
   { name: "IIAM", href: "https://iiam.org", logo: iiamLogo },
   { name: "Lymphatic Education & Research Network", href: "https://lymphaticnetwork.org/", logo: lernLogo.url },
