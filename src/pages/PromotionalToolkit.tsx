@@ -6,6 +6,7 @@ import { Download, Image, Monitor, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import posterVertical from "@/assets/poster-vertical-thumb.jpg";
 import posterHorizontal from "@/assets/poster-horizontal-thumb.jpg";
+import pptxTemplateAsset from "@/assets/TERMIS-AM_2026_PPT_Template.pptx.asset.json";
 
 // Web banner thumbnails
 import banner300x100 from "@/assets/banner-300x100.jpg";
@@ -190,7 +191,7 @@ const PromotionalToolkit = () => {
                 <p className="text-xs text-muted-foreground">Format: .pptx</p>
               </div>
               <Button variant="gold" asChild>
-                <a href="/downloads/TERMIS-AM_2026_PPT.pptx" download>
+                <a href={pptxTemplateAsset.url} download="TERMIS-AM_2026_PPT_Template.pptx">
                   <Download className="w-4 h-4 mr-2" />
                   Download
                 </a>
