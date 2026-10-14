@@ -1,0 +1,395 @@
+{
+  "intro": [
+    [
+      {
+        "text": "TERMIS-Americas is pleased to launch the inaugural "
+      },
+      {
+        "text": "Rising Stars of TERMIS-AM",
+        "bold": true
+      },
+      {
+        "text": " initiative at "
+      },
+      {
+        "text": "TERMIS-AM 2026",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "The Rising Stars of TERMIS-AM program is designed to recognize and showcase outstanding early-career independent investigators who are advancing the fields of tissue engineering and regenerative medicine through innovative research, emerging leadership, and meaningful contributions to the scientific community."
+      }
+    ],
+    [
+      {
+        "text": "The"
+      },
+      {
+        "text": " Rising Stars "
+      },
+      {
+        "text": "below will "
+      },
+      {
+        "text": "present their work during a dedicated "
+      },
+      {
+        "text": "Rising Stars of TERMIS-AM Session",
+        "bold": true
+      },
+      {
+        "text": " at the 2026 Annual Conference, providing a platform to highlight exciting scientific directions and the investigators who are helping shape the future of the field."
+      }
+    ]
+  ],
+  "people": [
+    {
+      "name": "Elizabeth Blaber",
+      "position": "Clare Boothe Luce Assistant Professor of Biomedical Engineering",
+      "affiliation": "Renssealer Polytechnic Institute, Department of Biomedical Engineering",
+      "researchFocus": "Space biology, microgravity, cellular aging, stem cells",
+      "labName": "Blaber Lab",
+      "labUrl": "https://blaberlab.bme.rpi.edu/",
+      "bio": [],
+      "imageKey": "elizabeth-blaber"
+    },
+    {
+      "name": "Maria Coronel",
+      "position": "Assistant Professor",
+      "affiliation": "University of Michigan, Department of Biomedical Engineering",
+      "researchFocus": "Immunomodulation, biomaterials, transplantation",
+      "labName": "Unity Lab",
+      "labUrl": "https://unity.bme.umich.edu/",
+      "bio": [],
+      "imageKey": "maria-coronel"
+    },
+    {
+      "name": "Tomas Gonzalez-Fernandez",
+      "position": "Assistant Professor",
+      "affiliation": "Lehigh University, Bioengineering Department",
+      "researchFocus": "CRISPR, biofabrication, musculoskeletal regeneration",
+      "labName": "Tomas Gonzalez-Fernandez Lab",
+      "labUrl": "https://wordpress.lehigh.edu/tgflab/",
+      "bio": [
+        [
+          {
+            "text": "Dr. Tomas Gonzalez-Fernandez is an Assistant Professor of Bioengineering at Lehigh University, where he develops precision cell and gene therapies for regenerative medicine by integrating CRISPR tools, deep learning, and biomaterials engineering. Since establishing his lab in 2022, he has published his group's work in journals such as Advanced Functional Materials and has been awarded the NSF CAREER Award and the ASGCT Career Development Award. His contributions to mentoring have also been recognized through the Frank Hook Assistant Professorship at Lehigh University.",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "tomas-gonzalez-fernandez"
+    },
+    {
+      "name": "Nisha Iyer",
+      "position": "Assistant Professor",
+      "affiliation": "Tufts University, Department of Biomedical Engineering",
+      "researchFocus": "Neural tissue engineering, stem cells, organoids",
+      "labName": "Iyer Stem Cell & Regeneration Lab",
+      "labUrl": "https://www.iyerlab.com/home",
+      "bio": [
+        [
+          {
+            "text": "Dr. Nisha Iyer is the ",
+            "italic": true
+          },
+          {
+            "text": "Tiampo",
+            "italic": true
+          },
+          {
+            "text": " Family Assistant Professor in the Department of Biomedical Engineering at Tufts University with an appointment in the Neuroscience Program at Tufts University’s School of Graduate Biomedical Sciences in Boston, MA.  Her research ",
+            "italic": true
+          },
+          {
+            "text": "interests are at the intersection of developmental biology and regenerative medicine, using stem cells to understand and advance neural repair. She received her BS from Johns Hopkins University, PhD from Washington University in St. Louis in Biomedical Engineering, and conducted postdoctoral research at the Wisconsin Institute for Discovery at the University of Wisconsin--Madison.  As an NIH-NINDS F31 Predoctoral Fellow and F32 Postdoctoral Fellow, her research focused on applying CRISPR-based gene editing and stem cell differentiation strategies to generate regionally and phenotypically specified spinal cell types for in vitro modeling and transplantation after spinal cord injury.  Her lab now focuses on how regional specificity impacts development, degeneration, and regeneration in the spinal cord and peripheral nervous system, developing human pluripotent stem cell-based biomanufacturing strategies and organoid technologies to direct drug discovery and cell therapy research. She is a recipient of the NIH HEAL Initiative New Innovator Award (DP2), and her research is supported by funding from NIH, the Massachusetts Life Sciences Center, and the Craig H. Neilsen Foundation. Dr. Iyer is also a passionate educator who seeks to lower barriers to higher education in STEM and to engage the broader community in conversations about science and society.",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "nisha-iyer"
+    },
+    {
+      "name": "Irene de Lázaro",
+      "position": "Assistant Professor of Biomedical Engineering",
+      "affiliation": "New York University, Tandon School of Engineering",
+      "researchFocus": "Nanomedicine, cellular reprogramming, tissue regeneration",
+      "labName": "de Lázaro Lab",
+      "labUrl": "https://www.delazarolab.com/",
+      "bio": [
+        [
+          {
+            "text": "Irene de Lázaro, PhD, MSc, ",
+            "italic": true
+          },
+          {
+            "text": "MPharm",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Assistant Professor ",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Department of Biomedical Engineering, NYU Tandon School of Engineering and Applied Science",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Division of Cardiology, Department of Medicine, NYU Grossman School of Medicine",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Irene is an Assistant Professor of Biomedical Engineering at NYU Tandon School of Engineering and at the Department of Medicine (Division of Cardiology) at the NYU Grossman School of Medicine. She leads the ",
+            "italic": true
+          },
+          {
+            "text": "NanoBioengineering",
+            "italic": true
+          },
+          {
+            "text": " for Tissue Reprogramming and Regeneration laboratory. Before joining NYU, she obtained a 5-year degree in Pharmacy at the University of Alcalá (Madrid, Spain) for which she received a National Award to the Excellence in Academic Performance (Spanish Ministry of Education, 2009), among several other honors and prizes. She then went to complete postgraduate studies in the UK, including an MSc in Drug Delivery and a PhD in Regenerative Medicine, both at University College London (UCL), advised by Prof. Kostas Kostarelos. Irene conducted postdoctoral training in Regenerative Therapeutics (2015-17) at The University of Manchester (UK) and in Bioengineering (2018-22) at Harvard University and the Wyss Institute for Biologically Inspired Engineering (USA), advised by Prof. David Mooney. She has contributed more than 35 publications in high impact journals including Nature Materials, Nature Nanotechnology, Science Translational Medicine, ACS Nano and Biomaterials, and secured research funding from ",
+            "italic": true
+          },
+          {
+            "text": "LaCaixa",
+            "italic": true
+          },
+          {
+            "text": " Foundation, the Royal College of Surgeons of Edinburgh, the Engineering and Physical Sciences Research Council (EPSRC) of the UK, and the American Heart Association, among others. Irene received the Emerging Investigator Award from the Northeast Biomedical Engineering League in 2026.",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Irene has made several contributions to science dissemination, community building and outreach. She co-founded the Society of Spanish Researchers in the UK (SRUK) in 2012 and was Director of its Northwest Constituency (2015-17). She was also selected to participate in the Science Diplomacy Program “Ambassadors for Science” from the Spanish Foundation for Science and Technology (FECYT) and the Office for Cultural and Scientific Affairs of the Spanish Embassy in ",
+            "italic": true
+          },
+          {
+            "text": "London, and",
+            "italic": true
+          },
+          {
+            "text": " collaborated with the Cervantes Institute in Manchester (UK) in the elaboration of their scientific program of activities “Spain: Science ",
+            "italic": true
+          },
+          {
+            "text": "is the Key”. While at Harvard, Irene led the organization and chairing of the Topics in Bioengineering (TIB) Seminar Series. She has served as Vice-Chair and Chair of the Gordon Research Seminar for Tissue Repair and Regeneration in 2017 and 2019, respectively. At NYU, she was the Chair and lead organizer of the 51st Northeast Biomedical Engineering Conference (NEBEC) in 2025.",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "irene-de-lazaro"
+    },
+    {
+      "name": "Christopher Madl",
+      "position": "Assistant Professor",
+      "affiliation": "University of Pennsylvania, Department of Materials Science and Engineering",
+      "researchFocus": "Dynamic biomaterials, stem cells, aging, extracellular matrix",
+      "labName": "Madl Biomaterials Laboratory",
+      "labUrl": "https://madlbiomaterialslab.com/",
+      "bio": [
+        [
+          {
+            "text": "Christopher Madl is an Assistant Professor in the Department of Materials Science and Engineering and a core faculty member of the Center for Precision Engineering for Health (CPE4H) at the University of Pennsylvania. He also holds a secondary appointment in Chemical and Biomolecular Engineering and is a faculty member of the Bioengineering and Biology Graduate Groups. Dr. Madl completed his B.A. in Engineering Sciences and Chemistry and his M.S. in Engineering Sciences from Harvard University. He completed his Ph.D. in Bioengineering at Stanford University, working with Sarah Heilshorn. He was a Life Sciences Research Foundation postdoctoral fellow and NIH K99 Pathway to Independence ",
+            "italic": true
+          },
+          {
+            "text": "awardee working at the interface of mechanobiology and aging with Helen Blau at Stanford Medical School. The Madl laboratory develops new hydrogel materials to study the role of biophysical cues from the extracellular environment on tissue dysfunction in aging and disease. The lab employs protein engineering and stimuli-responsive ",
+            "italic": true
+          },
+          {
+            "text": "bioorthogonal",
+            "italic": true
+          },
+          {
+            "text": " chemistries to make materials with on-demand tuning of mechanical and microstructural cues, work that was recognized with a Maximizing Investigators Research Award (MIRA) for ",
+            "italic": true
+          },
+          {
+            "text": "Early Stage",
+            "italic": true
+          },
+          {
+            "text": " Investigators (ESI) (R35).",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "christopher-madl"
+    },
+    {
+      "name": "Aaron Morris",
+      "position": "Assistant Professor",
+      "affiliation": "University of Michigan, Department of Biomedical Engineering",
+      "researchFocus": "Immunoengineering, biomaterials, drug delivery",
+      "labName": "PRIME Lab",
+      "labUrl": "https://immunoengineers.com/",
+      "bio": [
+        [
+          {
+            "text": "Dr. Aaron Morris is an Assistant Professor in the Department of Biomedical Engineering at the University of ",
+            "italic": true
+          },
+          {
+            "text": "Michigan, and",
+            "italic": true
+          },
+          {
+            "text": " runs the ",
+            "italic": true
+          },
+          {
+            "text": "PRecision",
+            "italic": true
+          },
+          {
+            "text": " Immune ",
+            "italic": true
+          },
+          {
+            "text": "MicroEnvironments",
+            "italic": true
+          },
+          {
+            "text": " Laboratory (PRIME Lab). The PRIME Lab sits at the intersection of ",
+            "italic": true
+          },
+          {
+            "text": "immunoengineering",
+            "italic": true
+          },
+          {
+            "text": ", synthetic biology, and biomaterials and seeks to engineer cells and their microenvironments for novel approaches to regenerate damaged tissue and diagnose / mitigate immune dysfunction. Additionally, the lab seeks to use the techniques and tools it creates to ",
+            "italic": true
+          },
+          {
+            "text": "contribute to a mechanistic understanding of interactions at the interface of immunology and biomaterials. Dr. Morris completed a B.S. in BME at Georgia Tech, followed by a Ph.D. in BME from Yale University where he studied the foreign body response to both natural and synthetic materials. His thesis led to a spinout company ",
+            "italic": true
+          },
+          {
+            "text": "Sarxion",
+            "italic": true
+          },
+          {
+            "text": " Biologics that is working to bring decellularized tissues from genetically engineered pigs to the clinic. As a postdoc, Dr. Morris worked with Dr. Lonnie Shea at the University of Michigan to use biomaterials to interrogate the immune system during autoimmunity and with Dr. Joshua Leonard at Northwestern University to build synthetic, modular receptor systems for synthetic biology platforms. His lab has been funded by various federal agencies and nonprofits including, an NSF CAREER Award, DARPA Young Faculty Award, NIAID R01, NIGMS R35 MIRA, and Lupus Innovation Award from the LRA. He has also received support as a TED Fellow, which has provided a platform for his outreach (check out his TED talk ",
+            "italic": true
+          },
+          {
+            "text": "here",
+            "italic": true,
+            "href": "https://www.ted.com/talks/aaron_morris_how_your_body_could_become_its_own_diagnostic_lab"
+          },
+          {
+            "text": " if interested",
+            "italic": true
+          },
+          {
+            "text": ").",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "aaron-morris"
+    },
+    {
+      "name": "Ana Maria Porras",
+      "position": "Assistant Professor",
+      "affiliation": "University of Florida",
+      "researchFocus": "Microbiome, host-microbe interactions, tissue engineering",
+      "labName": "Tissue-Microbe Interactions Lab",
+      "labUrl": "https://www.porrastmilab.org/",
+      "bio": [
+        [
+          {
+            "text": "Dr. Ana Maria Porras is an Assistant Professor of Biomedical Engineering at the University of Florida, where she leads the Tissue-Microbe Interactions lab. Her group leverages cell and tissue engineering, bioinformatics, and statistical modeling to understand how microorganisms regulate human extracellular matrix remodeling. Her work centers primarily on ",
+            "italic": true
+          },
+          {
+            "text": "the gut microbiome",
+            "italic": true
+          },
+          {
+            "text": ", cardiovascular health, and tropical infectious diseases. She also practices and does research on evidence-based and multilingual practices to improve public engagement with science. She is the co-founder of the “Latinx in Biomedical Engineering” community, and the recipient of multiple awards, including the NSF Faculty Early Career Development (CAREER) Award, the Emerging Leaders Award from the American Institute for Medical and Biological Engineering, and the AAAS Early Career Award for Public Engagement with Science.",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "ana-maria-porras"
+    },
+    {
+      "name": "Muhammad Rizwan",
+      "position": "Assistant Professor",
+      "affiliation": "Biomedical Engineering, University of Texas Southwestern Medical Center",
+      "researchFocus": "Hydrogels, biomaterials, liver and ocular tissue engineering",
+      "labName": "Rizwan Lab",
+      "labUrl": "https://labs.utsouthwestern.edu/rizwan-lab",
+      "bio": [
+        [
+          {
+            "text": "Dr. Muhammad Rizwan is a tenure-track Assistant Professor in the Departments of Biomedical Engineering and Ophthalmology at UT Southwestern Medical Center. His ",
+            "italic": true
+          },
+          {
+            "text": "laboratory integrates ",
+            "italic": true
+          },
+          {
+            "text": "biofabrication",
+            "italic": true
+          },
+          {
+            "text": ", engineered hydrogel matrices, and stem cells to develop transplantable tissues and regenerative therapies for ocular, neural, and liver applications. He leads VITAL, an ARPA-H PRINT-funded initiative to ",
+            "italic": true
+          },
+          {
+            "text": "biofabricate",
+            "italic": true
+          },
+          {
+            "text": " a whole liver using cells derived from patient skin ",
+            "italic": true
+          },
+          {
+            "text": "biopsies, and",
+            "italic": true
+          },
+          {
+            "text": " directs NIH-funded research in regenerative medicine. Dr. Rizwan earned his PhD in Biomedical Engineering at the National University of Singapore with Dr. Evelyn Yim in 2017 and completed postdoctoral training with Dr. Molly Shoichet at the University of Toronto in 2021. His honors include the Singapore International Graduate Award for doctoral research and the University of Toronto Donnelly Center Postdoctoral Research Excellence Award. Dr. Rizwan has authored over 40 peer-reviewed publications, advancing biomaterial design for tissue regeneration and organ ",
+            "italic": true
+          },
+          {
+            "text": "biofabrication",
+            "italic": true
+          },
+          {
+            "text": ".",
+            "italic": true
+          }
+        ]
+      ],
+      "imageKey": "muhammad-rizwan"
+    },
+    {
+      "name": "Brittany Taylor",
+      "position": "Assistant Professor of Biomedical Engineering",
+      "affiliation": "University of Florida",
+      "researchFocus": "Tendon regeneration, biomimetic matrices, regenerative rehabilitation",
+      "labName": "The Taylor Lab",
+      "labUrl": "https://www.taylorresearchlab.org/",
+      "bio": [],
+      "imageKey": "brittany-taylor"
+    }
+  ]
+}
