@@ -139,9 +139,9 @@ const SyisConferenceActivities = () => {
                           {e.title}
                         </h3>
                         <div className="space-y-3">
-                          {e.description.map((paragraph) => (
+                          {e.description.map((paragraph, i) => (
                             <p
-                              key={paragraph}
+                              key={i}
                               className="text-foreground/80 leading-relaxed"
                             >
                               {paragraph}
