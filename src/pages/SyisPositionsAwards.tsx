@@ -47,8 +47,9 @@ const SyisPositionsAwards = () => {
                 in moderating scientific sessions and network with faculty members involved in TERMIS.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-3">
-                Please complete the sign-up form below to indicate your interest in serving as a SYIS
-                session co-chair and/or participating in SYIS activities at TERMIS-AM 2026.
+                Please complete the sign-up form below to indicate your interest in serving{" "}
+                <span className="font-semibold">as a SYIS session co-chair and/or</span>{" "}
+                participating in SYIS activities at TERMIS-AM 2026.
               </p>
               <p className="text-foreground/80 leading-relaxed mb-4">
                 The deadline to sign up to be a SYIS session co-chair is{" "}
