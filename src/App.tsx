@@ -74,7 +74,8 @@ const App = () => (
           <Route path="/scientific-program" element={<ScientificProgram />} />
           <Route path="/presentation-guidelines" element={<PresentationGuidelines />} />
           <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
-          <Route path="/rising-stars-application" element={<RisingStarsApplication />} />
+          <Route path="/rising-stars" element={<RisingStarsApplication />} />
+          <Route path="/rising-stars-application" element={<Navigate to="/rising-stars" replace />} />
           <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
           <Route path="/plenary-speakers" element={<PlenarySpeakers />} />
           <Route path="/registration-information" element={<RegistrationInformation />} />

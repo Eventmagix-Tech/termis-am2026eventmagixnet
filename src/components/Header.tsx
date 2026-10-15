@@ -33,7 +33,7 @@ const navItems = [
       { label: "Scientific Program", href: "/scientific-program" },
       { label: "Plenary Speakers", href: "/plenary-speakers" },
       { label: "Pre-Conference Workshop", href: "/pre-conference-workshops" },
-      { label: "Rising Stars of TERMIS-AM 2026", href: "/rising-stars-application" },
+      { label: "Rising Stars of TERMIS-AM 2026", href: "/rising-stars" },
       { label: "TWIGs (Thematic Working Interest Groups)", href: "/twigs" },
       { label: "Business Pitch Competition", href: "/business-pitch-competition" },
       { label: "Career Development Poster Sessions", href: "/career-development-poster-sessions" },
