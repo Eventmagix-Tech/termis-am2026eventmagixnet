@@ -14,7 +14,7 @@ const days = [
           "Join the Students and Young Investigators Section (SYIS) for an exclusive tour of the New Orleans BioInnovation Center (NOBIC) during TERMIS-AM 2026 in New Orleans!",
           "This special event will provide an inside look at New Orleans’ growing biotechnology and biomedical innovation ecosystem. Participants will have the opportunity to tour NOBIC’s facilities, learn about emerging technologies and translational research, and hear from innovators working to move discoveries from the laboratory toward real-world applications.",
           "The tour is designed to foster networking, collaboration, and career exploration for students and early-career researchers.",
-          "Location: New Orleans BioInnovation Center (NOBIC)",
+          "Location: New Orleans BioInnovation Center (NOBIC)\n\nSpace is limited, and registration is marked by interest through the form.\u00a0",
         ],
       },
     ],
