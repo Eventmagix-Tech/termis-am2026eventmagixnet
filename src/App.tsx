@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import WelcomeLetter from "./pages/WelcomeLetter";
@@ -74,7 +74,8 @@ const App = () => (
           <Route path="/scientific-program" element={<ScientificProgram />} />
           <Route path="/presentation-guidelines" element={<PresentationGuidelines />} />
           <Route path="/pre-conference-workshops" element={<PreConferenceWorkshops />} />
-          <Route path="/rising-stars-application" element={<RisingStarsApplication />} />
+          <Route path="/rising-stars" element={<RisingStarsApplication />} />
+          <Route path="/rising-stars-application" element={<Navigate to="/rising-stars" replace />} />
           <Route path="/plenary-keynote-speakers" element={<PlenaryKeynoteSpeakers />} />
           <Route path="/plenary-speakers" element={<PlenarySpeakers />} />
           <Route path="/registration-information" element={<RegistrationInformation />} />
