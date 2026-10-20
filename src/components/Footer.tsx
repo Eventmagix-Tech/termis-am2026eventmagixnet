@@ -1,7 +1,6 @@
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import termisLogo from "@/assets/termis-logo.png";
-import kenesLogo from "@/assets/kenes-logo.png";
 import eventmagixLogo from "@/assets/eventmagix-logo.png";
 
 const Footer = () => {
@@ -56,24 +55,6 @@ const Footer = () => {
 
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="flex flex-col md:flex-row items-start justify-between gap-12">
-          {/* Conference Organizing Secretariat - Left */}
-          <div className="flex flex-col items-center md:items-start">
-            <div className="mb-4">
-              <img 
-                src={kenesLogo} 
-                alt="Kenes Group" 
-                width={222}
-                height={93}
-                className="h-24 w-auto"
-              />
-            </div>
-            <h2 className="font-serif font-semibold text-primary mb-2">
-              Conference Organizing Secretariat
-            </h2>
-            <p className="text-muted-foreground text-sm leading-relaxed text-center md:text-left">
-              Kenes Group, Office: Kenes M+
-            </p>
-          </div>
 
           {/* Social Links - Center */}
           <div className="flex items-center gap-3">
