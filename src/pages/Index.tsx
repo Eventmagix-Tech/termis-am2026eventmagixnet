@@ -5,7 +5,7 @@ import PlenarySpeakersSection from "@/components/PlenarySpeakersSection";
 import GuestSocietyAnnouncementsSection from "@/components/GuestSocietyAnnouncementsSection";
 import WelcomeLetterSection from "@/components/WelcomeLetterSection";
 import CongressPosterSection from "@/components/CongressPosterSection";
-import KeyDatesSection from "@/components/KeyDatesSection";
+import AwardsRecognitionSection from "@/components/AwardsRecognitionSection";
 import TimelineSection from "@/components/TimelineSection";
 import VenueSection from "@/components/VenueSection";
 import NewsletterSection from "@/components/NewsletterSection";
@@ -57,7 +57,7 @@ const Index = () => {
       <h1 className="sr-only">TERMIS-AM 2026 Annual Conference &amp; Exhibition — New Orleans, November 15–18</h1>
       <main id="main">
         <HeroSection />
-        <KeyDatesSection />
+        <AwardsRecognitionSection />
         <InfoCards />
         <PlenarySpeakersSection />
         <GuestSocietyAnnouncementsSection />
