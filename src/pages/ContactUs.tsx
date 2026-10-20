@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
-import kenesLogo from "@/assets/kenes-logo.png";
 import { Mail } from "lucide-react";
 
 const contacts = [
@@ -49,16 +48,6 @@ const ContactUs = () => {
         <section className="py-16 md:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              {/* Kenes Logo and Title */}
-              <div className="text-center mb-12">
-                <img 
-                  src={kenesLogo} 
-                  alt="Kenes Group" 
-                  width={222}
-                  height={93}
-                  className="h-20 md:h-[100px] w-auto mx-auto"
-                />
-              </div>
 
               {/* Contact Cards */}
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
