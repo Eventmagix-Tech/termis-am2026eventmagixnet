@@ -7,28 +7,28 @@ const awards = [
     icon: Medal,
     title: "HCS Travel Awards",
     description:
-      "Recognizing outstanding applicants exploring novel in situ tissue imaging and analytic techniques.",
+      "\n",
     to: "/hcs-travel-awards",
   },
   {
     icon: Trophy,
     title: "TERMIS-AM Chapter Awards",
     description:
-      "Meet the 2026 TERMIS-AM awardees honored by the Americas Chapter of TERMIS.",
+      "\n",
     to: "/am-chapter-awards",
   },
   {
     icon: Award,
     title: "WFIRM Young Investigator Awards",
     description:
-      "Celebrating exceptional young investigators in regenerative medicine research.",
+      "\n",
     to: "/wfirm-young-investigator-awards",
   },
   {
     icon: Star,
     title: "Rising Stars of TERMIS-AM",
     description:
-      "Showcasing the next generation of leaders in tissue engineering and regenerative medicine.",
+      "\n",
     to: "/rising-stars",
   },
 ];
