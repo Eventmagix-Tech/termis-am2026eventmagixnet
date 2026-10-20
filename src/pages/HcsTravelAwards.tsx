@@ -13,16 +13,16 @@ import raynaSchoenberger from "@/assets/hcs-winners/rayna-schoenberger.png.asset
 import ruthHarper from "@/assets/hcs-winners/ruth-harper.jpeg.asset.json";
 import thanhNguyen from "@/assets/hcs-winners/thanh-nguyen.png.asset.json";
 
-const HCS_TRAVEL_AWARD_RECIPIENTS: { name: string; photo: string }[] = [
+const HCS_TRAVEL_AWARD_RECIPIENTS: { name: string; photo: string; position?: string }[] = [
   { name: "Cayman Matson", photo: caymanMatson.url },
   { name: "Dana Ragbirsingh", photo: danaRagbirsingh.url },
   { name: "Elena Wenger", photo: elenaWenger.url },
   { name: "Malvika Singhal", photo: malvikaSinghal.url },
-  { name: "Maya Kasteleiner", photo: mayaKasteleiner.url },
+  { name: "Maya Kasteleiner", photo: mayaKasteleiner.url, position: "center 15%" },
   { name: "Paria Baninoe", photo: pariaBaninoe.url },
   { name: "Rayna Schoenberger", photo: raynaSchoenberger.url },
-  { name: "Ruth Harper", photo: ruthHarper.url },
-  { name: "Thanh Nguyen", photo: thanhNguyen.url },
+  { name: "Ruth Harper", photo: ruthHarper.url, position: "center 12%" },
+  { name: "Thanh Nguyen", photo: thanhNguyen.url, position: "center 20%" },
 ];
 
 const HcsTravelAwards = () => {
@@ -75,6 +75,7 @@ const HcsTravelAwards = () => {
                   src={recipient.photo}
                   alt={`Portrait of ${recipient.name}`}
                   className="w-full aspect-square object-cover"
+                  style={recipient.position ? { objectPosition: recipient.position } : undefined}
                   loading="lazy"
                 />
                 <p className="font-semibold text-foreground py-4 px-2">{recipient.name}</p>
