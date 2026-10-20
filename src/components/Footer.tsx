@@ -90,7 +90,6 @@ const Footer = () => {
 
           <div className="hidden md:block" aria-hidden="true" />
         </div>
-        </div>
 
         {/* Divider */}
         <div className="mt-12 pt-8 border-t border-accent/20">
