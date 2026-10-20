@@ -2,11 +2,28 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
-import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
 import hcsLogo from "@/assets/histochemical-society-logo.png";
+import caymanMatson from "@/assets/hcs-winners/cayman-matson.jpeg.asset.json";
+import danaRagbirsingh from "@/assets/hcs-winners/dana-ragbirsingh.png.asset.json";
+import elenaWenger from "@/assets/hcs-winners/elena-wenger.jpg.asset.json";
+import malvikaSinghal from "@/assets/hcs-winners/malvika-singhal.jpg.asset.json";
+import mayaKasteleiner from "@/assets/hcs-winners/maya-kasteleiner.jpg.asset.json";
+import pariaBaninoe from "@/assets/hcs-winners/paria-baninoe.jpg.asset.json";
+import raynaSchoenberger from "@/assets/hcs-winners/rayna-schoenberger.png.asset.json";
+import ruthHarper from "@/assets/hcs-winners/ruth-harper.jpeg.asset.json";
+import thanhNguyen from "@/assets/hcs-winners/thanh-nguyen.png.asset.json";
 
-const APPLICATION_URL = "https://form.jotform.com/261406652832153";
+const HCS_TRAVEL_AWARD_RECIPIENTS: { name: string; photo: string }[] = [
+  { name: "Cayman Matson", photo: caymanMatson.url },
+  { name: "Dana Ragbirsingh", photo: danaRagbirsingh.url },
+  { name: "Elena Wenger", photo: elenaWenger.url },
+  { name: "Malvika Singhal", photo: malvikaSinghal.url },
+  { name: "Maya Kasteleiner", photo: mayaKasteleiner.url },
+  { name: "Paria Baninoe", photo: pariaBaninoe.url },
+  { name: "Rayna Schoenberger", photo: raynaSchoenberger.url },
+  { name: "Ruth Harper", photo: ruthHarper.url },
+  { name: "Thanh Nguyen", photo: thanhNguyen.url },
+];
 
 const HcsTravelAwards = () => {
   return (
@@ -41,49 +58,30 @@ const HcsTravelAwards = () => {
           </div>
         </div>
 
-        <div className="mt-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
-            Submission Requirements (All in ONE PDF File)
-          </h2>
-          <p className="text-foreground mb-4">
-            For HCS travel awards we request the following in ONE PDF file:
-          </p>
-          <ol className="list-decimal pl-6 space-y-2 text-foreground">
-            <li>CV</li>
-            <li>
-              Letter of application (why you are attending the event, why a travel award would
-              help)
-            </li>
-            <li>
-              Recommendation Letter (which should include a statement of institutional support)
-            </li>
-            <li>
-              Please also include the abstract you submitted for the TERMIS-AM 2026 Conference (if
-              applicable)
-            </li>
-            <li>
-              Confirm that you plan to attend the 2026 TERMIS-AM Conference (may include your
-              registration confirmation).
-            </li>
-          </ol>
-        </div>
-
-        <p className="text-center font-bold text-foreground mt-12">
-          Deadline to submit your application is August 1, 2026.
-        </p>
-
-        <div className="text-center my-8">
-          <Button
-            asChild
-            size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+        <section className="mt-14" aria-labelledby="hcs-travel-award-recipients">
+          <h2
+            id="hcs-travel-award-recipients"
+            className="text-2xl md:text-3xl font-bold text-primary text-center mb-10"
           >
-            <a href={APPLICATION_URL} target="_blank" rel="noopener noreferrer">
-              Go to submission page
-              <ExternalLink className="ml-2 h-5 w-5" />
-            </a>
-          </Button>
-        </div>
+            HCS Travel Award Recipients
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {HCS_TRAVEL_AWARD_RECIPIENTS.map((recipient) => (
+              <div
+                key={recipient.name}
+                className="bg-white rounded-xl shadow-card border border-accent/10 overflow-hidden text-center"
+              >
+                <img
+                  src={recipient.photo}
+                  alt={`Portrait of ${recipient.name}`}
+                  className="w-full aspect-square object-cover"
+                  loading="lazy"
+                />
+                <p className="font-semibold text-foreground py-4 px-2">{recipient.name}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
 
       <Footer />
