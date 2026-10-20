@@ -76,9 +76,23 @@ const PresentationGuidelines = () => {
                       before their session. If your presentation is early in the morning, it is advised to load the
                       presentation the day before.
                     </p>
-                    <p className="text-foreground">
-                      <strong>Speaker Ready Room Hours:{'\n\n\nSunday, November 15, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a011:00 AM - 7:00 PM\nMonday, November 16, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7:00 AM - 7:00 PM\nTuesday, November 17, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7:30 AM - 6:00 PM\nWednesday, November 18, 2026:\u00a0 \u00a0 7:30 AM - 12:30 PM'}</strong>
-                    </p>
+                    <p className="font-semibold text-foreground mb-3">Speaker Ready Room Hours:</p>
+                    <ul className="border border-border rounded-lg overflow-hidden bg-muted/20 divide-y divide-border">
+                      {[
+                        ["Sunday, November 15, 2026", "11:00 AM – 7:00 PM"],
+                        ["Monday, November 16, 2026", "7:00 AM – 7:00 PM"],
+                        ["Tuesday, November 17, 2026", "7:30 AM – 6:00 PM"],
+                        ["Wednesday, November 18, 2026", "7:30 AM – 12:30 PM"],
+                      ].map(([day, hours]) => (
+                        <li
+                          key={day}
+                          className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 px-4 py-3"
+                        >
+                          <span className="font-semibold text-foreground">{day}:</span>
+                          <span className="text-foreground tabular-nums">{hours}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </AccordionContent>
                 </AccordionItem>
 
