@@ -50,10 +50,7 @@ const HcsTravelAwards = () => {
               that explore novel in situ tissue imaging and analytic techniques, including, but not
               limited to immunohistochemistry/immunofluorescence and in situ hybridization, or
               those that strongly incorporate these techniques. Demonstrating use of such
-              techniques is required to be eligible for the award. Travel award applications
-              require a resume/CV and a recommendation letter. If an abstract has been submitted
-              to the event, the travel award applicant should include the abstract with the award
-              application as well.
+              techniques is required to be eligible for the award.
             </p>
           </div>
         </div>
