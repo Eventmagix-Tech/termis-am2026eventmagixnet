@@ -15,7 +15,7 @@ import thanhNguyen from "@/assets/hcs-winners/thanh-nguyen.png.asset.json";
 
 const HCS_TRAVEL_AWARD_RECIPIENTS: { name: string; photo: string; position?: string }[] = [
   { name: "Cayman Matson", photo: caymanMatson.url },
-  { name: "Dana Ragbirsingh", photo: danaRagbirsingh.url },
+  { name: "Dana Ragbirsingh", photo: danaRagbirsingh.url, position: "center 15%" },
   { name: "Elena Wenger", photo: elenaWenger.url },
   { name: "Malvika Singhal", photo: malvikaSinghal.url },
   { name: "Maya Kasteleiner", photo: mayaKasteleiner.url, position: "center 15%" },
