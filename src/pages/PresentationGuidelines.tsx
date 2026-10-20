@@ -77,7 +77,7 @@ const PresentationGuidelines = () => {
                       presentation the day before.
                     </p>
                     <p className="text-foreground">
-                      <strong>Speaker Ready Room Hours:</strong> TBA
+                      <strong>Speaker Ready Room Hours:{'\n\n\nSunday, November 15, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a011:00 AM - 7:00 PM\nMonday, November 16, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7:00 AM - 7:00 PM\nTuesday, November 17, 2026:\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7:30 AM - 6:00 PM\nWednesday, November 18, 2026:\u00a0 \u00a0 7:30 AM - 12:30 PM'}</strong>
                     </p>
                   </AccordionContent>
                 </AccordionItem>
