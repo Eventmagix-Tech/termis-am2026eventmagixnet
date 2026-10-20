@@ -54,7 +54,14 @@
       "researchFocus": "Space biology, microgravity, cellular aging, stem cells",
       "labName": "Blaber Lab",
       "labUrl": "https://blaberlab.bme.rpi.edu/",
-      "bio": [],
+      "bio": [
+        [
+          {
+            "text": "Elizabeth A. Blaber, PhD, is the Clare Boothe Luce Assistant Professor of Biomedical Engineering at Rensselaer Polytechnic Institute. Her research addresses the cellular and molecular mechanisms of regenerative decline in musculoskeletal and hematopoietic tissues. Her laboratory uses mechanical unloading and spaceflight as accelerated models of degenerative aging and integrates in vivo analog and spaceflight studies with long-term human iPSC-derived organoid and multi-organ microphysiological systems (MPS). The goal of her research is to identify targetable pathways for countermeasures against degenerative diseases and age-associated regenerative failure. Dr. Blaber received her PhD from the University of New South Wales and completed postdoctoral training at NASA Ames Research Center. She received the Presidential Early Career Award for Scientists and Engineers (PECASE) in 2025 and is a Past President of the American Society for Gravitational and Space Research.",
+            "italic": true
+          }
+        ]
+      ],
       "imageKey": "elizabeth-blaber"
     },
     {
