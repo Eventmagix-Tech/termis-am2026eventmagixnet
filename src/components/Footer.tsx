@@ -54,10 +54,10 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="flex flex-col md:flex-row items-start justify-between gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-12">
 
-          {/* Social Links - Center */}
-          <div className="flex items-center gap-3">
+          {/* Social Links - Left */}
+          <div className="flex items-center justify-center md:justify-start gap-3">
             {socialLinks.map((social) => {
               const Icon = social.icon;
               return (
@@ -75,8 +75,8 @@ const Footer = () => {
             })}
           </div>
 
-          {/* TERMIS Brand Column - Right */}
-          <div className="flex flex-col items-center md:items-end">
+          {/* TERMIS Brand Column - Center */}
+          <div className="flex flex-col items-center">
             <div>
               <img 
                 src={termisLogo} 
@@ -87,6 +87,8 @@ const Footer = () => {
               />
             </div>
           </div>
+
+          <div className="hidden md:block" aria-hidden="true" />
         </div>
 
         {/* Divider */}
