@@ -395,7 +395,26 @@
       "researchFocus": "Tendon regeneration, biomimetic matrices, regenerative rehabilitation",
       "labName": "The Taylor Lab",
       "labUrl": "https://www.taylorresearchlab.org/",
-      "bio": [],
+      "bio": [
+        [
+          {
+            "text": "Dr. Brittany Taylor is the Pruitt Family Endowed Faculty Term Fellow and Assistant Professor of Biomedical Engineering at the University of Florida (UF), where she leads the Taylor Lab. Her research investigates mechanisms of tendon repair, fibrosis, and neuroimmune-mediated pain to inform engineering strategies that restore musculoskeletal tissue structure and function. She completed her postdoctoral training as a University of Pennsylvania Provost’s Postdoctoral Fellow and earned her Ph.D. in Biomedical Engineering from Rutgers University and B.S. from the University of Virginia.",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Dr. Taylor’s research has been supported by the National Institutes of Health (NIH), National Science Foundation (NSF), Burroughs Wellcome Fund, and the Alliance for Regenerative Rehabilitation Research and Training (AR3T). She is a recipient of the NSF CAREER Award and NIH Clinical and Translational Science K12 Career Development Award. She has authored more than 40 peer-reviewed publications, holds two patents, and has written five book chapters. Her recognitions include the Tissue Engineering and Regenerative Medine International Society (TERMIS) Rising Star Award, The Wu Tsai Human Performance Alliance at Oregan and The Phil and Penny Knight Campus for Accelerating Scientific Impact Award, the Journal for Biomedical Materials Rising Star, 2025 UF BME Faculty Teaching Excellence, Rising Star on the CellPress list of Top 100 Inspiring Black Scientists in America, and MIT Rising Star in Biomedical Science.",
+            "italic": true
+          }
+        ],
+        [
+          {
+            "text": "Dr. Taylor is dedicated to mentorship and broadening participation in STEM. She is the co-founder of multiple initiatives to increase retained representation throughout the academic pipeline and a co-author on a number of publications that highlight strategies to reinforce the academic pipeline and support the next generation of scientists as they navigate academia.",
+            "italic": true
+          }
+        ]
+      ],
       "imageKey": "brittany-taylor"
     }
   ]
