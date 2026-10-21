@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
+import detailedProgramPdf from "@/assets/TERMIS-2026-Scientific-Program-Detailed.pdf.asset.json";
 
 const ScientificProgram = () => (
   <div className="min-h-screen bg-background">
@@ -31,7 +32,7 @@ const ScientificProgram = () => (
           </Button>
           <Button variant="purple" size="lg" asChild>
             <a
-              href="https://assets.mailmagix.com/kenes/termis/termis-scientific-detailed-.pdf"
+              href={detailedProgramPdf.url}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
