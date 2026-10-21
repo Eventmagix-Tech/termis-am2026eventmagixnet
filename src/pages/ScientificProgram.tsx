@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
+import detailedProgramPdf from "@/assets/TERMIS-2026-Scientific-Program-Detailed.pdf.asset.json";
 
 const ScientificProgram = () => (
   <div className="min-h-screen bg-background">
