@@ -32,7 +32,7 @@ const ScientificProgram = () => (
           </Button>
           <Button variant="purple" size="lg" asChild>
             <a
-              href="https://assets.mailmagix.com/kenes/termis/termis-scientific-detailed-.pdf"
+              href={detailedProgramPdf.url}
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
