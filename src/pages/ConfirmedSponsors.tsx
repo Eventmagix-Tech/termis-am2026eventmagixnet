@@ -36,6 +36,7 @@ import uoregonLogo from "@/assets/sponsors/University-of-Oregon-logo.webp.asset.
 import bwfLogo from "@/assets/sponsors/burroughs-wellcome-fund.png.asset.json";
 import obatalaSciencesLogo from "@/assets/sponsors/obatala-sciences.webp.asset.json";
 import fasebLogo from "@/assets/sponsors/faseb.webp.asset.json";
+import arizonaStateUniversityLogo from "@/assets/sponsors/arizona-state-university.webp.asset.json";
 
 interface Sponsor {
   name: string;
