@@ -37,6 +37,37 @@ const EmpoweringNextLeadersLuncheon = () => {
         </p>
       </section>
 
+      <section className="max-w-4xl mx-auto pb-16 px-4">
+        <h2 className="text-2xl font-bold text-primary mb-6 border-b pb-2">
+          Luncheon Program
+        </h2>
+
+        <ul className="border border-border rounded-lg overflow-hidden divide-y divide-border bg-card">
+          <li className="flex flex-col sm:flex-row sm:items-start gap-2 px-5 py-4">
+            <span className="font-semibold sm:w-56 shrink-0 tabular-nums">12:00 PM - 12:10 PM</span>
+            <span>CAE committee introduction to a history of women in TERM</span>
+          </li>
+          <li className="flex flex-col sm:flex-row sm:items-start gap-2 px-5 py-4">
+            <span className="font-semibold sm:w-56 shrink-0 tabular-nums">12:10 PM - 1:00 PM</span>
+            <span className="space-y-3">
+              <span className="block">Speaker perspectives on their research and career journey by:</span>
+              <ul className="space-y-1.5 text-foreground">
+                <li className="pl-4">Molly Shoichet, University of Toronto</li>
+                <li className="pl-4">Cherie Stabler, University of Florida</li>
+                <li className="pl-4">Catherine Kuo, University of Maryland</li>
+                <li className="pl-4">Grissel Trujillo de Santiago, Tecnológico de Monterrey</li>
+                <li className="pl-4">Lexi Rindone, Johns Hopkins</li>
+              </ul>
+            </span>
+          </li>
+          <li className="flex flex-col sm:flex-row sm:items-start gap-2 px-5 py-4">
+            <span className="font-semibold sm:w-56 shrink-0 tabular-nums">1:00 PM - 1:30 PM</span>
+            <span>Panel discussion</span>
+          </li>
+        </ul>
+      </section>
+
+
       </main>
 
       <Footer />
