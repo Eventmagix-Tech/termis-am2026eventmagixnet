@@ -36,6 +36,7 @@ import uoregonLogo from "@/assets/sponsors/University-of-Oregon-logo.webp.asset.
 import bwfLogo from "@/assets/sponsors/burroughs-wellcome-fund.png.asset.json";
 import obatalaSciencesLogo from "@/assets/sponsors/obatala-sciences.webp.asset.json";
 import fasebLogo from "@/assets/sponsors/faseb.webp.asset.json";
+import arizonaStateUniversityLogo from "@/assets/sponsors/arizona-state-university.webp.asset.json";
 
 interface Sponsor {
   name: string;
@@ -68,6 +69,7 @@ const bronzeSponsors: Sponsor[] = [
 ];
 
 const sponsorsExhibitors: Sponsor[] = [
+  { name: "Arizona State University", href: "https://engineering.asu.edu/", logo: arizonaStateUniversityLogo.url },
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
   { name: "BME Frontiers", href: "https://spj.science.org/journal/bmef", logo: bmefLogo.url },
   { name: "FASEB", href: "https://www.faseb.org/", logo: fasebLogo.url },
