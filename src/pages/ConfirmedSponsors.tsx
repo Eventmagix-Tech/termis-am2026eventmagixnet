@@ -68,6 +68,7 @@ const bronzeSponsors: Sponsor[] = [
 ];
 
 const sponsorsExhibitors: Sponsor[] = [
+  { name: "Arizona State University", href: "https://engineering.asu.edu/", logo: arizonaStateUniversityLogo.url },
   { name: "Biomaterials Research", href: "https://spj.science.org/journal/bmr", logo: biomaterialsResearchLogo },
   { name: "BME Frontiers", href: "https://spj.science.org/journal/bmef", logo: bmefLogo.url },
   { name: "FASEB", href: "https://www.faseb.org/", logo: fasebLogo.url },
