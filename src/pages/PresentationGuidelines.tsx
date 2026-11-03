@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/Footer";
+import posterListPdf from "@/assets/TERMIS-AM-2026-Poster-List.pdf.asset.json";
 import PageHeader from "@/components/PageHeader";
 import {
   Accordion,
