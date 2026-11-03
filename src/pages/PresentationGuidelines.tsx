@@ -125,7 +125,17 @@ const PresentationGuidelines = () => {
                     </p>
 
                     <h3 className="text-xl font-bold text-primary mb-4">Poster Presentation List</h3>
-                    <p className="text-foreground mb-8">TERMIS-AM 2026 Poster list is available HERE</p>
+                    <p className="text-foreground mb-8">
+                      TERMIS-AM 2026 Poster list is available{" "}
+                      <a
+                        href={posterListPdf.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary font-semibold underline hover:text-gold transition-colors"
+                      >
+                        HERE
+                      </a>
+                    </p>
 
                     <h3 className="text-xl font-bold text-primary mb-4">
                       Poster Set-Up, Presentation and Dismantle Schedule:
