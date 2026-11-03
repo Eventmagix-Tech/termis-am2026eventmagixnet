@@ -124,7 +124,7 @@ const PresentationGuidelines = () => {
                     </p>
 
                     <h3 className="text-xl font-bold text-primary mb-4">Poster Presentation List</h3>
-                    <p className="text-foreground mb-8">Poster presentation list will be available soon.</p>
+                    <p className="text-foreground mb-8">TERMIS-AM 2026 Poster list is available HERE</p>
 
                     <h3 className="text-xl font-bold text-primary mb-4">
                       Poster Set-Up, Presentation and Dismantle Schedule:
