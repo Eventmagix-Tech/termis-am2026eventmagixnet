@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
+import posterListPdf from "@/assets/TERMIS-AM-2026-Poster-List.pdf.asset.json";
 import detailedProgramPdf from "@/assets/TERMIS-2026-Scientific-Program-Detailed.pdf.asset.json";
 
 const ScientificProgram = () => (
@@ -48,6 +49,16 @@ const ScientificProgram = () => (
               className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
             >
               Interactive Detailed Program
+            </a>
+          </Button>
+          <Button variant="purple" size="lg" asChild>
+            <a
+              href={posterListPdf.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center justify-center min-h-[5.5rem] py-3 px-6 text-center"
+            >
+              Poster Presentations List
             </a>
           </Button>
         </div>
