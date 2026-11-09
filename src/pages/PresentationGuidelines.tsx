@@ -150,7 +150,7 @@ const PresentationGuidelines = () => {
                             Monday, November 16, 2026, 8:00 AM – 1:30 PM
                           </li>
                           <li>
-                            • Author Presentation Hours: Sunday, November 15, 2026 at 6:30 PM - 8:30 PM
+                            • Author Presentation Hours: Sunday, November 15, 2026 at 7:00 PM - 8:30 PM
                             (Welcome Reception with Posters)
                           </li>
                           <li>• Dismantle: Monday, November 16, 2026, 1:30 PM - 2:00 PM</li>
