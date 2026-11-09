@@ -114,7 +114,7 @@ const PresentationGuidelines = () => {
 
                     <h3 className="text-xl font-bold text-primary mb-4">Poster Sessions Presentations</h3>
                     <ol className="list-decimal pl-6 space-y-2 text-foreground mb-6">
-                      <li>Sunday, November 15, 2026 at 6:30 PM - 8:30 PM</li>
+                      <li>Sunday, November 15, 2026 at 7:00 PM - 8:30 PM</li>
                       <li>Monday, November 16, 2026 at 6:35 PM - 8:00 PM</li>
                       <li>Tuesday, November 17, 2026 at 5:45 PM - 7:15 PM</li>
                     </ol>
