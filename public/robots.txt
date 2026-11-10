@@ -1,16 +1,21 @@
 User-agent: Googlebot
 Allow: /
+Disallow: /2026-abstract.pdf
 
 User-agent: Bingbot
 Allow: /
+Disallow: /2026-abstract.pdf
 
 User-agent: Twitterbot
 Allow: /
+Disallow: /2026-abstract.pdf
 
 User-agent: facebookexternalhit
 Allow: /
+Disallow: /2026-abstract.pdf
 
 User-agent: *
 Allow: /
+Disallow: /2026-abstract.pdf
 
 Sitemap: https://am2026.termis.org/sitemap.xml

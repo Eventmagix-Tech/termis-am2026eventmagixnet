@@ -50,6 +50,7 @@ import SyisPositionsAwards from "./pages/SyisPositionsAwards";
 import EmpoweringNextLeadersLuncheon from "./pages/EmpoweringNextLeadersLuncheon";
 import Nevai from "./pages/Nevai";
 import AbstractsPdfRedirect from "./pages/AbstractsPdfRedirect";
+import Abstract2026PdfRedirect from "./pages/Abstract2026PdfRedirect";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -110,6 +111,7 @@ const App = () => (
           <Route path="/syis-positions-and-awards" element={<SyisPositionsAwards />} />
           <Route path="/nevai" element={<Nevai />} />
           <Route path="/termis-am-abstracts-2026" element={<AbstractsPdfRedirect />} />
+          <Route path="/2026-abstract.pdf" element={<Abstract2026PdfRedirect />} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
