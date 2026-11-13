@@ -20,6 +20,15 @@ import p28 from "@/assets/nih-r13/william-ofori-atta-eghan.webp.asset.json";
 import p29 from "@/assets/nih-r13/wonwoo-jeong.webp.asset.json";
 import p30 from "@/assets/nih-r13/xiaoqian-wang.webp.asset.json";
 import p31 from "@/assets/nih-r13/vanessa-li.webp.asset.json";
+import p8 from "@/assets/nih-r13/deniz-ornek.webp.asset.json";
+import p12 from "@/assets/nih-r13/jiayang-rong.webp.asset.json";
+import p18 from "@/assets/nih-r13/rameshwar-rao.webp.asset.json";
+import p19 from "@/assets/nih-r13/rebecca-sheetz.webp.asset.json";
+import p20 from "@/assets/nih-r13/reem-alhalabe.webp.asset.json";
+import p21 from "@/assets/nih-r13/renjing-wang.webp.asset.json";
+import p22 from "@/assets/nih-r13/salma-abdelgawad.webp.asset.json";
+import p25 from "@/assets/nih-r13/thanh-nguyen.webp.asset.json";
+import p26 from "@/assets/nih-r13/tianran-liu.webp.asset.json";
 
 export interface NihR13Recipient { name: string; affiliation: string; photo?: string }
 
@@ -32,25 +41,25 @@ export const nihR13Recipients: NihR13Recipient[] = [
   { name: "Cora Ferguson", affiliation: "University of Oregon", photo: p5.url },
   { name: "Dana Ragbirsingh", affiliation: "The Children's Hospital of Philadelphia", photo: p6.url },
   { name: "Dariya Fischer", affiliation: "Wake Forest University School of Medicine", photo: p7.url },
-  { name: "Deniz Ornek", affiliation: "Columbia University", photo: undefined },
+  { name: "Deniz Ornek", affiliation: "Columbia University", photo: p8.url },
   { name: "Dhanashree Surve", affiliation: "Diabetes Research Institute, University of Miami", photo: undefined },
   { name: "Divya Sivalingam", affiliation: "University of Maryland, College Park", photo: p10.url },
   { name: "Elaine Kim", affiliation: "Hofstra University (Zucker School of Medicine)", photo: p11.url },
-  { name: "Jiayang Rong", affiliation: "University of Pittsburgh", photo: undefined },
+  { name: "Jiayang Rong", affiliation: "University of Pittsburgh", photo: p12.url },
   { name: "Marrisa Therriault", affiliation: "University of Pittsburgh", photo: p13.url },
   { name: "Maya Kasteleiner", affiliation: "Knight Campus, University of Oregon", photo: p14.url },
   { name: "Michelle Bretl", affiliation: "University of Wisconsin-Madison", photo: p15.url },
   { name: "Paria Baninoe", affiliation: "University at Albany", photo: p16.url },
   { name: "Parker Esswein", affiliation: "Duke University", photo: p17.url },
-  { name: "Rameshwar Rao", affiliation: "Seattle Children's Research Institute", photo: undefined },
-  { name: "Rebecca Sheetz", affiliation: "Saint Louis University", photo: undefined },
-  { name: "Reem Alhalabe", affiliation: "University of Pittsburgh", photo: undefined },
-  { name: "Renjing Wang", affiliation: "University of Florida", photo: undefined },
-  { name: "Salma Abdelgawad", affiliation: "University of Michigan", photo: undefined },
+  { name: "Rameshwar Rao", affiliation: "Seattle Children's Research Institute", photo: p18.url },
+  { name: "Rebecca Sheetz", affiliation: "Saint Louis University", photo: p19.url },
+  { name: "Reem Alhalabe", affiliation: "University of Pittsburgh", photo: p20.url },
+  { name: "Renjing Wang", affiliation: "University of Florida", photo: p21.url },
+  { name: "Salma Abdelgawad", affiliation: "University of Michigan", photo: p22.url },
   { name: "Shivesh Anand", affiliation: "Stanford University", photo: p23.url },
   { name: "Justin Svendsen", affiliation: "University of Oregon", photo: p24.url },
-  { name: "Thanh Nguyen", affiliation: "Baylor College of Medicine", photo: undefined },
-  { name: "Tianran Liu", affiliation: "Washington University in St. Louis", photo: undefined },
+  { name: "Thanh Nguyen", affiliation: "Baylor College of Medicine", photo: p25.url },
+  { name: "Tianran Liu", affiliation: "Washington University in St. Louis", photo: p26.url },
   { name: "Vikram Surendran", affiliation: "Wake Forest Institute for Regenerative Medicine", photo: p27.url },
   { name: "William Ofori-Atta Eghan", affiliation: "Syracuse University", photo: p28.url },
   { name: "Wonwoo Jeong", affiliation: "Wake Forest Institute for Regenerative Medicine", photo: p29.url },
