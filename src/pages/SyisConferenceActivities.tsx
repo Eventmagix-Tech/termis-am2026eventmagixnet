@@ -53,20 +53,15 @@ const days = [
     day: "Day 3: Tuesday, November 17th",
     events: [
       {
+        title: "Meet the Editors Session (8:00 AM - 9:30 AM)",
+        description: [
+          "The Meet the Editors session will include an opportunity to network with editors representing high impact academic journals in the area of tissue engineering and regenerative medicine. In addition to a moderated discussion, the attendees may ask editors about publishing requirements. RSVP during conference sign-up to attend.",
+        ],
+      },
+      {
         title: "SYIS Student Meet Mentor Lunch (12:00 pm - 1:30 pm)",
         description: [
           "As the signature SYIS event at TERMIS conferences, the Student-Meet-Mentor Luncheon provides students and young investigators the opportunity to enjoy lunch and chat with senior faculty and scientists working in the fields of tissue engineering and regenerative medicine. Mentors will include session chairs, TERMIS faculty members, and local industry leaders. Registration for a ticket during the conference sign-up is required to attend.",
-        ],
-      },
-    ],
-  },
-  {
-    day: "Day 4: Wednesday, November 18th",
-    events: [
-      {
-        title: "Meet the Editors Session (TBD)",
-        description: [
-          "The Meet the Editors session will include an opportunity to network with editors representing high impact academic journals in the area of tissue engineering and regenerative medicine. In addition to a moderated discussion, the attendees may ask editors about publishing requirements. RSVP during conference sign-up to attend.",
         ],
       },
     ],
