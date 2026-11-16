@@ -49,6 +49,7 @@ import SyisConferenceActivities from "./pages/SyisConferenceActivities";
 import SyisPositionsAwards from "./pages/SyisPositionsAwards";
 import EmpoweringNextLeadersLuncheon from "./pages/EmpoweringNextLeadersLuncheon";
 import Nevai from "./pages/Nevai";
+import TwigContacts from "./pages/TwigContacts";
 import AbstractsPdfRedirect from "./pages/AbstractsPdfRedirect";
 import Abstract2026PdfRedirect from "./pages/Abstract2026PdfRedirect";
 import NotFound from "./pages/NotFound";
@@ -110,6 +111,7 @@ const App = () => (
           <Route path="/2026-syis-am-conference-activities" element={<SyisConferenceActivities />} />
           <Route path="/syis-positions-and-awards" element={<SyisPositionsAwards />} />
           <Route path="/nevai" element={<Nevai />} />
+          <Route path="/twig-contacts" element={<TwigContacts />} />
           <Route path="/termis-am-abstracts-2026" element={<AbstractsPdfRedirect />} />
           <Route path="/2026-abstract.pdf" element={<Abstract2026PdfRedirect />} />
 
